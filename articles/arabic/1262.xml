@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>"Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ al-Miṣrīyah), 1828-1914 - An Ottoman Arabic
+          Digital Humanities Project"</title>
+        <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</editor>
+        <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour Kanaan</editor>
+        <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah Fathallah
+          Gaara</editor>
+        <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif Erbil</editor>
+        <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed Kamal</editor>
+        <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+          El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
+        <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal al-Shamy</editor>
+        <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal Jammulapati</editor>
+        <respStmt>
+          <resp>Project co-director</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Primary Investigator</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0001-5239-7909">Project co-director</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fathallah Gaara</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0003-1216-3686">Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nori</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hiba Laabadli</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Othmane Echchabi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Nehal al-Shamy</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Vishal Jammulapati</name>
+        </respStmt>
+        <sponsor>
+          <orgName>National Endowment for the Humanities</orgName>, <orgName>Institut français
+            d’archéologie orientale</orgName> (Ifao, Cairo); <orgName>Franklin Humanities Institute
+            and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
+            University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
+            national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
+            Cultural Counsellor in Cairo</orgName>.</sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+        <p> Created by the "Digital Cairo" project (Duke University - Ifao), sponsored by the National Endowment for the Humanities.</p>
+        <p>
+          <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+        </p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName>, <persName>Hugh Cayless</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣrīyah (Egyptian Affairs) newspaper, 1828–1914.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>The "Digital Cairo" project is sponsored by the National Endowment for the Humanities.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+          and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added
+          in an attribute to a persName.</p>
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+            Editions</ref>.</p>
+      </editorialDecl>
+      <charDecl>
+        <char xml:id="qhalf">
+          <localProp value="QIRMA FRACTION 1/2" name="name"/>
+          <unicodeProp value="1/2" name="Numeric_Value"/>
+          <mapping type="similar">𐋢</mapping>
+          <figure>
+            <graphic url="../../docs/images/qhalf.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qthird">
+          <localProp value="QIRMA FRACTION 1/3" name="name"/>
+          <unicodeProp value="1/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qthird.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qfourth">
+          <localProp value="QIRMA FRACTION 1/4" name="name"/>
+          <unicodeProp value="1/4" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qfourth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qsixth">
+          <localProp value="QIRMA FRACTION 1/6" name="name"/>
+          <unicodeProp value="1/6" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qsixth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qeighth">
+          <localProp value="QIRMA FRACTION 1/8" name="name"/>
+          <unicodeProp value="1/8" name="Numeric_Value"/>
+          <mapping type="similar">𐋤</mapping>
+          <figure>
+            <graphic url="../../docs/images/qeighth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qtwothirds">
+          <localProp value="QIRMA FRACTION 2/3" name="name"/>
+          <unicodeProp value="2/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qtwothirds.svg"/>
+          </figure>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="cleared">
+      <listChange>
+        <change when="2023-06-17" resp="#eAM" status="cleared"/>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="ar">
+      <body>
+         <div xml:id="WA1262001101-1" resp="#eSG">
+            <head><date when-custom="1262-05-13">١٣ جمادى الاول ١٢٦٢</date><date when="1846-05-09">٩
+            مايو ١٨٤٦</date><bibl><biblScope unit="issue">نمرة ١١</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
+        <head><title>الحوادث الداخلية</title></head>
+            <p> لما كان اكثر اسواق مصر المحروسة وازقتها ذات ضيق واعوجاج وكان يحصل للمارة مشقة كبيرة
+          وازدحام بسبب ذلك وكانت اهالى مصر قد انشأت عربيات لحمل الماء والاثقال وكانت الذوات اصحاب
+          الثروة يركبون العربيات عند ذهابهم الى مصالحهم وايابهم منها وكان من آمال الخديوى الاكرم ان
+          يرفع الازدحام الواقع فى الاسواق والازقة حتى تسير الاهالى فيها مع الاطمئنان والانشراح صدرت
+          الارادة السنية سابقا بتسوية <placeName xml:id="place-WA1262001101-1_01" type="طريق" ref="طريق-القلعة">طرق<placeName xml:id="place-WA1262001101-1_02">القلعة</placeName></placeName> و<placeName xml:id="place-WA1262001101-1_03" type="طريق" ref="طريق-مصر-القديمة">مصر القديمة</placeName> وان يفتح طريق مستقيم من <placeName xml:id="place-WA1262001101-1_04" ref="الازبكية">الازبكية</placeName> الى <placeName xml:id="place-WA1262001101-1_05" type="شارع" ref="شارع-الموسكى">شارع الموسكى</placeName>
+          مارا من <placeName xml:id="place-WA1262001101-1_06" type="كوم" ref="كوم-الشيخ-سلامه">كوم
+            الشيخ سلامه</placeName> فعرض حضرة <persName xml:id="person-WA1262001101-1_01" role="مدير">ادهم بيك مدير <orgName xml:id="org-WA1262001101-1_01" type="ديوان" ref="ديوان-المدارس">ديوان المدارس</orgName></persName> شفاها للاعتاب السنية انه متى
+          انشئت بنايات يترك منها حصة توسعة للطريق على مقتضى الامر المرقوم لكن لما كانت<placeName xml:id="place-WA1262001101-1_07" type="سكة" ref="سكة-الموسكى">سكة الموسكى</placeName>
+          تفتح من جهة والجهة الاخرى مسدودة وكانت الطرق الموجودة فى الجانبين ضيقة ومعوجة صدرت الارادة
+          الخديوية فى ١٩ شهر ربيع الاخر سنة ٦٢ بان تعمل طريق على الاصول الجديدة مبتدأة من مقابل سكة
+          الموسكى ومنتهية الى <placeName xml:id="place-WA1262001101-1_08" type="جادة" ref="جادة-الاشرافية">جادة الاشرافية</placeName> ليعم نفعها ويحصل ثمرة المراد منها وان
+          البيوت وسائر العقارات التى تكون على هذا الطريق تشترى بما يساوى قيمتها من الاثمان بمعرفة
+          اهل الخبرة وتدفع مبالغها من <orgName xml:id="org-WA1262001101-1_02" type="خزينة" ref="الخزينة_الخديوية">الخزينة الخديوية</orgName> وكذلك الطريق المتسع المبتدأ من
+          الازبكيه الى <placeName xml:id="place-WA1262001101-1_09" ref="بولاق">بولاق</placeName>
+          المزين من الطرفين بالاشجار لما كان منتهاه من عند <placeName xml:id="place-WA1262001101-1_10" ref="مسجد-الاستاذ-ابى-العلى">مسجد الاستاذ ابى
+            العلى</placeName> الى <placeName xml:id="place-WA1262001101-1_11" ref="الساحل">الساحل</placeName> طرقا ضيقة معوجة لزم ان تفتح طريق من صوب ابى العلى الى الساحل وان
+          البيوت التى تكون على الطريق يجرى العمل فيها على الوجه المشروح وان الاشعارات اللازمة لذلك
+          تحرر من طرف الامير المومى اليه.</p>
+         </div>
+         <div xml:id="WA1262002401-2" resp="#eSG">
+            <head><date when-custom="1262-08-10">١٠ شعبان ١٢٦٢</date><date when="1846-08-03">٣ اغسطس
+            ١٨٤٦</date>
+          <bibl><biblScope unit="issue">نمرة ٢٤</biblScope><biblScope unit="page">صفحة
+            ١</biblScope></bibl></head>
+        <head><title>الحوادث الداخلية</title></head>
+            <p>ان <placeName xml:id="place-WA1262002401-2_01" type="جامع" ref="جامع_محمد_على_بالقلعة">الجامع الشريف</placeName>
+          الجارى انشاؤه المنيف ب<placeName xml:id="place-WA1262002401-2_02" ref="القلعة">القلعة</placeName> العامره منذ سنين غابره
+          المعدود من جملة مبرور الآثار للخديوى الاعظم الجليل المقدار قد تم بعناية الله تعالى بناء
+          شبابيك قبته الكبيرة الحسنه فى يوم الخميس الموافق للتاسع والعشرين من رجب هذه السنه وقد ذبحت
+          القرابين تشكرا للطفه تعالى المبين بناء على القواعد المرغوبه والاثار المستحسنة المندوبه
+          وسيشرع فى تدوير القبة المذكوره كما اخبر حضرة مفتش الابنية الميرية المعموره.</p>
+         </div>
+         <div xml:id="WA1262002402-3" resp="#eSG">
+            <head><date when-custom="1262-08-10">١٠ شعبان ١٢٦٢</date><date when="1846-08-03">٣ اغسطس
+            ١٨٤٦</date>
+          <bibl><biblScope unit="issue">نمرة ٢٤</biblScope><biblScope unit="page">صفحة
+            ٢</biblScope></bibl></head>
+            <p>انه فى الساعة السابعة من ليلة الخميس التاسع والعشرين من الشهر الماضى قد ظهرت <rs type="حريقة">حريقة</rs> فى <placeName xml:id="place-WA1262002402-3_01" type="جامع" ref="جامع_محمد_على_بالقلعة">منزل</placeName> كائن ب<placeName xml:id="place-WA1262002402-3_02" type="درب" ref="القلعة">الدرب الابراهميى</placeName> فى <placeName xml:id="place-WA1262002402-3_03" type="ثمن" ref="ثمن الازبكية"><orgName xml:id="org-WA1262002402-3_01" ref="ثمن-الازبكية" type="ثمن">ثمن
+              الازبكية</orgName></placeName> سكن <persName xml:id="person-WA1262002402-3_01">رجل قبطى اسمه تادرس نخله</persName> ولما
+          وصل الخبر الى <orgName xml:id="org-WA1262002402-3_02" ref="الضابطخانة">الضابطخانة</orgName> ارسلت اربع طلومبات فى الوقت
+          والساعة وحيث كانت <placeName xml:id="place-WA1262002402-3_04" type="ازقة">الازقة</placeName> الواقعة فيها تلك الحريق ضيقة
+          جدا انحلت اطراف الطلومبات وحصل بذل المجهود فى اطفاء تلك الحريقة بالطلومبات وبهدم المحلات
+          اللازم هدمها من المنزل المذكور حتى تيسر اخماد النار بعناية الله الملك القهار وهمدت مرة
+          واحدة فى نصف الساعة الثامنة غير انه بسبب ضيق تلك الازقة وازدحام الخلائق فيها وقع رجلان من
+          ضباط الطلومباجاية فى تلك النار ولكنهما قد اسعفا بتخليصهما وارسلا الى <placeName xml:id="place-WA1262002402-3_05" type="اسبتالية">الاسبتالية</placeName> ليعالجا وايضا حصلت <rs type="حريقة">حريقة</rs>
+          اخرى فى بيت كائن ب<placeName xml:id="place-WA1262002402-3_06" type="درب" ref="درب-السماكين">درب السماكين</placeName> فى
+            <placeName xml:id="place-WA1262002402-3_07" type="ثمن" ref="ثمن باب الشعرية"><orgName xml:id="org-WA1262002402-3_03" type="ثمن" ref="ثمن-باب-الشعرية">ثمن باب الشعرية</orgName></placeName> تعلق رجل اسمه <persName xml:id="person-WA1262002402-3_02">الريس محمد
+            الجمال</persName> وكان ذلك فى يوم السبت الموافق لغرة الشهر الحال وبكرمه تعالى لم تترك بل
+          ادركت قبل سرابتها الى الاطراف واسعفت بطلومبتين فى الحال واخمدت فى ظرف ساعة ونصف حسبما اخبر
+          به من الضابطخانه.</p>
+         </div>
+         <div xml:id="WA1262002403-4" resp="#eSG" n="STONEANDFIRE">
+        <head><date when-custom="1262-08-10">١٠ شعبان ١٢٦٢</date><date when="1846-08-03">٣ اغسطس
+            ١٨٤٦</date>
+          <bibl><biblScope unit="issue">نمرة ٢٤</biblScope><biblScope unit="page">صفحة
+            ٢</biblScope></bibl></head>
+        <p> مما لا يخفى ان بناء مصر المحروسة نصفه بالحجر والنصف الاخر بالخشب وان وقوع الحريقات فيها
+          نادر ومن حيث انها كانت عندما تظهر بها حريقة فى بيت تسرى النار منه الى ما حواليه بوسطة
+          الرواشن والمشربيات الخشب التى على اوجه البيوت ويترتب على ذلك خسارات كثيرة حصل منذ سنين
+          ايجاد <orgName xml:id="org-WA1262002403-4_01" ref="اورطة طلومباجية" type="اورطة">اورطة طلومباجية</orgName> واعد لها محل
+          وبذل الجهد فى تكثير الطلومبات ووضع طلومبات فى محلات عديدة غير <orgName xml:id="org-WA1262002403-4_02" ref="الطلومباخانه">الطلومباخانه</orgName> حتى اذا ظهرت الحريقات لا يمضى عليها وقت يسع سرايتها الى الاطراف
+          بل يتيسر اطفاؤها فى وقت ظهورها وبناء على هذا قد شوهدت الفوائد العميمة من اعداد تلك
+          الطلومبات ووجود الطلومباجية وظهرت ثمراتها ظهور <sic>الا</sic> يقبل الاشتباه.</p>
+      </div>
+         <div xml:id="WA1262002601-5" resp="#eSG">
+            <head><date when-custom="1262-08-24">٢٤ شعبان ١٢٦٢</date><date when="1846-08-17">١٧
+            اغسطس ١٨٤٦</date>
+          <bibl><biblScope unit="issue">نمرة ٢٦</biblScope><biblScope unit="page">صفحة
+            ٢</biblScope></bibl></head>
+        <head><title>الحوادث الداخلية</title></head>
+            <p>انه فى ليلة الاحد الموافق العاشر من هذا الشهر قد حدثت <rs type="حريقة">حريقة</rs> فى
+          سقف <orgName xml:id="org-WA1262002601-5_01" type="شونة" ref="شون_الجلد">شون الجلد</orgName> الكائن ب<placeName xml:id="place-WA1262002601-5_01" ref="بولاق">بولاق</placeName> وهو سقف من بوص فبودر الى اطفائها واخمادها قبل ان تسرى الى
+          الاطراف وطفئت بوقتها كما علم من <orgName xml:id="org-WA1262002601-5_02" ref="الضابطخانه">الضابطخانه</orgName>.</p>
+         </div>
+         <div xml:id="WA1262003801-6" resp="#eSG">
+            <head><date when-custom="1262-11-20">٢٠ ذى القعدة ١٢٦٢</date><date when="1846-11-09">٩
+            نوفمبر ١٨٤٦</date>
+          <bibl><biblScope unit="issue">نمرة ٣٨</biblScope><biblScope unit="page">صفحة
+            ١</biblScope></bibl></head>
+            <p> انه قد ظهرت <rs type="حريقة">حريقة</rs> بأودة <persName xml:id="person-WA1262003801-6_01" role="صراف">استفان الصراف ب<orgName xml:id="org-WA1262003801-6_01" ref="وكالة العشماوى" type="وكالة"><placeName xml:id="place-WA1262003801-6_01" type="وكالة" ref="وكالة_العشماوى">وكالة
+                العشماوى</placeName></orgName></persName> الكائنة ب<placeName xml:id="place-WA1262003801-6_02" ref="بولاق">بولاق</placeName> فى الساعة التاسعة من يوم
+          الثلاثاء الموافق للسابع من هذا الشهر فاسعفت فى الوقت والساعة بلطلومبه التى فى بولاق واطفئت
+          بدون سرايتها الى الاطراف ولم يحترق منها سوى صندوق واحد وكذا قد التهب <placeName xml:id="place-WA1262003801-6_03" type="بيت" ref="بيت-محمد-الدسوقى">بيت <persName xml:id="person-WA1262003801-6_02">محمد الدسوقى</persName></placeName> الذى بقرب
+            <placeName xml:id="place-WA1262003801-6_04" type="جامع" ref="الجامع-الاحمر">الجامع
+            الاحمر</placeName> ب<placeName xml:id="place-WA1262003801-6_05" type="خط" ref="خط-الازبكية">خط الازبكية</placeName> ولما وصل الخبر الى <orgName xml:id="org-WA1262003801-6_02" type="ضابطخانة" ref="الضابطخانة">الضابطخانة</orgName> بعث
+          اليه الطلومبة ولوازمها واطفئت ولم يحترق منها خلاف مبرومتين من سقف الاودة وبعض اشياء لم تكن
+          ذات قيمة وظهرت <rs type="حريقة">حريقة</rs> ايضا ب<placeName xml:id="place-WA1262003801-6_06" type="منزل" ref="منزل-مصطفى-اغا-مملوك-سليمان-اغا-الوكيل">منزل <persName xml:id="person-WA1262003801-6_03" role="مملوك">مصطفى اغا مملوك سليمان اغا
+              الوكيل</persName></placeName> الذى هو ساكن فيه ب<placeName xml:id="place-WA1262003801-6_07" type="حارة" ref="حارة-غيط-العدة">حارة غيط
+            العدة</placeName> ب<placeName xml:id="place-WA1262003801-6_08" ref="عابدين"><orgName xml:id="org-WA1262003801-6_03" ref="ثمن-عابدين" type="ثمن">ثمن <choice>
+                <sic>عبدين</sic>
+                <corr>عابدين</corr>
+              </choice></orgName></placeName> ولما وصل خبره الى الضابطخانة فى الساعة الثالثة من يوم
+          الخميس الموافق لتاسع الشهر المذكور اسعف بدون مضى دقيقة بطلومبة الضابطخانة واطفئت النار قبل
+          سرايتها الى محل اخر ولم يحترق منها سوى حاصل فى المنزل كما اخبر به من الضابطخانه.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

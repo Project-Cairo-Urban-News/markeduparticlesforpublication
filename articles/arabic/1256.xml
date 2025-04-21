@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>"Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ al-Miṣrīyah), 1828-1914 - An Ottoman Arabic
+          Digital Humanities Project"</title>
+        <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</editor>
+        <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour Kanaan</editor>
+        <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah Fathallah
+          Gaara</editor>
+        <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif Erbil</editor>
+        <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed Kamal</editor>
+        <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+          El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
+        <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal al-Shamy</editor>
+        <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal Jammulapati</editor>
+        <respStmt>
+          <resp>Project co-director</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Primary Investigator</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0001-5239-7909">Project co-director</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fathallah Gaara</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0003-1216-3686">Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nori</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hiba Laabadli</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Othmane Echchabi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Nehal al-Shamy</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Vishal Jammulapati</name>
+        </respStmt>
+        <sponsor>
+          <orgName>National Endowment for the Humanities</orgName>, <orgName>Institut français
+            d’archéologie orientale</orgName> (Ifao, Cairo); <orgName>Franklin Humanities Institute
+            and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
+            University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
+            national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
+            Cultural Counsellor in Cairo</orgName>.</sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+        <p> Created by the "Digital Cairo" project (Duke University - Ifao), sponsored by the National Endowment for the Humanities.</p>
+        <p>
+          <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+        </p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName>, <persName>Hugh Cayless</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣrīyah (Egyptian Affairs) newspaper, 1828–1914.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>The "Digital Cairo" project is sponsored by the National Endowment for the Humanities.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+          and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added
+          in an attribute to a persName.</p>
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+            Editions</ref>.</p>
+      </editorialDecl>
+      <charDecl>
+        <char xml:id="qhalf">
+          <localProp value="QIRMA FRACTION 1/2" name="name"/>
+          <unicodeProp value="1/2" name="Numeric_Value"/>
+          <mapping type="similar">𐋢</mapping>
+          <figure>
+            <graphic url="../../docs/images/qhalf.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qthird">
+          <localProp value="QIRMA FRACTION 1/3" name="name"/>
+          <unicodeProp value="1/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qthird.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qfourth">
+          <localProp value="QIRMA FRACTION 1/4" name="name"/>
+          <unicodeProp value="1/4" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qfourth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qsixth">
+          <localProp value="QIRMA FRACTION 1/6" name="name"/>
+          <unicodeProp value="1/6" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qsixth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qeighth">
+          <localProp value="QIRMA FRACTION 1/8" name="name"/>
+          <unicodeProp value="1/8" name="Numeric_Value"/>
+          <mapping type="similar">𐋤</mapping>
+          <figure>
+            <graphic url="../../docs/images/qeighth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qtwothirds">
+          <localProp value="QIRMA FRACTION 2/3" name="name"/>
+          <unicodeProp value="2/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qtwothirds.svg"/>
+          </figure>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="cleared">
+      <listChange>
+        <change when="2023-06-15" resp="#eAM" status="cleared"/>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="ar">
+      <body>
+         <div xml:id="WA1256062101-1" resp="#eSG" n="RAILWAY">
+        <head><date when-custom="1256-08-01">١ شعبان ١٢٥٦</date><date when="1840-08-29">٢٩ أغسطس
+            ١٨٤٠</date>
+          <bibl><biblScope unit="issue">نمره ٦٢١</biblScope><biblScope unit="page">صفحة
+              ١</biblScope></bibl></head>
+        <p>ان الطريق المنشأة من الحديد الكائنة ب<placeName xml:id="place-WA1256062101-1_01" type="ناحيه" ref="ناحيه-طره">ناحيه
+            طره</placeName> و<placeName xml:id="place-WA1256062101-1_02" ref="المعصره">المعصره</placeName> فيما بين <placeName xml:id="place-WA1256062101-1_03" type="جبل">الجبل</placeName> و<placeName xml:id="place-WA1256062101-1_04" type="شاطئ" ref="شاطئ النيل">شاطئ
+            النيل</placeName> قد بذل الجهد فى انشائها منذ ثلاث سنين حتى وصلت الى حد الختام فى هذه
+          السنة المباركة وقد حصل بها السهولة التامة بحيث ان الحجارة الجسيمة التى كانت تنقل بصعوبة
+          على العربيات النقالة الكبيرة من الجبل صارت توصل بعد هذا الى شاطئ النيل بواسطة تلك الطريق
+          وتنزل فى السفن الحاضرة هناك بدون مشقة واستغنى بها عن استعمال الشغالة والبقر وكثير من
+          العربيات فى نقل الحجر ومقدار المسافة التى بين محل قطع الحجارة من الجبل وشاطئ النيل ميل
+          ونصف وربما يبلغ قريبا من ميلين وقد قطع من هذا الجبل حجارة كثيرة نظرا الى آثار المصريين
+          القديمة التى مضى عليها ثلاثة آلاف سنة او اربعة آلاف سنة ومن حيث ان الجبل المذكور لم تكن
+          حجارته على السوية بل الطبقة العليا منه حجارتها لينة رخوة والطبقة السفلى حجارتها صلبة قوية
+          بالنسبة الى ما فوقها كان المتقدمون يقطعون الحجارة من السفلى لكونها جيدة وينحتون اماكن
+          باسفل الجبل فى جانبى الوادى ويصنعون مغارات متسعة ويعملون هنالك <sic>اثافى</sic>
+            و<sic>كوانين</sic> حتى انهم صيروا اسفل الجبل خروقا خروقا ونظروا فى قطعها الى جودة
+          الطبقات ونحتوها بكمال الدقة فى صنعة النحت حتى انهم اخذوا حجارة <placeName xml:id="place-WA1256062101-1_05" ref="الاهرام">الاهرام</placeName> الكبيرة الكائنة فى <placeName xml:id="place-WA1256062101-1_06" ref="الجيزة">الجيزة</placeName> من
+          هذه المحلات كما يعلم ذلك من آثارهم وحيث ان اكثر الحجارة فى هذا الزمان مستعملة بمصر فى
+          الابنية والعمارات التى تكون داخل الماء لكونها يتضاعف تصلبها فى الماء انشئت هذه الطريق من
+          الحديد روما لسهولة النقل على ان الحجارة اللازمة للقناطر والسدود والارصفة تقطع من جوار ما
+          أخذ المتقدمين ومما يحاذى طبقاتهم وتبتدئ هذه الطريق من شاطئ النيل وتنتهى الى الجبل وهى
+          تنقسم الى ثلاثة اقسام ومسافة طولها ميل ونصف وقد وضعت على خطوط مائلة مختلفة نظرا الى كيفية
+          موضعها لنزول العربيات <choice>
+            <sic>بثقله</sic>
+            <corr>بثقلها</corr>
+          </choice> الى ساحل النيل حيث تنزل بطبعها فى الاقسام الثلاثة وحيث ان القسم القريب من الوسط
+          فيه ميل زآئد <sic>[...]</sic> فيه بكرات مرصوصة على الارض فى بعض المحلات ليكون فيه قابلية
+          لجر العربيات بطبعها وبالجملة فهى على طبقتين طبقة عليا وهى القريبة من الجبل ومسافتها قليلة
+          وطبقة سفلى وهى زوج تتصل بالساحل وقد ركبت فيها آلات من الحديد مخصوصة بجر الاثقال وهى المعبر
+          عنها بالعبارات لتنزيل الحجارة من الطبقة العليا الى الطبقة السفلى بحيث انها تأخذ الحجر من
+          فوق العربية التى فى الطبقة العليا وتضعه على الثانية بقوة رجلين وكذلك ركبت عيارات ايضا فى
+          ساحل النيل على هذا الوجه بحيث ناخذ الحجر من العربية وتضعه فى السفن وقد بنى عند رأس الطريق
+          المذكور رصيف غاية المتانة بحيث لم يكن له نظير فى مصر من جهة الرصانة وذلك لاجل تقريب
+          السفائن الى الساحل كما ينبغى واحضر من <placeName xml:id="place-WA1256062101-1_07" ref="انجلتره">انجلتره</placeName> اثنان
+          من المهندسين لعمل تلك الطريق المذكورة وقد بلغ مقدار ما صرف فى تسويتها وانشائها وحديدها
+          وآلاتها ستة آلاف كيس وثمانمائة وتسعة وعشرين كيسا وهذا شئ مستجد فى جهة الشرق وسترى ثمراته
+          بعد هذا ومن ذلك ان المقاولين كانوا يقطعون المتر الواحد من الحجر المكعب وينزلونه الى الساحل
+          فى العربيات القديمة بثمانية وعشرين قرشا والان قد رضوا بتنزيله باقل مما ذكر بكثير ولما كان
+          هذا الطريق قد حصل بهذه الكلفة الكثيرة وهو شئ مستجد وفيه منافع عظيمة وكان من ذهب اليه شر
+          ذمة قليلة من اهالى مصر مع انه على نحو ستة اميال من المحروسة التزم قيده فى الوقائع من طرف
+            <orgName xml:id="org-WA1256062101-1_01" type="ديوان" ref="ديوان-المدارس">ديوان المدارس</orgName> ليكون معلوما
+          للجميع.</p>
+      </div>
+      </body>
+   </text>
+</TEI>

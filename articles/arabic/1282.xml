@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>"Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ al-Miṣrīyah), 1828-1914 - An Ottoman Arabic
+          Digital Humanities Project"</title>
+        <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</editor>
+        <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour Kanaan</editor>
+        <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah Fathallah
+          Gaara</editor>
+        <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif Erbil</editor>
+        <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed Kamal</editor>
+        <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+          El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
+        <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal al-Shamy</editor>
+        <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal Jammulapati</editor>
+        <respStmt>
+          <resp>Project co-director</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Primary Investigator</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0001-5239-7909">Project co-director</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fathallah Gaara</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0003-1216-3686">Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nori</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hiba Laabadli</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Othmane Echchabi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Nehal al-Shamy</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Vishal Jammulapati</name>
+        </respStmt>
+        <sponsor>
+          <orgName>National Endowment for the Humanities</orgName>, <orgName>Institut français
+            d’archéologie orientale</orgName> (Ifao, Cairo); <orgName>Franklin Humanities Institute
+            and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
+            University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
+            national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
+            Cultural Counsellor in Cairo</orgName>.</sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+        <p> Created by the "Digital Cairo" project (Duke University - Ifao), sponsored by the National Endowment for the Humanities.</p>
+        <p>
+          <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+        </p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName>, <persName>Hugh Cayless</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣrīyah (Egyptian Affairs) newspaper, 1828–1914.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>The "Digital Cairo" project is sponsored by the National Endowment for the Humanities.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+          and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added
+          in an attribute to a persName.</p>
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+            Editions</ref>.</p>
+      </editorialDecl>
+      <charDecl>
+        <char xml:id="qhalf">
+          <localProp value="QIRMA FRACTION 1/2" name="name"/>
+          <unicodeProp value="1/2" name="Numeric_Value"/>
+          <mapping type="similar">𐋢</mapping>
+          <figure>
+            <graphic url="../../docs/images/qhalf.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qthird">
+          <localProp value="QIRMA FRACTION 1/3" name="name"/>
+          <unicodeProp value="1/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qthird.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qfourth">
+          <localProp value="QIRMA FRACTION 1/4" name="name"/>
+          <unicodeProp value="1/4" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qfourth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qsixth">
+          <localProp value="QIRMA FRACTION 1/6" name="name"/>
+          <unicodeProp value="1/6" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qsixth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qeighth">
+          <localProp value="QIRMA FRACTION 1/8" name="name"/>
+          <unicodeProp value="1/8" name="Numeric_Value"/>
+          <mapping type="similar">𐋤</mapping>
+          <figure>
+            <graphic url="../../docs/images/qeighth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qtwothirds">
+          <localProp value="QIRMA FRACTION 2/3" name="name"/>
+          <unicodeProp value="2/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qtwothirds.svg"/>
+          </figure>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="cleared">
+         <listChange>
+            <change resp="#eAM" when="2023-07-21" status="cleared"/>
+         </listChange>
+      </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="ar">
+      <body>
+         <div xml:id="WA1282000101-1" resp="#eAM">
+            <head><date when-custom="1282-07-26">٧ رجب ١٢٨٢</date>
+               <date when="1865-11-25">٢٥ نوفمبر ١٨٦٥</date>
+               <bibl><biblScope unit="issue">نمرة ١</biblScope><biblScope unit="page">صفحة
+                     ١</biblScope></bibl></head>
+            <p> قد أحسن إلى صاحب العزة <persName xml:id="person-WA1282000101-1_01">أحمد قائد بك</persName> برتبة متمايز الصنف الأول من
+               الرتبة الثانية لما شوهد من اقدامه ومزيد من اهتمامه في الخدمة المشكورة والمساعي
+               المبرورة اذ لم تزل العوارف العلية الخديوية تشمل أرباب المعارف والحمية.</p>
+         </div>
+         <div xml:id="WA1282000201-2" resp="#eAM">
+            <head>
+               <date when-custom="1282-07-12">١٢ رجب ١٢٨٢</date>
+               <date when="1865-11-30">٣٠ نوفمبر ١٨٦٥</date><bibl><biblScope unit="issue">نمرة
+                     ٢</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>من أجل مشروع ما هو مسموع ان من طاب نفسًا وضبط جأشًا المفخم سعادة شريف باشا
+               ناظرالداخلية والخارجية والمدارس المصرية تأهب لتهيئ ضيافة رسمية موسمية في ليلة تحسب
+               غرة في جبهة الليال وهي السابعة عشرة من رجب الحرام الحال الموافقة موسمًا تتيه بهلاه
+               الدهور وتتجلى بتنظيم حلية حلاه البخورألا وهو مولد صاحب السعادة ومعدن السيادة من له
+               فعل الخير عادة الخديوي الأجل والداوري المبجل لازالت الأنام مسرورة بوجوده والكرام
+               مشمولة بفضله وجوده وفي صبحية تلك الليلة تعمل تعليمات عسكرية وتدريبات حربية
+                  ب<placeName xml:id="place-WA1282000201-2_01" type="ميدان" ref="ميدان العباسية">ميدان العباسية</placeName> بغاية
+               اللطافة والظرافة تهيأ عند الغروب ضيافة تليق بالطلعة البهية العزيزية وتكون خدمة كافة
+               الجهادية.</p>
+         </div>
+         <div xml:id="WA1282000202-3" resp="#eAM">
+            <head>
+               <date when-custom="1282-07-12">١٢ رجب ١٢٨٢</date>
+               <date when="1865-11-30">٣٠ نوفمبر ١٨٦٥</date><bibl><biblScope unit="issue">نمرة
+                     ٢</biblScope><biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>ان عزتلو <persName xml:id="person-WA1282000202-3_01" role="وكيل">خورشيد
+                  بيك</persName> الذي كان مأمور ضبطية سكندرية صار وكيل عموم السكة الحديد وقد استعوض
+               بعزتلو <persName xml:id="person-WA1282000202-3_02">على كوجك بيك</persName> الذي كان
+               وكيل محافظ الكنال (اي جدول السويس) وكذلك استعوض هو بعزتلو <persName xml:id="person-WA1282000202-3_03" role="وكيل">مصطفى شاري بيك</persName> الذي كان
+               وكيل هذه الضبطية وعزتلو <persName xml:id="person-WA1282000202-3_04" role="ناظر">ابراهيم أدهم بيك</persName> الذي كان بمعية الجناب الخديوي ناظر قلم التكية تعيين
+               الآن ناظر قلم دعاوي بمديرية الغربية.</p>
+         </div>
+         <div xml:id="WA1282000203-4" resp="#eAM">
+            <head>
+               <date when-custom="1282-07-12">١٢ رجب ١٢٨٢</date>
+               <date when="1865-11-30">٣٠ نوفمبر ١٨٦٥</date><bibl><biblScope unit="issue">نمرة
+                     ٢</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+            <p>بلغنا ان سفير جناب امبراطور الكسيتا بالدولة العلية الذي جاء مصر منذ عدة أيام لتغيير
+               الهواء وأجريت له رسوم الضيافة واعد لنزوله <placeName xml:id="place-WA1282000203-4_01" type="سراية" ref="سراية النزهة">سراية النزهة</placeName> المرونقة ب<placeName xml:id="place-WA1282000203-4_02" ref="شبرا">شبرا</placeName> تشرف
+               بمقابلة الجناب الخديو المفخم يوم الأثنين الماضي ب<placeName xml:id="place-WA1282000203-4_03" type="قصر" ref="قصر النيل">قصر النيل</placeName> وتفضل سعادته بزيارته ولما علم منه الرغبة في
+               التفرج على <placeName xml:id="place-WA1282000203-4_04" ref="الأهرام">الأهرام</placeName> وما فيها من الأعاجيب اكرمه
+               بالأمر بتخصيص وابور بحري لركوبه إلى <placeName xml:id="place-WA1282000203-4_05" ref="الجيزة">الجيزة</placeName> بما
+               فيه من اللوازم وخيول ... للركوب بعد خروجه منه متوجهًا إلى مارام وهو الأهرام.</p>
+         </div>
+         <div xml:id="WA1282000204-5" resp="#eAM">
+            <head>
+               <date when-custom="1282-07-12">١٢ رجب ١٢٨٢</date>
+               <date when="1865-11-30">٣٠ نوفمبر ١٨٦٥</date><bibl><biblScope unit="issue">نمرة
+                     ٢</biblScope><biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+            <p>ان جناب رفعتلو <persName xml:id="person-WA1282000204-5_01">طرابوليجية محمد قبودان</persName> الذي كان معاونًا ب<orgName xml:id="org-WA1282000204-5_01" ref="مجلس الأحكام المصرية" type="مجلس">مجلس الأحكام المصرية</orgName> قلد بوظيفة
+               المعاون بالضبطية.</p>
+         </div>
+         <div xml:id="WA1282000401-6" resp="#eSG">
+            <head><date when-custom="1282-07-26">٢٦ رجب ١٢٨٢</date>
+               <date when="1865-12-14">١٤ ديسمبر ١٨٦٥</date>
+               <bibl><biblScope unit="issue">نمرة ٤</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>لما كان عزتلو <persName xml:id="person-WA1282000401-6_01" role="حكيمباشي">محمد شافعي
+                  بيك حكيم باشي ال<orgName xml:id="org-WA1282000401-6_01" type="دائرة" ref="الدائرة-الخديوية">دائرة الخديوية</orgName></persName> الذي هو أحد مشاهير
+               الأطباء المصرية وأساتيذ الفنون الطبية جديرًا بالتفضلات الدوارية ومستحقًا للرعاية
+               الخديوية استحصل له علي رتبة التمايز الثانية من الصنف الأول واحسن اليه بها. وكذا احسن
+               إلى عزتلو <persName xml:id="person-WA1282000401-6_02" role="ناظر">أحمد ذهني بيك ناظر
+                  الجبه خانات</persName> برتبة ميرالاي المعتبرة والي <persName xml:id="person-WA1282000401-6_03" role="خوجة">أحمد ندى أفندي خوجة العلوم الطبيعية
+                  والكيماوية والنباتية ب<placeName xml:id="place-WA1282000401-6_01" type="مدرسة" ref="المدرسة-الطبية">المدرسة الطبية</placeName></persName> بالرتبة الرابعة.</p>
+         </div>
+         <div xml:id="WA1282000402-7" resp="#eSG">
+            <head><date when-custom="1282-07-26">٢٦ رجب ١٢٨٢</date>
+               <date when="1865-12-14">١٤ ديسمبر ١٨٦٥</date>
+               <bibl><biblScope unit="issue">نمرة ٤</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>قد تعين كلا من سعادة <placeName xml:id="place-WA1282000402-7_01">على سري باشا رئيس<orgName xml:id="org-WA1282000402-7_01" type="مجلس" ref="مجلس-العسكرية">مجلس العسكرية</orgName></placeName> سابق وسعادة
+                  <persName xml:id="person-WA1282000402-7_01">درامه لي عارف باشا</persName> وسعادة <persName xml:id="person-WA1282000402-7_02">محمد حاذق باشا</persName>
+               أعضاء ب<orgName xml:id="org-WA1282000402-7_02" type="مجلس" ref="مجلس-الأحكام">مجلس الأحكام</orgName> كما اقتضته
+                  <orgName xml:id="org-WA1282000402-7_03" type="إدارة" ref="الإدارة-السنية-الخديوية">الادارة السنية
+                  الخديوية</orgName>.</p>
+         </div>
+         <div xml:id="WA1282000601-8" resp="#eSG">
+            <head><date when-custom="1282-8-10">١٠ شعبان ١٢٨٢</date>
+               <date when="1865-12-28">٢٨ ديسمبر ١٨٦٥</date>
+               <bibl><biblScope unit="issue">نمرة ٦</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>اقتضت مراحم الخديوي صاحب المكارم الأحسان برتبة اليوزباشي إلى <persName xml:id="person-WA1282000601-8_01" role="ملاحظ">محمد افندي سعيد الملازم الأول ملاحظ
+                     <orgName xml:id="org-WA1282000601-8_01" ref="الفشنكخانة">الفشنكخانة</orgName></persName> وبرتبة الملازم الأول إلي كلا من الملازم الثاني
+                  <persName xml:id="person-WA1282000601-8_02" role="اوستى">محمد افندي حسين اوسته
+                  تشغيلها</persName> و<persName xml:id="person-WA1282000601-8_03" role="اوستى">الملازم الثاني اسمعيل افندي حسن ٢ جي الاوستة الثاني</persName> برتبة الملازم
+               الثاني إلى باشجاويش بلوك <orgName xml:id="org-WA1282000601-8_02" ref="الجبه جيه">الجبه جيه</orgName> على حسب استحقاقهم ودرجتهم وبترقية اثنين من درجتي البلوك امين
+               والباشجاويش إلى درجة الاسبران وأربعة جاويشية إلى باشجاويشية واثني عشر شخصا اونباشية
+               إلى درجة الجاويش وسبعة وستين شخصا الى درجة الاونباشي.</p>
+         </div>
+         <div xml:id="WA1282000602-9" resp="#eSG">
+            <head><date when-custom="1282-8-10">١٠ شعبان ١٢٨٢</date>
+               <date when="1865-12-28">٢٨ ديسمبر ١٨٦٥</date>
+               <bibl><biblScope unit="issue">نمرة ٦</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>وردت افادة من <orgName xml:id="org-WA1282000602-9_01" ref="ديوان-الاوقاف" type="ديوان">ديوان الأوقاف</orgName>
+               مضمونها ان المنزل الكائن ب<placeName xml:id="place-WA1282000602-9_01" type="حارة" ref="حارة-الورهلى">حارة
+                  الورهلي</placeName> الذي تحته نظارة <persName xml:id="person-WA1282000602-9_01" role="ناظر">الحاج بشير
+                  أغا</persName> أسيغ شرعًا بيع انقاضه ومؤاجره أرضه واجراء الخلو فيها لمن يرغب وقد
+               تحرر إلي معاون <orgName xml:id="org-WA1282000602-9_02" ref="الأوقاف">الأوقاف</orgName> لأجل إشهار ذلك بقائمة مزايدة
+               بين الراغبين فمن اراد ذلك فعليه بالديوان المذكور.</p>
+         </div>
+         <div xml:id="WA1282000701-10" resp="#eSG">
+            <head><date when-custom="1282-8-17">١٧ شعبان ١٢٨٢</date>
+               <date when="1866-01-04">٤ يناير ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ٧</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>ان المدارس الثلاثة التي جددها ولي النعم واحياها وحباها بأنواع العلوم الجليلية وحياها
+               وهي <placeName xml:id="place-WA1282000701-10_01" type="مدرسة" ref="المدرسة-التجهيزية">المدرسة التجهيزية</placeName> و<placeName xml:id="place-WA1282000701-10_02" type="مدرسة" ref="المدرسة-الحربية">الحربية</placeName> و<placeName xml:id="place-WA1282000701-10_03" type="مدرسة" ref="مدرسة-المبتديان">المبتديان</placeName> الكائنة ب<placeName xml:id="place-WA1282000701-10_04" ref="العباسية">العباسية</placeName> وقد افتتح امتحان تلاميذها في يوم الاحد الماضي
+               الثالث عشر من الشهر الحال و<persName xml:id="person-WA1282000701-10_01" role="رئيس امتحان">رئيس امتحان التجهيزية صاحب السعادة خيرى بك</persName>
+                  و<persName xml:id="person-WA1282000701-10_02" role="رئيس امتحان">الحربية صاحب
+                  العزة على مبارك بك</persName> و<persName xml:id="person-WA1282000701-10_03" role="رئيس امتحان">المبتديان صاحب العزة حماد بك</persName> وقد شهدت فى اليوم
+               المذكور جميعه امتحان التجهيزية من السادة العلماء الافاضل حضرة <persName xml:id="person-WA1282000701-10_04" role="شيخ الازهر">الشيخ مصطفى العروسى شيخ
+                     <orgName xml:id="org-WA1282000701-10_01" ref="الجامع الازهر" type="جامع">الجامع
+                     الازهر</orgName></persName> و<persName xml:id="person-WA1282000701-10_05">حضرة
+                  الشيخ ابراهيم السقاء</persName> و<persName xml:id="person-WA1282000701-10_06">الشيخ محمد الاشمونى</persName> و<persName xml:id="person-WA1282000701-10_07">الشيخ أحمد عبد الرحيم</persName> و<persName xml:id="person-WA1282000701-10_08">الشيخ محمد الانبابى</persName> و<persName xml:id="person-WA1282000701-10_09" role="شيخ رواق">راشد افندى شيخ رواق الاتراك</persName> و<persName xml:id="person-WA1282000701-10_10">أحمد افندي الاستانه لى</persName> ومن حضرات
+               ذوات السعادة <persName xml:id="person-WA1282000701-10_11" role="ناظر">شريف باشا ناظر
+                     <orgName xml:id="org-WA1282000701-10_02" ref="الداخلية">الداخلية</orgName>
+                     و<orgName xml:id="org-WA1282000701-10_03" ref="الخارجية">الخارجية</orgName>
+                     و<orgName xml:id="org-WA1282000701-10_04" ref="المدارس-المصرية">المدارس
+                     المصرية</orgName></persName> و<persName xml:id="person-WA1282000701-10_12" role="ناظر">سعادة اسمعيل باشا ناظر <orgName xml:id="org-WA1282000701-10_05" ref="الجهادية">الجهادية</orgName></persName> وسعادة <persName xml:id="person-WA1282000701-10_13" role="ناظر">حافظ باشا ناظر <orgName xml:id="org-WA1282000701-10_06" ref="المالية">المالية</orgName></persName>
+               وسعادة <persName xml:id="person-WA1282000701-10_14" role="ناظر">عبد الله باشا ناظر
+                     <orgName xml:id="org-WA1282000701-10_07" type="مجلس" ref="مجلس-الاحكام">مجلس
+                     الأحكام</orgName></persName> وسعادة <persName xml:id="person-WA1282000701-10_15" role="ناظر">راتب باشا ناظر <orgName xml:id="org-WA1282000701-10_08" ref="عموم-الأوقاف">عموم
+                  الأوقاف</orgName></persName> وسعادة <persName xml:id="person-WA1282000701-10_16">أحمد رشيد باشا</persName> وسعادة <persName xml:id="person-WA1282000701-10_17">ذو
+                  الفقار باشا</persName> من أعضاء <orgName xml:id="org-WA1282000701-10_09" ref="المجلس-الخصوصى" type="مجلس">المجلس الخصوصى</orgName> وحضر أيضا من أرباب
+               المعارف المشهورين حضرة <persName xml:id="person-WA1282000701-10_18">رفاعة
+                  بك</persName> وحضرة <persName xml:id="person-WA1282000701-10_19">اسمعيل بك
+                  الفلكى</persName> وحضرة <persName xml:id="person-WA1282000701-10_20">مصطفى بك
+                  سراج</persName> وحضرة <persName xml:id="person-WA1282000701-10_21">عبد الله سيد
+                  بك</persName> و<persName xml:id="person-WA1282000701-10_22">عامر افندى</persName>
+                  و<persName xml:id="person-WA1282000701-10_23">اسمعيل افندى</persName> و<persName xml:id="person-WA1282000701-10_24">برعى افندى</persName> و<persName xml:id="person-WA1282000701-10_25">قدرى افندى</persName> و<persName xml:id="person-WA1282000701-10_26">حسن فهمى افندى</persName> و<persName xml:id="person-WA1282000701-10_27">ابراهيم مقامي افندى</persName> و<persName xml:id="person-WA1282000701-10_28">مصطفي افندى</persName> و<persName xml:id="person-WA1282000701-10_29">صادق افندى</persName> وقد امتحن في اليوم
+               المذكور في أنواع العلوم المقرورة تلميذ من كل فرقة بمحضر لجمعية فأجاب أحسن اجابة وأتى
+               في كل مسئلة من الجواب صوابه وكان أحد المسائل بالأقتراع للوقوف على حقيقة التحصيل بدون
+               نزاع وانشرحت لذلك صدور الحاضرين وانصرفوا بما عاينوه فرحين مسرورين وللمؤسس الأول
+               والمجدد الثاني داعين ومتشكرين وان شاء الله تعالى عند اختتام الأمتحان وظهور درجات
+               التلامذة يبادر ببيان مقدراهم وتبيين درجاتهم على حسب اختبارهم. </p>
+         </div>
+         <div xml:id="WA1282000702-11" resp="#eSG">
+            <head><date when-custom="1282-8-17">١٧ شعبان ١٢٨٢</date>
+               <date when="1866-01-04">٤ يناير ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ٧</biblScope>
+                  <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+            <p>قد صادف يوم طبع صحيفتنا هذه موسم المسابقات المصرية المعتاد وقوعها في كل سنة
+                  ب<placeName xml:id="place-WA1282000702-11_01" type="ميدان" ref="ميدان-العباسية">ميدان العباسية</placeName> بواسطة
+               التشويقات الجليلة الواقعة من طرف الحضرة الخديوية المعدودة من المحاسن التمدنية وحيث لم
+               يوجد وقت لتحرير مفصلاتها بها هذه الدفعة اضطررنا لتأخيرها للدفعة الأتية.</p>
+         </div>
+         <div xml:id="WA1282000703-12" resp="#eSG">
+            <head><date when-custom="1282-8-17">١٧ شعبان ١٢٨٢</date>
+               <date when="1866-01-04">٤ يناير ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ٧</biblScope>
+                  <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+            <p>في الساعة السادسة من ليلة الاثنين رابع عشر هذا الشهر ظهر <rs type="حريق">حريق</rs>
+                  ب<placeName xml:id="place-WA1282000703-12_01" type="منزل" ref="منزل-ابراهيم-أغا-و-جوهر-أغا">منزل ملك
+                     <persName xml:id="person-WA1282000703-12_01">ابراهيم أغا</persName> و<persName xml:id="person-WA1282000703-12_02">جوهر أغا</persName></placeName>
+               الكائن ب<placeName xml:id="place-WA1282000703-12_02" ref="المحجر">المحجر</placeName> تابع <orgName xml:id="org-WA1282000703-12_01" ref="ثمن-درب-الاحمر" type="ثمن">ثمن درب الاحمر</orgName> سكن <persName xml:id="person-WA1282000703-12_03">الاوسطا عائشة
+                  الاستاندليه</persName> وفي الحال صار الاسعاف من طرف <orgName xml:id="org-WA1282000703-12_02" type="ضبطية">الضبطية</orgName> باجراء ما يلزم لاطفائها قبل سرايتها الى جهات أخر بدون احتياج
+               الى الطلومبا ولم يحترق منه سوى بعض امتعه جزئية كمفروشات وملبوسات واهية.</p>
+         </div>
+         <div xml:id="WA1282000801-13" resp="#eSG">
+            <head><date when-custom="1282-8-24">٢٤ شعبان ١٢٨٢</date>
+               <date when="1866-01-11">١١ يناير ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ٨</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>لما كانت المسابقة من الأبواب الشرعية والأمور المستحسنة الدينية وفيها تمرين للعباد على
+               الحركات النافعة في الجهاد رأى سعادة الخديوي ذي المناقب يرأيه الوافر السديد الصائب ان
+               يتخذ هذه السنة النبوية عادة دائمة سنوية وان يمن بتشويق ركاب الخيل السابقين لزيادة
+               مهارتهم وغيره المتعوقين والأعتناء باقتناء مضمرات الخيول وتعويدها على الخفة والرماحة
+               كالمأمول ففي يوم الخميس الماضي سابع عشر شعبان أجريت ب<placeName xml:id="place-WA1282000801-13_01" type="ميدان" ref="ميدان-العباسية">ميدان العباسية</placeName> هذه العادة على أصولها الجارية قبل هذا
+               العام وحسن ترتيبها وزيادة اعدت للمتفرجين والمدعوين أنواع الرفاهية والأمكنة المزخرفة
+               الزاهية الباهية ونصبت الخيمة العظيمة المعروفة <sic>(بيوقة)</sic> من سائر الخيام وقوبل
+               كل من حضر بالقبول والأكرام والأحترام وحيث انا تحصلنا على جدول الخيول الجيدات السابقة
+               الحائزات قصب السبق في مضمار المسابقة ادرجناه كما تراه في الصحيفة الاخيرة بجل
+               مبناه.</p>
+         </div>
+         <div xml:id="WA1282000802-14" resp="#eSG">
+            <head><date when-custom="1282-8-24">٢٤ شعبان ١٢٨٢</date>
+               <date when="1866-01-11">١١ يناير ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ٨</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>بعد مضي نحو ثمان ساعات ونصف من ليلة الاثنين الموافق ١٢ من هذا الشهر ظهر <rs type="حريق">حريق</rs> ب<placeName xml:id="place-WA1282000802-14_01" type="منزل" ref="منزل ملك شخص اسمه عامر افندى">منزل ملك شخص اسمه <persName xml:id="person-WA1282000802-14_01">عامر افندى</persName></placeName> كائن ب<placeName xml:id="place-WA1282000802-14_02" type="حارة" ref="حارة-البهلوان">حارة البهلوان</placeName> التابعة <placeName xml:id="place-WA1282000802-14_03" type="درب" ref="درب-الجماميز">درب الجماميز</placeName> سكن كل من <persName xml:id="person-WA1282000802-14_02">محمد
+                  الشحري</persName> و<persName xml:id="person-WA1282000802-14_03">ابراهيم افندى عوضين</persName> بمجرد وصول الخبر الى
+                  <orgName xml:id="org-WA1282000802-14_01" type="ضبطية">الضبطية</orgName> صار الأسعاف في الحال بإرسال ما يلزم من
+               الأشخاص والطلومبات واطفئت في نصف ساعة ولم تسير إلى الجهة أخرى ولم يحترق سوى زكيبة
+               فيها القليل من القطن وبعض سقف فسحة المنزل التي في السكن الوسط كما علم بالاستعلام.</p>
+         </div>
+         <div xml:id="WA1282000803-15" resp="#eSG">
+            <head><date when-custom="1282-8-24">٢٤ شعبان ١٢٨٢</date>
+               <date when="1866-01-11">١١ يناير ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ٨</biblScope>
+                  <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+            <head><title>اعلانات</title></head>
+            <p>هناك منزل وسلاملك متقابلان كائنان ب<placeName xml:id="place-WA1282000803-15_01" type="رحبة" ref="رحبة-عابدين">رحبة عابدين</placeName> بجوار <placeName xml:id="place-WA1282000803-15_02" type="منزل" ref="منزل-المرحوم-يعقوب-بيك-القصد">منزل المرحوم يعقوب بيك القصد</placeName> اشهار المزايدة فيهما بمقتضى قائمتين
+               محررتين من <orgName xml:id="org-WA1282000803-15_01" ref="بيت-المال">بيت
+                  المال</orgName> تحت يد <persName xml:id="person-WA1282000803-15_01" role="وكيل">السيد محمد مصطفى الجنيدى وكيل رئيس <orgName xml:id="org-WA1282000803-15_02" ref="طائفة الدلالين" type="طائفة">طائفة الدلالين</orgName> المختصين
+                  بالعقارات</persName> وقد تعيين لذلك يوم الثلاثاء الآتى الموافق ٢٩ شعبان سنة ١٢٨٢
+               من الساعة الخامسة الى انتهاء اليوم ب<orgName xml:id="org-WA1282000803-15_03" type="ديوان" ref="ديوان-عموم-المالية">ديوان عموم المالية</orgName> فمن يرغب في
+               الشراء فعليه بمعاينة المنزل والسلاملك والاطلاع علي القائمتين ويجري المزايدة وفي
+               الميعاد المحدد يتوجه الى الديوان المذكور هو أو وكيله المعتمد لاتمامها بحضوره وجميع من
+               وقفت عليه ووقع البيع له من الديوان يخلى له المنزل والسلاملك المذكوران بعد مضي خمسة
+               وأربعين يوما من تاريخ البيع وقبض الثمن كما هو مبين بالقائمتين المذكورتين هذا ما لزم
+               اشهاره واعلانه.</p>
+         </div>
+         <div xml:id="WA1282000901-16" resp="#eSG">
+            <head><date when-custom="1282-09-02">٢ رمضان ١٢٨٢</date>
+               <date when="1866-01-18">١٨ يناير ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ٩</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>من المعلوم ان <orgName xml:id="org-WA1282000901-16_01" type="نظارة" ref="نظارة-الداخليه">نظارة الداخليه</orgName>
+               الساميه كانت انحلت من نحو سبعة أشهر أو ثمانيه وأحيلت على <persName xml:id="person-WA1282000901-16_01">سعادة شريف
+                  باشا</persName> موقته فوفاها حقها حق الوفاء ومافوته وقام باعبائها كل القيام على
+               أكمل حال وأتم نظام مع أداء وظيفته اللتين كان يديرهما ولهما يمارس وهما <orgName xml:id="org-WA1282000901-16_02" ref="نظارة-الامور-الخارجية" type="نظارة">نظارة الامور الخارجية</orgName> و<orgName xml:id="org-WA1282000901-16_03" ref="مديرية-عموم-المدارس" type="مديرية">مديرية عموم المدارس</orgName> غير أن كلا
+               من النظارتين جسيم مستلزم لمأمور مهذب قويم فضمت الى سعادته على ادارة المدارس نظارة
+               الداخليه وانيط <persName xml:id="person-WA1282000901-16_02">سعادة نوبار باشا</persName> لدرايته وأهليته ب<orgName xml:id="org-WA1282000901-16_04" type="نظارة" ref="نظارة-الخارجيه">نظارة الخارجيه</orgName> وصدرت بذلك الأوامر
+               العلية من الحضرة الكريمة الخديوية.</p>
+         </div>
+         <div xml:id="WA1282000902-17" resp="#eSG">
+            <head><date when-custom="1282-09-02">٢ رمضان ١٢٨٢</date>
+               <date when="1866-01-18">١٨ يناير ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ٩</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>قد أحيلت <orgName xml:id="org-WA1282000902-17_01" type="نظارة" ref="نظارة-الأشغال-العمومية">نظارة الأشغال
+                  العمومية</orgName> على <persName xml:id="person-WA1282000902-17_01">سعادة مراد باشا</persName> بعد أن كان محافظ
+                  <placeName xml:id="place-WA1282000902-17_01" ref="اسكندرية">اسكندرية</placeName> والمحافظة على <persName xml:id="person-WA1282000902-17_02">سعادة ذي
+                  الفقار باشا</persName> بعد أن كان من الأعضاء الكرام ب<orgName xml:id="org-WA1282000902-17_02" type="مجلس" ref="المجلس-الخصوصى">المجلس الخصوصى</orgName> و<orgName xml:id="org-WA1282000902-17_03" type="مديرية" ref="مديرية-الغربية">مديرية الغربية</orgName>
+               <persName xml:id="person-WA1282000902-17_03">سعادة حسن باشا حقي</persName> بعد أن كان من أعضاء <orgName xml:id="org-WA1282000902-17_04" type="مجلس" ref="مجلس-الاحكام">مجلس الأحكام</orgName>.</p>
+         </div>
+         <div xml:id="WA1282000903-18" resp="#eSG">
+            <head><date when-custom="1282-09-02">٢ رمضان ١٢٨٢</date>
+               <date when="1866-01-18">١٨ يناير ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ٩</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>قد تعين سعادة <persName xml:id="person-WA1282000903-18_01">منصور باشا يكن زادة</persName> من اعضاء <orgName xml:id="org-WA1282000903-18_01" type="مجلس" ref="مجلس-الاحكام">مجلس الأحكام</orgName> المصرية.</p>
+         </div>
+         <div xml:id="WA1282000904-19" resp="#eSG">
+            <head><date when-custom="1282-09-02">٢ رمضان ١٢٨٢</date>
+               <date when="1866-01-18">١٨ يناير ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ٩</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>ان <orgName xml:id="org-WA1282000904-19_01" type="السكة-الحديد">السكة
+                  الحديد</orgName> كانت من فروع <orgName xml:id="org-WA1282000904-19_02" ref="الأشغال-العمومية">الاشغال العموميه</orgName> وادارتها لكنها لجامتها وأهميتها
+               اقتضي الحال احالتها على مأمور مخصوص واستقلالها بذاتها وذلك كما لا يخفى مما يوجب سهولة
+               ادارتها وقد قلد بمأمورية مديريتها حضرة <persName xml:id="person-WA1282000904-19_01" role="مأمور">خورشيد بك الذي كان مامور ضبطية سكندرية</persName> وبوكالتها <persName xml:id="person-WA1282000904-19_02" role="وكيل">حضرة عمر بك لطفى الذى كان مدير
+                  الغربيه</persName>.</p>
+         </div>
+         <div xml:id="WA1282000905-20" resp="#eSG">
+            <head><date when-custom="1282-09-02">٢ رمضان ١٢٨٢</date>
+               <date when="1866-01-18">١٨ يناير ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ٩</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>ان حضرة <persName xml:id="person-WA1282000905-20_01" type="ناظر-القناطر-الخيرية">على بيك مبارك</persName> صار ب<orgName xml:id="org-WA1282000905-20_01" ref="المعية-السنية">المعية السنية</orgName> بعد أن كان ناظر <placeName xml:id="place-WA1282000905-20_01" ref="القناطر-الخيرية">القناطر الخيرية</placeName>.</p>
+         </div>
+         <div xml:id="WA1282001201-21" resp="#eSG">
+            <head><date when-custom="1282-09-23">٢٣ رمضان ١٢٨٢</date>
+               <date when="1866-02-08">٨ فبراير سنة ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ١٢</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>قد وجهت رتبة روم ايلى بكلربكى مع احسان نشان عثمانى من الرتبة الثانية الى صاحب السعادة
+                  <persName xml:id="person-WA1282001201-21_01" role="مفتش">اسماعيل باشا مفتش
+                  الاقاليم البحرية</persName> وهو جدير باللطف والعنايه لما فيه من حسن الادارة
+               والدرايه.</p>
+            <p>وجهت رتبة المتمايز الى صاحب العزة <persName xml:id="person-WA1282001201-21_02">مراد غالب بك من الذوات المشرفين بالركاب
+                  العالى</persName> واحسن اليه أيضا من نشان مجيدى من الرتبة الثالثة.</p>
+         </div>
+         <div xml:id="WA1282001202-22" resp="#eSG">
+            <head><date when-custom="1282-09-23">٢٣ رمضان ١٢٨٢</date>
+               <date when="1866-02-08">٨ فبراير ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ١٢</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <p>حيث قد شاغ شرعا مبيع انقاض أربعة أماكن <placeName xml:id="place-WA1282001202-22_01" type="وقف" ref="وقف على حمزة"><orgName xml:id="org-WA1282001202-22_01" type="وقف" ref="وقف-على-حمزة">وقف على حمزة</orgName></placeName> نظارة <persName xml:id="person-WA1282001202-22_01" role="ناظر">الست بنبه</persName> ثلاثة منها
+                  ب<placeName xml:id="place-WA1282001202-22_02" type="درب" ref="درب-القزازين">درب
+                  القزازين</placeName> وواحد ب<placeName xml:id="place-WA1282001202-22_03" type="درب" ref="درب-الفراضه">درب الفراضه</placeName> مع ايجار أرضها وصدور الأذن
+               بالبناء والخلو فيها لمن يرغب لزم اعلان ذلك ودرجه بالوقائع فمن كان له رغبة في شئ من
+               ذلك فيتوجه بعد المعاينة إلى <persName xml:id="person-WA1282001202-22_02" role="معاون">حسن افندى توفيق معاون <orgName xml:id="org-WA1282001202-22_02" ref="الاوقاف">الاوقاف</orgName></persName> ويضع زيادته بقائمة المزايدة و<sic>بعدد</sic>
+               الانتهاء تتحرر الحجج اللازمة من <orgName xml:id="org-WA1282001202-22_03" type="محكمة" ref="المحكمة-الشرعية">المحكمة الشرعية</orgName>.</p>
+         </div>
+         <div xml:id="WA1282001301-23" resp="#eSG">
+            <head><date when-custom="1282-10-06">٦ شوال ١٢٨٢</date>
+               <date when="1866-02-08">٢٠ فبراير ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ١٣</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>ان جناب أمبراطور مكسيقا أرسل إلى الخديوي الأفخم النشان المسمى غران قوردون مع مأمور
+               مخصوص وقد صار توصيل ذلك المأمور مع النشان المذكور يوم الأحد الماضي إلى <placeName xml:id="place-WA1282001301-23_01" type="قصر" ref="قصر-النيل">قصر النيل</placeName> مع كمال الأعزاز والتبجيل وتلقاه
+               الخديو الأفخم بالقبول والأكرام واستلم النشان المذكور مع مكتوب الأمبراطور بغاية
+               الأحترام ثم أطلقت المدافع تعظيمًا له واعلامًا للجميع وتفهيمًا. </p>
+         </div>
+         <div xml:id="WA1282001302-24" resp="#eSG">
+            <head><date when-custom="1282-10-06">٦ شوال ١٢٨٢</date>
+               <date when="1866-02-08">٢٠ فبراير ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ١٣</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>قد أحسن برتبة الملازم الثاني الى كل من <persName xml:id="person-WA1282001302-24_01" role="طوبجى">طنطاوى عمر برنجى طوبجى باشا</persName> و<persName xml:id="person-WA1282001302-24_02" role="دومنجى">أحمد موسى برنجى دومنجى
+                  باشا</persName> المستخدمين ب<placeName xml:id="place-WA1282001302-24_01" type="وابور" ref="وابور محمد على">وابور محمد على أحد السفائن الميرية
+                  المصرية</placeName> وذلك لاهليتهما ومهارتهما ومكافاءة لما صار منهما من بذل الهمة
+               ومزيد الاجتهاد في خدمتها.</p>
+         </div>
+         <div xml:id="WA1282001303-25" resp="#eSG">
+            <head><date when-custom="1282-10-06">٦ شوال ١٢٨٢</date>
+               <date when="1866-02-08">٢٠ فبراير ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ١٣</biblScope>
+                  <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+            <p>ان عزتلو <persName xml:id="person-WA1282001303-25_01">حسن بيك وكيل محافظة مصر سابقًا</persName> صار تعيينه لمحافظة كافة
+               الأشياء التي سيصير ارسالها من مصر إلى <placeName xml:id="place-WA1282001303-25_01" type="محل" ref="محل-الأكسبوزسيون">محل الأكسبوزسيون</placeName> الذي سيفتح ب<placeName xml:id="place-WA1282001303-25_02" ref="باريس">باريس</placeName>
+               في السنة القابلة الميلادية وعزتلو <persName xml:id="person-WA1282001303-25_02" role="معاون">محمد رشدي بيك أحد معاوني
+                     <orgName xml:id="org-WA1282001303-25_01" ref="المعية-السنية" type="المعية-السنية">المعية
+                  السنية</orgName></persName> لاحضار ما يجلب منها من الجهات القبلية وعزتلو
+                  <persName xml:id="person-WA1282001303-25_03">سامي بيك أحد مستخدمي <orgName xml:id="org-WA1282001303-25_02" ref="الخارجية">الخارجية</orgName></persName> لاحضار ما يجلب من الجهات البحرية.</p>
+         </div>
+         <div xml:id="WA1282001401-26" resp="#eSG">
+            <head><date when-custom="1282-10-14">١٤ شوال ١٢٨٢</date>
+               <date when="1866-02-28">٢٨ فبراير ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ١٤</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head>(من الجوائب)</head>
+            <p>بلغ عدد من هاجر إلى الممالك المحروسة من الجراكسة والتتر وعشائر النوغاي وغيرهم في مدة
+               ست ستين مليونا من النفوس رجالا ونساء وأولاد منهم ٦٣٥٠٠٠ هاجروا في السنتين الأخرتين
+               والباقي في السنين الأربع المتقدمة فاذا حسب أن كلا منهم كلف <orgName xml:id="org-WA1282001401-26_01" ref="الخزينة-السلطانية" type="خزينة">الخزينة السلطانية</orgName> عشرين ليرة فقط
+               كانت الجملة عشرين مليونًا فهذا ما تنفقه الدولة العلية في سبيل البر والأحسان.</p>
+         </div>
+         <div xml:id="WA1282001501-27" resp="#eSG">
+            <head><date when-custom="1282-10-21">٢١ شوال ١٢٨٢</date>
+               <date when="1866-03-07">٧ مارث ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ١٥</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head><title>حوادث داخلية</title></head>
+            <p>ان سعادة المحترم <persName xml:id="person-WA1282001501-27_01">راغب باشا</persName> الذي كان متقلدا سابقا ب<orgName xml:id="org-WA1282001501-27_01" type="نظارة" ref="نظارة-الداخلية">نظارة الداخلية</orgName> تعين أحد أعضاء <orgName xml:id="org-WA1282001501-27_02" ref="المجلس-الخصوصى" type="مجلس">المجلس الخصوصي</orgName> المعتبرين وقبل يوم
+               الجمعة الأعتاب الخديوية شكرًا على ما ناله من الألتفات وكمال التلطفات والتعطفات وعاد
+               بسرور ونعمة وحبور.</p>
+         </div>
+         <div xml:id="WA1282001502-28" resp="#eSG">
+            <head><date when-custom="1282-10-21">٢١ شوال ١٢٨٢</date>
+               <date when="1866-03-07">٧ مارث ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ١٥</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>ان عزتلو <persName xml:id="person-WA1282001502-28_01">اسمعيل دانش بيك</persName> بعد أن كان أحد أعضاء <orgName xml:id="org-WA1282001502-28_01" ref="مجلس-الأستئناف-بالجهة-القبلية" type="مجلس">مجلس الأستئناف بالجهة
+                  القبلية</orgName> تعيين الآن وكيل <orgName xml:id="org-WA1282001502-28_02" type="ضبطية" ref="الضبطية-المصرية">الضبطية المصرية</orgName>.</p>
+         </div>
+         <div xml:id="WA1282001503-29" resp="#eSG">
+            <head><date when-custom="1282-10-21">٢١ شوال ١٢٨٢</date>
+               <date when="1866-03-07">٧ مارث ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ١٥</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>ان <persName xml:id="person-WA1282001503-29_01">حميتلو أبا العينين أفندي أحمد ملاحظ <orgName xml:id="org-WA1282001503-29_01" type="مطبعة" ref="المطبعة-الزاهرة-ببولاق">المطبعة الزاهرة ب<placeName xml:id="place-WA1282001503-29_01" ref="بولاق">بولاق</placeName></orgName></persName> مصر القاهرة قد أحسن بالرتبة الخامسة
+               إليه فتلقاها بشكر المنعم على انعامه إليه.</p>
+         </div>
+         <div xml:id="WA1282001504-30" resp="#eSG">
+            <head><date when-custom="1282-10-21">٢١ شوال ١٢٨٢</date>
+               <date when="1866-03-07">٧ مارث ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ١٥</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>بعد مضي ست ساعات من يوم الثلاثاء ثالث عشر هذا الشهر ظهر <rs type="حريق">حريق</rs>
+               بمدخنة <placeName xml:id="place-WA1282001504-30_01" type="منزل" ref="منزل-حسنين-بالفجالة">منزل ب<placeName xml:id="place-WA1282001504-30_02" ref="الفجالة">الفجالة</placeName> ملك شخص يقال له حسنين</placeName> سكن
+                  <persName xml:id="person-WA1282001504-30_01">الخواجه فدلاتو الأنكليزي</persName> فبادرت <orgName xml:id="org-WA1282001504-30_01" type="ضبطية">الضبطية</orgName> بارسال الطلومبات والأشخاص اللازمة وصار اطفاؤه بدون ان تسرى إلى
+               جهة أخرى <sic>ويحترق</sic> من المنزل المذكور شئ سوى بعض سقف مطبخه كما علم من حوادث
+               ضبطية مصر.</p>
+         </div>
+         <div xml:id="WA1282001601-31" resp="#eSG">
+            <head><date when-custom="1282-10-29">٢٩ شوال ١٢٨٢</date>
+               <date when="1866-03-15">١٥ مارث ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ١٦</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>قد أحسن برتبة القائمقام إلى عزتلو <persName xml:id="person-WA1282001601-31_01" role="معاون">محمد خلوصي بيك البيكباشي أحد
+                  معاوني <orgName xml:id="org-WA1282001601-31_01" ref="المعية-السنية" type="المعية-السنية">المعية
+                  السنية</orgName></persName> وعين بهذه الرتبة قائمقاما إلى الاى <sic>القارديا</sic>
+               السوارى.</p>
+         </div>
+         <div xml:id="WA1282001602-32" resp="#eSG">
+            <head><date when-custom="1282-10-29">٢٩ شوال ١٢٨٢</date>
+               <date when="1866-03-15">١٥ مارث ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ١٦</biblScope>
+                  <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+            <p>بعد مضي خمس ساعات من يوم الأربعاء الماضي ظهر <rs type="حريق">حريق</rs> في مستوقد
+                  <placeName xml:id="place-WA1282001602-32_01" type="حمام" ref="حمام-منزل-سعادة-مصطفى-باشا-الكريدلى">حمام <placeName xml:id="place-WA1282001602-32_02" type="منزل" ref="منزل-سعادة-مصطفى-باشا-الكريدلى">منزل سعادة <persName xml:id="person-WA1282001602-32_01">مصطفى
+                        باشا الكريدلي</persName></placeName></placeName> الكائن ب<placeName xml:id="place-WA1282001602-32_03" type="درب" ref="الدرب-الجديد">الدرب الجديد</placeName> ب<placeName xml:id="place-WA1282001602-32_04" type="خط" ref="خط-السيدة-زينب">خط السيدة زينب</placeName> رضي الله عنها فصار الأسعاف من
+                  <orgName xml:id="org-WA1282001602-32_01" ref="الضبطية">الضبطية</orgName> بإرسال ما يلزم من الطلومبات وغيرها اخرجت
+               قطعة الخشب المحترقة بالنار وأطفشت بدون أن تسري إلى الجهة الأخرى.</p>
+         </div>
+         <div xml:id="WA1282001603-33" resp="#eSG">
+            <head><date when-custom="1282-10-29">٢٩ شوال ١٢٨٢</date>
+               <date when="1866-03-15">١٥ مارث ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ١٦</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><title>اعلانات</title></head>
+            <p><placeName xml:id="place-WA1282001603-33_01" type="منزل" ref="منزل-وقف-المرحوم-سالم-السلاوى">منزل ب<placeName xml:id="place-WA1282001603-33_02" type="حارة" ref="حارة-البرقوقية">حارة البرقوقية</placeName>
+                  <orgName xml:id="org-WA1282001603-33_01" ref="وقف-المرحوم-سالم-السلاوى" type="وقف">وقف المرحوم سالم
+                     السلاوي</orgName></placeName> نظارة حضرة الأستاذ شيخ <orgName xml:id="org-WA1282001603-33_02" ref="جامع الأزهر" type="جامع">جامع الأزهر</orgName> مقتضي مبيع انقاضه وتأجير أرضه وصدور الأذن بأحداث
+               الخلو فيها لمن يرغب.</p>
+            <p><placeName xml:id="place-WA1282001603-33_03" type="دكان" ref="دكان-بخط-الحمزاوى">دكان</placeName> ب<placeName xml:id="place-WA1282001603-33_04" type="خط" ref="خط-الحمزاوى">خط الحمزاوي</placeName>
+               <orgName xml:id="org-WA1282001603-33_03" ref="وقف-المرحومة-حفيظة" type="وقف">وقف المرحومة حفيظة</orgName> نظارة
+                  <persName xml:id="person-WA1282001603-33_01" role="ناظر">حسين البغدادلي</persName>. <sic>(شرحه)</sic></p>
+            <p>صورة الأفادة الواردة من <orgName xml:id="org-WA1282001603-33_04" type="ديوان" ref="ديوان-الأوقاف">ديوان الأوقاف</orgName> في ٢٤ شوال سنة ٨٢ بما أنه قد تجوز
+               شرعًا بمؤاجرة الجهتين المشروحين اعلاه وصدور الأذن باحداث الخلو فيهما ومبيع انقاضهما
+               لمن يرغب وقد تحرر عن ذلك خمسة وثلاثون اعلان وأرسلوا في تاريخه لل<orgName xml:id="org-WA1282001603-33_05" type="ضبطية">ضبطية</orgName> لوضعهم على القره
+               قولات وكتب الى <persName xml:id="person-WA1282001603-33_02" role="معاون">حسن افندي
+                  توفيق معاون <orgName xml:id="org-WA1282001603-33_06" ref="الاوقاف">الاوقاف</orgName></persName> باشهار ما ذكر بالمزاد ومن الأقتضا درج ذلك
+               بالوقائع الجاري في مثل هذا.</p>
+         </div>
+         <div xml:id="WA1282001801-34" resp="#eSG">
+            <head><date when-custom="1282-11-13">١٣ ذي القعدة ١٢٨٢</date>
+               <date when="1866-03-29">٢٩ مارث ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ١٨</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head><title>حوادث داخلية</title></head>
+            <p>بلغنا أن سعادة <persName xml:id="person-WA1282001801-34_01">نوبار باشا</persName> رخص له فى التوجه إلى جهة أوروبا لتغيير
+               الهواء وأحيلت <orgName xml:id="org-WA1282001801-34_01" type="إدارة" ref="إدارة-الخارجية">إدارة الخارجية</orgName> في
+               مدة غيبته على عهدة سعادة <persName xml:id="person-WA1282001801-34_02">راغب باشا</persName>.</p>
+         </div>
+         <div xml:id="WA1282001901-35" resp="#eSG">
+            <head><date when-custom="1282-11-20">٢٠ ذي القعدة ١٢٨٢</date>
+               <date when="1866-04-05">٥ ابريل ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ١٩</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head><title>حوادث داخلية</title></head>
+            <p>فقد أهدت دولة فرنسا العظيمة إلى كل من سعادة <persName xml:id="person-WA1282001901-35_01" role="ناظر">شريف باشا ناظر <orgName xml:id="org-WA1282001901-35_01" ref="الداخلية">الداخلية</orgName></persName>
+               وسعادة <persName xml:id="person-WA1282001901-35_02" role="ناظر">نوبار باشا ناظر
+                     <orgName xml:id="org-WA1282001901-35_02" ref="الخارجية">الخارجية</orgName></persName> وسعادة <persName xml:id="person-WA1282001901-35_03">سرور أفندي من اجلاء رجال الدولة العلية</persName> نشانًا من الرتبة الثانية من صنف
+               النشان المعروف <sic>(قوماندور دولالزيون دونور)</sic> والى عزتلو <persName xml:id="person-WA1282001901-35_04">علي بيك مبارك</persName> نشانًا
+                  <sic>(اوفسيال)</sic>.</p>
+            <p>لما كان عزتلو <persName xml:id="person-WA1282001901-35_05">على بيك مبارك</persName> المتشرف ب<orgName xml:id="org-WA1282001901-35_03" ref="المعية-السنية">المعية السنية</orgName> على بصيرة تامة لاسيما في العلوم
+               الرياضية واتضح في الأمور الزيادة عما هو مأمور استحصل له على رتبة متمايز الصنف الأول
+               من الرتبة الثانية ووجهت إليه فتلقاها بشكر المنعم في السر والعلانية وأحسن إليه كما
+               يليق بها شأنًا وإجلالًا بالنشان المجيدي الهمايوني من الرتبة الثالثة استبدلًا.</p>
+            <p>قد أحسن إلى عزتلو <persName xml:id="person-WA1282001901-35_06" role="أعيان">موسى بيك
+                  العقاد أحد مشاهير أعيان مصر</persName> بالنشان المجيدي الهمايوني من الرتبة
+               الرابعة. </p>
+         </div>
+         <div xml:id="WA1282001902-36" resp="#eSG">
+            <head><date when-custom="1282-11-20">٢٠ ذي القعدة ١٢٨٢</date>
+               <date when="1866-04-05">٥ ابريل ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ١٩</biblScope>
+                  <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+            <p>في الساعة الثامنة في ليلة الأربعاء ١٢ من هذا الشهر ظهر <rs type="حريق">حريق</rs>
+                  ب<placeName xml:id="place-WA1282001902-36_01" type="حانوت" ref="حانوت-ابراهيم-مصطفى-الخضرى">حانوت ابراهيم مصطفي
+                  الخضرى</placeName> ب<placeName xml:id="place-WA1282001902-36_02" type="شارع" ref="شارع-العشماوى">شارع
+                  العشماوي</placeName> التابع <orgName xml:id="org-WA1282001902-36_01" ref="ثمن-الازبكية" type="ثمن">ثمن
+                  الازبكية</orgName> وكان مملوأ بالحطب والاشراق فأسعف من <orgName xml:id="org-WA1282001902-36_02" type="ضبطية">الضبطية</orgName> بارسال الطلومبات اللازمة والأشخاص الكافية فأطفئت في ساعتين مع
+               انتشار النار في سائر جهات هذا الحانوت الذي استدعى هدم جوار المنزل الذي بأعلاه ولم تسر
+               إلى الجهه الأخرى.</p>
+         </div>
+         <div xml:id="WA1282002101-37" resp="#eSG">
+            <head><date when-custom="1282-12-04">٤ ذي الحجة ١٢٨٢</date>
+               <date when="1866-04-19">١٩ ابريل ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ٢١</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head><title>حوادث داخلية</title></head>
+            <p>قد وجهت الرتبة الثانية إلى عهدة عزتلو <persName xml:id="person-WA1282002101-37_01" role="مأمور">على صادق بك مأمور محطة سكة الحديد بمصر</persName>.</p>
+         </div>
+         <div xml:id="WA1282002102-38" resp="#eSG">
+            <head><date when-custom="1282-12-04">٤ ذي الحجة ١٢٨٢</date>
+               <date when="1866-04-19">١٩ ابريل ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ٢١</biblScope>
+                  <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+            <p>بعد مضي ساعة ونصف من ليلة الجمعة الماضية ظهر <rs type="حريق">حريق</rs> ب<placeName xml:id="place-WA1282002102-38_01" type="منزل" ref="منزل-فرج-افندى-مليكه">منزل <persName xml:id="person-WA1282002102-38_01">فرج افندي
+                  مليكه</persName></placeName> الكائن ب<placeName xml:id="place-WA1282002102-38_02" type="درب" ref="درب-الحمام">درب
+                  الحمام</placeName> التابع <orgName xml:id="org-WA1282002102-38_01" ref="ثمن-عابدين" type="ثمن">ثمن
+                  عابدين</orgName> فلما بلغ خبره <orgName xml:id="org-WA1282002102-38_02" type="ضبطية">الضبطية</orgName> بودر بأرسال
+               تسع طلومبات ولوازم أخرى على من حضر من ضباط الالاي البيادة السادس وعساكره وبالهمة
+               الزائدة من سعادة ناظر <orgName xml:id="org-WA1282002102-38_03" ref="الجهادية">الجهادية</orgName> ومأمور الضبطية
+               ووكيلها صار اطفاؤه بعد مضى ست ساعات ونصف من الليلة المذكورة وبحمد الله لم تسر إلى جهة
+               أخرى وان احترق من المنزل المذكور قائمة وخزنة ورواق بفسحته بما فيها من القرش وبعض صيغة
+               ونقود.</p>
+         </div>
+         <div xml:id="WA1282002201-39" resp="#eSG">
+            <head><date when-custom="1282-12-18">١٨ ذي الحجة ١٢٨٢</date>
+               <date when="1866-05-03">٣ مايه ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ٢٢</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>قد أحيلت مأمورية القائمقامية الجليلة الجسيمة على عهدة الجناب المحترم <persName xml:id="person-WA1282002201-39_01" role="ناظر">سعادتلو شريف باشا ناظر <orgName xml:id="org-WA1282002201-39_01" ref="الداخلية">الداخلية</orgName></persName>
+               ونشرت بذلك الأوامر العلية إلى كافة مأموري الحكومة المصرية.</p>
+         </div>
+         <div xml:id="WA1282002202-40" resp="#eSG">
+            <head><date when-custom="1282-12-18">١٨ ذي الحجة ١٢٨٢</date>
+               <date when="1866-05-03">٣ مايه ١٨٦٦</date>
+               <bibl><biblScope unit="issue">نمرة ٢٢</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>قد أحسن إلى سعادتلو <persName xml:id="person-WA1282002202-40_01" role="ناظر">حسن باشا
+                  راسم ناظر <orgName xml:id="org-WA1282002202-40_01" ref="الدائرة-السنية-الخديوية">الدائرة السنية الخديوية</orgName></persName> برتبة روم ايلي بكلربكلكي البهية
+               وبالنشان المجيدي من الرتبة الثانية وإلى <persName xml:id="person-WA1282002202-40_02">عزتلو بينى بيك ب<orgName xml:id="org-WA1282002202-40_02" type="المعية-السنية" ref="المعية-السنية">المعية السنية</orgName></persName> الذي هو من أرباب الرتبة
+               الثانية متمايز الصنف الأول منها وبالنشان المجيدي من الرتبة الثالثة.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

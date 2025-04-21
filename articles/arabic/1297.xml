@@ -1,0 +1,1657 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>"Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ al-Miṣrīyah), 1828-1914 - An Ottoman Arabic
+          Digital Humanities Project"</title>
+        <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</editor>
+        <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour Kanaan</editor>
+        <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah Fathallah
+          Gaara</editor>
+        <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif Erbil</editor>
+        <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed Kamal</editor>
+        <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+          El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
+        <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal al-Shamy</editor>
+        <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal Jammulapati</editor>
+        <respStmt>
+          <resp>Project co-director</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Primary Investigator</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0001-5239-7909">Project co-director</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fathallah Gaara</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0003-1216-3686">Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nori</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hiba Laabadli</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Othmane Echchabi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Nehal al-Shamy</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Vishal Jammulapati</name>
+        </respStmt>
+        <sponsor>
+          <orgName>National Endowment for the Humanities</orgName>, <orgName>Institut français
+            d’archéologie orientale</orgName> (Ifao, Cairo); <orgName>Franklin Humanities Institute
+            and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
+            University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
+            national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
+            Cultural Counsellor in Cairo</orgName>.</sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+        <p> Created by the "Digital Cairo" project (Duke University - Ifao), sponsored by the National Endowment for the Humanities.</p>
+        <p>
+          <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+        </p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName>, <persName>Hugh Cayless</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣrīyah (Egyptian Affairs) newspaper, 1828–1914.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>The "Digital Cairo" project is sponsored by the National Endowment for the Humanities.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+          and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added
+          in an attribute to a persName.</p>
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+            Editions</ref>.</p>
+      </editorialDecl>
+      <charDecl>
+        <char xml:id="qhalf">
+          <localProp value="QIRMA FRACTION 1/2" name="name"/>
+          <unicodeProp value="1/2" name="Numeric_Value"/>
+          <mapping type="similar">𐋢</mapping>
+          <figure>
+            <graphic url="../../docs/images/qhalf.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qthird">
+          <localProp value="QIRMA FRACTION 1/3" name="name"/>
+          <unicodeProp value="1/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qthird.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qfourth">
+          <localProp value="QIRMA FRACTION 1/4" name="name"/>
+          <unicodeProp value="1/4" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qfourth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qsixth">
+          <localProp value="QIRMA FRACTION 1/6" name="name"/>
+          <unicodeProp value="1/6" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qsixth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qeighth">
+          <localProp value="QIRMA FRACTION 1/8" name="name"/>
+          <unicodeProp value="1/8" name="Numeric_Value"/>
+          <mapping type="similar">𐋤</mapping>
+          <figure>
+            <graphic url="../../docs/images/qeighth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qtwothirds">
+          <localProp value="QIRMA FRACTION 2/3" name="name"/>
+          <unicodeProp value="2/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qtwothirds.svg"/>
+          </figure>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="cleared">
+         <listChange>
+            <change status="cleared" resp="#eAM" when="2024-03-07"/>
+         </listChange>
+      </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="ar">
+      <body>
+         <div xml:id="WA1297084101-1" resp="#eSG">
+            <head><date when-custom="1297-01-14">١٤ محرم ١٢٩٧</date>
+               <date when="1879-12-28">٢٨ ديسمبر ١٨٧٩</date>
+               <bibl><biblScope unit="issue">نمرة ٨٤١</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297084101-1_01" type="ضبطية" ref="ضبطية-مصر">ضبطية
+                  مصر</orgName> بتاريخ غرة محرم سنة ٩٧</head>
+            <p> ان <orgName xml:id="org-WA1297084101-1_02" ref="مجلس حسبى مصر" type="مجلس">مجلس حسبى
+                  مصر</orgName> أصدر مضبطة مؤرخه فى ٧ ذى سنة ٩٦ نمرة ٣٣ ووردت نسختها للضبطية مشروحا
+               عليها منه فى التاريخ المرقوم نمرة ٩٧ من تلاوتها تبين ان <persName xml:id="person-WA1297084101-1_01" role="شيخ حارة">على ربيع شيخ <placeName xml:id="place-WA1297084101-1_01" ref="حارة-درب-القطة" type="حارة">حارة درب
+                     القطة</placeName></persName> ب<orgName xml:id="org-WA1297084101-1_03" ref="ثمن-الازبكية" type="ثمن"><placeName xml:id="place-WA1297084101-1_02" ref="ثمن-الازبكية" type="ثمن">ثمن الأزبكية</placeName></orgName> قدم عرضحال
+               للمجلس ينهى فيه بأنه من منذ سنتين أو ثلاثة قد أصيب المدع <persName xml:id="person-WA1297084101-1_02" role="لبان">عبد الرحمن على اللبان</persName>
+               الساكن بالحارة شياخته بمرض يعتريه بعض الأوقات يوجب الأقدام على أشياء لا يدركها
+               وتفريطه في أفعاله ويري لكل ناظر إليه عدم اختلاف هيئته الشخصية ولا في نطقه وانه مع
+               شهرته بهذه وكونه ذو ملك يخاف عليه من مداخلة الناس بأعمال اجراآت مخلة باملاكه التزم
+               باعلان المجلس عن ذلك لوقاية أموال المذكور واجراء مقتضيات الأصول نحو توقيع الحجر عليه
+               وإقامة القيم الشرعى مع النشر عنه وبعد الكشف عليه بمعرفة جمعية أطباء وجد أن معه تغير
+               في القوة العقلية ولا يحسن التصرف وكونه تقرر ممن حضر وبالمجلس على أن عبد الرحمن
+               المذكور فهو مخلول وبه عته ولا يحسن التصرف استصوب بالمجلس توقيع الحجز عليه وإقامة أخيه
+                  <persName xml:id="person-WA1297084101-1_03">سليمان على اللبان</persName> قيما عليه
+               لحسن الشهادة في حقه وصدر بذلك اعلام شرعى من <orgName xml:id="org-WA1297084101-1_04" ref="محكمة-مصر" type="محكمة">محكمة مصر</orgName> مؤرخ في ١٩ شوال سنة ٩٦ نمرة ٧٩
+               وقد توضح بتلك النسخة عن حصول النشر من الضبطية لجهات الأقتضا وبالوقايع بتجنب معاملة
+               الشخص المذكور بدون واسطة القيم وانه من تاريخ الأعلان لا يقبل منه أى معاملة ولا اعتبار
+               ولا اعتماد أى سند أو كمبيالة أو غيره وعلى ذلك قد نشر في تاريخه للجهات وهذا للمعلومية
+               بما توضح.</p>
+         </div>
+         <div xml:id="WA1297084801-2" resp="#eSG">
+            <head><date when-custom="1297-02-20">٢٠ صفر ١٢٩٧</date>
+               <date when="1880-02-01">١ فبراير ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٤٨</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297084801-2_01" ref="ديوان-الاوقاف" type="ديوان">ديوان الاوقاف</orgName> بتاريخ ٣ صفر سنة ٩٧</head>
+            <p>ثلاثة دكاكين وباب ربع وعلوهم متخربين ومسطح أرضهم ٨٥ و ٨٩ مترا كائنين على رأس
+                  <placeName xml:id="place-WA1297084801-2_01" type="درب" ref="درب-الدليل">درب الدليل</placeName> و<placeName xml:id="place-WA1297084801-2_02" ref="حيضان-الموصلى">حيضان الموصلى</placeName>
+               <placeName xml:id="place-WA1297084801-2_03" ref="وقف-السلطان-المؤيد" type="وقف"><orgName xml:id="org-WA1297084801-2_02" ref="وقف-السلطان-المؤيد" type="وقف">وقف <persName xml:id="person-WA1297084801-2_01">السلطان المؤيد</persName></orgName></placeName> مقتضى
+               خروجهم بالاستبدال وأهل الخبرة وأجروا تتمنيهم بمبلغ أربعة آلاف قرش عمله صاغ فكل من
+               يرغب لاخذهم بالزيادة فمن بعد المعاينة يتوجه إلى مأمور <orgName xml:id="org-WA1297084801-2_03" type="قسم" ref="قسم-ثالث-اوقاف">قسم ثالث أوقاف</orgName> ليعطي المزاد اللازم بما يرغبه
+               بالقايمة المحررة عن ذلك وتحدد ميعاد خمسة عشر يوم لنهو المزاد المذكور من تاريخه أدناه
+               وحيث مقتضى درجهم بالوقايع كالجاري لزم ترقيمه ليتنبه بالاجراء حسب ما ذكر.</p>
+         </div>
+         <div xml:id="WA1297084802-3" resp="#eSG">
+            <head><date when-custom="1297-02-20">٢٠ صفر ١٢٩٧</date>
+               <date when="1880-02-01">١ فبراير ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٤٨</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><rs type="اعلان">اعلان</rs> وارد منه أيضًا بتاريخ ١٩ صفر سنة ٩٧</head>
+            <p>يكون معلوما لدى جميع مالكين الأراضى والأطيان ب<placeName xml:id="place-WA1297084802-3_01" ref="ناحية-الويلى-الكبير" type="ناحية">ناحية الويلى الكبير</placeName> من ضواحى المحروسة ان <orgName xml:id="org-WA1297084802-3_01" type="مصلحة" ref="مصلحة-عموم-الترابيع">مصلحة عموم التاربيع</orgName> ستبتدئ يوم ٧
+               فبراير سنة ١٨٨٠ الموافق ٢٦ صفر سنة ١٢٩٧ بإجراء عملية المساحة في الناحية المذكورة
+               أعلاه بناء عليه كل منتفع أوصاحب ملك بأراضى الناحية المذكورة له الحق في الحضور بهذه
+               العملية للتعريف عن حدود أرضه وذلك يكون أما بنفسه أو بتعيين وكيل معتمد لينوب عنه فى
+               ذلك لحين انتهاء هذه العملية.</p>
+         </div>
+         <div xml:id="WA1297084901-4" resp="#eSG">
+            <head><date when-custom="1297-02-23">٢٣ صفر ١٢٩٧</date>
+               <date when="1880-02-03">٣ فبراير ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٤٩</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297084901-4_01" type="ضبطية" ref="ضبطية-مصر">ضبطية
+                  مصر</orgName> بتاريخ ٣ صفر سنة ٩٧</head>
+            <p>مقدما <rs type="عرض">عرض</rs> للمحافظة الملغية من <persName xml:id="person-WA1297084901-4_01">الحرمة نفيسة
+                  الخشنية</persName> بان لها خمسة عشر قيراط بدكان ب<placeName xml:id="place-WA1297084901-4_01" type="جهة" ref="جهة-السيدة-زينب">جهة السيدة
+                  زينب</placeName> وحجتها ضايعة ولما أفيد من المحكمة نمرة ١١٦ بما تبين لدى الكشف من
+               السجلات قد حصل التحرى بمخابرة <orgName xml:id="org-WA1297084901-4_02" type="بيت-مال" ref="بيت-مال-مصر">بيت مال
+                  مصر</orgName> و<orgName xml:id="org-WA1297084901-4_03" type="ديوان" ref="ديوان-الاوقاف">ديوان الأوقاف</orgName>
+                  وال<orgName xml:id="org-WA1297084901-4_04" ref="محكمة">محكمة</orgName> ووردت الافادات بوضاحة ما صار اجراؤه من
+               التحريات والتحقيقات التى من ضمنها توضح بما ورد من المحكمة في ٢٨ صفر سنة ٩٦ نمرة ٨٤
+               بانه جرى التحقيق اللازم بمعرفة <persName xml:id="person-WA1297084901-4_02" role="كاتب">الشيخ على حسين أحد كتاب
+                  المحكمة</persName> والشيخ المذكور أورى بأنه تحقق لديه ملكية <persName xml:id="person-WA1297084901-4_03">الحرمة نفيسة
+                  بنت المرحوم <persName xml:id="person-WA1297084901-4_04">موسى الخشنى المبيض فى النحاس</persName></persName> للحصة
+               التي قدرها خمسة عشر قيراط من بنا الحانوت الكائنة ب<placeName xml:id="place-WA1297084901-4_02" ref="خط-قناطر-السباع" type="خط">خط قناطر
+                  السباع</placeName> لباقى ما أوضحه وتأشر من <placeName xml:id="place-WA1297084901-4_03" ref="ورشة-املاك-الميرى" type="ورشة">ورشة أملاك
+                  الميرى</placeName> بما يفيد عدم الاستدلال على الحصة المرقومة وتقدم ضمانة بامضا
+               وأختام كل من الحرمة نفيسة الخشنية والضامن اليها <persName xml:id="person-WA1297084901-4_05" role="ضامن">الشيخ ابراهيم
+                  عبد المتعال</persName> بان حصة الخمسة عشر قيراط من بناء الحانوت المذكورة هى ملك
+               الحرمة نفيسة المرقومة وانه لا مانع من التصريح باخراج حجة بدل الضايعة لباقى ما نص عنه
+               بالضمانة والشيخ عبد المتعال أحمد أوضح على نفس الضمانة بان ضمان الحرمة نفيسة والضامن
+               اليها عليه فى كل ما يكون وتصدق من شيخ <orgName xml:id="org-WA1297084901-4_05" ref="طايفة الفرانين">طايفة <choice>
+                     <sic>لفرانين</sic>
+                     <corr>الفرانين</corr>
+                  </choice></orgName> بان ضمان حضور وغروم وتأشر بختم الضبطية على نفس الضمانة بان ختم
+                  <persName xml:id="person-WA1297084901-4_06">السيد حمودة</persName> المبصوم بها مضاهى للوارد بالسجل وحيث من الاقتضا
+               النشر عن ذلك بالجرانيل وتحدد ميعاد واحد وثلاثون يوما لكى اذا كان يظهر وجود معارض ولا
+               منازع في ذلك فالمحكمة تجرى تحرير حجة بدل الضايعة وبتاريخه تحرر للمحكمة عنا ذكر وأرسلت
+               اليها الضمانة وباقى الأوراق كما وصار النشر عموما للجهات ولزم تحريره للمعلومية والنشر
+               حسب ما توضح.</p>
+         </div>
+         <div xml:id="WA1297085101-5" resp="#eSG">
+            <head><date when-custom="1297-02-27">٢٧ صفر ١٢٩٧</date>
+               <date when="1880-02-08">٨ فبراير ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٥١</biblScope>
+                  <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297085101-5_01" ref="نظارة-المالية" type="نظارة">نظارة المالية</orgName> بتاريخ ٥ فبراير سنة ٨٠</head>
+            <p>موجود ب<placeName xml:id="place-WA1297085101-5_01" ref="مخزون-الآلات" type="مخزون">مخزن الآلات</placeName> ب<placeName xml:id="place-WA1297085101-5_02" ref="بولاق">بولاق</placeName> جملة اصناف قطع زهر قديم وحديد قديم وأخشاب وخلافه
+               تعلق الميرى وسيجرى مبيع ذلك بالمزاد بين الراغبين على مقتضى شروط موجودة ب<orgName xml:id="org-WA1297085101-5_02" ref="قسم-الادارة-العمومية-بنظارة-المالية" type="قسم">قسم الأدارة العمومية بنظارة
+                  المالية</orgName> بكيفية ان كل من يرغب المشترى يقدم اسعاره داخل مظاريف لغاية يوم
+               الخميس ١٢ فبراير سنة ١٨٨٠ فكل من يرغب المشترى يقدم اسعاره داخل مظروف لغاية الميعاد
+               المذكور فقط لآجل فتحها في يوم السبت ١٤ فبراير الساعة ١٠ صباحا بحضور المزايدين بشرط ان
+               تكون المظاريف مختومة <choice>
+                  <sic>بالجمع</sic>
+                  <corr>بالشمع</corr>
+               </choice> الأحمر ومؤشر على ظهورها ما يفيد أنها عن عطا في تلك الأصناف للمعلوميه.</p>
+         </div>
+         <div xml:id="WA1297085102-6" resp="#eSG">
+            <head><date when-custom="1297-02-27">٢٧ صفر ١٢٩٧</date>
+               <date when="1880-02-08">٨ فبراير ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٥١</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297085102-6_01" ref="ضبطية-مصر" type="ضبطية">ضبطية
+                  مصر</orgName> بتاريخ ٩ صفر سنة ٩٧</head>
+            <p>مقدما كان <rs type="عرض">عرض</rs> للمحافظة الملغية من مذكورين بأنه مخلف عن جدهم
+                  <persName xml:id="person-WA1297085102-6_01">المرحوم سيد أحمد نجم التراس</persName> منزل كائن ب<placeName xml:id="place-WA1297085102-6_01" ref="خوخة-سيدى-بدر-الدين">خوخة <persName xml:id="person-WA1297085102-6_02">سيدى بدر
+                     الدين</persName></placeName> ب<orgName xml:id="org-WA1297085102-6_02" ref="ثمن-الخليفة" type="ثمن"><placeName xml:id="place-WA1297085102-6_02" ref="ثمن-الخليفة" type="ثمن">ثمن
+                     الخليفة</placeName></orgName> وحجتها ضايعة ومع حصول التحرى بمخابرة <orgName xml:id="org-WA1297085102-6_03" ref="بيت-مال-مصر">بيت مال مصر</orgName> و<orgName xml:id="org-WA1297085102-6_04" ref="ديوان" type="ديزان-الاوقاف">ديوان الأوقاف</orgName> وال<orgName xml:id="org-WA1297085102-6_05" ref="محكمة">محكمة</orgName> قد وردت الأفادات
+               بوضاحة ما صار اجراؤه من التحريات والتحقيقات التى من ضمنها توضح بما صدر من المحكمة فى
+               ١٠ شوال سنة ٩٥ نمرة ٩٨ بانه جرى التحقيق اللازم بمعرفة <persName xml:id="person-WA1297085102-6_03" role="كاتب">الشيخ
+                  أحمد السيوفى أحد كتاب المحكمة</persName> والشيخ المذكور أورى بأنه تحقق لديه أن
+               المنزل الكائن ب<placeName xml:id="place-WA1297085102-6_03" ref="خط-باب-القرافة" type="خط">خط <placeName xml:id="place-WA1297085102-6_04" ref=" باب القرافة" type="باب">باب القرافة</placeName></placeName> ب<placeName xml:id="place-WA1297085102-6_05" type="حارة" ref="حارة-خوخة-سيدى-بدر-الدين-الوفائى">حارة خوخة <persName xml:id="person-WA1297085102-6_04">سيدى بدر الدين الوفائى</persName></placeName> كان ملكا
+               للمرحوم سيد أحمد نجم التراس المتوفى عن كل من زوجته <persName xml:id="person-WA1297085102-6_05">سكينة بنت
+                     <persName xml:id="person-WA1297085102-6_06">المرحوم على بن عبد الله</persName></persName> واولاده منها ثلاثة وهم
+                  <persName xml:id="person-WA1297085102-6_07">حسنين</persName> و<persName xml:id="person-WA1297085102-6_08">خضرة</persName> و<persName xml:id="person-WA1297085102-6_09">هانم</persName>
+               توفت الزوجة عن أولادها المذكورين وتوفت خضرة عن أخويها ثم توفى حسنين المذكور عن كل من
+               زوجته <persName xml:id="person-WA1297085102-6_10">فطومة بنت <persName xml:id="person-WA1297085102-6_11">سيد أحمد الشاهد</persName></persName> وأولاده
+               الثلاثة هم <persName xml:id="person-WA1297085102-6_12">جبره</persName> و<persName xml:id="person-WA1297085102-6_13">سكينة</persName> منها وأحمد نجم
+               التراس من غيرها ثم توفت جبره عن زوجها <persName xml:id="person-WA1297085102-6_14">عرف البجار ابن محمد</persName>
+               ووالدتها فطومة وشقيقتها سكينة وتوفت فطومة المذكورة عن بنتها سكينة المذكورة وأولاد
+               أخيها شقيقها المرحوم <persName xml:id="person-WA1297085102-6_15">سيد أحمد رفاعى الشاهد</persName> الثلاث هم
+                  <persName xml:id="person-WA1297085102-6_16">على البنا</persName> و<persName xml:id="person-WA1297085102-6_17">حسنين الفاعل</persName> و<persName xml:id="person-WA1297085102-6_18">رفاعى
+                  التراس</persName> وتوفت <choice>
+                  <sic>هنا</sic>
+                  <corr>هانم</corr>
+               </choice> عن أولادها الأربعة هم <persName xml:id="person-WA1297085102-6_19">درويش التراس</persName> و<persName xml:id="person-WA1297085102-6_20">الحرمة
+                  زهرة</persName> و<persName xml:id="person-WA1297085102-6_21">زينب</persName> و<persName xml:id="person-WA1297085102-6_22">أمنه</persName> أولاد
+               المرحوم <persName xml:id="person-WA1297085102-6_23">مصطفى الشهير بالمعنى التراس</persName> وتوفت آمنه عن والديها
+                  <persName xml:id="person-WA1297085102-6_24">محمد الشهير بالزيات التراس</persName> و<persName xml:id="person-WA1297085102-6_25">مرسى العربجى</persName>
+               من غير شريك وأن المكان المذكور انتقل من بعد المتوفين المذكورين للورثة المحكمى عنهم
+               لباقى ما أوراه وتأشر من <orgName xml:id="org-WA1297085102-6_06" ref="ورشة أملاك الميرى" type="ورشة">ورشة أملاك
+                  الميرى</orgName> بما يفيد عدم الأستدلال على المنزل المذكور وتقدم ضمانة بامضا
+               واختام كل من الورثة المذكورين والضامن اليهم <persName xml:id="person-WA1297085102-6_26" role="ضامن">المعلم حسين على أبو
+                  خود</persName> بشأن المنزل البادى ذكره وانه ملك الورثة المذكورين ولا مانع من
+               التصريح بتحرير حجة بدل الضايعة لباقى ما نص عنه بالضمانة وتصدق من شيخ <orgName xml:id="org-WA1297085102-6_07" ref="طايفة الحجارة" type="طايفة">طايفة الحجارة</orgName> بان المعلم حسين على أبو
+               خود الضامن معتمد ومقتدر وضمان الضامن والمضمونين عليه ضمان حضور وغروم وتأشر على نفس
+               الضمانة بختم الضبطية بان ختم شيخ طايفة الحجارة المبصوم بها مضاهى للمبصوم بسجل الضبطية
+               وحيث من الأقتضا النشر عن ذلك بالجرانيل وتحدد ميعاد واحد وثلاثون يوما لكى بانتهاء
+               الميعاد المذكور اذا كان لا يظهر وجود معارض ولا منازع في ذلك فالمحكمة تجرى تحرير حجة
+               بدل الضايعة وبهذا صار النشر للجهات عموما وكتب للمحكمة أيضا وأرسلت إليها الضمانة مع
+               كامل الأوراق والأجراء حسب ما ذكر ولزم تحريره للنشر كما توضح.</p>
+         </div>
+         <div xml:id="WA1297085103-7" resp="#eSG">
+            <head><date when-custom="1297-02-27">٢٧ صفر ١٢٩٧</date>
+               <date when="1880-02-08">٨ فبراير ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٥١</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297085103-7_01" ref="ضبطية-مصر" type="ضبطية">ضبطية
+                  مصر</orgName> بتاريخ ١٠ صفر سنة ٩٧</head>
+            <p>انه لوجه ما عرض من <persName xml:id="person-WA1297085103-7_01" role="شيخ حارة">درويش
+                  مصطفى شيخ <placeName xml:id="place-WA1297085103-7_01" ref="حارة-باب-الخلق" type="حارة">حارة <placeName xml:id="place-WA1297085103-7_02" type="باب" ref="باب-الخلق">باب الخلق</placeName></placeName></persName> وأخته <persName xml:id="person-WA1297085103-7_02">الحرمة نفيسة بنت مصطفى</persName> بانه مخلف عن
+               والدهم عقار وحجته ضايعة ويلتمسوا تحرير حجج بدل الضايعين قد حصل تحرير بمخابرة <orgName xml:id="org-WA1297085103-7_02" ref="بيت-مال-مصر">بيت مال مصر</orgName> و<orgName xml:id="org-WA1297085103-7_03" type="ديوان" ref="ديوان-الاوقاف">ديوان
+                  الأوقاف</orgName> وال<orgName xml:id="org-WA1297085103-7_04" ref="محكمة">محكمة</orgName> ووردت الأفادات وأخيرا من المحكمة رقم ٢١ دا سنة ١٢٩٦ نمرة ٩٥
+               بوضاحة ما صار اجراؤه من التحريات والتحقيقات التى من ضمنها تورى بافادة المحكمة انه جرى
+               التحقيق اللازم عن ذلك بمعرفة <persName xml:id="person-WA1297085103-7_03" role="كاتب">الشيخ عبد السلام أحد كتاب المحكمة</persName> والشيخ المذكور أوضح بأنه تحقق لديه
+               جريان الحانوت الوارد ب<placeName xml:id="place-WA1297085103-7_03" ref="خط-الازهر" type="خط">خط <orgName xml:id="org-WA1297085103-7_05" ref="الازهر">الأزهر</orgName></placeName> برأس العطفة الموصلة ل<placeName xml:id="place-WA1297085103-7_04" ref="مسجد-الاستاذ-الحلوجى" type="مسجد"><orgName xml:id="org-WA1297085103-7_06" ref="مسجد-الاستاذ-الحلوجى" type="مسجد">مسجد
+                        <persName xml:id="person-WA1297085103-7_04">الأستاذ
+                     الحلوجى</persName></orgName></placeName> وحصة الثلثاى ستة عشر قيراط فى كامل
+               المكان الكائن ب<placeName xml:id="place-WA1297085103-7_05" ref="خط-باب-الخلق" type="خط">خط باب الخلق</placeName> داخل <placeName xml:id="place-WA1297085103-7_06" ref="كوم-الصعايدة" type="كوم">كوم
+                  الصعايدة</placeName> في ملك درويش مصطفي النحاس سابقا وأخته شقيقته الحرمه نفيسة
+               ولدى المرحوم <persName xml:id="person-WA1297085103-7_05">مصطفى الزينى
+                  الصرماتى</persName> آل ذلك اليهم بالأرث الشرعى من قبل والدهما لباقى ما أوضحه وتأشر
+               من <placeName xml:id="place-WA1297085103-7_07" ref="ورشة-املاك-الميرى" type="ورشة">ورشة أملاك الميرى</placeName> على نفس ماورد من المحكمة بما يفيد عدم المعلومية
+               وتقدم ضمانة بامضا وأختام كل من دوريش مصطفي وأخته الحرمه نفيسة والضامن اليهم <persName xml:id="person-WA1297085103-7_06" role="ضامن">الحاج محمد أحمد القمصنجى</persName>
+               بشأن الحانوت وحصة المنزل الواضح عنهم <choice>
+                  <sic>ر</sic>
+                  <corr>و</corr>
+               </choice> انهم ملك المذكورين آلوا اليهم بالأرث الشرعى من قبل والدهم وانه لا مانع من
+               التصريح باخراج حجج بدل الضايعين لباقى ما نص عنه بالضمانة وتصدق من <persName xml:id="person-WA1297085103-7_07" role="رئيس حدادين">الحاج أحمد الخشنى رئيس
+                  الحدادين</persName> بان الحاج محمد أحمد الضامن فيما توضح عنه بالضمانة فانه معتمد
+               ومقتدر وكفؤا الى الضمانة وأن الضمانة عليه ضمان حضور وغروم وتأشر بختم ال<orgName xml:id="org-WA1297085103-7_07" ref="ضبطية">ضبطية</orgName> على نفس الضمانة بان ختم
+               رئيس <orgName xml:id="org-WA1297085103-7_08" ref="طايفة الحدادين" type="طايفة">طايفة
+                  الحدادين</orgName> المبصوم بها مضاهى للوارد بالسجل وحيث من الأقتضا النشر عن ذلك
+               بالجرانيل وتحدد ميعاد واحد وثلاثون يوما لكى اذا كان لا يظهر وجود معارض ولا منازع في
+               ذلك فالمحكمة تجرى تحرير حجج بدل الضايعين وكتب بتاريخه للمحكمة عن ذلك وأرسلت إليها
+               الضمانة وباقى الأوراق كما وصار النشر للجهات عموما عمن ما ذكر واقتضى تحريره للنشر
+               بالجرانيل حسب ما توضح.</p>
+         </div>
+         <div xml:id="WA1297085201-8" resp="#eSG">
+            <head><date when-custom="1297-02-29">٢٩ صفر ١٢٩٧</date>
+               <date when="1880-02-10">١٠ فبراير ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٥٢</biblScope>
+                  <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297085201-8_01" ref="ضبطية-مصر" type="ضبطية">ضبطية
+                  مصر</orgName> بتاريخ ٢٢ صفر سنة ٩٧</head>
+            <p>مقدما <rs type="عرض">عرض</rs> من المحافظة الملغية من <persName xml:id="person-WA1297085201-8_01">مصطفى أحمد جاموس</persName> بأنه يمتلك نصف منزل
+               كائن ب<placeName xml:id="place-WA1297085201-8_01" type="سوق" ref="سوق-الزلط">سوق
+                  الزلط</placeName> ب<placeName xml:id="place-WA1297085201-8_02" type="ثمن" ref="ثمن-الازبكية"><orgName xml:id="org-WA1297085201-8_02" ref="ثمن-الازبكية" type="ثمن">ثمن الأزبكية</orgName></placeName> وحجته ضايعة وبناء على ما عطيت به
+               افادة المحكمة نمرة ١٣٩ قد حصلت التحريات بمخابرة <orgName xml:id="org-WA1297085201-8_03" ref="بيت-مال-مصر">بيت مال مصر</orgName> و<orgName xml:id="org-WA1297085201-8_04" type="ديوان" ref="ديوان-الاوقاف">ديوان
+                  الأوقاف</orgName> وال<orgName xml:id="org-WA1297085201-8_05" ref="محكمة">محكمة</orgName> ووردت الأفادات بوضاحة ما صار اجراؤه من التحريات والتحقيقات التى
+               من ضمن ما أفيد من المحكمة نمرة ٨٨ عما أوضحه <persName xml:id="person-WA1297085201-8_02" role="كاتب">الشيخ مصطفى عبد رب النبى <choice>
+                     <sic>التى</sic>
+                     <corr>الذى</corr>
+                  </choice> أحد كتاب المحكمة</persName> الذى أورى بأنه تحقق لديه أن المرحوم
+                  <persName xml:id="person-WA1297085201-8_03">الحاج مصطفى أبو جاموس</persName> ابن
+               المرحوم <persName xml:id="person-WA1297085201-8_04">الحاج أحمد أبو جاموس</persName>
+               حال حياته يمتلك حصة قدرها اثنى عشر قيراطا من بنا مكان بخطه المقيم ب<placeName xml:id="place-WA1297085201-8_03" ref="سوق الزلط" type="سوق">سوق الزلط</placeName>
+                  ب<placeName xml:id="place-WA1297085201-8_04" type="عطفة" ref="عطفة-الجامع">عطفة
+                  الجامع</placeName> وحصة قدرها أربعة قراريط من أرض المكان المذكور إلى حين وفاته
+               وانتقل ذلك من بعده لاولاده الثلاثة هم <persName xml:id="person-WA1297085201-8_05">الحاج حسين جاموس</persName> و<persName xml:id="person-WA1297085201-8_06">الحرمة
+                  منتهى</persName> و<persName xml:id="person-WA1297085201-8_07">محمد
+                  القاصر</persName> من غير شريك قد كتب الى بيت المال بما اقتضى عن ذلك وأفيد عنه
+               أخيرا رقم ٧ صفر سنة ٩٤ نمرة ٢٥ بوضاحة ما تبين لدى الكشف من دفاتر بيت المال وتنوه بأنه
+               عند التحرى للمحكمة يتحرر حجة بدل الضايعة يتورى لها عن ارسالها الى بيت المال لوجود
+               قاصر ضمن الورثة وتأشر من <orgName xml:id="org-WA1297085201-8_06" ref="ورشة-املاك-الميرى" type="ورشة">ورشة أملاك الميرى</orgName> بما يفيد عدم
+               الاستدلال على نصف المنزل المذكور وحيث تقدم ضمانة بامضا وأختام كل من الحاج حسين جاموس
+               والحرمة منتهى محمد جاموس ومحمد جاموس أولاد المرحوم الحاج مصطفى جاموس المذكور والضامن
+               اليهم <persName xml:id="person-WA1297085201-8_08">عيد عزام السقا</persName> بشأن
+               النصف منزل المرقوم وانه ملك الورثة المذكورين ولا مانع باخراج حجة بدل الضايعة لباقى ما
+               نص عليه بالضمانة وتصدق عليها من كل من <persName xml:id="person-WA1297085201-8_09" role="رئيس سقايين">هيبة خلف رئيس <orgName xml:id="org-WA1297085201-8_07" ref="طايفة السقايين" type="طايفة">طايفة السقايين</orgName> سابق</persName> ومن
+                  <persName xml:id="person-WA1297085201-8_10" role="رئيس سقايين">عبد ربه عبيد رئيس
+                  طايفة السقاين</persName> بان الضامن المذكور مقتدر ومعتمد وضمانه عليهما في ذلك ضمان
+               حضور وغروم كما وتصدق من شيخ ثمن الأزبكية بان عبد ربه عبيد معتمد وضمانه عليه وتأشر على
+               نفس الضمانة بختم الضبطية بان ختم شيخ ثمن الأزبكية المبصوم بها مضاهى إلى المبصوم
+               بسجلات الضبطية ولكون من الأقتضا النشر عن ذلك بالجرانيل فقد تحدد ميعاد واحد وثلاثون
+               يوما لكي اذا كان لا يظهر وجود معارض ولا منازع في ذلك فالمحكمة تجري تحرير حجة بدل
+               الضايعة وبهذا حصل النشر للجهات عموما وكتب للمحكمة أيضا وأرسل اليها الضمانة وباقي
+               الأوراق ولزم تحريره ليتنبه بدرج ذلك بالجرانيل حسب ما ذكر.</p>
+         </div>
+         <div xml:id="WA1297085901-9" resp="#eSG">
+            <head><date when-custom="1297-03-20">٢٠ ربيع الأول ١٢٩٧</date>
+               <date when="1880-03-01">غرة مارث ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٥٩</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297085901-9_01" ref="نظارة-الاشغال-العمومية" type="نظارة">نظارة الأشغال العمومية</orgName> بتاريخ ١٨ ربيع الأول سنة ١٢٩٧</head>
+            <p><orgName xml:id="org-WA1297085901-9_02" type="ديوان" ref="ديوان-الاشغال-العمومية">ديوان الأشغال العمومية</orgName>
+               يشهر في المزاد أشغال المكادم المقتضى أجراؤها ب<placeName xml:id="place-WA1297085901-9_01" type="شارع " ref="شارع-السيدة-زينب">شارع السيدة زينب</placeName> الموصل ل<placeName xml:id="place-WA1297085901-9_02" ref="فم-الخليج">فم الخليج</placeName> وقد تحدد ميعاد لنهو المزاد يوم ١٥ مارث سنة
+               ١٨٨٠ فمن أراد اجراء هذه العملية يحضر بقلم العمارات ليطلع على الشروط المختصة بذلك ومن
+               يتأخر عن الميعاد المحدد فلا يقبل منه قول فيما بعد.</p>
+         </div>
+         <div xml:id="WA1297086001-10" resp="#eSG">
+            <head><date when-custom="1297-03-23">٢٣ ربيع الأول ١٢٩٧</date>
+               <date when="1880-03-04">٤ مارث ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٦٠</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297086001-10_01" ref="بيت-مال-مصر">بيت مال
+                  مصر</orgName> بتاريخ ١٤ ربيع الأول سنة١٢٩٧</head>
+            <p>موجود نصف خربة ب<placeName xml:id="place-WA1297086001-10_01" ref="سوق-الخشب-القديم" type="سوق">سوق الخشب القديم</placeName> ب<orgName xml:id="org-WA1297086001-10_02" ref="ثمن-الازبكية" type="ثمن"><placeName xml:id="place-WA1297086001-10_02" ref="ثمن-الازبكية" type="ثمن">ثمن الأزبكية</placeName></orgName> سابق ضبطها
+               بناء على الاخبارية من<persName xml:id="person-WA1297086001-10_01" role="شيخ ثمن">عبد
+                  الجليل شيخ الثمن سابق</persName> فى ٢٣ ج سنة ١٢٧٦ بالقول انها مخلفة عن حرمة تسما
+                  <persName xml:id="person-WA1297086001-10_02">محبوبة</persName> متوفية عن أولادها
+               اثنين احدهم باع ما خصه والثانى غائب من مدة الرديف لا يعلم محله ولا ان كان توفى أو على
+               قيد الحياة وبإجراء التحريات المقتضية عن ذلك فلم كان يستدل على اسم المالك للنصف
+               المذكور ثم وبمكاتبة <orgName xml:id="org-WA1297086001-10_03" type="ديوان" ref="ديوان-الاوقاف">ديوان الأوقاف</orgName> عن ذلك وردت افادته رقم ٢٨ ش سنة ١٢٩٢
+               نمرة ٤٧٦ بأن نصف الخربة المذكورة لا يكن من حقوقه ثم وردت افادة أيضا من <orgName xml:id="org-WA1297086001-10_04" type="محافظة" ref="محافظة-مصر">محافظة
+                  مصر</orgName> بعدم مصادفة الخربة المذكورة تضمينات مستجدة هذا ولتقديم تذكرة للمصلحة
+               من <persName xml:id="person-WA1297086001-10_03"><choice>
+                     <sic>تا..رس</sic>
+                     <corr>تادرس</corr>
+                  </choice> أفندى سيدهم من مستخدمين <orgName xml:id="org-WA1297086001-10_05" ref="المالية">المالية</orgName></persName> برغبته مشتري الزراع في الخربه المحكى
+               عنها بسعر خمسة قروش صاغ صار الأستئذان من <orgName xml:id="org-WA1297086001-10_06" ref="الداخلية">الداخلية</orgName> لمبيع النصف المرقوم وصدر أمرها أخيرا فى <date when="1296-06-29">٢٩ جماد الثانى سنة ١٢٩٦</date> نمرة ١١٩ تصريحا باشهار مزاد
+               المبيع بميعاد واحد وتسعين يوم وعلى ذلك تحرر ل<orgName xml:id="org-WA1297086001-10_07" ref="ديوان الأشغال" type="ديوان">ديوان الأشغال</orgName> بمقاس الخربة المذكورة
+               فوردت افادته رقم ١٧ يوليه سنة ٧٩ نمرة ٤٤ بان مسطحها أربعة وثمانون ذراع وثلث وربع
+               وبناء على ما ذكر قد تحررت قايمة مزاد باشهار نصف الخربة البادى ذكرها بالميعاد المرقوم
+               وارسلت الى رئيس دلالين العقار بالمحروسة وتوضح بها أن كافة المصاريف من دلالة ومسيرى
+               ورسومات وغيره على المشترى بدون تكليف المصلحة بشئ ما وبعد مرسى المزاد على أى شخص كان
+               واتضح عدم وجود الراغب بزيادة يصير الأستئذان عن المبيع ومتى صدر الأمر بالسماح فى
+               المبيع يجرى قبض الثمن ومكاتبة المحكمة بتوقيع المبايعة بحيث لم يحصل السماح في التسليم
+               لمن يرسى عليه المزاد فلا يكن له تدعى على بيت المال بشئ ما وقد تحرر للجهات عموما في
+               تاريخه عن ذلك وهذا لاعلانه على مستخدمين ذاك الطرف وفروعه حتى كل من له رغبة فى المشترى
+               يحضر لبيت المال أو وكيلا من طرفه بالضمانة والأفادة المقتضية قبل حلول الميعاد المرقوم
+               بيومين لاعمال المزاد بالمصلحة حسب الجارى</p>
+         </div>
+         <div xml:id="WA1297086101-11" resp="#eSG">
+            <head><date when-custom="1297-03-25">٢٥ ربيع الأول ١٢٩٧</date>
+               <date when="1880-03-06">٦ مارث ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٦١</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head>الحوادث الداخلية</head>
+            <p>سبق انه نشر فى الصحيفة صورة الأمر العالى الصادر في تاريخ ١٥ فبراير سنة ١٨٨٠ المتضمن
+               الترخيص بانشاء <orgName xml:id="org-WA1297086101-11_01" type="بنك" ref="البنك-العقارى-المصرى">البنك العقارى
+                  المصرى</orgName> وهذه صورة ترجمة نظامنا منه بالتفصيل.</p>
+         </div>
+         <div xml:id="WA1297086102-12" resp="#eSG">
+            <head><date when-custom="1297-03-25">٢٥ ربيع الأول ١٢٩٧</date>
+               <date when="1880-03-06">٦ مارث ١٨٨٠</date>
+               <bibl><biblScope unit="issue">ذيل لنمرة ٨٦١</biblScope>
+                  <biblScope unit="page">لا يوجد رقم صفحة</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297086102-12_01" ref="ضبطية-مصر" type="ضبطية">ضبطية
+                  مصر</orgName> بتاريخ ١١ ربيع الاول سنة ١٢٩٧</head>
+            <p>صورة ترجمة ورقتى اعلانات انه بناء على طلب كل من <persName xml:id="person-WA1297086102-12_01">الخواجات بهوده</persName> و<persName xml:id="person-WA1297086102-12_02">افرايم ليفى</persName> بقصد اعلان كل من الكابجى
+                  و<persName xml:id="person-WA1297086102-12_03" role="كابجى">الحاج رضوان
+                  الكابجى</persName> وبمقتضى المحضر المحرر من <persName xml:id="person-WA1297086102-12_04" role="نائب">الخواجة اسكندر لنسوانى نائب رئيس
+                  كتاب <orgName xml:id="org-WA1297086102-12_02" ref="المحكمة-الابتدائية-المختلطة" type="محكمة">المحكمة الأبتدائية المختلطة</orgName></persName> بمصر بتاريخ ٤
+               فبراير الجارى الذى به يوضح ان الخواجات المذكورين وضعوا بقلم كتاب المحكمة المذكورة
+               دفتر شروطات المزاد للاستحصال على البيع بالمزاد العمومى على المنزل الكائن ب<placeName xml:id="place-WA1297086102-12_01" ref="درب-قرمز" type="درب">درب قرمز</placeName>
+               فبمقتضى ما ذكر قد نبهت على كل من <persName xml:id="person-WA1297086102-12_05" role="كابجى">أحمد الكابجى</persName> والحاج ورضوان الكابجى بانهم يفهموا مضمون دفتر
+               الشروطات المذكور ويعطوا الأقوال والملحوظات التى تترآى لهم وقد تحرر هذا للمعلومية هذا
+               ولما توجه المحضر لاعلان ذلك الى احمد رضوان الكابجى فوجد منزلهم مغلوق ولذا أحضر هذين
+               الورقتين لل<orgName xml:id="org-WA1297086102-12_03" ref="ضبطية">ضبطية</orgName> فى ١٤
+               فبراير سنة ١٨٨٠.</p>
+         </div>
+         <div xml:id="WA1297086201-13" resp="#eSG">
+            <head><date when-custom="1297-03-28">٢٨ ربيع الأول ١٢٩٧</date>
+               <date when="1880-03-09">٩ مارث ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٦٢</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297086201-13_01" ref="ديوان-الاوقاف" type="ديوان">ديوان الأوقاف</orgName> بتاريخ ٢٥ ربيع الأول سنة ١٢٩٦</head>
+            <table>
+               <row>
+                  <cell>
+                     <p>عدد</p>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>
+                     <p>نصف <placeName xml:id="place-WA1297086201-13_01" ref="منزل متخرب كائن بدرب الشيخ صالح ">منزل</placeName> متخرب
+                        كائن ب<placeName xml:id="place-WA1297086201-13_02" type="درب" ref="درب-الشيخ-صالح">درب الشيخ صالح</placeName>
+                           ب<placeName xml:id="place-WA1297086201-13_03" ref="باب-اللوق">باب اللوق</placeName> يبلغ مقاسه ٣٠ متر وكسور
+                           <placeName xml:id="place-WA1297086201-13_04" type="وقف" ref="وقف-سليمان-أبو-طويلة"><orgName xml:id="org-WA1297086201-13_02" ref="وقف-سليمان-أبو-طويلة" type="وقف">وقف<persName xml:id="person-WA1297086201-13_01">سليمان أبو
+                                 طويلة</persName></orgName></placeName> مقتضى خروجه بطريق الأستبدال
+                        لعدم المنفعة منه ومشترى ما هو أنفع لجهة وقفه وتحدد ميعاد لاشعار مزاده ١٥ يوم
+                        فكل من له رغبة فبعد المعاينة يتوجه ل<orgName xml:id="org-WA1297086201-13_03" ref="قسم-رابع" type="قسم">قسم
+                           رابع</orgName> ليعطي المزاد اللازم هناك</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>
+                     <p><placeName xml:id="place-WA1297086201-13_05" ref="منزل متخرب كائن بدرب المزين">منزل</placeName> متخرب كائن ب<placeName xml:id="place-WA1297086201-13_06" type="درب " ref="درب-المزين">درب المزين</placeName> ب<placeName xml:id="place-WA1297086201-13_07" ref="الموسكى">الموسكى</placeName> مسطح
+                        أرضه ٢٩٢.٩٠ متر منه حصة مهر ٢٢ متر فى بناه <placeName xml:id="place-WA1297086201-13_08" type="وقف" ref="وقف-على-سلامة-الدخاخنى"><orgName xml:id="org-WA1297086201-13_04" ref="وقف-على-سلامة-الدخاخنى" type="وقف">وقف <persName xml:id="person-WA1297086201-13_02">علي
+                                 سلامة الدخاخنى</persName></orgName></placeName> مقتضي خروج بناها
+                        بطريق الأستبدال وتأجير الأرض وقد صار درجها ضمن خمسة وثلاثين أعلان وتحدد
+                        ميعاد لنهو المزاد ثلاثين يوم فكل من له رغبة يتوجه ل<orgName xml:id="org-WA1297086201-13_05" ref="قسم-ثانى" type="قسم">قسم ثانى</orgName> ليعطي مزاده بما يرغبه بقايمة المزاد من بعد
+                        المعاينة</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell>٢</cell>
+                  <cell/>
+               </row>
+            </table>
+         </div>
+         <div xml:id="WA1297086301-14" resp="#eSG">
+            <head><date when-custom="1297-04-03">٣ ربيع الثانى ١٢٩٧</date>
+               <date>١٤ مارث ١٨٨٠</date><bibl><biblScope unit="issue">نمرة ٨٦٣</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297086301-14_01" ref="ضبطية-مصر" type="ضبطية">ضبطية
+                  مصر</orgName> بتاريخ ٢٣ ربيع الأول سنة ١٢٩٧</head>
+            <p> قد عرض من <persName xml:id="person-WA1297086301-14_01">الحرمة عائشة بنت
+                  فرح</persName> بانها تمتلك أربعة قراريط بمنزل كائن ب<placeName xml:id="place-WA1297086301-14_01" ref="حارة-درب-الشرفه" type="حارة">حارة درب
+                  الشرفه</placeName> ب<placeName xml:id="place-WA1297086301-14_02" ref="الحسانية">الحسانية</placeName> والحجة ضايعة ولما أفيد من المحكمة نمرة ٨٧ بما تبين لدى الكشف
+               من السجلات حصل التحرى بمخابرة <orgName xml:id="org-WA1297086301-14_02" ref="بيت-مال-مصر">بيت مال مصر</orgName> و<orgName xml:id="org-WA1297086301-14_03" ref="ديوان-الاوقاف" type="ديوان">ديوان الأوقاف</orgName> وال<orgName xml:id="org-WA1297086301-14_04" ref="محكمة">محكمة</orgName> ووردت الأفادات بوضاحة
+               ما صار اجراؤه من التحريات والتحقيقات التى من ضمنتها توضح بما ورد من المحكمة وأخيرا
+               رقم ٢٢ محرم عنه ١٢٩٧ نمرة ٢ بانه جرى التحقيق اللازم عن ذلك بمعرفة <persName xml:id="person-WA1297086301-14_02" role="كاتب">الشيخ عبد السلام محمد أحد كتاب
+                  المحكمة</persName> والشيخ المذكور يورى بانه تحقق لديه تمليك <persName xml:id="person-WA1297086301-14_03">الحرمة عائشة بنت <persName xml:id="person-WA1297086301-14_04">فرح أحمد الضيع</persName></persName> للحصة
+               التى قدرها السدس أربعة قرايط شايعة فى كامل بنا المكان بعد الذى أخرج منه سابقا وهو بنا
+               قطعة أرض وصارت جارية فى ملك الغير كائن ذلك خارج <placeName xml:id="place-WA1297086301-14_03" type="باب" ref="باب-الفتوح">باب
+                  الفتوح</placeName> ب<placeName xml:id="place-WA1297086301-14_04" type="خط" ref="خط-الحسانية">خط الحسانية</placeName> داخل <placeName xml:id="place-WA1297086301-14_05" ref="درب-السادة-الاشراف" type="درب">درب السادة
+                  الأشراف</placeName> المعروف الآن ب<placeName xml:id="place-WA1297086301-14_06" ref="درب-الشرفاء" type="درب">درب الشرفاء</placeName> ب<orgName xml:id="org-WA1297086301-14_05" ref="ثمن-باب-الشعرية" type="ثمن"><placeName xml:id="place-WA1297086301-14_07" ref="ثمن-باب-الشعرية" type="ثمن">ثمن باب
+                     الشعرية</placeName></orgName> لباقى ما أوضحه وتأشر من <orgName xml:id="org-WA1297086301-14_06" ref="ورشة-املاك-الميرى" type="ورشة">ورشة أملاك
+                  الميرى</orgName> ب<orgName xml:id="org-WA1297086301-14_07" type="ضبطية" ref="الضبطية">الضبطية</orgName> بما يفيد عدم المعلومية وتقدم ضمانة بامضا وأختام كل
+               من الحرمة عائشة المذكورة والضامن اليها <persName xml:id="person-WA1297086301-14_05" role="ضامن">مرزوق حمزاوى معلم البنايين</persName> بشأن الحصة المذكورة وانها ملك
+               الحرمة المذكورة ولا مانع من التصريح بتحرير حجة بدل الضايعة لباقى ما نص عنه بالضمانة
+               وتصدق من رئيس طايفة معلمين البنايين بان المعلم مرزوق حمزاوى الضامن معتمد ومقتدر وكفوا
+               لهذه الضمانة وان ضمانه فى ذلك عليه ضمان حضور وغروم وتأشر على نفس الضمانة بختم الضبطية
+               بان ختم <persName xml:id="person-WA1297086301-14_06" role="رئيس بنايين">أحمد عبد
+                  الخالق رئيس البنايين</persName> مضاهى للمبصوم بسجل الضبطية وحيث في تاريخه كتب إلى
+               المحكمة وأرسلت إليها الضمانة وباقى الأوراق ومن الأقتضا النشر عن ذلك بالجرانيل وتحدد
+               ميعاد واحد وثلاثون يوما لكى بانتهاء الميعاد اذا كان لا يظهر وجود معارض ولا منازع
+               فالمحكمة تجرى تحرير حجة بدل الضايعة وهكذا صار النشر لعموم الجهات أيضا وبناء عليه لزم
+               تحريره ليتنبه بالنشر حسب ما ذكر.</p>
+         </div>
+         <div xml:id="WA1297086401-15" resp="#eSG">
+            <head><date when-custom="1297-04-07">٧ ربيع الثانى ١٢٩٧</date>
+               <date when="1880-03-18">١٨ مارث ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٦٤</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297086401-15_01" ref="ديوان-الاوقاف" type="ديوان">ديوان الأوقاف</orgName> بتاريخ ٤ ربيع الثانى سنة ١٢٩٧</head>
+            <table>
+               <row>
+                  <cell>عدد</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>حصة متخربة بحق ٤ قراريط وكسور مسطحها ٤٢,٨٣ متر <orgName xml:id="org-WA1297086401-15_02" ref="وقف-الست-نفيسة-النهرية" type="وقف"><placeName xml:id="place-WA1297086401-15_01" ref="وقف-الست-نفيسة-النهرية" type="وقف">وقف <persName xml:id="person-WA1297086401-15_01" role="واقف">الست نفيسة
+                              النهرية</persName></placeName></orgName> بمنزل ب<placeName xml:id="place-WA1297086401-15_02" ref="حارة-الدالى" type="حارة">حارة
+                        الدالى</placeName> ب<placeName xml:id="place-WA1297086401-15_03" ref="خط-الخطيرى" type="خط">خط الخطيرى</placeName> ب<placeName xml:id="place-WA1297086401-15_04" ref="بولاق">بولاق</placeName> ومقدر عليها
+                     حكر سنوي ٩ قروش و٢٠ فضية ل<orgName xml:id="org-WA1297086401-15_03" ref="وقف-السادة-الغالية" type="وقف"><placeName xml:id="place-WA1297086401-15_05" ref="وقف-السادة-الغالية" type="وقف">وقف
+                           السادة الغالية</placeName></orgName> مقتضى خروجها بالأستبدال وأهل الخبرة
+                     قدروا قيمة بدلها مبلغ ثلاثة آلاف قرش صاغ فكل من كان له رغبة فمن بعد المعاينة
+                     يتوجه إلى مأمور <orgName xml:id="org-WA1297086401-15_04" ref="قسم-ثانى-أوقاف" type="قسم">قسم ثانى أوقاف</orgName> ليعطى المزاد اللازم بالقايمة المحررة عن
+                     ذلك وقد تحدد ميعاد لنهو المزاد المذكور خمسة عشر يوما من تاريخه أدناه.</cell>
+               </row>
+            </table>
+         </div>
+         <div xml:id="WA1297086501-16" resp="#eSG">
+            <head><date when-custom="1297-04-10">١٠ ربيع الثانى ١٢٩٧</date>
+               <date when="1880-03-21">٢١ مارث ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٦٥</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297086501-16_01" type="ضبطية" ref="ضبطية-مصر">ضبطية
+                  مصر</orgName> بتاريخ ٢٨ ربيع الأول ١٢٩٧</head>
+            <p>فيما تقدم عرض للمحافظة الملغية من كل من <persName xml:id="person-WA1297086501-16_01">الحرمة قطر</persName> و<persName xml:id="person-WA1297086501-16_02">الحرمة
+                  زينب</persName> بأنهم يمتلكوا حصة قيراط الا كسور وبمنزل كائن ب<placeName xml:id="place-WA1297086501-16_01" ref="درب-مصطفى" type="درب">درب مصطفى</placeName>
+               آلت اليهم بالميراث من قبل <persName xml:id="person-WA1297086501-16_03">المرحوم محمد
+                  دقنه القماش</persName> وان الحجة ضايعة ولما أن حصل التحرى بمخابرة <orgName xml:id="org-WA1297086501-16_02" ref="بيت-مال-مصر">بيت مال مصر</orgName> و<orgName xml:id="org-WA1297086501-16_03" ref="ديوان-الاوقاف" type="ديوان">ديوان
+                  الأوقاف</orgName> وال<orgName xml:id="org-WA1297086501-16_04" ref="محكمة">محكمة</orgName> وقد أفيدوا بوضاحة ما صار اجراؤه من التحريات والتحقيقات التى من
+               ضمنها توضح ما بما ورد أخيرا من المحكمة رقم ١٦ ذى سنة ٩٦ نمرة ١٠٣ بانه جرى التحقيق
+               لديه ان الحصة التى قدرها ستة قراريط وربع قيراط شايعة في كامل المكان الكائن
+                  ب<placeName xml:id="place-WA1297086501-16_02" ref="خط-ميدان-القبلة" type="خط">خط
+                     <placeName xml:id="place-WA1297086501-16_03" ref="ميدان-القبلة" type="ميدان">ميدان القبلة</placeName></placeName> داخل <placeName xml:id="place-WA1297086501-16_04" ref="درب-مصطفى-بك" type="درب">درب <persName xml:id="person-WA1297086501-16_04">مصطفى بك</persName></placeName> ب<placeName xml:id="place-WA1297086501-16_05" ref="عطفة-ربيع" type="عطفة">عطفة
+                  ربيع</placeName> فى ملك <persName xml:id="person-WA1297086501-16_05">المرحوم حسن
+                  دقـنه ابن محمد</persName> وانه توفى عن <persName xml:id="person-WA1297086501-16_06" type="زوجة-محمد-دقنه-القماش">زوجته الحرمة
+                  فاطمة</persName> وأولاده منها الخمسة وهم <persName xml:id="person-WA1297086501-16_07">الحاج على دقنه</persName> و<persName xml:id="person-WA1297086501-16_08">أحمد دقنه</persName> و<persName xml:id="person-WA1297086501-16_09">محمد دقنه</persName> و<persName xml:id="person-WA1297086501-16_10">زينب</persName> و<persName xml:id="person-WA1297086501-16_11">حنيفة</persName> ثم توفى محمد دقنة عن زوجته
+                  <persName xml:id="person-WA1297086501-16_12">الحرمة قطر بنت سيد أحمد</persName>
+               ووالدته الحرمة فاطمة الزوجة وابنته هى الحرمة زينب المدعوة <persName xml:id="person-WA1297086501-16_13">زنوبة</persName> واخوته أشقاء الآربعة المذكورين
+               وأماما خص الحرمة قطر وابنتها زينب بالأرث من قبل موروثهم محمد دقنه هو نصف وثلث قيراط
+               ونصف ثلث ثمن قيراط وثمن ونصف ثمن ثلث ثمن قيراط من المكان المذكور جارى فى ملكهما
+               بالفريضة الشرعية بينهما لباقى ما أوضحه وتقدم ضمانة بامضا واختام كل من الحرمة قطر
+               والحرمة زينب والضامن اليهم <persName xml:id="person-WA1297086501-16_14" role="ضامن">حسن شهاب القربى</persName> بشأن الحصة المرقومة وانها ملك المذكورين ولا مانع من
+               التصريح باخراج حجة بدل الضايعة لباقى ما نص عنه بالضمانة وتصدق من <persName xml:id="person-WA1297086501-16_15" role="رئيس قربية">محمد شهاب رئيس طايفة
+                  القربية</persName> ومن <persName xml:id="person-WA1297086501-16_16" role="شيخ طائفة">لاشين حسنين شيخ سقايين <orgName xml:id="org-WA1297086501-16_05" ref="ثمن-الازبكية" type="ثمن"><placeName xml:id="place-WA1297086501-16_06" ref="ثمن-الازبكية" type="ثمن">ثمن الأزبكية</placeName></orgName></persName>
+               بأن حسن شهاب الضامن معتمد ومقتدر وكفوا لهذه الضمانة وأن ضمانه عليهم ضمان حضور وغروم
+               وتأشر على نفس الضمانة بختم <orgName xml:id="org-WA1297086501-16_06" type="ضبطية" ref="الضبطية">الضبطية</orgName> بأن ختم لاشين حسنين المبصوم بها مضاهى للوارد بسجل
+               الضبطية وحيث أنه تأشر أيضا من <orgName xml:id="org-WA1297086501-16_07" ref="ورشة-املاك-الميرى" type="ورشة">ورشة أملاك الميرى</orgName> بالضبطية على ما
+               ورد من المحكمة بما يفيد عدم الأستدلال ولهذا وكون من الأقتضاء النشر عن ذلك بالجرانيل
+               فقد تحدد ميعاد واحد وثلاثون يوما لكى بانتهاء الميعاد المرقوم اذا كان لا يظهر وجود
+               معارض ولا منازع فالمحكمة تجرى تحرير حجة بدل الضايعة وبتاريخه كتب للمحكمة عن ما ذكر
+               وأرسلت اليها الضمانة وباقى الأوراق كما وصار النشر للجهات عموما عن ما توضح وبناء عليه
+               اقتضى تحريره ليتنبه بالنشر بالجرانيل حسب ما ذكر.</p>
+         </div>
+         <div xml:id="WA1297086601-17" resp="#eSG">
+            <head><date when-custom="1297-04"><note>first two pages missing, date unknown</note>ربيع
+                  الثانى ١٢٩٧</date><bibl><biblScope unit="issue">نمرة ٨٦٦</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope>
+               </bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297086601-17_01" ref="بيت-المال">بيت
+                  المال</orgName></head>
+            <head>عن بيان العقار الأيل لبيت المال من مذكورين متوفيين بالمحروسة</head>
+            <table cols="3">
+               <row>
+                  <cell>عدد</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ب<placeName xml:id="place-WA1297086601-17_01" ref="ثمن-الجماليه" type="ثمن"><orgName xml:id="org-WA1297086601-17_02" type="ثمن" ref="ثمن-الجماليه">ثمن الجماليه</orgName></placeName></cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>عدد</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة ٤<g ref="#qhalf"/> من منزل بييرجوان مخلفة عن <persName xml:id="person-WA1297086601-17_01">الست شمس نور
+                        البيضا</persName> بحجة لم يوضح بها حكر ومقاس المنزل الذى منه الحصة المذكورة
+                     ١٣٢,٨٤ متر مسطح</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>دكان ب<placeName xml:id="place-WA1297086601-17_02" type="خط" ref="خط-الامشاطية">خط الأمشاطية</placeName> مخلفة
+                     عن <persName xml:id="person-WA1297086601-17_02">الست شمس نور البيضا</persName> مستولده المرحوم <persName xml:id="person-WA1297086601-17_03">سليمان
+                        أغا السلحدار</persName> بغير حجة ومقاسها ٣,٢ زراع وآخر مرساها بسعر ٢٧٠٠ قرش
+                     صاغ</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>نصف دكان ب<placeName xml:id="place-WA1297086601-17_03" ref="الصنادقية">الصنادقية</placeName> مخلفة عن <persName xml:id="person-WA1297086601-17_04" role="معتوقة">زبيدة معتوقة
+                           <persName xml:id="person-WA1297086601-17_05">زهرة</persName></persName> بحجة لم يوضح بها حكر ومقاسها ١٤,١٧
+                     ذراع وأخر مرساها بسعر ٣٦٥٠ قرش صاغ</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة ٦ قراريط من خربة بها طاحونة كائنة ب<placeName xml:id="place-WA1297086601-17_04" ref="حارة-بيرجوان" type="حارة">حارة بيرجوان</placeName> مخلفة عن <persName xml:id="person-WA1297086601-17_06">ذنوبه بنت
+                           <persName xml:id="person-WA1297086601-17_07">على بك الشرابى</persName></persName> بحجة لم يوضح بها حكر
+                     ومقاسها ١٢٥٩,١١ ذراع جميع أرضية الخربه ٤٨,٦٤ ذراع مسطح الركوب التى لها على
+                     أرضيه منها منزل الجار وآخر مرسى المزاد بسعر ٥٣٠٠ قرش صاغ</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة ٩ قراريط من منزل ب<placeName xml:id="place-WA1297086601-17_05" ref="حارة-الشنوانى" type="حارة">حارة
+                        الشنوانى</placeName> مخلف عن <persName xml:id="person-WA1297086601-17_08">محمد أغا خربوطلى</persName> بحجه لم
+                     يوضح بها حكر ومقاسه ٢٥٣,٢٤ ذراع وآخر مرساها بمبلغ ١٤١٥٠ قرش صاغ</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName xml:id="place-WA1297086601-17_06" ref="عطفة-حمام-الافندى" type="عطفة">عطفة <placeName xml:id="place-WA1297086601-17_07" type="حمام" ref="حمام-الافندى">حمام الأفندى</placeName></placeName> مخلف
+                     عن <persName xml:id="person-WA1297086601-17_09">ابراهيم أغا اخسخهلى</persName> وزوجته بحجه لم يوضح بها حكر ومقاسه
+                     ١٧٠,٢٣ متر</cell>
+               </row>
+               <row>
+                  <cell>٦</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ب<orgName xml:id="org-WA1297086601-17_03" ref="ثمن-الخليفة" type="ثمن"><placeName xml:id="place-WA1297086601-17_08" ref="ثمن-الخليفة" type="ثمن">ثمن الخليفة</placeName></orgName></cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>عدد</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName xml:id="place-WA1297086601-17_09" ref="عطفة-شقيون" type="عطفة">عطفة شقيون</placeName>
+                     <choice>
+                        <sic>مجلف</sic>
+                        <corr>مخلف</corr>
+                     </choice> عن <persName xml:id="person-WA1297086601-17_10">آمنه زوجة <persName xml:id="person-WA1297086601-17_11">سعد الدين أغا</persName></persName>
+                     بحجج لم يوضح بهم حكر ومقاسه ٣٦٠,٤٨ ذراع آخر المرسى فيه بمبلغ ٢٣٠٣٥ قرش
+                     صاغ</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName xml:id="place-WA1297086601-17_10" type="درب" ref="درب-الزينى">درب الزينى</placeName> مخلف عن
+                        <persName xml:id="person-WA1297086601-17_12">أمونة بنت <persName xml:id="person-WA1297086601-17_13">حموده أغا جركس</persName></persName> ومقاسه
+                     ٥٠,٠٠ متر وركوب الجار من جهة الشرق بالدور الثالث ١٦,٠٠ متر بغير حجة</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة ١٨ قيراط من منزل ب<placeName xml:id="place-WA1297086601-17_11" ref="طيلون">طيلون</placeName> مخلفه عن
+                        <persName xml:id="person-WA1297086601-17_14">الشيخ أحمد السروجى</persName> بحجة لم بها حكر ومقاسه ٨٣,٢٣ ذراع
+                     آخر المرسى فيها بسعر ٩٠٢ قرش صاغ</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName xml:id="place-WA1297086601-17_12" ref="حارة-العيادية" type="حارة">حارة العيادية</placeName>
+                     متخرب مخلف عن <persName xml:id="person-WA1297086601-17_15">المرحومة حنيفة بنت محمد</persName> بغير حجة ومقاسه
+                     ٥٩,٧٨ متر</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>منزل قيراطين ونصف من منزل ب<placeName xml:id="place-WA1297086601-17_13" ref="الصليبة">الصليبة</placeName> مخلف
+                     عن <persName xml:id="person-WA1297086601-17_16">زبيدة البيضا</persName> بغير حجة ومقاس المنزل ٩٧,٥٦</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>منزل خرب ب<placeName xml:id="place-WA1297086601-17_14" ref="قلعة-الكبش">قلعة الكبش</placeName> مخلف عن
+                        <persName xml:id="person-WA1297086601-17_17">زبيدة بنت ابراهيم</persName> بغير حجة مقاسه ٢٠,٢٤ متر</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName xml:id="place-WA1297086601-17_15" type="درب" ref="درب-الحصر">درب الحصر</placeName> مخلف عن
+                        <persName xml:id="person-WA1297086601-17_18">عثمان أغا دياربكرلى</persName> بحجة لم يوضح بها حكر ومقاسه ٨٩,٦٧
+                     متر</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName xml:id="place-WA1297086601-17_16" type="حارة" ref="حارة-الحنة">حارة الحنة</placeName> وبأسفله
+                     دكان مخلفين عن <persName xml:id="person-WA1297086601-17_19">بنبة حرم <persName xml:id="person-WA1297086601-17_20">اسماعيل أفندى
+                        شكرى</persName></persName> ومقاسه ١٨٨,٩٤ متر بحجة لم يعين بها حكر</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName xml:id="place-WA1297086601-17_17" ref="قلعة-الكبش">قلعة الكبش</placeName> مخلف عن
+                        <persName xml:id="person-WA1297086601-17_21">حنفى القيسونى القهوجى</persName> بحجة لم يعين بها حكر ومقاسه ٨٤,٣٥
+                     متر</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName xml:id="place-WA1297086601-17_18" type="درب " ref="درب-العبيد">درب العبيد</placeName> باسفله
+                     دكان مخلفين عن <persName xml:id="person-WA1297086601-17_22">حنيفة بنت محمد</persName> بحجة لم يوضح بها حكر ومقاسه
+                     ٥٩,٧٨ متر</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة ٥ قراريط من منزل ب<placeName xml:id="place-WA1297086601-17_19" ref="حارة-بنت-المعمار" type="حارة">حارة بنت
+                        المعمار</placeName> مخلفه عن <persName xml:id="person-WA1297086601-17_23" role="معتوقة">بنبة معتوقة
+                           <persName xml:id="person-WA1297086601-17_24">سلوناس</persName></persName> بغير حجة ومقاسه ٣٢٤٧,٠٥ متر آخر
+                     المرسى فيها بمبلغ ١٦٤٠٠ صاغ</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة ٣ قراريط من منزل ب<placeName xml:id="place-WA1297086601-17_20" type="درب " ref="درب-السماكين">درب
+                        السماكين</placeName> مخلفة عن <persName xml:id="person-WA1297086601-17_25">حنيفة بنت حسن محسن</persName> ومقاسه
+                     ٣٦١,٧٨ متر</cell>
+               </row>
+               <row>
+                  <cell>١٢</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>١٨</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>عدد</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ب<placeName xml:id="place-WA1297086601-17_21" ref="ثمن-الازبكيه" type="ثمن"><orgName xml:id="org-WA1297086601-17_04" ref="ثمن-الازبكيه" type="ثمن">ثمن الأزبكيه</orgName></placeName></cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName xml:id="place-WA1297086601-17_22" ref="كوم-الشيخ-سلامة">كوم الشيخ سلامة</placeName> مخلف منه
+                     ١٨ قيراط عن <persName xml:id="person-WA1297086601-17_26">أمنة روميه</persName> بحجة ليس بها حكر و٦ قراريط باقى
+                     المنزل تعلق شخص غايب لا يعلم محله ومقاسه ١٧,٤٨ ذراع آخر مرساه بمبلغ ١٥٠٠ قرش
+                     صاغ</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة ١٦ قيراط من منزل ب<persName xml:id="person-WA1297086601-17_27" type="عطفة" ref="عطفة-سنان">عطفة
+                        سنان</persName> مخلفة عن <persName xml:id="person-WA1297086601-17_28">ترك الداية</persName> ومقاسه ٥٦,٥٨ متر
+                     بحجج لم يوضح بهم حكر</cell>
+               </row>
+               <row>
+                  <cell>٢</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ب<orgName xml:id="org-WA1297086601-17_05" ref="ثمن-عابدين" type="ثمن"><placeName xml:id="place-WA1297086601-17_23" ref="ثمن-عابدين" type="ثمن">ثمن عابدين</placeName></orgName></cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة ٨ قراريط ر من منزل ب<placeName xml:id="place-WA1297086601-17_24" type="درب" ref="درب-الحمام">درب
+                        الحمام</placeName> مخلفين عن <persName xml:id="person-WA1297086601-17_29">استيته بنت أحمد تره</persName>
+                        و<persName xml:id="person-WA1297086601-17_30">أحمد النجار</persName> بحجج ليس بها حكر ومقاسه ١٢٤,٤٦ متر</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>نصف منزل ب<placeName xml:id="place-WA1297086601-17_25" ref="حارة-الزياتين" type="حارة">حارة
+                        الزياتين</placeName> مخلف عن <persName xml:id="person-WA1297086601-17_31">أم النيل بنت محمد</persName> بحجة ليس
+                     لها حكر آخر المرسى فيه بمبلغ ٣٢٥٠ قرش صاغ ومقاسه ٦٦,٨٠</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة ٩ قراريط من منزل ب<placeName xml:id="place-WA1297086601-17_26" ref="حارة-مشمش" type="حارة">حارة
+                        مشمش</placeName> مخلفه عن <persName xml:id="person-WA1297086601-17_32">حسين بيرم الصباغ</persName> بحجة لم بها
+                     حكر ومقاسه ١٢٥,٢٧ متر</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصه ٥ قراريط وكسور من منزل بحارة الصعايده مخلفه عن ظريفة بنت محمد أغا بحجة
+                     لم يوضح بها حكر ومقاسه ١٦٤,٢١ متر</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة ١٦ قيراط من منزل ب<placeName xml:id="place-WA1297086601-17_27" type="درب" ref="درب-الملاح">درب
+                        الملاح</placeName> فيه مخلفه عن <persName xml:id="person-WA1297086601-17_33">أم نصير</persName> ومقاسه ١٨٠,٠٨
+                     متر بحجة فاقده</cell>
+               </row>
+               <row>
+                  <cell>٥</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ب<placeName xml:id="place-WA1297086601-17_28" ref="ثمن-باب-الشعريه" type="ثمن"><orgName xml:id="org-WA1297086601-17_06" ref="ثمن-باب-الشعريه" type="ثمن">ثمن باب الشعريه</orgName></placeName></cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة قيراطين <g>مهو</g> من منزل ب<placeName xml:id="place-WA1297086601-17_29" ref="العدوى">العدوى</placeName> مخلفة عن
+                        <persName xml:id="person-WA1297086601-17_34">محمد رمضان الدخاخنى</persName> بحجة ليس بها حكر آخر مرساها بمبلغ
+                     ١٩٠ قرش صاغ</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName xml:id="place-WA1297086601-17_30" type="درب " ref="درب-الفراخة">درب الفراخة</placeName> مخلف
+                     نصفه عن <persName xml:id="person-WA1297086601-17_35">فاطمة الحبشية</persName> والنصف الآخر رغب مبيعه الشريك مع
+                     النصف تعلق بيت المال بحجة لم يوضح بها حكر ومقاسه ١١٦,٤٦ ذراع</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة ٩ قراريط من منزل ب<placeName xml:id="place-WA1297086601-17_31" type="درب" ref="درب-المهتار">درب
+                        المهتار</placeName> ب<placeName xml:id="place-WA1297086601-17_32" type="درب" ref="درب-الافاعية">درب
+                        الأفاعية</placeName> مخلفة عن <persName xml:id="person-WA1297086601-17_36">عائشة بنت محمد</persName> بحجج لم
+                     يوضح بهم حكر ومقاسه ١١٣,٣٣ متر</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة ٣ قراريط من منزل ب<placeName xml:id="place-WA1297086601-17_33" ref="خوخة-القطانين">خوخة
+                        القطانين</placeName> مخلفة عن عائشة بنت محمد المذكورة أعلاه بحجج لم يوضح بها
+                     حكر ومقاسه ٥١,٨٩ متر</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة ١٨ قيراط من بنا منزل ب<placeName xml:id="place-WA1297086601-17_34" ref="العباسية">العباسية</placeName>
+                     بغير حجة مخلف عن <persName xml:id="person-WA1297086601-17_37">أحمد أفندى حمدى اليوزباشى</persName> ومقاسه ٦٣,٦١
+                     متر</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName xml:id="place-WA1297086601-17_35" ref="الحرنفش">الحرنفش</placeName> مخلف عن <persName xml:id="person-WA1297086601-17_38">ظريفه
+                        بنت <persName xml:id="person-WA1297086601-17_39">محمد أغا</persName></persName> ومقاسه ٦٨,٨٠ بحجج لم يوضح بهم
+                     حكر</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة ٦ قراريط وسهم من منزل ودكان أسفله ب<placeName xml:id="place-WA1297086601-17_36" type="شارع" ref="شارع-خان-ابو-طاقيه">شارع خان أبو طاقيه</placeName> مخلفين عن ظريفة بنت
+                     محمد أغا ومقاسه ١٠٩,٠٠ متر بحجة لم يوضح بها حكر</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة قيراط ونصف من خربه ب<placeName xml:id="place-WA1297086601-17_37" ref="حوش-البقالى" type="حوش">حوش
+                        البقالى</placeName> ب<placeName xml:id="place-WA1297086601-17_38" ref="درب-عجور" type="درب">درب
+                        عجور</placeName> بها سبعة قيعان مخلفة عن <persName xml:id="person-WA1297086601-17_40" role="معتوقة">زهره السودا
+                        معتوقة <persName xml:id="person-WA1297086601-17_41">نفيسة الروزنامجة</persName></persName> بغير حجة ومقاسها
+                     قدره ١٦١,٢٠ مترا آخر المرسى بمبلغ ٥٤٠ قرش صاغ ويخص زوج المرحومه عائشة نصف قيراط
+                     من ذلك وآخر المرسى بمبلغ ٩٠٠ قرش صاغ</cell>
+               </row>
+               <row>
+                  <cell>٨</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell> ب<orgName xml:id="org-WA1297086601-17_07" ref="ثمن-بولاق" type="ثمن"><placeName xml:id="place-WA1297086601-17_39" ref="ثمن-بولاق" type="ثمن">ثمن بولاق</placeName></orgName> جمعيه</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة ١٨ قيراط من منزل ب<placeName xml:id="place-WA1297086601-17_40" ref="طاروق-الخصوصى">طاروق
+                        الخصوصى</placeName> ب<placeName xml:id="place-WA1297086601-17_41" ref="ربع-الجواير" type="ربع">ربع
+                        الجواير</placeName> مخلفة عن <persName xml:id="person-WA1297086601-17_42">أمونة الشهيرة بالبيطارة</persName>
+                     ومقاسه ١٠,٩٢ متر ١٩,٤١ ذراع</cell>
+               </row>
+               <row>
+                  <cell>١٦</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+            </table>
+         </div>
+         <div xml:id="WA1297086701-18" resp="#eSG">
+            <head><date when-custom="1297-04-17">١٧ ربيع الثانى ١٢٩٧</date>
+               <date when="1880-03-28">٢٨ مارث ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٦٧</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>تابع ما ورد من <orgName xml:id="org-WA1297086701-18_01" ref="بيت-المال">بيت المال</orgName></head>
+            <head>عن بيان العقار الأيل من مذكوريين متوفيين بالمحروسة</head>
+            <table cols="3">
+               <row>
+                  <cell>عدد</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ب<placeName xml:id="place-WA1297086701-18_01" ref="ثمن-السيدة-زينب" type="ثمن"><orgName xml:id="org-WA1297086701-18_02" ref="ثمن-السيدة-زينب" type="ثمن">ثمن السيدة
+                        زينب</orgName></placeName></cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>نصف منزل ب<placeName xml:id="place-WA1297086701-18_02" type="درب" ref="درب-البوشى">درب البوشى</placeName> مخلف عن <persName xml:id="person-WA1297086701-18_01">فاطمة بنت حمزة</persName> ومقاسه
+                     ٣٣,٤٤ متر <choice>
+                        <sic>بحج</sic>
+                        <corr>بحجه</corr>
+                     </choice></cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة قيراط ١ و ٢٢ سهم من منزل ب<placeName xml:id="place-WA1297086701-18_03" ref="حارة-السيدة" type="حارة">حارة السيدة</placeName> مخلفة عن <persName xml:id="person-WA1297086701-18_02" role="معتوقة">خديجة السمرا معتوقة <persName xml:id="person-WA1297086701-18_03">حسن كل
+                        البيضا</persName></persName> آخر المرسى فيها بمبلغ ٢٠٠٠ قرش صاغ بحجج لم توضح
+                     بها أحكار</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة ٦ قراريط من منزل ب<placeName xml:id="place-WA1297086701-18_04" ref="درب-ابو-الحاف" type="درب">درب أبو الحاف</placeName> ب<placeName xml:id="place-WA1297086701-18_05" ref="النصرية">النصرية</placeName> مخلفة عن نده
+                     المدينة ومقاسه ٣١,٥٠ متر بحجة ضايعه</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة ٩ قراريط من منزل ب<placeName xml:id="place-WA1297086701-18_06" ref="شارع-الخلوتى" type="شارع">شارع الخلوتى</placeName> مخلفة عن
+                        <persName xml:id="person-WA1297086701-18_04">خليل أغا أبو شنب</persName> بحجة موضح بها حكر وآخر المرسى فيها
+                     بمبلغ ٥٢٢٥ قرش صاغ</cell>
+               </row>
+               <row>
+                  <cell>٤</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>بتمن مصر القديمة</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>عدد</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>نصف منزل ب<placeName xml:id="place-WA1297086701-18_07" ref="حارة القرع" type="حارة">حارة القرع</placeName> مخلف عن <persName xml:id="person-WA1297086701-18_05">عاليه بنت أحمد</persName> بحجة لم
+                     يوضح بها حكر ومقاسه ٥٥,٧٧ متر</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>نصف منزل بحارة القرع مخلف عن <persName xml:id="person-WA1297086701-18_06">ظريفه بنت سليمان</persName> ومقاسه
+                     ٥٤,٠٧ بحجة لم يوضح بها حكر</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة ٧ قراريط من منزل ب<placeName xml:id="place-WA1297086701-18_08" ref="الكفر القديم">الكفر القديم</placeName> من ذلك ثلاثة قراريط ونصف حق
+                        <orgName xml:id="org-WA1297086701-18_03" ref="بيت المال">بيت المال</orgName> كانت واضعه يدها عليها الحرمه
+                     ظريفه المذكورة أعلاه وثلاثة قراريط ونصف ايله لبيت المال من الحصة المخلفة من
+                     الحرمة المذكورة بغير حجة ومقاسه ٣٦,٥٧ متر</cell>
+               </row>
+               <row>
+                  <cell>٣</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>ب<placeName xml:id="place-WA1297086701-18_09" ref="ثمن-الدرب-الاحمر" type="ثمن"><orgName xml:id="org-WA1297086701-18_04" ref="ثمن-الدرب-الاحمر" type="ثمن">ثمن الدرب
+                        الأحمر</orgName></placeName> و<placeName xml:id="place-WA1297086701-18_10" ref="ثمن-قيسون" type="ثمن"><orgName xml:id="org-WA1297086701-18_05" ref="ثمن-قيسون" type="ثمن">قيسون</orgName></placeName></cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>عله</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>مخلف عن <persName xml:id="person-WA1297086701-18_07" role="معتوقة">زبيدة البيضا معتوقة المرحومة
+                     زهره</persName></cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>عدد</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة قيراطين ونصف من دكان ب<placeName xml:id="place-WA1297086701-18_11" ref="المغربلين">المغربلين</placeName> بغير حجة ومقاسها ٥٧,٣ متر</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة قيراطين ونصف من دكان شرح ما قبله بغير حجة ومقاسها شرح ما قبله</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة قيراطين ونصف من دكان بقيسون بغير حجة ومقاسها ٥,٨٨ متر</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة قيراطين ونصف من دكان شرحه بغير حجة ومقاسها ٩,٦٢ متر</cell>
+               </row>
+               <row>
+                  <cell>٤</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell cols="2">نصف بنا منزل كبير ب<placeName xml:id="place-WA1297086701-18_12" ref="درب-الانسية" type="درب">درب الأنسية</placeName> مخلف عن <persName xml:id="person-WA1297086701-18_08">زبيدة
+                        النعناعية</persName> ومقاسه ٣٢٦,٠٠ ذراع وآخر المرسى بمبلغ ٥٨٠٠ قرش صاغ بحجة
+                     موضح بها حكر</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>عدد</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>نصف منزل صغير بدرب الأنسية مخلف عن زبيدة المذكورة اعلاه ومقاسه ١٤١ ذراع بحجة
+                     ليس حكر وآخر المرسى بمبلغ ١٩٠٠ قرش وعشرة فضة صاغ </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة قيراطين ونصف من منزل ب<placeName xml:id="place-WA1297086701-18_13" ref="الحمزية">الحمزية</placeName> مخلفة عن <persName xml:id="person-WA1297086701-18_09">نفيسة بنت محمد
+                        أغا</persName> ومقاسه ١٢١,٧٨ متر</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>حصة ٦ قراريط من منزل ب<placeName xml:id="place-WA1297086701-18_14" ref="درب-شعلان" type="درب">درب شعلان</placeName> مخلفة عن <persName xml:id="person-WA1297086701-18_10">فاطمة بنت <persName xml:id="person-WA1297086701-18_11">محمد
+                           الكبابجى</persName></persName> بحجة لم يوضح بها حكر ومقاسه ١٣٠,٤٥
+                     ذراع</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>١</cell>
+                  <cell>دكان بالنيابة مخلفة عن <persName xml:id="person-WA1297086701-18_12">بنبة حرم <persName xml:id="person-WA1297086701-18_13">اسماعيل أفندى
+                           شكرى</persName></persName> والدكان المذكورة مهدومة ومما ورد من المحافظة
+                     قبل لغوها تورى انه يلزم الدخول بالواجهة الغربية على خط التنظيم المؤشر باللون
+                     الأحمر ومقاسها ٢٣,٠٠ متر</cell>
+               </row>
+               <row>
+                  <cell>٩</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>____</cell>
+                  <cell>____</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>٥٠</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+            </table>
+            <p>فيما سبق صدرت أوامر من الداخلية باشهار مزاد مبيع بعض عقارات ايله لبيت المال وبناء على
+               ذلك كانت تحررت قوائم مزادات عنها ورسى مزاد بعضها على مذكورين وقبل اتمام ما هو لازم
+               لها من الأجراآت صدر أمر <orgName xml:id="org-WA1297086701-18_06" type="الداخلية" ref="الداخلية">الداخلية</orgName>
+               لبيت المال رقيم ٢٩ محرم سنة ٩٦ نمرة ١٢ بطلب كشف ببيان كافة الأملاك الأيله لبيت المال
+               ولما تحرر وتقدم للداخلية صدر أمرها رقيم ٢٣ ر سنة ٩٦ نمرة ٧٣ بتصريح اشهار مزاد مبيع
+               الأملاك المذكورة بميعاد واحد وتسعين يوما واعتبار آخر المزادات المعطية قبلا أول عطا
+               وعلم مما ورد من <orgName xml:id="org-WA1297086701-18_07" ref="ديوان-الاشغال">ديوان الأشغال</orgName> لبيت المال ان
+               تلك الأملاك ليست لازمة للميرى ولذا قد توضح باعلاه ببيان المحلات الكائنة بالمحروسة تمن
+               تمن وتحرر عن كل محل قايمة مزاد مخصوصة وأرسلت الى رئيس دلالين العقار بالمحروسة
+               لاشهارها على الراغبين بميعاد واحد وتسعين يوم من تاريخه وتوضح بالقوايم ان كافة
+               المصاريف من رسم الأيلولة والدلالة والميرى ورسم ديوان الأشغال السابق صرفه من المصلحة
+               وتمن قايمة المزاد وغيره على المشترى بدون تكليف المصلحة بشئ ما وبعد مرسى المزاد على أى
+               شخص كان وحصول الاستئذان وصدور الأمر العالى بالسماح ومنها يجرى قبض الثمن والمصاريف
+               التى يلزم دفعها ببيت المال بحيث ان لم يحصل السماح فى المبيع من بيت المال بعد مرسى
+               المزاد فلا يكن للراسى عليه المزاد أدنى معارضة ولا تداعى في ذلك بأي وجه من الوجوه وقد
+               تحرر للجهات عموما عن ما ذكر وبالجملة هذا لاعلانه حتى كل من له رغبة للمشترى بصفة ما
+               ذكر يؤخذ عليه الضمانة القوية ويرسل هو أو وكيل عنه بافادة لبيت المال مع الضمانة قبل
+               مضى الميعاد بيومين اثنين لحصول المزايده بينه وبين الراغبين وان حضر بعد الميعاد
+               المذكور فلا يقبل منه مزاد ٤٤ الحجة سنة ٩٦.</p>
+         </div>
+         <div xml:id="WA1297086801-19" resp="#eSG">
+            <head><date when-custom="1297-04-20">٢٠ ربيع الثانى ١٢٩٧</date>
+               <date when="1880-03-31">٣١ مارث ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٦٨</biblScope>
+                  <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+            <p>ورد هذا ال<rs type="تقرير">تقرير</rs> زيادة عما سلف من حضرة مأمور الطلومبات بمصر
+                  لل<orgName xml:id="org-WA1297086801-19_01" type="ضبطية" ref="الضبطية-المصرية">ضبطية المصرية</orgName> بتفصيلات
+               الحريق الذى حدث ب<placeName xml:id="place-WA1297086801-19_01" ref="مغالق-الخشب-ببولاق" type="مغالق">مغالق الخشب
+                     ب<placeName xml:id="place-WA1297086801-19_02" ref="بولاق">بولاق</placeName></placeName> في ليلة الأثنين الموافق
+               ١١ ربيع الثانى سنة ١٢٩٧ الساعة ثلاثة عربى ومنها أرسل لنشره بالوقايع <choice>
+                  <sic>مذ</sic>
+                  <corr>منذ</corr>
+               </choice> وصل خبر الحريق المذكور إلى الضبطية و<orgName xml:id="org-WA1297086801-19_02" type="مراكز" ref="مراكز-الطلمبات">مراكز الطلمبات</orgName> قد بودر في الحال فى توجه الطلمبات
+               والأدوات الكفاية اليه مع التتابع وبالوصول وجدت النيران في حال اشتعال زايد ولهذا تعين
+               ترتيب الطلمبات حول الحريق فى النقط المهمة التى ترآى وجوب العمل فيها لأجل المحافظة على
+               عدم سريان النيران الى جهة أخرى باجراء الحجز عليها وقطعها بالكلية عن المحلات المجاورة
+               لها وبما حصل من رجال الضبطية من نحو الأسراع باستجلاب المياه الكفاية وترتيب ما اقتضى
+               ترتيبه من عساكر الاعانة بالتطبيق للقانون صار انقاذ معظم الأخشاب والسقيفة الموجودة
+                  ب<placeName xml:id="place-WA1297086801-19_03" ref="مغلق-الخواجة-رزق-جرجس-وشريكه" type="مغلق">مغلق <persName xml:id="person-WA1297086801-19_01">الخواجة
+                     رزق جرجس</persName> وشريكه</placeName> من الجهة القبلية مع انقاذ جزء عظيم من
+               الأخشاب التى كانت موجودة ب<placeName xml:id="place-WA1297086801-19_04" ref="مغلق-الخواجه-ابراهيم-مليكه-وشريكه" type="مغلق">مغلق <persName xml:id="person-WA1297086801-19_02">الخواجه ابراهيم مليكه</persName> وشريكه</placeName>
+               وانقاذ جزء أيضا من أخشاب <placeName xml:id="place-WA1297086801-19_05" ref="مغلق-الخواجة-ابراهيم-الراهب" type="مغلق">مغلق <persName xml:id="person-WA1297086801-19_03">الخواجة ابراهيم الراهب</persName></placeName> أما ال<placeName xml:id="place-WA1297086801-19_06" type="مغلق" ref="مغلق-تعلق-الخواجة-مخائيل-تادرس-نسيم">مغلق تعلق <persName xml:id="person-WA1297086801-19_04">الخواجة
+                     مخاييل <choice>
+                        <sic>تا[..]رس</sic>
+                        <corr>تادرس</corr>
+                     </choice> نسيم</persName></placeName> فلكونه جزئيا وهو منشأ النيران بواسطة ذلك
+               مع انه من شدة الالتهاب كانت النيران في بعض الأحيان تصل إلى التندات الخشب الكائنة
+               بالواجهة المذكورة وصار انقاذها بدون حصول أدنى ضرر ثم لما ترآى اتصال النيران الى
+               شبابيك ال<placeName xml:id="place-WA1297086801-19_07" ref="منزل-تعلق-الشيخ-أحمد-الملا" type="منزل">منزل تعلق
+                     <persName xml:id="person-WA1297086801-19_05">الشيخ أحمد الملا</persName></placeName> سكن <persName xml:id="person-WA1297086801-19_06">الخواجة فرانسيس
+                  خزام</persName> التابع لدولة أمريكا من شدة التهابها ومجاورته للحريق من الجهة
+               البحرية صار تشغيل الطلمبات التى كانت مرتبة بالجهة المذكورة وبعون الله تعالى لم تسر
+               النيران بداخل المنزل ولم تحصل به تلفيات سوى خمسة شبابيك فقط والمنازل الملاصقة له لم
+               يحصل فيها أدنى ضرر كما أن ال<placeName xml:id="place-WA1297086801-19_08" type="منزل" ref="منزل-تعلق-ابراهيم-أغا-الكردلى">منزل تعلق <persName xml:id="person-WA1297086801-19_07">ابراهيم أغا
+                     الكردلى</persName></placeName> ولو انه خلف المغالق المحترقة والنيران مشتعلة
+               حولهمن ثلاثة جهات لكن بواسطة ما صار تداركه من الطلمبات ورجالها هناك لم تصل اليه
+               النيران مطلقا ولم ينشأ به أدنى ضرر ولما اقتضى الحال لاحالة المياه الجارى احضارها
+               بواسطة الفناطيس من أجل <choice>
+                  <sic>ت[..]ويه</sic>
+                  <corr>تقويه</corr>
+               </choice> الوابور إلى باقى الطلمبات وأعمال مزلقان ومسطبة للوابور بالجسر لتقربته من
+               مياه <placeName xml:id="place-WA1297086801-19_09" ref="البحر-الاعظم" type="بحر">البحر الأعظم</placeName> واستمرار
+               تشغيله منها قد حصل كمال الاعتناء والأهتمام فى ذلك باقرب وقت فلهذا قد صار انتظام حركة
+               التشغيل والظفر بالنيران وبالجملة فانه بمجرد وصول الطلمبات الى محل الحريق المذكور صار
+               توقيف وقطع سريان النيران مما اجتمع به من الطلمبات التى بلغ مقدارها ثلاثة عشر طلمبة
+               منها ثلاثة كبار وتسعة من الوسط والوابور ولو انه كان الحريق مهول بالنسبة لكون تلك
+               المغالق من تخاشيب والموجودات التى بداخلها أخشاب نقيه وخلافه من الأشياء سريعة الألتهاب
+               فكان هذا هو السبب الوحيد لاشتعال النيران بها دفعة واحدة لمصادفة تزايد الأهوية في تلك
+               الليلة ووجودها ملاصقة لبعضها لانه لو كانت تلك المغالق داخل أبنية وكل منها على حدته
+               مثل الأربعة وعشرين مغلقا التى أصابتها النيران بالأتلاف كلية في سنة ٨٤ لكان مع الهمة
+               التى حصلت والاستعدادات التى صار ايجادها بهذا الحريق صار الحصول على اطفائه بأقرب وقت
+               بدون أن يحصل هناك أدنى ضرر لانه الى الساعة سبعة صارت النيران لا يخشى منها ولغاية
+               الساعة عشرة صار ارضية لا يعتنى بها وردت معظم الطلمبات لمراكزها ومع هذا فإن سرعة
+               اجراآت الأطفاء والاستظهار على النيران الذى ما كان يأتى في مثل هذا الوقت لولا ما بذله
+               رجال الضبطية من كمال الأعتناء بما صار من مداركة التدبيرات هى السبب القوي لحسن انتظام
+               الحركة وعدم وقوع ما يترتب عليه تجسيم حالة الحريق وتوغل النيران بما يجاورها من المحلات
+               كما يتضح ذلك من مشاهدة محل الحريق ونقط التماس التى ادركتها النيران ولم تسر لجهة أخرى
+               وبما أن الحصول على ذلك ما تيسر الابما صار وجوده من التدبيرات التى حصلت بالتطبيق
+               للقانون وكانت هى سببا عظيما فى سرعة اطفاء واخماد النيران فى وقت وجيز بالنسبة لمنشأ
+               حدوثها ومثل هذه ما يستدعى الحال ادراجها بالوقايع المصرية لاحاطة علم الجميع قد وجب
+               تحريره المرجو ارسال هذا التقرير المشتمل على تفصيلات ما تم فى أمر الحريق المذكور
+                  ل<orgName xml:id="org-WA1297086801-19_03" ref="قلم-المطبوعات" type="قلم">قلم المطبوعات</orgName> لأجل تعميم نشره
+               بالوقايع وعدم حصول الاراجيف ممن لا يعلمون أسباب أفندم</p>
+            <p>فى الواقع ان هذه همة زائدة ليس لها مثيل يستحق عليها حضرات مأمور الضبطية المصرية
+               ورجالها ومأمور الطلومبات ورجالها الثناء الجميل ولولا هذه الهمة لسرت النيران الى سائر
+               جهات البلدة حيث انها مشحونة بالأخشاب سريعة الألتهاب وضرت بعموم الناس فجزاهم الله خيرا
+               وأزال عنهم كل بأس.</p>
+         </div>
+         <div xml:id="WA1297086901-20" resp="#eSG">
+            <head><date when-custom="1297-04-24">٢٤ ربيع الثانى ١٢٩٧</date>
+               <date when="1880-04-04">٤ ابريل ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٦٩</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297086901-20_01" ref="بيت-المال">بيت
+                  المال</orgName> بتاريخ ٧ ربيع الثانى سنة ١٢٩٧</head>
+            <p>موجود حصة قدرها سبعة قراريط من منزل كائن ب<placeName xml:id="place-WA1297086901-20_01" ref="المناصرة">المناصرة</placeName> ب<placeName xml:id="place-WA1297086901-20_02" type="قنطرة " ref="قنطرة-الامير-حسين">قنطرة
+                  الأمير حسين</placeName> خارج <placeName xml:id="place-WA1297086901-20_03" type="باب" ref="بابى-زويله">بابى
+                  زويله</placeName> والخربة تعلق شخص يدعى <persName xml:id="person-WA1297086901-20_01">طه ابن سالم الجرايحى</persName>
+               غائب بفيزوغلى مدة ومظبوطة تلك الحصة بمعرفة بيت المال يوم وفاة والدته المدعوه
+                  <persName xml:id="person-WA1297086901-20_02" type="والدة-طه-ابن-سالم-الجرايحى">مباشرين</persName> المتوفية في ٢٥ رجب
+               سنة ٧٤ عن ولدها طه المذكور ولتطلب الحرمة <persName xml:id="person-WA1297086901-20_03">عائشة بنت أبو حامد</persName>
+               الشريكة فى المنزل المذكور أجرى البناء معها كونه خرب أو مبيع الحصة المذكورة فبعد أن
+               كتب ل<orgName xml:id="org-WA1297086901-20_02" ref="ديوان-الاشغال" type="ديوان">ديوان الأشغال</orgName> بمقاسه
+               والايضاح عن لزومه لجهة الميرى من عدمه ووردت افادة الديوان المذكور رقم غاية را سنة ٩٦
+               نمرة ٥٧ عن عدم لزومه لجهة الميرى وان مقاسه يبلغ مائه تسعة وسبعين ذارع ونصف وثلث ذراع
+               قد عرض للداخلية بالاستئذان عن مبيع تلك الحصة ووردت افادتها رقم ١٠ محرم سنة ٩٧ نمرة
+               ٣٥٩ عرض تصريحا باشهار مبيع الحصة المذكورة بميعاد واحد وستين يوما وبناء على ذلك قد
+               تحررت قايمة مزاد باشهار مبيع السبعة قراريط المحكى عنهم بالميعاد المرقوم وأرسلت إلى
+               رئيس <orgName xml:id="org-WA1297086901-20_03" ref="دلالين العقارات بالمحروسة">دلالين العقارات بالمحروسة</orgName>
+               وتوضح بها أن كافة المصاريف من دلالة وتمن قايمة المزاد ورسم ديوان الأشغال السابق صرفة
+               من المصلحة وغيره على المشترى بدون تكليف بيت المال بشئ ما وقد تحرر للجهات عموما فى
+               تاريخه وهذا لاعلانه على حتى كل من له رغبة فى المشترى يحضر لبيت المال أو وكيل من طرفه
+               بالضمانة والأفادة المقتضية قبل حلول الميعاد المرقوم بيومين لاعمال المزاد بالمصلحة حسب
+               الجارى واذا مضى الميعاد وحضر أحدا بعدها فلا يقبل منه مزاد.</p>
+         </div>
+         <div xml:id="WA1297087101-21" resp="#eSG">
+            <head><date when-custom="1297-05-02">٢ جمادى الأولى ١٢٩٧</date>
+               <date when="1880-04-11">١١ أبريل ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٧١</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297087101-21_01" ref="الاوقاف">الأوقاف</orgName>
+               بتاريخ ٢٣ ربيع الثانى سنة ١٢٩٧</head>
+            <table>
+               <row>
+                  <cell>عدد</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>نصف منزل ونصف دكان سفله متخربين <placeName xml:id="place-WA1297087101-21_01" ref="وقف-الجامع-الصغير" type="وقف"><orgName xml:id="org-WA1297087101-21_02" ref="وقف-الجامع-الصغير" type="وقف">وقف الجامع الصغير</orgName></placeName> كائنين بجهة <placeName xml:id="place-WA1297087101-21_02" ref="كوم الشيخ سلامة" type="كوم">كوم الشيخ سلامة</placeName> شركة
+                        <persName xml:id="person-WA1297087101-21_01">الخواجه ذكريا قسطندى</persName> مقتضى خروجهما بالأستبدال والخواجه
+                     المذكور راغب أخذهما بمبلغ ٨٦٠٥ قرش و ١٦ فضة فكل من كان له رغبة فمن بعد المعاينة
+                     يتوجه بطرف مامور <orgName xml:id="org-WA1297087101-21_03" ref="قسم-ثانى-اوقاف" type="قسم">قسم ثانى
+                        أوقاف</orgName> ليعطي المزاد االلازم بالقايمة المحررة عن ذلك وقد تحدد ميعاد
+                     لنهو المزاد المذكور خمسة عشر يوما من تاريخه أدناه</cell>
+               </row>
+            </table>
+         </div>
+         <div xml:id="WA1297087102-22" resp="#eSG">
+            <head><date when-custom="1297-05-02">٢ جمادى الأولى ١٢٩٧</date>
+               <date when="1880-04-11">١١ أبريل ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٧١</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><rs type="إعلان">إعلان</rs> آخر</head>
+            <p>جهة غربية ب<placeName xml:id="place-WA1297087102-22_01" type="منزل" ref="منزل-وقف-السادة-الجوهرية">منزل <orgName xml:id="org-WA1297087102-22_01" ref="وقف-السادة-الجوهرية" type="وقف"><placeName xml:id="place-WA1297087102-22_02" ref="وقف-السادة-الجوهرية" type="وقف">وقف السادة الجوهرية</placeName></orgName></placeName> كائن
+                  ب<placeName xml:id="place-WA1297087102-22_03" ref="عطفة-الشيخ-السادات" type="عطفة">عطفة الشيخ السادات</placeName>
+               مسطحها ٢٤٩,٨٦ متر مقتضى خروجها من وقفها لتخربها وكونها عادمة الانتفاع وراسى مزادها
+               على مبلغ ١٤٩٩١ قرش و٢٤ فضة والآن مقتضى اشهارها بالمزاد وقد تحدد لذلك ميعاد خمسة عشر
+               يوما من تاريخه أدناه فكل من كان له رغبه فمن بعد المعاينة يتوجه ل<orgName xml:id="org-WA1297087102-22_02" ref="قسم-رابع-اوقاف" type="قسم">قسم رابع أوقاف</orgName> يعطي المزاد اللازم على
+               قايمة المزاد الموجود بالقسم.</p>
+         </div>
+         <div xml:id="WA1297087103-23" resp="#eSG">
+            <head><date when-custom="1297-05-02">٢ جمادى الأولى ١٢٩٧</date>
+               <date when="1880-04-11">١١ أبريل ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٧١</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><rs type="اعلان">اعلان</rs> آخر</head>
+            <p>خربة كائنة تحت الصور <placeName xml:id="place-WA1297087103-23_01" type="وقف" ref="وقف-الامامين"><orgName xml:id="org-WA1297087103-23_01" ref="وقف-الامامين" type="وقف">وقف الأمامين</orgName></placeName> مقدار مسطح
+               أرضها ١٠٣ ذراع مقتضى خروجها من وقفها بطريق الاستبدال وراغب أخذها شخص يسما <persName xml:id="person-WA1297087103-23_01" role="جزار">السيد البيبانى الجزار</persName> بمبلغ ٢٨٧٥ قرش صاغ حسب تتمين آل الخبر
+               مقتضى اشهارها بالمزاد لمن يرغب الزيادة يتوجه ل<orgName xml:id="org-WA1297087103-23_02" ref="قسم-رابع-اوقاف" type="قسم">قسم رابع أوقاف</orgName> ويعطي المزاد اللازم بعد المعاينة وقد تحدد لذلك
+               ميعاد خمسة عشر يوما من تاريخه أدناه.</p>
+         </div>
+         <div xml:id="WA1297087201-24" resp="#eSG">
+            <head><date when-custom="1297-05-04">٤ جمادى الأولى ١٢٩٧</date>
+               <date when="1880-04-13">١٣ أبريل ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٧٢</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297087201-24_01" type="ضبطية" ref="ضبطية-مصر">ضبطية
+                  مصر</orgName> بتاريخ ١٠ ربيع الثاني سنة ١٢٩٧</head>
+            <p>انه لسابقة ما عرض للمحافظة الملغية من <persName xml:id="person-WA1297087201-24_01">الحرمة فاطمة بنت حسين</persName>
+               بأنها تملك حصة بمنزل ودكانين سفله ب<placeName xml:id="place-WA1297087201-24_01" type="شارع" ref="شارع-باب-البحر">شارع باب البحر</placeName> وحجتها ضايعة وما أفيد
+               من ال<orgName xml:id="org-WA1297087201-24_02" ref="محكمة">محكمة</orgName> نمرة ١١٧ بما تبين لدى الكشف من السجل قد حصل
+               التحرى بمخابرة <orgName xml:id="org-WA1297087201-24_03" ref="بيت-مال-مصر">بيت مال مصر</orgName> و<orgName xml:id="org-WA1297087201-24_04" ref="ديوان-الاوقاف" type="ديوان">ديوان الأوقاف</orgName> والمحكمة ووردت الأفادات
+               بوضاحة ما صار اجراؤه من التحريات والتحقيقات التى من ضمنها حصول التوريه بما ورد من
+               المحكمة أخيرا رقم ٢٤ صفر سنة ١٢٩٧ نمرة ٩ بانه جرى التحقيق اللازم بمعرفة <persName xml:id="person-WA1297087201-24_02" role="كاتب">الشيخ مصطفى عبد رب النبى أحد كتاب المحكمة</persName> والشيخ المذكور
+               أوضح بأنه تحقق لديه جريان الحصة التى قدرها احدى عشر قيراط ونصف وثلث وثمن قيراط شايعة
+               فى كامل بنا المكان والصهريج سفله والحانوتين بواجهة المكان المذكور المخرجين من منافعه
+               الكائن ب<placeName xml:id="place-WA1297087201-24_02" ref="خط-باب-البحر" type="خط">خط باب
+                  البحر</placeName> ب<placeName xml:id="place-WA1297087201-24_03" type="شارع " ref="الشارع-الاعظم">الشارع الأعظم</placeName> فى ملك المصونة فاطمة بنت المرحوم
+               حسين فصار لباقى ما أوضحه وتأشر على ما ورد من المحكمة من <orgName xml:id="org-WA1297087201-24_05" ref="ورشة-الاملاك-بالضبطية" type="ورشة">ورشة الأملاك بالضبطية</orgName>  بما يفيد
+               عدم الأستدلال على ذلك وتقدم ضمانة بامضا وأختام كل من الحرمة فاطمة بنت حسين والضامن
+               اليها <persName xml:id="person-WA1297087201-24_03" role="ضامن">لاشين حسين مختار سقايين <placeName xml:id="place-WA1297087201-24_04" ref="ثمن-الازبكية" type="ثمن"><orgName xml:id="org-WA1297087201-24_06" ref="ثمن-الازبكية" type="ثمن">ثمن الأزبكية</orgName></placeName></persName>
+               بشأن الحصة المرقومة وانها ملك الحرمة فاطمة المذكورة ولا مانع من التصريح باخراج حجة
+               بدل الضايعة لباقى ما نص عنه بالضمانة وتصدق من <persName xml:id="person-WA1297087201-24_04" role="رئيس طايفة السقايين">على الطويل رئيس طايفة السقايين</persName> بان لاشين حسين الضامن معتمد ومقتدر
+               وكفوا لهذه الضمانة وأن الضمانة فى ذلك عليه حضور وغروم وتأشر بختم الضبطية على نفس
+               الضمانة بأن ختم رئيس السقايين المبصوم بها مضاهى للوارد بسجل الضبطية وحيث من الاقتضاء
+               النشر عن ذلك بالجرانيل فقد تحدد ميعاد واحد وثلاثون يوما لكى بانتها الميعاد المرقوم
+               اذا كان لا يظهر وجود معارض ولا منازع في ذلك فالمحكمة تجرى تحرير حجة بدل الضايعة
+               وبتاريخه كتب للمحكمة عن ما ذكر وأرسلت إليها الضمانة وباقى الأوراق وتنوه عن ما يرغبه
+               ديوان الأوقاف عن ملاحظة الأحكار وما صار فيها ودرجها في طلب الحجة المقتضى اخراجها بدل
+               الفاقدة وبهكذا صار النشر للجهات عموما أيضا اقتضى تحريره ليتنبه بالنشر بالجرانيل حسب
+               ما توضح.</p>
+         </div>
+         <div xml:id="WA1297087501-25" resp="#eSG">
+            <head><date when-custom="1297-05-11">١١ جمادى الأولى ١٢٩٧</date>
+               <date when="1880-04-20">٢٠ أبريل ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٧٥</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297087501-25_01" ref="مجلس-ابتداءى-مصر" type="مجلس">مجلس ابتداءى مصر</orgName> بتاريخ ١٠ جمادى الأولى سنة ٩٧</head>
+            <head>(نص اعلان)</head>
+            <p>يتضمن إشهار مزاد ستة <placeName xml:id="place-WA1297087501-25_01" ref="منازل-تعلق-الست-فيتوريه-بارليدس" type="منزل">منازل تعلق الست <persName xml:id="person-WA1297087501-25_01">فيتوريه باوليدس</persName></placeName> منهم ثلاثة منازل
+               على <placeName xml:id="place-WA1297087501-25_02" ref="جسر-شبرا" type="جسر">جسر شبرا</placeName> ايرادهم سنوى مائتان
+               وسبعون بنتو والثلاثة منازل <choice>
+                  <sic>الاخر</sic>
+                  <corr>الاخرين</corr>
+               </choice> كائنين ب<placeName xml:id="place-WA1297087501-25_03" ref="جهة-شبرا" type="جهة">جهة شبرا</placeName> بجوار
+                  <placeName xml:id="place-WA1297087501-25_04" ref="اراضى-الست-الجماشيرجية" type="ارض">اراضى <persName xml:id="person-WA1297087501-25_02">الست
+                     الجماشيرجية</persName></placeName> أحدهم كبير والاثنين صغيرين فكل من يرغب
+               المشترى يتوجه للمعاينة ومن بعد ذلك يحضر لطرفنا ب<placeName xml:id="place-WA1297087501-25_05" ref="وكالة سعادة حسين باشا أبو صبع" type="وكالة"><orgName xml:id="org-WA1297087501-25_02" ref="وكالة-سعادة-حسين-باشا-أبو-صبع" type="وكالة">وكالة سعادة <persName xml:id="person-WA1297087501-25_03">حسين
+                        باشا أبو صبع</persName></orgName></placeName> ب<placeName xml:id="place-WA1297087501-25_06" ref="السكة-الجديدة" type="سكة">السكة الجديدة</placeName> فى <orgName xml:id="org-WA1297087501-25_03" type="بنك" ref="بنك-الخواجة-قوماس">بنك <persName xml:id="person-WA1297087501-25_04">الخواجة قوماس</persName></orgName> لاعطا
+               المزاد من بعد المعاينة.</p>
+            <p><persName xml:id="person-WA1297087501-25_05" role="سمسار">نيشان أرتين قلقيان السمسار بمصر</persName></p>
+         </div>
+         <div xml:id="WA1297087601-26" resp="#eSG">
+            <head><date when-custom="1297-05-13">١٣ جمادى الأولى ١٢٩٧</date>
+               <date when="1880-04-22">٢٢ أبريل ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٧٦</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297087601-26_01" type="دايرة" ref="الدايرة-البلدة">الدايرة <sic>البلدة</sic><corr>البلدية</corr></orgName> أيضا بتاريخ ١٢ جمادى
+               الأولى سنة ١٢٩٧</head>
+            <p><placeName xml:id="place-WA1297087601-26_01" type="ساحل-غلال" ref="ساحل-غلال-بولاق-البحرى">ساحلى غلال <placeName xml:id="place-WA1297087601-26_02" ref="بولاق">بولاق</placeName>
+                  البحرى</placeName> و<placeName xml:id="place-WA1297087601-26_03" ref="ساحل-غلال-بولاق-القبلى" type="ساحل-غلال">القبلى</placeName> ملك الميرى كانوا
+               مؤجرين الى <persName xml:id="person-WA1297087601-26_01" role="رئيس تجار">حضرة عبد
+                  الرحيم أفندى عبد الله رئيس تجار الساحل ببولاق</persName> بمدة سنة غايتها ٢٦ ص سنة
+               ٩٧ ما هو البحرى بمبلغ ١٩٥٠٠ قرش والقبلى بمبلغ ١٨١٠٠ قرش ونظرا لانتهاء مدة التأجير صار
+               اشهارهم بالمزاد فرسى مزادهم على حضرة الأفندى المذكور ما هو الساحل البحرى بمبلغ ١١٢٥٠
+               قرش والقبلى بمبلغ ١٤٣٥٠ قرش عن مدة سنة من ابتداء ٢٧ ص سنة ٩٧ لغاية ٢٦ ص سنة ٩٨ بناء
+               عليه اقتضى تحريره لادراجه بالوقايع المصرية لأجل كل من له رغبة فى التأجير بزيادة عن
+               المزاد الراسى على الأفندى المذكور يحضر ل<orgName xml:id="org-WA1297087601-26_02" ref="ديوان-الدائرة" type="ديوان">ديوان الدائرة</orgName> ويعطى المزاد اللازم وقد
+               تحدد لذلك ميعاد مدة خمسة عشر يوما من ابتدا تاريخه أدناه حتى بعد مضى تلك الميعاد ان
+               حضر أحد لأعطاء المزاد لا يقبل منه أفندم.</p>
+         </div>
+         <div xml:id="WA1297087602-27" resp="#eSG">
+            <head><date when-custom="1297-05-13">١٣ جمادى الأولى ١٢٩٧</date>
+               <date when="1880-04-22">٢٢ أبريل ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٧٦</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297087602-27_01" ref="ضبطية-مصر" type="ضبطية">ضبطية
+                  مصر</orgName> بتاريخ ٢٠ ربيع الثانى سنة ١٢٩٧</head>
+            <p>مقدما <rs type="عرض">عرض</rs> للمحافظة الملغية من مذكورين بانهم ورثة <persName xml:id="person-WA1297087602-27_01">المرحوم الشيخ أحمد الشافعى الصباغ</persName>
+               بانه من ضمن ما تخلف عن مورثهم المذكور نصف منزل كائن ب<placeName xml:id="place-WA1297087602-27_01" type="حارة" ref="حارة-الحدايدة">حارة
+                  الحدايدة</placeName> ب<placeName xml:id="place-WA1297087602-27_02" ref="بولاق">بولاق</placeName> وحجته ضايعة ويلتمسوا تحرير بدلها ولما أن حصل التحرى بمخابرة
+                  <orgName xml:id="org-WA1297087602-27_02" ref="بيت-مال-مصر">بيت مال مصر</orgName>
+                  و<orgName xml:id="org-WA1297087602-27_03" ref="ديوان-الاوقاف" type="ديوان">ديوان
+                  الأوقاف</orgName> وال<orgName xml:id="org-WA1297087602-27_04" ref="محكمة">محكمة</orgName> ووردت الأفادات بوضاحة ما صار اجراؤه من التحريات والتحقيقات التى
+               من ضمنها حصول التوريه بما صدر من المحكمة للمحافظة فى ٢١ صفر سنة ١٢٩٤ نمرة ١٤١ بانه
+               جرى التحقيق اللازم بمعرفة نائب وكاتب <orgName xml:id="org-WA1297087602-27_05" type="محكمة" ref="محكمة-بولاق">محكمة بولاق</orgName> و<persName xml:id="person-WA1297087602-27_02" role="نائب">الشيخ محمد عبد الخالق نائب محكمة
+                  بولاق</persName> و<persName xml:id="person-WA1297087602-27_03" role="كاتب">الشيخ
+                  محمد الزرقانى الكاتب</persName> أوضحوه بانه تحقق جريان الحصة التى قدرها النصف اثنى
+               عشر قيراط فى كامل المكان المتخرب المعبر عنه بالجزؤ القبلى المفروز بالقسم وصار مكانا
+               مستقلا على حدته الكائن ب<placeName xml:id="place-WA1297087602-27_03" ref="حارة-الشبراوى" type="حارة">حارة الشبراوى</placeName> داخل <placeName xml:id="place-WA1297087602-27_04" ref="حارة-الحدايده" type="حارة">حارة
+                  الحدايده</placeName> ببولاق فى ملك <persName xml:id="person-WA1297087602-27_04">الحرمة شلباية بنت <persName xml:id="person-WA1297087602-27_05">المرحوم حسن
+                     العروسى</persName></persName> و<persName xml:id="person-WA1297087602-27_06">عبد
+                  الرحيم مصطفى الشربتلى</persName> كلاهما ب<placeName xml:id="place-WA1297087602-27_05" ref="خط-الواجهة" type="خط">خط
+                  الواجهة</placeName> ببولاق و<persName xml:id="person-WA1297087602-27_07">عفيفى
+                  الصباغ فى الأزرق</persName> و<persName xml:id="person-WA1297087602-27_08">الحرمة
+                  نفيسة</persName> و<persName xml:id="person-WA1297087602-27_09">الحرمة
+                  ناسة</persName> أولاد المرحوم الحاج أحمد الشافعى الشهير بناسه الصباغ وانه آل ذلك
+               اليهم بالأرث من قبل موروثهم الحاج أحمد الشافعى المذكور لباقى ما أوضحوه الذى تنوه عنه
+               بما صدر من المحكمة للمحافظة أخير فى ٢٨ صفر سنة ٩٥ نمرة ١٠٨ وتأشر من <orgName xml:id="org-WA1297087602-27_06" ref="ورشة-املاك-الميرى" type="ورشة">ورشة أملاك
+                  الميرى</orgName> بما يفيد عدم الأستدلال وتقدم ضمانة بامضا وأختام كل من الحرمة
+               شلباية بنت حسن العروسى و<persName xml:id="person-WA1297087602-27_10">عبد الرحيم ابن
+                  أحمد</persName> و<persName xml:id="person-WA1297087602-27_11">مصطفى ابن
+                  أحمد</persName> والحرمة ناسة بنت أحمد والحرمة نفيسة بنت أحمد وعفيفي ابن احمد
+               والضامن اليهم <persName xml:id="person-WA1297087602-27_12" role="ضامن">الحاج شحاتة
+                  محمد الصباغ فى الأزرق</persName> ببولاق بشأن النصف منزل المذكور وانه ملك الورثة
+               المذكورين آل اليهم بالارث من قبل مورثهم المذكور وانه لا مانع من التصريح باخراج حجة
+               بدل الضايعة لباقى ما نص عنه بالضمانة وتصدق من رئيس <orgName xml:id="org-WA1297087602-27_07" ref="طايفة الصباغين" type="طايفه">طايفة
+                  الصباغين</orgName> بان الحاج شحاتة محمد الضامن معتمد ومقتدر وضمانة عليه فى ذلك
+               ضمان حضور وغروم وتأشر بختم الضبطية على نفس الضمانة بان ختم رئيس طايفة الصباغين
+               المبصوم بها مضاهى للوارد بالسجل وحيث من الاقتضا النشر عن ذلك بالجرانيل وتحدد ميعاد
+               واحد وثلاثون يوما لكى بانتهاء الميعاد المرقوم اذا كان لا يظهر وجود معارض ولا منازع فى
+               ذلك فالمحكمة تجرى تحرير حجة بدل الضايعة وبتاريخه تحرر للمحكمة عن ما ذكر وأرسلت اليها
+               الضمانة وباقى الأوراق بما فيهم ما ورد من بيت المال المذكور وانه عند تحرير حجة بدل
+               الضايعة ترسل الى بيت المال بالافادة اللازمة وحصل نشر للجهات أيضا تقتضى تحريره ليتنبه
+               بالنشر حسب ما ذكر.</p>
+         </div>
+         <div xml:id="WA1297087603-28" resp="#eSG">
+            <head><date when-custom="1297-05-13">١٣ جمادى الأولى ١٢٩٧</date>
+               <date when="1880-04-22">٢٢ أبريل ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٧٦</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297087603-28_01" ref="بيت-المال">بيت
+                  المال</orgName> بتاريخ ١٩ ربيع الثانى سنة ١٢٩٧</head>
+            <p>مقدما <rs type="عرض">عرض</rs> لل<orgName xml:id="org-WA1297087603-28_02" type="محافظة" ref="محافظة">محافظة</orgName>
+               الملغية من <persName xml:id="person-WA1297087603-28_01">الحرمة مسعدة بنت الكريمة</persName> و<persName xml:id="person-WA1297087603-28_02">زينب بنت
+                  عيسى</persName> بانهم يمتلكوا حصة ستة قراريط ب<orgName xml:id="org-WA1297087603-28_03" type="وكالة" ref="وكالة-محمد-الزيادى">وكالة <persName xml:id="person-WA1297087603-28_03">محمد الزيادى</persName></orgName> والحجة
+               ضايعة ولما أفيد من المحكمة نمرة ١٩ بما تبين لدى الكشف من السجلات وحصل التحرى بمخابرة
+                  <orgName xml:id="org-WA1297087603-28_04" ref="بيت-مال-مصر">بيت مال مصر</orgName> و<orgName xml:id="org-WA1297087603-28_05" type="ديوان" ref="ديوان-الاوقاف">ديوان الأوقاف</orgName> وال<orgName xml:id="org-WA1297087603-28_06" ref="محكمة">محكمة</orgName> قد وردت الأفادات بوضاحة ما صار اجراؤه من التحريات والتحقيقات التى
+               من ضمنها توضح بما ورد من المحكمة وأخيرا في ١٣ رمضان سنة ١٢٩٦ نمرة ٧٣ بانه جرى التحقيق
+               اللازم بمعرفة <persName xml:id="person-WA1297087603-28_04" role="كاتب">الشيخ سالم رمضان أحد كتاب المحكمة</persName>
+               والشيخ المذكور أورى بانه تحقق لديه جريان الحصة التى قدرها ستة قراريط فى المكان
+               المستجد الانشا والعمارة المفروز بالقسم المعروف بالوكالة الكائن ب<placeName xml:id="place-WA1297087603-28_01" ref="خط-سيرك-التوق-السعيد" type="خط">خط سيرك التوق السعيد</placeName> في ملك
+                  <persName xml:id="person-WA1297087603-28_05">الحرمة مسعدة بنت <persName xml:id="person-WA1297087603-28_06">المرحوم الكريمى أبو
+                  أحمد</persName></persName> وابنتها <persName xml:id="person-WA1297087603-28_07">الحرمة زينب بنت <persName xml:id="person-WA1297087603-28_08">المرحوم
+                     عيسى ابو يونس</persName></persName> سوية <choice>
+                  <sic>بيتهما</sic>
+                  <corr>بينهما</corr>
+               </choice> الباقى ما أوضحه وتأشر من <orgName xml:id="org-WA1297087603-28_07" ref="ورشة-املاك-الميرى" type="ورشة">ورشة
+                  أملاك الميرى</orgName> على ما ورد من المحكمة بما يفيد عدم الاستدلال وتقدم ضمانة
+               بامضا وأختام كل من الحرمة مسعدة والحرمة زينب والضامن اليهم <persName xml:id="person-WA1297087603-28_09" role="ضامن">حسين
+                  عوض</persName> بِشأن حصة الستة قراريط المحكى عنهم وانهم ملك الحرمتين المذكورتين
+               ولا مانع من التصريح باخراج حجة بدل الضايعة لباقى ما نص عنه بالضمانة وتصدق من رئيس
+                  <orgName xml:id="org-WA1297087603-28_08" ref="طايفه النقاشين" type="طايفه">طايفه النقاشين</orgName> بأن حسين عوض
+               الضامن معتمد ومقتدر وكفوا لهذه الضمانة وتأشر بختم الضبطية على نفس الضمانة بأن أختام
+               كل من رئيس طايفة معلمين البناين وشيخ طايفة النقاشين المبصومين بالضمانة مضاهين للوارد
+               بسجل الضبطية وحيث من الاقتضا النشر عن ذلك بالجرانيل وقد تحدد ميعاد واحد وثلاثون يوما
+               لكي بانتهاء الميعاد المرقوم اذا كان لا يظهر وجود معارض ولا منازع فالمحكمة تجرى تحرير
+               حجة بدل الضايعة وبتاريخه تحرر للمحكمة وأرسلت اليها الاوراق والضمانة المحكى عنهم وحصل
+               النشر للجهات أيضا واقتضى تحريره ليتنبه حسب ما ذكر.</p>
+         </div>
+         <div xml:id="WA1297087801-29" resp="#eSG">
+            <head><date when="1297-05-20" when-custom="1297-05-20">٢٠ جمادى الأولى ١٢٩٧</date>
+               <date when="1880-04-29">٢٩ أبريل ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٧٨</biblScope>
+                  <biblScope unit="page">صفحة ٦</biblScope></bibl></head>
+            <head><rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297087801-29_01" type="مصلحة" ref="مصلحة-عموم-البوسطة-المصرية">مصلحة عموم البوسطة المصرية</orgName></head>
+            <p>يكون معلوم ان من أول <choice>
+                  <sic>ماجيو</sic>
+                  <corr>مايو</corr>
+               </choice> سيصيير افتتاح مكتبيين صغيرين بمصر بخلاف مكتب الآدارة الموجود الآن فيها
+               أحدهما ب<placeName xml:id="place-WA1297087801-29_01" ref="ناحية-بولاق" type="ناحية">ناحية بولاق</placeName> والآخر
+                  ب<placeName xml:id="place-WA1297087801-29_02" type="ناحية" ref="ناحية-الغورية">ناحية الغورية</placeName> وهذا
+               المكتبان مصرح لها كباقى المكاتب العادية بتبادل المراسلات والحوالات برسم داخلية القطر
+               والجهات الأجنبية أما الصر والأشياء الثمينة فعمليتها مختصة ب<orgName xml:id="org-WA1297087801-29_02" ref="إدارة-بوستة-مصر" type="إدارة">إدارة بوستة مصر</orgName> فكل من يرغب من مراسلى
+               المراسلات ان تتوزع مراسلاته بواسطة أحد هذين المكتبين فعليه أن يضع على عنوان المراسلات
+               تأشير باسم المكتب الذي يرغب توزيع مراسلاته بواسطته.</p>
+         </div>
+         <div xml:id="WA1297089201-30" resp="#eSG">
+            <head><date when-custom="1297-06-30">٣٠ جمادى الثانى ١٢٩٧</date>
+               <date when="1880-06-08">٨ يونيه  ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٩٢</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297089201-30_01" type="نظارة" ref="نظارة-الاشغال-العمومية">نظارة الأشغال العمومية</orgName> بتاريخ ٢٩ جمادى
+               الثانية سنة ٩٧</head>
+            <p><orgName xml:id="org-WA1297089201-30_02" type="ديوان" ref="ديوان-الاشغال-العمومية">ديوان الأشغال العمومية</orgName>
+               يعلن انه سيجرى بطريق المقاولة استعداد محل ب<placeName xml:id="place-WA1297089201-30_01" ref="سراى-الحمرة" type="سراى">سراى الحمرة</placeName> ب<placeName xml:id="place-WA1297089201-30_02" ref="العباسية">العباسية</placeName> لجعله
+                  <orgName xml:id="org-WA1297089201-30_03" ref="اسبتالية-للمجاذيب" type="اسبتالية">اسبتالية للمجاذيب</orgName> على
+               حسب رسم ومقايسة ابتدائية عن تكاليفه بمبلغ ٦٣٥٤٦ قرشا واحد وثلاثين فضة موجودين
+                  ب<orgName xml:id="org-WA1297089201-30_04" ref="قلم-العمارات-بديوان-الاشغال-العمومية" type="قلم">قلم
+                  العمارات</orgName> بالديوان وحدد لنهو المزاد اللازم عن ذلك يوم الاحد الآتى ٥ رجب
+               سنة ٩٧ الموافق ١٣ يونية سنة ١٨٨٠ فكل من له رغبة فى اجراء هذه العملية يحضر للديوان
+               لاجل اطلاعه على الرسم والمقايسة وشروط المزاد واعطاه العطا اللازم فيه ومن لا يحضر
+               لغاية اليوم المذكورة فلا يكلف الديوان بقبول أقوال منه.</p>
+         </div>
+         <div xml:id="WA1297089401-31" resp="#eSG">
+            <head><date when-custom="1297-07-05">٥ رجب ١٢٩٧</date>
+               <date when="1880-06-13">١٣ يونيه  ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٩٤</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297089401-31_01" ref="ديوان-الاوقاف" type="ديوان">ديوان الاوقاف</orgName> بتاريخ ٢٤ جمادى الثانى سنة ١٢٩٧</head>
+            <table>
+               <row>
+                  <cell>
+                     <p>عدد</p>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>منزل ب<placeName xml:id="place-WA1297089401-31_01" ref="خوخة-القطانين">خوخة القطانين</placeName> بموجب حجتين
+                     أحدهم تاريخها ٢١ ذى القعدة سنة ٥٥ والثانية مؤرخة فى ٢ ذى الحجة سنة ٢٥٦ واضحا
+                     بهم ان المكان المذكور على أرض محتكرة ولم يعين بهم حكر</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>نصف منزل ب<placeName xml:id="place-WA1297089401-31_02" ref="درب-حاتم" type="درب">درب حاتم</placeName> بدون حجة
+                     وحجة الشريك لم يعين بها حكر</cell>
+               </row>
+               <row>
+                  <cell>٢</cell>
+                  <cell/>
+               </row>
+            </table>
+            <p>مضبوط بمعرفة <orgName xml:id="org-WA1297089401-31_02" ref="بيت-المال">بيت المال</orgName> منزل كائن بخوخة القطانين
+               ونصف منزل بدرب حاتم كلاهما ب<placeName xml:id="place-WA1297089401-31_03" ref="ثمن-باب-الشعرية" type="ثمن"><orgName xml:id="org-WA1297089401-31_03" ref="ثمن-باب-الشعرية" type="ثمن">ثمن باب الشعرية</orgName></placeName> المخلف
+               نصف المنزل الكائن بخوخة القطانين عن <persName xml:id="person-WA1297089401-31_01">المرحومة هنا بنت <persName xml:id="person-WA1297089401-31_02">المرحوم
+                     قنديل الصباغ</persName></persName> المتوفية فى ٢١ ربيع أول سنة ٧٩ عن
+                  <persName xml:id="person-WA1297089401-31_03">ولدها مصطفى</persName> غايب لا يعلم بأى جهة والنصف الآخر تخلف من أختها
+                  <persName xml:id="person-WA1297089401-31_04">المرحومة استيته بنت المرحوم قنديل الصباغ</persName> المتوفية فى ٢٥ ربيع
+               أول سنة ٩٥ عن زوجها <persName xml:id="person-WA1297089401-31_05" role="قصاص">محمد حسن القصاص</persName> وعن ولد اختها
+               مصطفى المحكى عنه ونصف المنزل الكائن بدرب حاتم مخلف أيضا عن المرحومة هنا المذكورة
+               ولمناسبة تخرب نصف المنزل المرقوم واتضح تأجير المنزل الآخر باجرة جزئية وتطلب محمد حسن
+               القصاص زوج المرحومة استيته مبيع ما يخصه من النصف منزل المخلف عن زوجته وتراآ لبيت
+               المال أولوية مبيع المنزل المذكور ونصف المنزل الكائن بدرب حاتم قد كتب ل<orgName xml:id="org-WA1297089401-31_04" ref="ديوان-الاشغال" type="ديوان">ديوان الاشغال</orgName> بمقاس المنزل ونصف
+               المذكورين والايضاح عن لزومهم لجهة الميرى من عدمه ووردت افادته رقم ٥ جماد آخر سنة ٩٦
+               نمرة ٢١ ومعها كشفين بالمقاس احدهم بمقاس المنزل الكائن بالخوخة البالغ قدره ١٤٥,٥٤ ذراع
+               والآخر عن مقاس المنزل الكائن بدرب حاتم وبلغ ١١٢,١٣ ذراع وتوضح بما وردت من الأشغال عن
+               عدم مصادفة العقار تصميمات مستجدة وعلى ذلك تحرر <orgName xml:id="org-WA1297089401-31_05" ref="الداخلية">الداخلية</orgName> فى ٢٢ ص سنة ٩٦ نمرة ١٥٤ بالاستئذان عن اشهار مزاد مبيعه وصدر
+               أمرها فى ٢٦ الحجة سنة ٩٦ نمرة ٢٠٦ تصريحا باشهار المزاد بميعاد واحد وتسعين يوما ولقد
+               تحرر قائمتين مزاد أحدهما باشهار مزاد مبيع المنزل الكامل والآخر وارسلا الى رئيس
+                  <orgName xml:id="org-WA1297089401-31_06" ref="دلالين العقارات بالمحروسة">دلالين العقارات بالمحروسة</orgName>
+               لاشهارهم على الراغبين بالميعاد المحدد بامر الداخلية وتوضح بهما ان كافة المصاريف من
+               الدلالة وميرى ورسومات وغيره على المشترى بدون تكليف المصلحة بشئ ما وبعد مرسى المزاد
+               على اى شخص كان واتضاح عدم وجود الراغب للزيادة يصير الاستئذان عن المبيع ومتى صدر الأمر
+               بالسماح في المبيع يجرى قبض الثمن والرسومات ويتحرر للمحكمة بتوقيع المبايعة بحيث لم
+               يحصل السماح في مبيع العقار المحكى عنه ولم يجرى التسليم لمن رسى عليه المزاد فلا يكون
+               له تداعى على بيت المال ولا على زوج المرحومة استيته باى وجه من الوجوه وقد تحرر للجهات
+               عموما في تاريخه عن ذلك وهذا لاعلانه حتى كل من له رغبه فى المشترى يحضر لبيت المال أو
+               وكيلا من طرفه بالضمانة المقتضية قبل حلول الميعاد بيومين لاعمال المزاد بالمصلحة حسب
+               الجارى.</p>
+         </div>
+         <div xml:id="WA1297089601-32" resp="#eSG">
+            <head><date when-custom="1297-07-09">٩ رجب ١٢٩٧</date>
+               <date when="1880-06-17">١٧ يونيه ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٩٦</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope>
+               </bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297089601-32_01" ref="بيت-مال-مصر">بيت مال
+                  مصر</orgName> بتاريخ ١١ ج سنة ٩٧</head>
+            <p>موجود حصة قدرها ع ١٥ سهم من منزل كائن ب<placeName xml:id="place-WA1297089601-32_01" type="شارع" ref="شارع-الحسينية">شارع الحسينية</placeName> البالغ قدر مقاسه ١٠٧,٧٨
+               اذرع تعلق شخص يسمى <persName xml:id="person-WA1297089601-32_01">حسين أغا</persName> غايب من مدة أربعين سنة وغير محقق
+               وفاته ولا وجوده وكان سبق اشهار مزاده مبيع الحصة المذكورة ورسى العطا فيها على
+                  <persName xml:id="person-WA1297089601-32_02">مصطفى أفندى خليل</persName> بمبلغ ٢٠٥ قرش صاغ وتصرح من <orgName xml:id="org-WA1297089601-32_02" ref="المالية">المالية</orgName> ضمن افادة فى ١٨ ل سنة نمرة ١٣٢ بالمبيع ولما صار
+               مطالبة الراسى عليه المزاد المذكور وبالثمن <choice>
+                  <sic>مذ</sic>
+                  <corr>منذ</corr>
+               </choice> كان مستخدما ب<orgName xml:id="org-WA1297089601-32_03" ref="اوقاف-اسكندرية">أوقاف اسكندرية</orgName> وتجاوب
+               منه بابقاء المادة لحين حضوره بالمحروسة واستعداده لحضور الشهود الذين يشهدوا بوفاة حسين
+               اغا ايلولة الحصة المذكورة منه لبيت المال وحضر الآن واستحضر أشخاص وشهدوا بافقاد حسين
+               اغا المذكور من مدة وعدم العلم بحقيقة وفاته وقد عرض لل<orgName xml:id="org-WA1297089601-32_04" ref="الداخلية">داخلية</orgName> عن ذلك وصدر أمرها رقم ٤ ر سنة ٩٧ نمرة ٩٢ تصريحا باشهار مزاد مبيع
+               الحصة المرقومة بميعاد واحد وتسعين يوم وبناء على ذلك قد تحرر مزاد عن مبيع الحصة
+               المذكورة لاشهارها بميعاد واحد وتسعين يوم من تاريخه وأرسلت لريس <orgName xml:id="org-WA1297089601-32_05" ref="دلالين العقارات بمصر">دلالين العقارات بمصر</orgName> مشترطا بها ان كافة
+               المصاريف من دلالة وميرى ورسومات وغيره تكون على المشترى بدون تكليف المصلحة بشئ ما وان
+               بعد مرسى المزاد على أى شخص كان وصدور الامر العالى بالسماح فى البيع يجرى قبض الثمن
+               والمصاريف وتوريدها <orgName xml:id="org-WA1297089601-32_06" ref="الخزينة">الخزينة</orgName> ومكاتبة <orgName xml:id="org-WA1297089601-32_07" ref="المحكمة">المحكمة</orgName> بتوقيع المبيعة اذا كان لم يحصل التسليم من بيت
+               المال في البيع لمن يرسى عليه المزاد فلا يكن له أدنى تداعى على المصلحة بأى وجه من
+               الوجوه وقد تحرر في تاريخه للجهات عموما وهذا للمعلومية ودرج ذلك بالوقايع والجرنالات
+               حسب الجارى.</p>
+         </div>
+         <div xml:id="WA1297089701-33" resp="#eSG">
+            <head><date when-custom="1297-07-12">١٢ رجب ١٢٩٧</date>
+               <date when="1880-06-20">٢٠ يونيه ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٨٩٧</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من هذه النظارة أيضًا بهذا التاريخ</head>
+            <table>
+               <row>
+                  <cell>عدد</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>عملية انشاء <placeName xml:id="place-WA1297089701-33_01" ref="مدرسة">مدرسة</placeName> بمحل <placeName xml:id="place-WA1297089701-33_02" type="فابريقة">الفابريقة</placeName> الكائنة ب<placeName xml:id="place-WA1297089701-33_03" ref="ناحية-شبين-الكوم" type="ناحية">ناحية شبين الكوم</placeName> معمول عنها
+                     مقايسة ابتدائية بمبلغ ١٩١٣٢٦ قرش و٩ فضة وتحدد لنهو مزادها ثمانية عشر يوما من
+                     ابتداء تاريخه أدناه لغاية يوم السبت الموافق ٣ يوليه سنة ٨٠ الموافق ٢٥ رجب سنة
+                     ٩٧</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>عملية بنا الأفرع <sic>كمالة مجرور عابدين</sic> معمول عنها مقايسة بمبلغ ٦٠٠٠
+                     فرنك وتحدد لنهو مزادها سبعة أيام من تاريخه لغاية يوم الثلاث ٢٢ يونيه سنة ٨٠
+                     الموافق ١٤ رجب سنة ٩٧</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>عملية مكادام <placeName xml:id="place-WA1297089701-33_04" type="ميدان" ref="ميدان-العتبة-الخضرة">ميدان العتبة
+                        الخضرة</placeName> معمول عنها مقايسة بمبلغ ٧٠٠٠ فرنك تحدد لنهو مزادها تسعة
+                     أيام من تاريخه لغاية يوم الخميس ٢٤ يونيه سنة ٨٠ الموافق ١٦ رجب سنة ٩٧</cell>
+               </row>
+               <row>
+                  <cell>٣</cell>
+                  <cell/>
+               </row>
+            </table>
+            <p><orgName xml:id="org-WA1297089701-33_01" type="ديوان" ref="ديوان-الاشغال">ديوان الاشغال</orgName> يعلن بأنه يشهر
+               بالمزاد اجراء الأشغال المبنية أعلاه بطريق المقاولة على مقتضى شروطات موجودة ب<orgName xml:id="org-WA1297089701-33_02" type="قلم" ref="قلم-العمارات">قلم العمارات</orgName> بالديوان وقد تحدد لنهو وقفل
+               هذه المزادات المواعيد الموضحة عنها فكل من له رغبة فى اجراء تلك الأشغال فيحضر للديوان
+               فى المواعيد المذكورة لاطلاعه على شروطاتها وتقديم عطاه في المزادات من لا يحضر لغاية
+               المواعيد المحددة فلا يكلف الديوان بانتظاره</p>
+            <p>في ٨ رجب سنة ٩٧ الموافق ١٦ يونيه سنة ٨٠.</p>
+         </div>
+         <div xml:id="WA1297090101-34" resp="#eSG">
+            <head><date when-custom="1297-07-21">٢١ رجب ١٢٩٧</date>
+               <date when="1880-06-29">٢٩ يونيه ١٨٨٠</date>
+               <bibl><biblScope unit="issue">نمرة ٩٠١</biblScope>
+                  <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+            <head>نص <rs ref="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1297090101-34_01" type="ديوان" ref="ديوان-الاشغال-العمومية">ديوان الاشغال العمومية</orgName> بتاريخ ١٦ رجب سنة
+               ١٢٩٧</head>
+            <p><orgName xml:id="org-WA1297090101-34_02" type="ديوان" ref="ديوان-الاشغال-العمومية">ديوان الاشغال العمومية</orgName>
+               يشهر في المزاد اجرا عمارة عمل <orgName xml:id="org-WA1297090101-34_03" ref="الضربخانة-المصرية">الضربخانة
+                  المصرية</orgName> ب<placeName xml:id="place-WA1297090101-34_01" ref="القلعة">القلعة</placeName> بطريق المقاولة معمول
+               عنها مقايسة ابتدائية بمبلغ ١٢٨١٩ قرش ٢٤ فضة على مقتضى شروط موجودة ب<orgName xml:id="org-WA1297090101-34_04" type="قلم" ref="قلم-العمارات">قلم العمارات</orgName> بالديوان وقد حدد ميعاد لنهو
+               المزاد ١٢ يوم ابتداء تاريخه لغاية يوم الاثنين الموافق ٢٧ رجب سنة ٩٧ الموافق ٥ يوليه
+               سنة٨٠ فكل من له رغبة في اجراء العمارة المذكورة فيحضر للديوان للاطلاع على شروطها
+               واعطاء عطاه فى قايمة المزاد ومن لا يحضر لغاية الميعاد المذكور فلا يكلف الديوان
+               بانتظاره ولا باخذ أقوال منه فيما بعد.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

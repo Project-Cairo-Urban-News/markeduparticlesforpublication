@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>"Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ al-Miṣrīyah), 1828-1914 - An Ottoman Arabic
+          Digital Humanities Project"</title>
+        <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</editor>
+        <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour Kanaan</editor>
+        <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah Fathallah
+          Gaara</editor>
+        <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif Erbil</editor>
+        <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed Kamal</editor>
+        <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+          El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
+        <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal al-Shamy</editor>
+        <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal Jammulapati</editor>
+        <respStmt>
+          <resp>Project co-director</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Primary Investigator</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0001-5239-7909">Project co-director</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fathallah Gaara</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0003-1216-3686">Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nori</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hiba Laabadli</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Othmane Echchabi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Nehal al-Shamy</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Vishal Jammulapati</name>
+        </respStmt>
+        <sponsor>
+          <orgName>National Endowment for the Humanities</orgName>, <orgName>Institut français
+            d’archéologie orientale</orgName> (Ifao, Cairo); <orgName>Franklin Humanities Institute
+            and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
+            University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
+            national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
+            Cultural Counsellor in Cairo</orgName>.</sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+        <p> Created by the "Digital Cairo" project (Duke University - Ifao), sponsored by the National Endowment for the Humanities.</p>
+        <p>
+          <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+        </p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName>, <persName>Hugh Cayless</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣrīyah (Egyptian Affairs) newspaper, 1828–1914.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>The "Digital Cairo" project is sponsored by the National Endowment for the Humanities.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+          and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added
+          in an attribute to a persName.</p>
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+            Editions</ref>.</p>
+      </editorialDecl>
+      <charDecl>
+        <char xml:id="qhalf">
+          <localProp value="QIRMA FRACTION 1/2" name="name"/>
+          <unicodeProp value="1/2" name="Numeric_Value"/>
+          <mapping type="similar">𐋢</mapping>
+          <figure>
+            <graphic url="../../docs/images/qhalf.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qthird">
+          <localProp value="QIRMA FRACTION 1/3" name="name"/>
+          <unicodeProp value="1/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qthird.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qfourth">
+          <localProp value="QIRMA FRACTION 1/4" name="name"/>
+          <unicodeProp value="1/4" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qfourth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qsixth">
+          <localProp value="QIRMA FRACTION 1/6" name="name"/>
+          <unicodeProp value="1/6" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qsixth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qeighth">
+          <localProp value="QIRMA FRACTION 1/8" name="name"/>
+          <unicodeProp value="1/8" name="Numeric_Value"/>
+          <mapping type="similar">𐋤</mapping>
+          <figure>
+            <graphic url="../../docs/images/qeighth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qtwothirds">
+          <localProp value="QIRMA FRACTION 2/3" name="name"/>
+          <unicodeProp value="2/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qtwothirds.svg"/>
+          </figure>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="cleared">
+      <listChange>
+        <change when="2023-05-24" resp="#eAM" status="cleared"/>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson type="historical">
+      <person xml:id="pMA">
+        <persName xml:lang="en">Muḥammad 'Alī</persName>
+        <persName xml:lang="ar">محمد علي</persName>
+      </person>
+      <person xml:id="pI">
+        <persName>Ibrāhīm</persName>
+        <persName xml:lang="ar">ابراهيم باشا</persName>
+      </person>
+    </listPerson>
+  </standOff>
+  <text xml:lang="ar">
+    <body>
+      <div xml:id="WA1244000201-1" resp="#eSG #eAM">
+        <head><date when-custom="1244-06-9">٩ جمادى الاخر ١٢٤٤</date>
+          <date when="1828-12-17">١٧ ديسمبر ١٨٢٨</date>
+          <bibl><biblScope unit="issue">نمرة ٢</biblScope>
+            <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+        <p>ان <placeName xml:id="place-WA1244000201-1_01" type="قلعة" ref="https://www.openstreetmap.org/way/24908286">القلعة اليوسيفيه</placeName> التى هى
+          محل احكام مصر المحميه قد قاربت اسوارها وابراجها ومحلات حصارها من داخل وخارج درجة الانهدام
+          والت الى الانعدام وذلك من تلون حوادث الازمنة الماضية وتقلبها وضرر طروق وقايعها وما طرى بها
+          وقد كان خطر فى خاطر سعادة <choice>
+            <sic>لى</sic>
+            <corr>ولى</corr>
+          </choice> النعم ان <choice>
+            <sic>يجد</sic>
+            <corr>يجدد</corr>
+          </choice> بناها ويشدد اركانها و<sic>انحاها</sic> و<choice>
+            <sic>ينشى</sic>
+            <corr>ينشئ</corr>
+          </choice>
+          <placeName xml:id="place-WA1244000201-1_02" type="جامع" ref="http://cairogazetteer.fr/invisu/page/ark:/67717/d6d17aa2c59b28d74d929d50443f1a33">جامعا شريفا</placeName> بها يكون <choice>
+            <sic>مبد</sic>
+            <corr>معبد</corr>
+          </choice> للخاص والعام مقصودا ومورد ذكر الى الاشياخ العظام مورودا <choice>
+            <sic>بعد</sic>
+            <corr>بعدد</corr>
+          </choice> من الاثار الخيريه ويذكر الى يوم بعث البرية انما حيث انه يجب تقديم بنا ما منه
+          تحرس الرعايا وتحمى وتستريح به البرايا وتنال تنعما وذلك كبناء القلع والقناطر وماهو من
+          الحصون والجسور هنا دائر قدم بنا القلعة على بنا الجامع واخر حتى حين اقتداء بمن قال الامور
+          مرهونة باوقاتها وبفضله تعالى وببركات همة من اولى الورى نعما وافضالا قارنت هذه المذكورات
+          الخيرية درجة النهايه وصارت جهات القلعة متبنة الى الغايه تطاعن بفخرها <placeName xml:id="place-WA1244000201-1_03" type="اهرام" ref="الاهرام">الاهرام</placeName> نحكما
+          وتليق للسكنى والمقام وتحمد تجددا ورسما وبعد ان صارت الناس اكابرهم واصاغرهم محاسبب الاعتاب
+          يودون وهم فرحون ببلوغ مأربهم شكرا لمن شكره ايجاب ورأى صاحب الحضرة الأصفية ان ما خطر فى
+          باله صار مفعولا وان كلا فى حضرته قد حاز شرفا وقبولا صمم حينئذ رأيه الثاقب الشريف على ان <choice>
+            <sic>ينشى</sic>
+            <corr>ينشئ</corr>
+          </choice> بعدها الجامع المنيف أنشاء كان من قبل منويا مكنونا فى ضميره ومحويا رغبة ان يكون
+          كما ذكر اثرا من الاثار الخيرية معدودا ومحل عبادة وذكر محمودا وصدر امره الكريم بوضع اساس
+          صورته وشكله الوسيم واذ صارت المباشرة لوضعه يوم الخميس المبارك الموافق الى تسعة عشر من
+          جمادى الاولى سنة اربعة واربعين توجه من اطيع امره وعلا فى الملا فخره مشرفا تلك البقعة التى
+          صار فيها الوضع وبمعيته نجله السعيد <persName xml:id="person-WA1244000201-1_01" type="والى-جده">افندينا ابراهيم باشا</persName>
+          <sic>(والى جده)</sic> وحضرة <persName xml:id="person-WA1244000201-1_02" type=" قاضى-مصر">ملا افندى قاضى مصر</persName>
+          <sic>المحيه</sic> ووجوه الاشراف والسادات الكرام واعيان العلما والفضلا وكافة الاشياخ واهل
+          الفضل والصلاح وحضرة كتخدا بيك افندى وسائر الامراء والاكابر من اهل الشورى وحضرة مأمور
+          الديوان العالى ومن هو متصل فيه وكل الاكابر والنظار المعتبرين وارباب المعرفة بالاشغال
+          المشتهرين بالصداقة وكل عبيد احسانه وشاكرى انعامه والطالبين المبتهلين بالدعاء لدوامه وحلوا
+          هناك بقلوب متحدة <choice>
+            <sic>لقراة</sic>
+            <corr>لقراءة</corr>
+          </choice> الفاتحة والدعاء مع ذبح القرابين والضحايا وصرفت الهمه بقضاء الامر لوضع اساسه
+          الدايم بالاستعانة باسم الله وصبرت الفقرا والغربا من انتشار الدراهم والدنانير اصحاب نصيب من
+          النوال والنعم واتخذت المهندسون والبنايون والقلفات والمستخدمون بواسطة عبد احسانه<persName xml:id="person-WA1244000201-1_03" role="ناظر">امين افندى ناظر الابنية</persName> مظهر
+          كرم واحسان ورجعوا الى ديوانهم العالى بالدولة والاجلال و بعد ان شوهد ذلك اثبت فى جريدة
+          الوقايع وفق الله تعالى افندينا لانشاء ما هو مثل هذا البناء المتين الذى هو من الاثار
+          الخيرية بلا <choice>
+            <sic>رب</sic>
+            <corr>ريب</corr>
+          </choice> امين.</p> 
+      </div>
+      <div xml:id="WA1244001901-2" n="IntroductionOfGas" resp="#eSG #eAM">
+        <head><date when-custom="1244-10-13">١٣ شوال ١٢٤٤</date>
+          <date when="1829-04-18">١٨ ابريل ١٨٢٩</date><bibl>
+            <biblScope unit="issue">نمرة ١٩</biblScope>
+            <biblScope unit="page">صفحة ١</biblScope></bibl>
+        </head>
+        <p>انه لما شاع متواثرا لدى مسامع افندينا ولى النعم خبر النور الذى اخترعه الانكليز منذ اربع
+          عشرة سنة تقريبا بروح يسمى كاز وبمصروف قليل وعلم انهم قد استعملوه عموما واستعمله ايضا
+          الفرنساويون من بعدهم قصد بارادته السليمة ان يطلع على حقيقة هذه الصنعة ويعلم كيفية صبيروتها
+          بعين اليقين فامر بان يوتى بالالات اللازمة لذلك من بلاد الانكليز فأقمها <persName xml:id="person-WA1244001901-2_01" role="مهندس">كالو المهندس</persName> مع بعض فعلة
+          انكليز فى <placeName xml:id="place-WA1244001901-2_01" type="جنينة" ref="جنينة-شبرا https://www.openstreetmap.org/way/28830268">جنينة شبرا</placeName> بمعمل
+          مناسب واناروا بها <placeName xml:id="place-WA1244001901-2_02" type="قصر">القصر
+            العالى</placeName> الكاين فوق <placeName xml:id="place-WA1244001901-2_03" type="حوض" ref="الحوض-الكبير">الحوض الكبير</placeName> وست اوض فتوجه سعادته الى هناك فى اليوم
+          الثامن عشر من شهر رمضان المبارك قريب الغروب وشرف ثراها بقدومه السعيد فلما راى ذلك استحسنه
+          وانسر به واظهر بشاشته لاكابر دولته الذين كانوا معه فتلطف كالو المهندس المرقوم بما ابدى من
+          الكلام اللايق بشان الخديوى فانعم عليه سعادته وعلى الفعلة بالفين وخمسماية غرش احسانا وقد
+          كان ذهب لرؤيا ذلك عند الغروب قنصل الانكليز وعياله واولاده وبعض من طايفة الافرنج القاطنين
+          فى المحروسة منذ زمن طويل فاستحسنوا كلهم هذا الصنع وابتهجوا به ومع هذا فان مصاريفه حال كونه
+          يكفى لانارة جنينة شبرا كلها لم تزد عن الستة الاف ريال قرائا كذا علم بعد الحساب </p>
+      </div>
+    </body>
+  </text>
+</TEI>

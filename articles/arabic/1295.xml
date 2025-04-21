@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>"Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ al-Miṣrīyah), 1828-1914 - An Ottoman Arabic
+          Digital Humanities Project"</title>
+        <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</editor>
+        <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour Kanaan</editor>
+        <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah Fathallah
+          Gaara</editor>
+        <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif Erbil</editor>
+        <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed Kamal</editor>
+        <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+          El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
+        <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal al-Shamy</editor>
+        <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal Jammulapati</editor>
+        <respStmt>
+          <resp>Project co-director</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Primary Investigator</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0001-5239-7909">Project co-director</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fathallah Gaara</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0003-1216-3686">Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nori</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hiba Laabadli</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Othmane Echchabi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Nehal al-Shamy</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Vishal Jammulapati</name>
+        </respStmt>
+        <sponsor>
+          <orgName>National Endowment for the Humanities</orgName>, <orgName>Institut français
+            d’archéologie orientale</orgName> (Ifao, Cairo); <orgName>Franklin Humanities Institute
+            and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
+            University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
+            national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
+            Cultural Counsellor in Cairo</orgName>.</sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+        <p> Created by the "Digital Cairo" project (Duke University - Ifao), sponsored by the National Endowment for the Humanities.</p>
+        <p>
+          <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+        </p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName>, <persName>Hugh Cayless</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣrīyah (Egyptian Affairs) newspaper, 1828–1914.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>The "Digital Cairo" project is sponsored by the National Endowment for the Humanities.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+          and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added
+          in an attribute to a persName.</p>
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+            Editions</ref>.</p>
+      </editorialDecl>
+      <charDecl>
+        <char xml:id="qhalf">
+          <localProp value="QIRMA FRACTION 1/2" name="name"/>
+          <unicodeProp value="1/2" name="Numeric_Value"/>
+          <mapping type="similar">𐋢</mapping>
+          <figure>
+            <graphic url="../../docs/images/qhalf.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qthird">
+          <localProp value="QIRMA FRACTION 1/3" name="name"/>
+          <unicodeProp value="1/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qthird.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qfourth">
+          <localProp value="QIRMA FRACTION 1/4" name="name"/>
+          <unicodeProp value="1/4" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qfourth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qsixth">
+          <localProp value="QIRMA FRACTION 1/6" name="name"/>
+          <unicodeProp value="1/6" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qsixth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qeighth">
+          <localProp value="QIRMA FRACTION 1/8" name="name"/>
+          <unicodeProp value="1/8" name="Numeric_Value"/>
+          <mapping type="similar">𐋤</mapping>
+          <figure>
+            <graphic url="../../docs/images/qeighth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qtwothirds">
+          <localProp value="QIRMA FRACTION 2/3" name="name"/>
+          <unicodeProp value="2/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qtwothirds.svg"/>
+          </figure>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="cleared">
+         <listChange>
+            <change resp="#eAM" when="2024-01-21" status="cleared"/>
+         </listChange>
+      </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="ar">
+      <body>
+         <div xml:id="WA1295074301-1" resp="#eHL">
+            <head><date when-custom="1295-01-09">٩ محرم ١٢٩٥</date>
+               <date when="1878-01-13">١٣ يناير ١٨٧٨</date><bibl><biblScope unit="issue">نمرة
+                     ٧٤٣</biblScope>
+                  <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+            <p>تابع ما ورد من <orgName xml:id="org-WA1295074301-1_01" type=" ديوان" ref=" ديوان-الحقانية">ديوان الحقانية</orgName>
+               عن أسماء العزب التابعة لـ<orgName xml:id="org-WA1295074301-1_02" type="محكمة" ref="محكمة-القناطر-الخيرية">محكمة
+                  القناطر الخيرية</orgName></p>
+            <table>
+               <row>
+                  <cell>
+                     <p>عدد</p>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>
+                     <p><placeName xml:id="place-WA1295074301-1_01" type="عزبة" ref="عزبة شلقان">عزبة شلقان</placeName> بدايرتها</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>
+                     <p><placeName xml:id="place-WA1295074301-1_02" type="عزبة" ref="عزبة المناشي">عزبة المناشي</placeName>
+                        بدايرتها</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <p>٢</p>
+                  </cell>
+                  <cell>
+                     <p>فقط هما العزبتين الموضحتين لا غير</p>
+                  </cell>
+               </row>
+            </table>
+         </div>
+         <div xml:id="WA1295074801-2">
+            <head><date when-custom="1295-02-15">١٥ صفر ١٢٩٥</date><date when="1878-02-17">١٧ فبراير
+                  ١٨٧٨</date><bibl><biblScope unit="issue">نمرة ٧٤٨</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1295074801-2_01" ref="ديوان الأوقاف" type="ديوان">ديوان الأوقاف</orgName> بتاريخ ٩ صفر سنة ٩٥</head>
+            <p>محلات من يرغب مشتراها بالزيادة عن الراسي به بالمزاد يحضر ل<orgName xml:id="org-WA1295074801-2_02" type="ديوان" ref="ديوان المدارس">ديوان المدارس</orgName> لاعطاه القول اللازم بما يرغبه. قاعة
+               صغيرة ب<placeName xml:id="place-WA1295074801-2_01" type="حارة" ref="حارة درب الأخرس">حارة درب الأخرس</placeName>
+                  ب<placeName xml:id="place-WA1295074801-2_02" type="بندر" ref="بندر بني سويف">بندر بني سويف</placeName> راسي مزادها
+               بمبلغ ١٢١ قرش صاغ. حصة ٩ قراريط من منزل ب<placeName xml:id="place-WA1295074801-2_03" type="شق" ref="شق الثعبان">شق
+                  الثعبان</placeName> راسي مزادها بمبلغ ١٨٠٠ قرش صاغ . محلات من يرغب مشتراها حسب ما
+               توضح أعلاه يتوجه بطرف حضرة باشمهندس الأوقاف ب<placeName xml:id="place-WA1295074801-2_04" type="سراي " ref="سراي درب الجماميز">سراي درب الجماميز</placeName>. حصص وهي قيراطين ونصف خمس قيراط من خمسة
+               دكاكين بوكالة القاووقجية وثلاثة قراريط من دكانين بالوكالة المذكورة قيراط وثلثاي وثلث
+               سدس قيراط من دكان ب<placeName xml:id="place-WA1295074801-2_05" type="شارع" ref="شارع سكن الحاج علي">شارع سكن الحاج
+                  علي</placeName> سناراسي مزاد الجميع بمبلغ ٢٥٦٠ قرش صاغ . منزل ب<placeName xml:id="place-WA1295074801-2_06" type="درب" ref="درب البانسسيه">درب البانسسيه</placeName> شركة المكاتب مع
+                  <persName xml:id="person-WA1295074801-2_01">اسماعيل افندي رمشي</persName> راسي مزاده بمبلغ ٢٣٢٢٠ قرش صاغ. نصف منزل
+                  ب<placeName xml:id="place-WA1295074801-2_07" type="غيط" ref="غيط العده">غيط العده</placeName> راسي مزاده بمبلغ ١٥١٠
+               قرش صاغ. حصه ١٨ قيراط بستة عشر خزانة وحاصل ب<placeName xml:id="place-WA1295074801-2_08" type="وكالة" ref="وكالة خان اللاروند">وكالة خان اللاووند</placeName> ب<placeName xml:id="place-WA1295074801-2_09" ref="النحاسين">النحاسين</placeName> راسي مزادها بمبلغ ١٥٠٠ قرش صاغ. منزل ب<placeName xml:id="place-WA1295074801-2_10" type="حارة" ref="حارة درب أبو لحاف">حارة درب أبو لحاف</placeName> شركة المكاتب مع
+               مذكورين راسي مزاده بمبلغ ١٥٥٠٠ قرش عمله تعريفيه. لمحلات المواضحة أعلاه راسي مزاده
+               مبيعها بالمبالغ المبينة قرين كل محل فيقتضي ان من يرغب لمشتري شئ منها بعد معاينته يحضر
+               للجهة التي يقبل منها المزاد حسب الموضح أعلاه وقد تحدد ميعاد لحضور الراغبين ثلاثين يوم
+               اعتبارا من تاريخه ومن يتأخر يكون ديوان المعارف مخير في قبول مزاده وعدمه وقد تحرر هذا
+               لمعلومية الجميع به.</p>
+         </div>
+         <div xml:id="WA1295075001-3" resp="#eHL">
+            <head><date when-custom="1295-02-29">٢٩ صفر ١٢٩٥</date><date when="1878-03-03">٣ مارث
+                  ١٨٧٨</date><bibl><biblScope unit="issue">نمرة ٧٥٠</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1295075001-3_01" type="ديوان" ref="ديوان الأوقاف">ديوان الأوقاف</orgName> بتاريخ ٢٥ صفر سنة ٩٥</head>
+            <table>
+               <row>
+                  <cell>
+                     <p>عدد</p>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>
+                     <p><placeName xml:id="place-WA1295075001-3_01" type="منزل-خرب" ref="منزل خرب وقف علم الدين شكر الله">منزل
+                           خرب</placeName>  كائن بـ<placeName xml:id="place-WA1295075001-3_02" ref="العطوف">العطوف</placeName>
+                        <orgName xml:id="org-WA1295075001-3_02" ref="وقف علم الدين شكر الله" type="وقف">وقف <persName xml:id="person-WA1295075001-3_01" role="واقف">علم الدين شكر الله</persName></orgName> نظارة <persName xml:id="person-WA1295075001-3_02" role="ناظر">الشيخ أحمد على المنوفي</persName> مقتضي خروجه من وقفه بطريق الأستبدال
+                        ومقدار مسطح أرضه ١٣٧,١٣ ذراع تقريبا وقايمه مزاد استبداله بطرف مأمور <orgName xml:id="org-WA1295075001-3_03" ref="قسم أول أوقاف" type="قسم">قسم أول أوقاف</orgName> فكل من له رغبه فى
+                        اخذه بالآستبدال فمن بعد معاينه اياه يتوجه لمأمور قسم أول أوقاف ويضع مزاده
+                        بما يرغبه بقايمه المراد وتحدد لنهو ذلك خمسة عشر يوما من تاريخه</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>
+                     <p>نصف <placeName xml:id="place-WA1295075001-3_03" type="معصره-خربه" ref="معصره خربه وقف الحاج ابراهيم حجاب">معصره خربه</placeName> كائنة ب<placeName xml:id="place-WA1295075001-3_04" type="خط" ref="خط الواجهة">خط
+                           الواجهة</placeName> ب<placeName xml:id="place-WA1295075001-3_05" ref="بولاق">بولاق</placeName>
+                        <orgName xml:id="org-WA1295075001-3_04" ref="وقف الحاج ابراهيم حجاب" type="وقف">وقف <persName xml:id="person-WA1295075001-3_03">الحاج ابراهيم
+                              حجاب</persName></orgName> نظارة الست <persName xml:id="person-WA1295075001-3_04" role="ناظر">نفيسة بنت
+                           حسن</persName> مقتضي خروج بناء الحصة المذكورة من وقفها بطريق الاستبدال
+                        وخروج أرضها كاملا أيضا بالاستبدال ومقدار مسطح أرضها المذكورة ٩٢٢ مترا ومقدر
+                        بمعرفة أهل الخبرة مبلغ استبدال بنا نصف المعصرة المذكوره ٩٠ جنيه مصري
+                        واستبدال ارضها في الكامل ٤٠ جنيه مصري فكل من يرغب لاخذ بنا نصفها وارضها
+                        بالزيادة عن ما ذكر فمن بعد معاينته ذلك يتوجه بطرف مأمور <orgName xml:id="org-WA1295075001-3_05" ref="قسم ثاني أوقاف" type="قسم">قسم ثاني أوقاف</orgName> ويضع مزاده بما
+                        يرغبه بقايمة المزاد وتحدد لنهو ذلك خمسة عشر يوما من تاريخه</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>أرض <placeName xml:id="place-WA1295075001-3_06" ref="جنينة وقف أحمد أغا ميلاده">جنينة</placeName> كائنة خارج <placeName xml:id="place-WA1295075001-3_07" ref="الحسينية">الحسينية</placeName>
+                        بـ<placeName xml:id="place-WA1295075001-3_08" ref="سكة العباسية">سكة العباسية</placeName> بجهة <placeName xml:id="place-WA1295075001-3_09" ref="الظاهر">الظاهر</placeName>
+                     <orgName xml:id="org-WA1295075001-3_06" ref="وقف أحمد أغا ميلاده" type="وقف">وقف <persName xml:id="person-WA1295075001-3_05">أحمد أغا
+                           ميلاده</persName></orgName> ومقدار مسطحها ١٨٧٥٩ ذراع عبارة عن فدانين
+                     وكسور مقتضى خروجها بالأستبدال مع ما فيها من الأشجار والألات فكل من يرغب لأخذها
+                     بطريق الأستبدال فمن بعد معاينته اياها يتوجه بطرف رئيس دلالين العقارات ويضع
+                     مزاده بما يرغبه بقايمة المزاد وتحدد لنهو ذلك واحد وثلاثون يوما من تاريخه</cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>
+                     <p>نصف <placeName xml:id="place-WA1295075001-3_10" type="منزل-خرب" ref="منزل خرب وقف شلبية بنت جرجس حنس">منزل
+                           خرب</placeName> كائن ب<placeName xml:id="place-WA1295075001-3_11" type="حارة" ref="حارة السقايين">حارة
+                           السقايين</placeName>
+                        <orgName xml:id="org-WA1295075001-3_07" ref="وقف شلبيه بنت جرجس حنس" type="وقف">وقف <persName xml:id="person-WA1295075001-3_06">شلبيه بنت
+                              جرجس حنس</persName></orgName> مقتضي خروجه من وقفه بطريق الأستبدال
+                        ومقدار مسطح المنزل بالكامل ١٥ و ٧٥ ذراع ومقدار قمية استبداله ٢٠ بنتو فكل من
+                        له رغبة فى أخذه بالاستبدال فبعد معاينته اياه يتوجه بطرف مأمور قسم ثاني أوقاف
+                        ويضع مزاده بما يرغبه بقايمة المزاد وتحدد لنهو ذلك خمسة عشر يوما من
+                        تاريخه</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell>٤</cell>
+                  <cell/>
+               </row>
+            </table>
+            <p>الأربعة محلات الموضحين اعلاه تجوز شرعا بخروجهم من أوقافهم بطريق الاستبدال ومن
+               الأقتضاء درجهم بالوقائع كما الجاري فاقتضي تحريره لينتبه بالأجراء هكذا ليكون ذلك في
+               علم الجميع.</p>
+         </div>
+         <div xml:id="WA1295075101-4">
+            <head><date when-custom="1295-03-27">٦ ربيع الأول ١٢٩٥</date>
+               <date when="1878-03-31">١٠ مارث ١٨٧٨</date>
+               <bibl><biblScope unit="issue">نمرة ٧٥١</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1295075101-4_01" ref="محافظة مصر" type="محافظة">محافظة مصر</orgName> بتاريخ غاية صفر سنة ٩٥</head>
+            <p>انه من ضمن القطعة الأرض الباقية من كامل <placeName xml:id="place-WA1295075101-4_01" ref="جنينة">الجنينة</placeName>
+               الكائنة ب<placeName xml:id="place-WA1295075101-4_02" type="طريق" ref="طريق بولاق">طريق بولاق</placeName> فيما بين
+                  <placeName xml:id="place-WA1295075101-4_03" type=" قنطرة" ref="قنطرة المدابغ">قنطرة المدابغ</placeName> و<placeName xml:id="place-WA1295075101-4_04" ref="بولاق">بولاق</placeName> المقابلة ل<placeName xml:id="place-WA1295075101-4_05" type="غيط" ref="غيط البقلجي">غيط البقلجي</placeName> المعروف ب<placeName xml:id="place-WA1295075101-4_06" type="غيط" ref="غيط الأمير حسن كتخدا النجدلي">غيط الأمير حسن كتخدا النجدلي</placeName> وما بها من البيرين الساقية
+               المعينة وعدتهما المركبة على على فوههما الصالحين للادارة والانشآت والبناء والمستجد
+               الذي بواجهتهما بعد الذي أخرج من الجنينة المذكورة بالسكة الحديد الموصلة ل<placeName xml:id="place-WA1295075101-4_07" type="قصر" ref="قصر النيل">قصر النيل</placeName> وب<placeName xml:id="place-WA1295075101-4_08" type="ترعة" ref="الترعة الإسماعيلية">الترعة الإسماعيلية</placeName> المعروفة
+               القطعة الأرض المذكورة الأن بمعروف حصة قدرها أربعة قراريط وأربعة أخماس قيراط معبر عنها
+               باربعة قراريط وثلثاي وثمن قيراط وسدس ثلث ثمن قيراط وثلثاي وثمن ثلث ثمن ثلث ثمن قيراط
+               وخمس ثلث ثمن ثلث ثمن ثلث ثمن قيراط يقال بأنها جارية في ملك المرحومة الست
+                  <persName xml:id="person-WA1295075101-4_01">حفيظة المهديه</persName> المتوفية عن أختها المرحومة الست <persName xml:id="person-WA1295075101-4_02">خديجة
+                  المهدية</persName> وعن حضرة الأستاذ مفتي أفندي السادة الحنفية وحضرة أخيه
+                  <persName xml:id="person-WA1295075101-4_03">الشيخ محمد عبد اللطيف المهدي</persName> وتوفت المرحومة الست خديجة من
+               حضرة الاستاذ مفتي أفندي الساده الحنيفيه وحضرة أخيه الشيخ محمد عبد اللطيف المهدي وان
+               الحجة الشاهدة بالتمليك ضايعة وبمقتضى ما أشير بما صدرلهنا من نظارة الداخلية رقيم ١٥
+               صفر سنة ٩٥ نمرة ٢٨ وما ورد من حضرة الأستاذ الموما اليه رقيم ٢٤ الجاري نمرة ٦١ كتب
+               بتاريخ ل<orgName xml:id="org-WA1295075101-4_02" ref="محكمة مصر" type="محكمة">محكمة مصر</orgName> بملزم من أجل تحرير
+               حجة بدل الضايعة ولزم تحريره ليتنبه بالنشر عن ذلك بالجرانيل تطبيقا لسابقة ما صدر من
+                  <orgName xml:id="org-WA1295075101-4_03" ref="الداخلية">الداخلية</orgName> وتحديد ميعاد خمسة عشر يوما من تاريخه
+               وتوضح بما تحرر للمحكمة على انه بعد انقضاء مدة الميعاد المذكور اذا كان لا يري موانع
+               ولا محذورات فيجري ما تقتضيه الأصول الشرعية نحو ما هو لازم.</p>
+         </div>
+         <div xml:id="WA1295075401-5" resp="#eHL">
+            <head><date when-custom="1295-03-27">٢٧ ربيع الأول ١٢٩٥</date>
+               <date when="1878-03-31">٣١ مارث ١٨٧٨</date>
+               <bibl><biblScope unit="issue">نمرة ٧٥٤</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope>
+               </bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1295075401-5_01" type="محافظة" ref="محافظة-مصر">محافظة مصر</orgName> بتاريخ ٢١ ربيع الاول سنة ١٢٩٥</head>
+            <p>من ضمن القطعة الأرض الباقية من كامل <placeName xml:id="place-WA1295075401-5_01" type="جنينة">الجنينة</placeName> الكائنة ب<placeName xml:id="place-WA1295075401-5_02" type="طريق" ref="طريق بولاق">طريق
+                  بولاق</placeName> فيما بين <placeName xml:id="place-WA1295075401-5_03" type="قنطرة" ref="قنطرة المدابغ">قنطرة المدابغ</placeName> و<placeName xml:id="place-WA1295075401-5_04" ref="بولاق">بولاق</placeName> المقابلة
+                  لـ<placeName xml:id="place-WA1295075401-5_05" type="غيط" ref="غيط البقلجي">غيط
+                  البقلجي</placeName> المعروف بـ<placeName xml:id="place-WA1295075401-5_06" type="غيط" ref="غيط الامير حسن كتخدا النجدلي">غيط <persName xml:id="person-WA1295075401-5_01">الأمير حسن كتخدا
+                  النجدلي</persName></placeName> وما بها من البيرين الساقية المعينة وعدتهما المركبة
+               على فوهتهما والانشا والبناء المستجد الذي بواجهتهما بعد الذي أخرج من الجنينة المذكورة
+               بالسكة الحديد الموصلة لـ<placeName xml:id="place-WA1295075401-5_07" type="قصر" ref="قصر النيل">قصر النيل</placeName> و<placeName xml:id="place-WA1295075401-5_08" type="ترعة" ref="الترعة الاسماعيلية">الترعة الإسماعيلية</placeName> المعروفة
+               القطعة الأرض المذكورة الأن بمعروف حصة قدرها ثلثاي قيراط وثلاثة اثمان ونصف ثمن ثلث ثمن
+               قيراط قيل بأنها ملك المرحومة <persName xml:id="person-WA1295075401-5_02">عايشة بنت
+                  المرحوم حسين جلبي</persName> وتوفت عن أولادها الثلاثة هم حسن وحسين والست أمونة
+               أولاد المرحوم <persName xml:id="person-WA1295075401-5_03" role="شيخ عرب">شيخ العرب
+                  سليمان أباظة</persName> وتوفي حسن المذكور عن زوجتيه هما الست <persName xml:id="person-WA1295075401-5_04">عرب بنت المرحوم سليمان العايدي</persName> والست
+                  <persName xml:id="person-WA1295075401-5_05">أمونة بنت المرحوم محمد جلبي</persName>
+               وأولاده الخمسة وهم المرحوم <persName xml:id="person-WA1295075401-5_06">السيد باشا
+                  أباظة</persName> والست نفيسة وسليمان والست فاطمة والست عيوشة وصدر تخارج شرعي من
+               الست عرب والست أمونة والزوجتين وسليمان ونفيسة وفاطمة وعيوشة لجناب لسعادة السيد باشا
+               أباظة في حصصهم ثم توفت المرحومة أمونة عن ولديها الحاج عوض والست عيوشة ولدي المرحوم
+               حسن جاهين وتوفا المرحوم حسين عن زوجتيه الست غندورة والست ياسمين وأولاده الثلاثة هم
+                  <persName xml:id="person-WA1295075401-5_07">عوض حسين أباظة</persName> وعبد الله
+               ومحبوبة وتوفت المرحومة غندورة عن ابنها عوض المذكور وتوفا المرحوم <persName xml:id="person-WA1295075401-5_08">السيد باشا اباظة</persName> عن زوجاته الثلاثة هي
+               الست <persName xml:id="person-WA1295075401-5_09">أمونة بنت المرحوم بغدادي
+                  أباظة</persName> والست <persName xml:id="person-WA1295075401-5_10">عائشة بنت
+                  المرحوم محمد ابراهيم</persName> والست غزة بنت المرحوم سليمان العايدي وأولاده
+               الاثنين والثلاثون وهما <persName xml:id="person-WA1295075401-5_11">عثمان بك
+                  اباظة</persName> والست حفيظة والست قمر والست نبوية و<persName xml:id="person-WA1295075401-5_12">اسماعيل بك اباظة</persName> والست محبوبة والست
+               عديلة و<persName xml:id="person-WA1295075401-5_13">سليمان افندي أباظة</persName>
+                  و<persName xml:id="person-WA1295075401-5_14">ابراهيم افندي اباظة</persName>
+                  و<persName xml:id="person-WA1295075401-5_15">أحمد بك أباظة</persName> و<persName xml:id="person-WA1295075401-5_16">الشيخ عبد الرحمن أباظة</persName> و<persName xml:id="person-WA1295075401-5_17">مأمون أفندي أباظة</persName> والست نور والست أم
+               السعد و<persName xml:id="person-WA1295075401-5_18">آمين أفندي أباظة</persName> والست
+               أمينة والست عيوشة وعلى القاصر وعبد الله ومحمد وزينب القصر وخليل القاصر وحسني القاصر
+               والست دودا القاصرة ومحمد توفيق ومحمد شاكر ومصطفي ونبيهه ومحمد وتفيدة وحبيبة ومحمد
+               سعيد وتوفى محمد القاصر عن والدته الست حسن شاه وشقيقته تفيدة واخوانه لوالده المذكورين
+               المشمولين كامل الورثة توكيل <persName xml:id="person-WA1295075401-5_19">اسماعيل بك
+                  أباظة</persName> ولوجه ما تنوه عن ضياع حجة الحصة البادي الذكر عنها اخطأت التحريرات
+               المقتضية بمخابرة جهات الأقتضاء وكتب ل<orgName xml:id="org-WA1295075401-5_02" type="مديرية" ref="مديرية-الشرقية">مديرية الشرقية</orgName> باجراء اللازم
+               للاستحصال على الضمانة ممن يعتمد بها ووردت منها الأفادة رقيم ١٧ الجاري نمرة ١٨ ومعها
+               ضمانة بامضاء واختام من كل اسماعيل بك أباظة والضامن اليه <persName xml:id="person-WA1295075401-5_20" role="عمدة">محمد صابر عمدة <placeName xml:id="place-WA1295075401-5_09" ref="شرويدة">شرويدة</placeName></persName>
+               وبتاريخه يحرر لـ<orgName xml:id="org-WA1295075401-5_03" type="محكمة" ref="محكمة-مصر">محكمة مصر</orgName> وأرسلت أليها الضمانة وافادة الميرية لتحرير حجة بدل الشايعة
+               ولزم تحريره للنشر عن ذلك الجرانيل وتحدد ميعاد خمسة عشر يوما من تاريخه وتوضح بما تحرر
+               للمحكمة على انه بانتيهاء الميعاد وعدم وجود موانع ولا محذورات فيما يرام فيجرى ما يقتضي
+               نحو ما هو حسب الجاري.</p>
+         </div>
+         <div xml:id="WA1295075601-6" resp="#eHL">
+            <head><date when-custom="1295-04-11">١١ ربيع الثاني ١٢٩٥</date>
+               <date when="1878-04-14">١٤ أبريل ١٨٧٨</date>
+               <bibl><biblScope unit="issue">نمرة ٧٥٦</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>في يوم الاثنين الماضي ثامن هذا الشهر الافرنكي توجه بالهيئة الرسمية الى <placeName xml:id="place-WA1295075601-6_01" type="سراية" ref="سراية عابدين"><orgName xml:id="org-WA1295075601-6_01" ref="سراية عابدين" type="سراية">سراية
+                     عابدين</orgName></placeName> العالية جناب <persName xml:id="person-WA1295075601-6_01">مسيو (دراجوميس)</persName> الذي تعين من دولة
+                  <placeName xml:id="place-WA1295075601-6_02" ref="اليونان">اليونان</placeName>
+               للقنصلية الجنرالية في مصر المحمية وبعد ان تلاقي مع الحضرة الفخيمة الخديوية وقدم
+               الاوراق الرسمية الموذنة باعتماده وأطلقت المدافع حسب المعتاد ركب العربية المزخرفة الذي
+               خصصت لركوبه وامامه الجاوشية الخيالة حتى عاد الى محله وكان حاضرا في رسم الملاقاة حضرتا
+               دولتلو <persName xml:id="person-WA1295075601-6_02" role="ناظر">محمد توفيق باشا ناظر
+                  الداخلية</persName> وحضرة دولتلو <persName xml:id="person-WA1295075601-6_03" role="ناظر">حسين كامل باشا ناظر المالية</persName> وبعض حضرات الذوات الفخام.</p>
+         </div>
+         <div xml:id="WA1295075701-7" resp="#eHL">
+            <head><date when-custom="1295-04-18">١٨ ربيع الثاني ١٢٩٥</date><date when="1878-04-21">٢١ أبريل ١٨٧٨</date><bibl><biblScope unit="issue">نمرة ٧٥٧</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs></head>
+            <p><placeName xml:id="place-WA1295075701-7_01" type="مصبغة">مصبغة</placeName> و<placeName xml:id="place-WA1295075701-7_02" type="مغارتين">مغارتين</placeName> بـ<placeName xml:id="place-WA1295075701-7_03" type="شارع" ref="شارع اللبودية">شارع
+                  اللبودية</placeName> مطلعين على <placeName xml:id="place-WA1295075701-7_04" ref="الخليج">الخليج</placeName> مستجدين
+               العمارة أحدهم كبيرة ومنزلين ودور بمنزل داخل <placeName xml:id="place-WA1295075701-7_05" type="قنطرة" ref="قنطرة عمر شاه">قنطرة عمر شاه</placeName> الجميع معدين للسكنى وعدة طاحونة
+               كاملة وشباكين حديد وعامودين رخام للمبيع يسأل عن الجميع من <persName xml:id="person-WA1295075701-7_01">على يوسف
+                  الحلاق</persName> بـ<placeName xml:id="place-WA1295075701-7_06" ref="الحنفي">الحنفي</placeName> منزل كبير
+                  بـ<placeName xml:id="place-WA1295075701-7_07" ref="الحلمية">الحلمية</placeName> و٦٤ فدان عشوري بـ<placeName xml:id="place-WA1295075701-7_08" ref="الجيزة">الجيزة</placeName> وهنتور بطقم كامل الآلة يستعمل للجوز والفرد يسأل عن
+               الجميع من الخواجة <persName xml:id="person-WA1295075701-7_02">نيشان قلفياه</persName> بـ<placeName xml:id="place-WA1295075701-7_09" ref="السكة الجديدة">السكة الجديدة</placeName>.</p>
+         </div>
+         <div xml:id="WA1295075801-8" resp="#eHL">
+            <head><date when-custom="1295-04-25">٢٥ ربيع الثاني ١٢٩٥</date>
+               <date when="1878-04-28">٢٨ أبريل ١٨٧٨</date><bibl><biblScope unit="issue">نمرة
+                     ٧٥٨</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>(اعلانات)</head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1295075801-8_01" type="محافظة" ref="محافظة-مصر">محافظة مصر</orgName> بتاريخ ٢٤ ربيع آخر سنة ١٢٩٥</head>
+            <p>قد عرض من الحرمة <persName xml:id="person-WA1295075801-8_01">ذنوبة بنت على أغا عبد
+                  الرحمن</persName> بانه مخلف عن والدها <placeName xml:id="place-WA1295075801-8_01" type="منزل" ref=" منزل علي أغا عبد الرحمن">منزل</placeName> كائن بـ<placeName xml:id="place-WA1295075801-8_02" ref="قلعة الكبش">قلعة الكبش</placeName>
+                  بـ<placeName xml:id="place-WA1295075801-8_03" type="ثمن" ref="ثمن الخليفة"><orgName xml:id="org-WA1295075801-8_02" ref="ثمن الخليفة" type="ثمن">ثمن
+                     الخليفة</orgName></placeName> وحجته ضايعة ولما ان حصل التحري بمخابرة <orgName xml:id="org-WA1295075801-8_03" ref="بيت-المال-مصر">بيت المال مصر</orgName>
+                  و<orgName xml:id="org-WA1295075801-8_04" type="ديوان" ref="ديوان-الاوقاف">ديوان
+                  الاوقاف</orgName> والمحكمة وردت الأفادات وأخيرا من <orgName xml:id="org-WA1295075801-8_05" type="محكمة " ref="محكمة-مصر">محكمة مصر</orgName>
+               رقيم ١٣ الجاري نمرة ٣٨ عرض حالات بايضاح ما صار اجراه التي من ضمنها انه تعين <persName xml:id="person-WA1295075801-8_02" role="كاتب">الشيخ على حسين النكلاوي أحد كتاب
+                  المحكمة</persName> لاجراء التحقيق وتوضح منه بانه تحقق لديه ملكية المصونة بنت
+               المدعوة ذنوبة بنت المرحوم <persName xml:id="person-WA1295075801-8_03">على أغا عبد
+                  الرحمن الخياط</persName> لكامل بناء المكان الكائن بـ<placeName xml:id="place-WA1295075801-8_04" type="درب" ref="درب القطانة">درب
+                  القطانة</placeName> بقلعة الكبش بثمن الخليفة آل إليها بالأرث الشرعي من قبل أبويها
+               وعمتها المتوفين ما هو والدها على أغا المذكور توفي عن زوجته <persName xml:id="person-WA1295075801-8_04">وسيلة</persName> وابنته منها الحرمة زينب واخته
+               لوالده هى الحرمة خضرة ثم توفت وسيلة الزوجة عن ابنتها الحرمة زينب وتوفت الحرمة خضرة عن
+               بنت أخيها الحرمة زينب المذكور من غير شريك لباقي ما أوضحه وما تورى عنه بافادات المحكمة
+               وتقدم ضمانة بامضاء واختام كل من الحرمة زينب المذكورة والضامن اليها حضرة <persName xml:id="person-WA1295075801-8_05" role="قائمقام">أحمد بك عرابي قائم مقام ١ جي
+                  بيادة ١ جي فرقة</persName> بشأن المنزل المذكور وانه ملك الحرمة ذنوبة البادي ذكرها
+               آل اليها بالأرث لباقي ما توضح عنه بالضمانة وحيث من الاقتضا النشر عن ذلك بالجرانيل
+               وتحدد ميعاد ٣١ يوما من تاريخه اذانه كتب الى المحكمة فى تاريخه وأرسله إليها الضمانة
+               وباقي الأوراق وتوضح على انه بانتهاء الميعاد البادي ذكره يجري تحرير حجه بدل الضايعة
+               واقتضا تحريره للاجراء حسب ما ذكر.</p>
+         </div>
+         <div xml:id="WA1295076201-9" resp="#eHL">
+            <head><date when-custom="1295-05-24">٢٤ جمادي الأولى ١٢٩٥</date>
+               <date when="1878-05-26">٢٦ مايه ١٨٧٨</date><bibl><biblScope unit="issue">نمرة
+                     ٧٦٢</biblScope>
+                  <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1295076201-9_01" type="محافظة" ref="محافظة-مصر">محافظة مصر</orgName> بتاريخ ١٧ جا سنة ٩٥</head>
+            <p>قد عرض على للديوان من شخص يسمى <persName xml:id="person-WA1295076201-9_01">المغربي</persName> بان والده <persName xml:id="person-WA1295076201-9_02">محمد
+                  المغربي</persName> توفى عنه وعن اخيه وعن محمد زوجته <persName xml:id="person-WA1295076201-9_03">فطومة</persName> وانه مخلف عنه <placeName xml:id="place-WA1295076201-9_01" type="منزل" ref="منزل محمد المغربي">منزل</placeName> كائن بـ<placeName xml:id="place-WA1295076201-9_02" type="درب" ref="درب اليازدي">درب اليازدى</placeName> المعروف ب<placeName xml:id="place-WA1295076201-9_03" type="درب" ref="درب البرابرة">درب
+                  البرابرة</placeName> بـ<placeName xml:id="place-WA1295076201-9_04" type="خط" ref="خط السبتية">خط السبتية</placeName> بـ<placeName xml:id="place-WA1295076201-9_05" ref="بولاق">بولاق</placeName> وأما أخوه وزوجته
+               والده المذكورين حرروا حجة ايلوله بما خصهم من <orgName xml:id="org-WA1295076201-9_02" type="محكمة " ref="محكمة-مصر">محكمة مصر</orgName> وحجرة المنزل الأصلية محررة من
+                  <orgName xml:id="org-WA1295076201-9_03" type="محكمة" ref="محكمة-الأسكندرية">محكمة
+                  الأسكندرية</orgName> وضايعه ويلتمس تحرير حجه ايلوله بما يخصه وبالتحري عن ذلك
+               بمخابرة <orgName xml:id="org-WA1295076201-9_04" type="محافظة" ref="محافظة-الاسكندرية">محافظة الاسكندرية</orgName> و<orgName xml:id="org-WA1295076201-9_05" ref="بيت-مال-مصر">بيت مال مصر</orgName> و<orgName xml:id="org-WA1295076201-9_06" type="ديوان" ref="ديوان-الاوقاف">ديوان الاوقاف</orgName> والمحكمة وردت الأفادات
+               التي من ضمنهم توري محكمة مصر بانه جرى التحقيق اللازم بمعرفة <persName xml:id="person-WA1295076201-9_04" role="نائب">الشيخ محمد عبد الخالق نايب <orgName xml:id="org-WA1295076201-9_07" ref="محكمة بولاق" type="محكمة">محكمة
+                     بولاق</orgName></persName> و<persName xml:id="person-WA1295076201-9_05" role="كاتب">الشيخ محمد الزرقاني كاتب المحكمة</persName> المذكورة والمذكورين أوردوا
+               بانه تحقق لديهم جريان الحصة التي قدرها عشرة قراريط ونصف قيراط على الشيوع وفي كامل
+               المكان المعبر عنه بالبيت الكائن بـبولاق بـ<placeName xml:id="place-WA1295076201-9_06" type="كفر" ref="كفر اليازدي">كفر اليازدي</placeName> في ملك <persName xml:id="person-WA1295076201-9_06">على المغربي</persName> آل ذلك إليه بالأرث من قبل
+               والده المرحوم الحاج على المغربي المتوفى قبل تاريخه وعن زوجته وولديه محمد المغربي
+                  و<persName xml:id="person-WA1295076201-9_07">على المغربي</persName> وكان من المخلف
+               عنه كامل المكان المذكور وانه تحرر للحورمة فطومة الزوجة محمد الأبن المذكورين حجه
+               ايلوله بما يخصهما لباقي وما أوضحوه ولوجه ما أفيد أخيرا من <orgName xml:id="org-WA1295076201-9_08" type="محافظة" ref="محافظة-اسكندرية">محافظة
+                  اسكندرية</orgName> رقيم ٢٢ را سنة ٩٥ نمرة ٣٤ بما عطيت به الأفادة من <orgName xml:id="org-WA1295076201-9_09" type="محكمة" ref="محكمة-الاسكندرية">محكمة
+                  الاسكندرية</orgName> بانه صار الكشف من السجلات ولم يوجد فاشير يدل على انتقال البيت
+               المذكور لاحد وما تقدمت به الضمانة بامضا واختام كل من على المغربي المذكور والضامن اليه
+                  <persName xml:id="person-WA1295076201-9_08">على مصطفى الكبير</persName>
+                  بـ<placeName xml:id="place-WA1295076201-9_07" type="خط" ref="خط الجلادين">خط
+                  الجلادين</placeName> بـبولاق بان حصة العشرة قراريط و نصف قيراط فى كامل المنزل
+               البادي ذكره هي ملك على المغربي آلت اليه بالأرث من قبل والده لباقي ما توضح عليه
+               بالضمانة وتصدق من <persName xml:id="person-WA1295076201-9_09">أحمد خضر
+                  المعصراني</persName> بان على مصطفى الكبير الضامن المذكور معتمد ومقتدر وكفوا لهذه
+               الضمانة وان الضمانة في ذلك عليه ضمان حضور وغروم كما وتصدق أيضا من الحاج <persName xml:id="person-WA1295076201-9_10" role="شيخ طائفة">محمود حسن شيخ طايفة
+                  المعصرانية</persName> بان أحمد خضر المصدر هو كفوء للتصديق وان الضمانة عليه ثم
+               وناشر من <orgName xml:id="org-WA1295076201-9_10" ref="الضبطية">الضبطية</orgName> على
+               نفس الضمانة بان ختم شيخ طايفه المعصرانية المبصوم بالضمانة المضاهي للوارد بسجل الضبطية
+               من الاقتضاء النشر عن ذلك بالجرانيل وتحدد ميعاد واحد وثلاثون يوما وبتاريخه تحرر لمحكمة
+               مصر وأرسل الضمانة مع كامل الأوقات لكي بانتهاء الميعاد المرقوم اذا كان لم يتضح حصول
+               تداعي من أحد بشأن الحصة المذكورة فالمحكمة تجري تحرير حجة ايلوله إلى المذكور بدل الحجة
+               الضايعة واقتضي تحريره ليتنبه بالنشر عن ما ذكر حسب ما توضح.</p>
+         </div>
+         <div xml:id="WA1295076202-10" resp="#eHL">
+            <head><date when-custom="1295-05-24">٢٤ جمادي الأولى ١٢٩٥</date>
+               <date when="1878-05-26">٢٦ مايه ١٨٧٨</date><bibl><biblScope unit="issue">نمرة
+                     ٧٦٢</biblScope>
+                  <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+            <head>نص <rs ref="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1295076202-10_01" type="محافظة" ref="محافظة-مصر">محافظة مصر</orgName> بتاريخ ١٨ جا سنة ٩٥</head>
+            <p>قد عرض من مذكورين بأنهم ورثة المرحوم <persName xml:id="person-WA1295076202-10_01">عبد
+                  اللطيف مصطفى الخيمي</persName> وانه مخالف عنه خمسة قراريط من <placeName xml:id="place-WA1295076202-10_01" type="حمام" ref="حمام عبد اللطيف مصطفى">حمام</placeName> كائن بـ<placeName xml:id="place-WA1295076202-10_02" type="قنطرة" ref="قنطرة سنقر">قنطرة سنقر</placeName> وستة قراريط من الجدك الموضوع به وان الحجة
+               الشاهدة بالتمليك ضايعة وبحصول التحري بمخابرة <orgName xml:id="org-WA1295076202-10_02" ref=" بيت-مال-مصر">بيت مال مصر</orgName> والمحكمة و<orgName xml:id="org-WA1295076202-10_03" type="ديوان" ref="ديوان-الأوقاف">ديوان
+                  الأوقاف</orgName> وردت الأفادات وأخيرا من <orgName xml:id="org-WA1295076202-10_04" type=" محكمة" ref=" محكمة-مصر">محكمة مصر</orgName> رقيم ١١ الجاري نمرة ٥١ عرضحالات
+               بأنه تأشير من مقيدين السجلات بما يفيد حصول الكشف والتسلسل وانه تعيين <persName xml:id="person-WA1295076202-10_02" role="أحد كتاب المحكمة">الشيخ على حسين النكلاوي
+                  أحد كتاب المحكمة</persName> وان ما اجراه أوضح عنه بمناظرة ما ذكر تبين ان مقيدين
+               السجلات من تاريخ الحجة المقال بانها اضايعه للان فلا كان يتضح خروج شئ من حصة <persName xml:id="person-WA1295076202-10_03">عائشة</persName> المعنية لها من الحمام والقشة
+               والعده والشيخ على حسين النكلاوي أوضح بانه تحقق لديه جريان حصة خمسة قراريط شايعة فى
+               كامل الحمام الكائن ب<placeName xml:id="place-WA1295076202-10_03" type="خط" ref="خط قنطرة سنقر">خط <placeName xml:id="place-WA1295076202-10_04" type="قنطرة" ref="قنطرة سنقر"><orgName xml:id="org-WA1295076202-10_05" ref="قنطرة سنقر" type="قنطرة">قنطرة سنقر</orgName></placeName></placeName> وستة قراريط شايعة
+               في كامل القشة والعدة المعدة لصناعات الحمامات الموضوعة بالحمام المذكور في ملك المرحومة
+                  <persName xml:id="person-WA1295076202-10_04">عائشة بنت المرحوم غنيم
+                  الطباخ</persName> الى حين وفاتها عن ولدها <persName xml:id="person-WA1295076202-10_05">عبد اللطيف مصطفي الخيمي</persName> وان عبد
+               اللطيف المذكور توفى وانحصر ميراثه في أولاده الخمسة وهم <persName xml:id="person-WA1295076202-10_06">الاستى صالح عبد اللطيف</persName> و<persName xml:id="person-WA1295076202-10_07">الاستى على عبد الطيف</persName> و<persName xml:id="person-WA1295076202-10_08">الاستي مصطفى عبد اللطيف</persName> و<persName xml:id="person-WA1295076202-10_09">الاستي محمد عبد اللطيف</persName> والحرمة
+                  <persName xml:id="person-WA1295076202-10_10">عيوشة</persName> ووفات الاستي مصطفي
+               عبد اللطيف عن والديه <persName xml:id="person-WA1295076202-10_11">درويش</persName>
+                  و<persName xml:id="person-WA1295076202-10_12">محمد</persName> لباقي ما أوراه
+               وتقدمت ضمانة بامضا وأختام كل من الورثة المذكورين والضامن اليهم <persName xml:id="person-WA1295076202-10_13" role="ضامن">المعلم محمد أبو أحمد
+                  الخبازيان</persName> الحصتين البادي الذكر عنهم هما ملك الورثة وانه لا مانع من
+               التصريح باخراج حجة بدل الضايعة لباقي ما توضح عنه بالضمانة وتصدق من <persName xml:id="person-WA1295076202-10_14" role="رئيس خبازين">الحاج صالح سليم رئيس طائفة
+                  الخبازين</persName> بان المعلم محمد أبو أحمد الضامن المذكور رفانه معتمد ومقتدر
+               وكفوا لهذه الضمانة وان ضمانه في ذلك عليه ضمان حضور وغروم لباقي ما اشتمل عليه ذاك
+               الضمانة والاوراق المتعلقة بهذا الخصوص وحيث من الاقتضاء النشر عن ذلك بالجرانيل بميعاد
+               واحد وثلاثون يوما من تاريخه كي بعدانتها الميعاد المرقوم اذا كان لم يظهر وجود معارض أو
+               مثازع فى ذلك فالمحكمة تجري تحرير حجة بدل الضايعة كما بتاريخه تحرر للمحكمة عن ما ذكر
+               وأرسلت إليها الضمانة والأوراق وتنوه على انه بعد انتهاء الميعاد المرقوم تجري ما يقتضي
+               نحو ما هو لازم واقتضى تحريره للنشر حسب ما توضح.</p>
+         </div>
+         <div xml:id="WA1295076301-11" resp="#eHL">
+            <head><date when-custom="1295-06-01">غرة جمادي الثانى ١٢٩٥</date>
+               <date when="1878-06-02">٢ يونيه ١٨٧٨</date>
+               <bibl><biblScope unit="issue">نمرة ٧٦٣</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1295076301-11_01" type="محافظة" ref="محافظة-مصر">محافظة مصر</orgName> بتاريخ <date when-custom="1295-05-30">غاية جماد أول سنة
+                  ٩٥</date></head>
+            <p>قد عرض لهذا الطرف من ورثة المرحوم <persName xml:id="person-WA1295076301-11_01">سليمان عبد الله الجزار</persName> بانه
+               مخلف عنه <placeName xml:id="place-WA1295076301-11_01" type="منزل" ref="منزل سليمان عبد الله الجزار">منزل</placeName>
+               كائن ل<placeName xml:id="place-WA1295076301-11_02" type="شارع" ref="شارع الشيخ كنك">شارع الشيخ كنك</placeName>
+                  بـ<placeName xml:id="place-WA1295076301-11_03" type="ثمن" ref="ثمن الخليفة"><orgName xml:id="org-WA1295076301-11_02" ref="ثمن الخليفة" type="ثمن">ثمن الخليفة</orgName></placeName> وحجته ضايعة ولورود افادة المحكمة بما تبين
+               لدى الكشف من السجلات حصل التحري بمخابرة <orgName xml:id="org-WA1295076301-11_03" ref="بيت-مال-مصر">بيت مال
+                  مصر</orgName> و<orgName xml:id="org-WA1295076301-11_04" type="ديوان" ref="ديوان-الاوقاف">ديوان الاوقاف</orgName>
+               ووردت الافادات بما صار اجراه من التحريات والتحقيقات التي بالتحري عنها إلي المحكمة
+               والايضاح عن مراجعة وتسلسل الكشف من السجلات من تاريخ الحجة المقال بانها ضايعة للآن مع
+               اجرى ما تقتضيه الاصول الشرعية والتحديد والمقاس أخيرا وردت افادة المحكمة رقيم ٢٦ جا
+               سنة ٩٥ نمرة ٥٩ بانه تأشر من مقيدين السجلات وانه تعين <persName xml:id="person-WA1295076301-11_02" role="كاتب">الشيخ أحمد
+                  السيوفي أحد كتاب المحكمة</persName> وأن ما أجراه أوضح وحيث أن <choice>
+                  <sic>مقيبدين</sic>
+                  <corr>مقييدين</corr>
+               </choice> السجلات أورد واباته لاحاجة للتسلسل اذ ان ذلك قيمة وقوع التأشيرات على
+               السجلات ان مقاس ذلك مقيد بالحجة الضايعة والشيخ أحمد السيوفي أوري بانه تحقق لديه ان
+               المرحوم سليمان عبد الله توفا عن زوجته الحرمة <persName xml:id="person-WA1295076301-11_03">أم السعد بنت المرحوم حسن
+                  صالح</persName> وأولاده الخمسة هم <persName xml:id="person-WA1295076301-11_04">أبو طالب</persName> و<persName xml:id="person-WA1295076301-11_05">عبد
+                  الله</persName> والحرمة <persName xml:id="person-WA1295076301-11_06">حسنه</persName> و<persName xml:id="person-WA1295076301-11_07">بيومى</persName>
+               والحرمة <persName xml:id="person-WA1295076301-11_08">نفيسة</persName> وانه كان يمتلك مكان معروف بالقبلي مقروز بالقسمة
+               قبل تاريخه لباقي ما أوضحه وتقدمه ضمانة بامضا وأختام كل من الورثة المذكور هو مالك
+               الورث آل إليهم بالارث من قبل ورثهم لباقي ما توضح عنه بالضمانة وتصدق من رئيس طايفة
+               الجزارين بان <persName xml:id="person-WA1295076301-11_09" role="ضامن">المعلم حمودة</persName> الضامن معتمد ومقتدر وكفوا
+               لهذه الضمانة وان ضمانة في ذلك عليه ضمان حضور وغروم وتأشير من الضبطية على نفس الضمانة
+               بان ختم رئيس طايفة الجزارين المبصوم بها مضاهي للمبصوم سجلات الضبطية فلهذا وكون من
+               الاقتضى حصول النشر على ذلك بالجرانيل متحدد ميعاد واحد وثلاثون يوما كي انه بعد مضى
+               الميعاد المرقوم اذا كان لا يتضح وجود معارض ولا منازع فالمحكمة تجري تحرير حجة بدل
+               الضايعة وكتب بهذا فى تاريخه الى المحكمة وأرسلت إليها الضمانة وباقي الأوراق ولزم تحرير
+               للنشر حسب ماذكر.</p>
+         </div>
+         <div xml:id="WA1295076501-12" resp="#eHL">
+            <head><date when-custom="1295-06-15">١٥ جمادي الثاني ١٢٩٥</date>
+               <date when="1878-06-16">١٦ يونيه ١٨٧٨</date>
+               <bibl><biblScope unit="issue">نمرة ٧٦٥</biblScope>
+                  <biblScope unit="page">صفحة ٣-٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1295076501-12_01" type="محافظة" ref="محافظة-مصر">محافظة مصر</orgName> بتاريخ ٧ جمادي الثاني سنة ٩٥</head>
+            <p>قد عرض من كل من الحرمة <persName xml:id="person-WA1295076501-12_01">زهرة بنت ابراهيم</persName> ووالدتها الحرمة
+                  <persName xml:id="person-WA1295076501-12_02">عيوشة بنت محمد</persName> وأخيها <persName xml:id="person-WA1295076501-12_03">محمود بدران</persName> بشأن
+               عقار يوروا بانهم يمتلكونه وحجته ضايعة ولما ان وردت افادة <orgName xml:id="org-WA1295076501-12_02" type="محكمة">المحكمة</orgName> بما تبين لدى الكشف من السجلات قد حصل مخابرة <orgName xml:id="org-WA1295076501-12_03" ref="بيت-مال-مصر">بيت مال مصر</orgName> و<orgName xml:id="org-WA1295076501-12_04" type="ديوان" ref="ديوان-الأوقاف">ديوان الأوقاف</orgName> ووردت الافادات بوضاحة ما صار اجراء من التحريات والتحقيقات
+               التي بالتحري عنها إلى المحكمة والايضاح عن اجراء ما تقتضيه الاصول الشرعية والتحديد
+               والمقاس مع مراجعة وتسلسل الكشف من الكشف من تواريخ الحجج الضايعة للأن وايضاح ما يظهر
+               فيما ورد من المحكمة رقيم ١٤ جا سنة ٩٥ نمرة ٥٣ عرضحلات توضح بأنه تأشر من المقيدين
+               السجلات وانه تعين <persName xml:id="person-WA1295076501-12_04" role="كاتب">الشيخ حسين صابر أحد الكتاب المحكمة</persName>
+               وبما أجراه أوضح عنه وحيث أنه تأشر من مقيدين السجلات بأنه لا حاجة للمراجعة والتسلسل
+               وان الحجج الضايعة هي في مدة اجراء التأشيرات على السجلات والشيخ حسين صابر أوري بأنه
+               يحقق لديه ملكية الحرمة زهرة بنت المرحوم ابراهيم والحرمة عائشة بنت محمد أغا ومحمود
+               بدران ابن المرحوم حسن لكامل المكان والحانوتين بواجهته المخرجين من منافعه الكائنة
+                  بـ<placeName xml:id="place-WA1295076501-12_01" type="خط" ref="خط الازبكية">خط الازبكية</placeName> بالشارع قريبا من
+                     <persName xml:id="person-WA1295076501-12_05"><placeName xml:id="place-WA1295076501-12_02" ref="سيدي محمد البيدق">سيدي محمد
+                  البيدق</placeName></persName> وكامل المكان والحانوتين سفله الكائن ب<placeName xml:id="place-WA1295076501-12_03" type="شارع" ref="شارع كلوب بك">شارع كلوت بك</placeName> وكامل المكان وبيت القهوه
+               بواجهته الكائن خارج <placeName xml:id="place-WA1295076501-12_04" type="باب" ref="باب زويلة">باب زويلة</placeName>
+                  و<placeName xml:id="place-WA1295076501-12_05" ref="الخرق">الخرق</placeName> بالطريق الموصل إلي <placeName xml:id="place-WA1295076501-12_06" type="خليج" ref="الخليج الحاكمي">الخليج الحاكمي</placeName> وإلى <placeName xml:id="place-WA1295076501-12_07" type="حارة" ref="حارة المرحوم عابدين بك">حارة المرحوم عبدين بك</placeName>
+                  بـ<placeName xml:id="place-WA1295076501-12_08" type="خط" ref="خط حمام الزمرد">خط حمام الزمرد</placeName> والحصة التي
+               قدرها واحد وعشرين قيراط في كامل المكان الكائن بـ<placeName xml:id="place-WA1295076501-12_09" type="خط" ref="خط الازبكية">خط الازبكية</placeName> بـ<placeName xml:id="place-WA1295076501-12_10" type="درب" ref="درب الخواجة">درب الخواجة</placeName> قريبا من <placeName xml:id="place-WA1295076501-12_11" type="مقام" ref="مقام سيدي محمد البيدق">مقام <persName xml:id="person-WA1295076501-12_06">سيدي محمد
+                  البيدق</persName></placeName> لباقي ما أوضحه وتقدمه ضمانة بامضا وأختام كل من
+               الحرمة زهرة والحرمة عيوشة ومحمود بدران المذكورين والضامن اليهم <persName xml:id="person-WA1295076501-12_07" role="ضامن">الحاج شافعي شعراوي الفراش</persName> بـ<placeName xml:id="place-WA1295076501-12_12" ref="باب الشعرية">باب
+                  الشعرية</placeName> بشأن العقار المحكى عنه وانه ملك المذكورين ولا مانع من التصريح
+               باخراج حجج بدل الضايعين لباقي ما ننوه عنه بالضمانة وتصدق من شيخ طايفة الفراشين بان
+               الحاج شافعي الشعراوي الضامن معتمد ومقتدر وكفوا لهذه الضمانة وان ضمانه في ذلك عليه
+               ضمان حضور وغروم وتأشير من الضبطية على نفس الضمانة بان ختم شيخ طايفة الفراشين المبصوم
+               بها مضاهي للمبصوم بالضبطية في تاريخه تحرر للمحكمة عن ذلك وأرسلت الضمانة وباقي الأوراق
+               واقتضي تحريره ليتنبه بالنشر عن ذلك بالجرانيل وتحدد ميعاد واحد وثلاثون يوما وتوضح بما
+               تحرر للمحكمة على انه بانتهاء الميعاد اذا كان لم يظهر وجود منازع أو معارض في المحكمة
+               تجري تحرير حجج بدل الضايعة حسب ما هو لازم.</p>
+         </div>
+         <div xml:id="WA1295076601-13" resp="#eHL">
+            <head><date when-custom="1295-06-22">٢٢ جمادي الثاني ١٢٩٥</date>
+               <date when="1878-06-23">٢٣ يونيه ١٨٧٨</date>
+               <bibl><biblScope unit="issue">نمرة ٧٦٦</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1295076601-13_01" type="محافظة " ref="المحافظة-المصرية">المحافظة المصرية</orgName></head>
+            <p>حيث جاري اشهار <rs type="مزاد">مزاد</rs> استئجار <placeName xml:id="place-WA1295076601-13_01" type="محل" ref="محل القهوة العربي بجنينة الازبكية">محل القهوه العربي</placeName>
+               الكائن بـ<placeName xml:id="place-WA1295076601-13_02" type="جنينة" ref="جنينة الازبكية">جنينة <placeName xml:id="place-WA1295076601-13_03" ref="الازبكية">الأزبكية</placeName></placeName> فتحدد ميعاد لحضور الراغبين خمسة عشر يومًا
+               ابتداها يوم ١١ جماد آخر سنة ٩٥ الموافق ١٢ يونيه سنة ٧٨ وغايتها ٢٦ جمادي آخر سنه ٩٥
+               الموافق ٢٧ يونيه ٧٨ فكل من له رغبة يتوجه بجنينة الازبكية وبعد معاينة المحل وشروط
+               التأجير ويعطي العطا اللازم بما يرغب ومن يتأخر عن الحضور بالميعاد فلا يقبل مزاده.</p>
+         </div>
+         <div xml:id="WA1295076701-14" resp="#eHL">
+            <head><date when-custom="1295-06-29">٢٩ جمادي الثاني ١٢٩٥</date>
+               <date when="1878-06-30">٣٠ يونيه ١٨٧٨</date><bibl><biblScope unit="issue">نمرة
+                     ٧٦٧</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><rs type="اعلان">اعلانات</rs></head>
+            <head>صورة <rs type="أمر">أمر</rs> من <orgName xml:id="org-WA1295076701-14_01" type="ديوان " ref="ديوان-الداخلية">ديوان
+                  الداخلية</orgName> بتاريخ ٢٨ جمادي الثانية سنة ١٢٩٥</head>
+            <p>بناء على ما ورد للداخلية من <orgName xml:id="org-WA1295076701-14_02" type="ديوان" ref="ديوان-الاشغال-العمومية">ديوان
+                  الاشغال العمومية</orgName> نمرة ٩٧ من انه لمناسبة كون <orgName xml:id="org-WA1295076701-14_03" type="مصلحة " ref="مصلحة-القناطر-الخيرية">مصلحة القناطر الخيرية</orgName> باشرت اجراء العملية
+               المطلوب اجرائها بهاويس نمرة ١ من بحر الغرب الذي ببر الجزيرة وسيجرى تركيب تياردو على
+                  <placeName xml:id="place-WA1295076701-14_01" type="حوض" ref="حوض هاويس بحر الغرب">حوض هاويس بحر الغرب</placeName>
+               ويلزم منع مرور المراكب مدة خمسة عشر يوما لحين نهو العملية من ابتداء ٧ يوليو القابل قد
+               تحرر للجهات بما لزم واقتضى تحرير هذا ليتنبه بدرج ذلك بالوقايع لاعلائه للخاص
+               والعام.</p>
+         </div>
+         <div xml:id="WA1295076702-15" resp="#eHL">
+            <head><date when-custom="1295-06-29">٢٩ جمادي الثاني ١٢٩٥</date>
+               <date when="1878-06-30">٣٠ يونيه ١٨٧٨</date><bibl><biblScope unit="issue">نمرة
+                     ٧٦٧</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <date type="اعلان">اعلان</date></head>
+            <p>ان لاجراء ما حكم به <orgName xml:id="org-WA1295076702-15_01" type="مجلس" ref="المجلس-ابتداي-مصر">المجلس ابتداي
+                  مصر</orgName> في شأن المبلغ المطلوب لـ<placeName xml:id="place-WA1295076702-15_01" type="مطبعة" ref="مطبعة بولاق"><orgName xml:id="org-WA1295076702-15_02" ref="مطبعة بولاق" type="مطبعة">مطبعة <placeName xml:id="place-WA1295076702-15_02" ref="بولاق">بولاق</placeName></orgName></placeName> طرف <persName xml:id="person-WA1295076702-15_01">الشيخ حسن
+                  العدوي</persName> من تنفيذ حكم الشروط المأخوذة على المذكور التي مضمونها بيع
+               العقارات المرهونة بطرف المطبعة عند التأخير عن السداد في المواعيد المحددة وهي العقارات
+               الموضحة أدناه فقد جعل ب<orgName xml:id="org-WA1295076702-15_03" type="ضبطية">الضبطية</orgName> قوايم بختم المذكور
+               لاشهار العقارات المذكورة بالمزاد طرف ريس الدلالين لاجل الحصول على مبيع العقارات
+               المذكورة واستيفاء الثمن في مقابلة المطلوب للمطبعة فكل من كان له رغبة في شئ من
+               العقارات المذكورة فليعط المزاد اللازم من بعد المعاينة بطرف الريس المذكور اذا رسا عليه
+               المزاد فليذهب إلى ضبطية لانهاء ما هو لازم والعقارات المذكورة بـ<placeName xml:id="place-WA1295076702-15_03" type="خط" ref="خط الشنواتي">خط الشنواتي</placeName> بـ<placeName xml:id="place-WA1295076702-15_04" type="ثمن" ref="ثمن الجمالية"><orgName xml:id="org-WA1295076702-15_04" ref="ثمن الجمالية" type="ثمن">ثمن
+                     الجمالية</orgName></placeName> .</p>
+            <table>
+               <row>
+                  <cell>عدد</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>
+                     <p>حمام</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>
+                     <p>ربع مشتمل مسكنين</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell>٢</cell>
+                  <cell>
+                     <p>دكانين</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell>١</cell>
+                  <cell>
+                     <p>قهوة</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell>٥</cell>
+                  <cell/>
+               </row>
+            </table>
+         </div>
+         <div xml:id="WA1295076703-16" resp="#eHL">
+            <head><date when-custom="1295-06-29">٢٩ جمادي الثاني ١٢٩٥</date>
+               <date when="1878-06-30">٣٠ يونيه ١٨٧٨</date><bibl><biblScope unit="issue">نمرة
+                     ٧٦٧</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>نص <rs type="اعلان">اعلان</rs> وارد من <orgName xml:id="org-WA1295076703-16_01" type="محافظة" ref="محافظة-مصر">محافظة مصر</orgName> بتاريخ ٢٢ جمادي آخر سنة ٩٥</head>
+            <p>قد عرض لهذا الطرف من الحرمة ستيته بأن زوجها المرحوم <persName xml:id="person-WA1295076703-16_01" type="مهندس">عبد الغفور أفندي
+                  المهندس</persName> يمتلك <placeName xml:id="place-WA1295076703-16_01" type="منزل" ref="منزل عبد الغفور أفندي المهندس">منزل</placeName> كائن ب<placeName xml:id="place-WA1295076703-16_02" type="درب" ref="درب العسالة">درب
+                  العسالة</placeName> ب<placeName xml:id="place-WA1295076703-16_03" ref="بولاق">بولاق</placeName> وانه موجود حجة تشهد اليه بتمليكه اثنين وعشرين قيراط وان
+               القيراطين حجتهم ليست موجودة وبالتحري بالمخابرة <orgName xml:id="org-WA1295076703-16_02" ref=" بيت-مال-مصر">بيت مال مصر</orgName> و<orgName xml:id="org-WA1295076703-16_03" type="ديوان " ref="ديوان-الاوقاف">ديوان
+                  الاوقاف</orgName> والمحكمة وردت الافادات بوضاحة ما صار اجراء من التحريات
+               والتحقيقات الذي بالتحري عنها الى المحكمة والايضاح عن اجراء ما تقتضيه الأصول الشرعية
+               والتحديد والمقاس فيما وردت به افادة المحكمة رقيم ٤ الجاري نمرة ٦٤ عرض حالات توضح بانه
+               جرى التحقيق اللازم عن ذلك بمعرفة نائب <orgName xml:id="org-WA1295076703-16_04" ref="محكمة بولاق" type="محكمة">محكمة بولاق</orgName> و<persName xml:id="person-WA1295076703-16_02" role="كاتب">الشيخ محمد الزرقاني كاتب
+                  المحكمة</persName> تحقق جريان الحصة التي قدرها قيراطين شايعه في كامل بناء لمكان
+               الكائن ب<placeName xml:id="place-WA1295076703-16_04" type="درب" ref="درب العسالة">درب
+                  العسالة</placeName> في تلك الحرمة <persName xml:id="person-WA1295076703-16_03">ستيتة بنت المرحوم أحمد محمد الحريري</persName> وولدها <persName xml:id="person-WA1295076703-16_04">محمد المراهني</persName> ابن المرحوم عبد الغفور
+               أفندي المهندس آيل ذلك إليهما بالأرث الشرعي من قبل مورثهم عبد الغفور أفندي المذكور
+               لباقي ما تنوه وتقدم ضمانة بامضاء وأختام كل من الحرمة ستيتة المذكورة عن نفسها وعن
+               ولدها محمد القاصر والضامن اليهم <persName xml:id="person-WA1295076703-16_05" role="ضامن">عيد العطار بـ<placeName xml:id="place-WA1295076703-16_05" type="ربع" ref="ربع الجوابر">ربع الجوابر</placeName></persName> بشأن الحصة المرقومة وانها
+               ملك المذكورين لباقي ما توضح بالضمانة وتصدق من حضرة <persName xml:id="person-WA1295076703-16_06" role="رئيس خشابة">السيد سليم البراد رئيس
+                  الخشابة</persName> وما معها بان الضامن المذكور معتمد ومقتدر وكفوا لهذه الضمانة وان
+               ضمانه في ذلك عليه ضمان حضور وغروم وتأشير من الضبطية على نفس الضمانة بأن ختم السيد
+               سليم البراد المبصوم بها مضاهي للوارد سجل الضبطية في تاريخه تحرر ل<orgName xml:id="org-WA1295076703-16_05" type="محكمة" ref="محكمة-مصر">محكمة مصر</orgName>
+               بما لزم عن ذلك واقتضي تحريره ليتنبه بالنشر عن ما ذكر بالجرانيل وتحدد معاد واحد
+               وثلاثون يوما وتنوه بما تحرره للمحكمة على انه بانتهاء الميعاد المحدد اذا كان لا يتضح
+               وجود معارض أو منازع في ذلك فيجري ما تقتضي في تحرير حجه بدل الغير موجود حسب
+               الجاري.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

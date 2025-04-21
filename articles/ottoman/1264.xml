@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>"Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ al-Miṣrīyah), 1828-1914 - An Ottoman Arabic
+          Digital Humanities Project"</title>
+        <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</editor>
+        <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour Kanaan</editor>
+        <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah Fathallah
+          Gaara</editor>
+        <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif Erbil</editor>
+        <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed Kamal</editor>
+        <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+          El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
+        <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal al-Shamy</editor>
+        <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal Jammulapati</editor>
+        <respStmt>
+          <resp>Project co-director</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Primary Investigator</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0001-5239-7909">Project co-director</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fathallah Gaara</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0003-1216-3686">Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nori</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hiba Laabadli</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Othmane Echchabi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Nehal al-Shamy</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Vishal Jammulapati</name>
+        </respStmt>
+        <sponsor>
+          <orgName>National Endowment for the Humanities</orgName>, <orgName>Institut français
+            d’archéologie orientale</orgName> (Ifao, Cairo); <orgName>Franklin Humanities Institute
+            and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
+            University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
+            national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
+            Cultural Counsellor in Cairo</orgName>.</sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+        <p> Created by the "Digital Cairo" project (Duke University - Ifao), sponsored by the National Endowment for the Humanities.</p>
+        <p>
+          <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+        </p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName>, <persName>Hugh Cayless</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣrīyah (Egyptian Affairs) newspaper, 1828–1914.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>The "Digital Cairo" project is sponsored by the National Endowment for the Humanities.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+          and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added
+          in an attribute to a persName.</p>
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+            Editions</ref>.</p>
+      </editorialDecl>
+      <charDecl>
+        <char xml:id="qhalf">
+          <localProp value="QIRMA FRACTION 1/2" name="name"/>
+          <unicodeProp value="1/2" name="Numeric_Value"/>
+          <mapping type="similar">𐋢</mapping>
+          <figure>
+            <graphic url="../../docs/images/qhalf.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qthird">
+          <localProp value="QIRMA FRACTION 1/3" name="name"/>
+          <unicodeProp value="1/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qthird.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qfourth">
+          <localProp value="QIRMA FRACTION 1/4" name="name"/>
+          <unicodeProp value="1/4" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qfourth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qsixth">
+          <localProp value="QIRMA FRACTION 1/6" name="name"/>
+          <unicodeProp value="1/6" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qsixth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qeighth">
+          <localProp value="QIRMA FRACTION 1/8" name="name"/>
+          <unicodeProp value="1/8" name="Numeric_Value"/>
+          <mapping type="similar">𐋤</mapping>
+          <figure>
+            <graphic url="../../docs/images/qeighth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qtwothirds">
+          <localProp value="QIRMA FRACTION 2/3" name="name"/>
+          <unicodeProp value="2/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qtwothirds.svg"/>
+          </figure>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="cleared">
+         <listChange>
+            <change resp="#eAM" when="2023-08-15" status="cleared"/>
+         </listChange>
+      </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="ota">
+      <body>
+         <div xml:id="WO1264009701-1" resp="#eAE">
+            <head>
+               <date when-custom="1264-01-19">١٩ محرم ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ٩٧</biblScope>
+                  <biblScope unit="page">ص ١</biblScope></bibl></head>
+            <head>حوادث داخليه</head>
+            <p>آثار محاسن نثار ولى النعميدن اوله رق <placeName xml:id="place-WO1264009701-1_01" type="يول" ref="قلعله-يولى">قلعله
+                  يولنده</placeName> صاغده وصولده غرس اولنان آغاجلرك يوله ويردکلری رونق و لطافته
+               مبنی مذکور يولك اتصالنده بولنان <placeName xml:id="place-WO1264009701-1_02" ref="روميله">روميله</placeName>
+                  و<placeName xml:id="place-WO1264009701-1_03" type="میدان" ref="قره میدان">قره میدانده</placeName> دخی اولوجهله ايكى
+               طرفده اشجار غرسی نزد مکارمفرد داوريده استحسان بیورلمغله اجراسی اقتضا ايدنلره فرمان
+               بیورلدیغی خبرى النمشدر.</p>
+         </div>
+         <div xml:id="WO1264009702-2" resp="#eAE">
+            <head>
+               <date when-custom="1264-01-19">١٩ محرم ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ٩٧</biblScope>
+                  <biblScope unit="page">ص ١</biblScope></bibl></head>
+            <p><placeName xml:id="place-WO1264009702-2_01" type="سمت" ref="درب-الاحمر-سمتىl">درب الاحمر سمتنده</placeName>
+               <placeName xml:id="place-WO1264009702-2_02" type="محله" ref="حطابه محله-سى">حطابه نام محله ده</placeName>
+               <persName xml:id="person-WO1264009702-2_01">حاجى حسين ابو شنب</persName> نام کمسنه خانه سندن ماه حالك التنجى کيجه سی
+               ساعت درت صولرنده قضاء <rs type="يانقين">يانقين</rs> ظهور ایدوب در حال <orgName xml:id="org-WO1264009702-2_01" ref="ضابطخانه">ضابطخانه</orgName> طرفندن لازم كلان طلومبه و طلومبه جلر يتشديريلوب
+               اطرافه سرايتنه وقت ويرلميه رك ايكی ساعت ایچنده باصدیرلمش اولدیغی خبری النمشدر.</p>
+         </div>
+         <div xml:id="WO1264009901-3" resp="#eAE">
+            <head>
+               <date when-custom="1264-02-04">٤ صفر ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ٩٩</biblScope>
+                  <biblScope unit="page">ص ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <p><placeName xml:id="place-WO1264009901-3_01" type="سمت" ref="درب-الاحمر-سمتى">درب الاحمر سمتنده</placeName>
+               <placeName xml:id="place-WO1264009901-3_02" type="محله" ref="درب-سعاده-محله-سى">درب سعاده محله سنده</placeName> كائن
+               اوست قاتده ایکی خزنه لى برمكان و بر اوطه و بر صفه و برمطبخ و بر کیلار و اوفق بر حمام
+               و الت قاتده خزینه لى و مرمر دیرکلی بر سلاملق اوطه و بر منظره و ایکی مغازه و اوچ حيوان
+               آلور بر آخور و بر قیو و اجیق بر حولیسی بولنور <persName xml:id="person-WO1264009901-3_01">شیخ محمد غلبان</persName> نام
+               شخصك <orgName xml:id="org-WO1264009901-3_01" ref=" بیت-المال">بیت المال</orgName> معرفتیله بر باب خانه سى صاتيلق
+               اولوب استكاوسى وارا يسه <persName xml:id="person-WO1264009901-3_02" role="دلالباشی">دلالباشی سید مصطفادن</persName>
+               صورمسی اعلان اولنمشدر.</p>
+         </div>
+         <div xml:id="WO1264009902-4" resp="#eAE">
+            <head>
+               <date when-custom="1264-02-04">٤ صفر ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ٩٩</biblScope>
+                  <biblScope unit="page">ص ٤</biblScope></bibl></head>
+            <p>محلۀ مذکوره ده كائن اوست قاتده درت اوطه و اوچ كیلار و بر حمام و بر مطبخ والت قاتده بر
+               خزنه و بر مرمر ديركلى بر سلاملق و بر صفه و بر اوطه و اوچ مغازه و اوچ حيوان آلور بر
+               آخور و بر دکرمن و بر اوفق منظره و بر فیوسی و آچیق حولیسی بولنور شیخ مذکورك <orgName xml:id="org-WO1264009902-4_01" ref=" بیت-المال">بیت المال</orgName> معرفتیله دكر بر خانه سی صا تيلق اولوب راغبی
+               وار ایسه دلال باشئ مومی الیهدن صورمسي بیلديرلمشدر.</p>
+         </div>
+         <div xml:id="WO1264009903-5" resp="#eAE">
+            <head>
+               <date when-custom="1264-02-04">٤ صفر ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ٩٩</biblScope>
+                  <biblScope unit="page">ص ٤</biblScope></bibl></head>
+            <p><placeName xml:id="place-WO1264009903-5_01" type="سمت" ref="سروجيه-سمتى">سروجيه سمتنده</placeName>
+               <placeName xml:id="place-WO1264009903-5_02" type="محله" ref="دالی-حسین-محله-سى">دالی حسین محله سنده</placeName> واقع
+               اوست قاتده صفه وخزنه لى بش اوطه و بر حمام و بر مطبخ و ایکی کيلار و الت قاتده اوچ
+               مغازه و بر اوفق منظره و اوچ حيوان آلور بر آخور و بر دکرمن و بر قيو واچيق حولیسی موجود
+                  <persName xml:id="person-WO1264009903-5_01" role="جندی باشی">جندی باشی مرحوم احمد اغانك</persName> بر باب خانه سی
+                  <orgName xml:id="org-WO1264009903-5_01" ref=" بیت-المال">بیت المال</orgName> معرفتیله صاتيلق اولوب طالبی وار ایسه
+               دلال باشئ مومى اليهدن استدلال اتمسی اخباراولنمشدر.</p>
+         </div>
+         <div xml:id="WO1264010101-6" resp="#eAE">
+            <head>
+               <date when-custom="1264-02-18">١٨ صفر ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٠١</biblScope>
+                  <biblScope unit="page">ص ١</biblScope></bibl></head>
+            <head>حوادث داخليه</head>
+            <p><persName xml:id="person-WO1264010101-6_01">مخدوم جناب داوری دولتلو ابراهيم پاشا حضرتلرينك سابق کتخدالری متوفی سليمان
+                  اغانك</persName>
+               <placeName xml:id="place-WO1264010101-6_01" type="سمت" ref="جمليه-سمت">جمليه سمتنده</placeName>
+               <placeName xml:id="place-WO1264010101-6_02" type="محله" ref="درب-الاصفر-محله-سى">درب الاصفر نام محله ده</placeName>
+               واقع بر باب خانه سی <rs type="یيقلمق">یيقلوب</rs> التنده چند جان قالمش اولديغى خبرى
+               ضبطيه طرفنه بالاشاعه اقتضا ايدنلرك ارسالیله ييقندیسی ازاله اولندقده التنده بش خاتون
+               ايله بر چوجق قلدیغی و خاونلرك ایکیسی اولوب اوجی مذکور چوجق ايله برابر یاره لنديغى و
+               خانۀ مذکور هدمه يوز طوتمشيكن محله سی شيخى مأموریتی اقضاسنجه وقتيله خبر ويرمامش
+               بولندیغندن جلبیله جزاسی ویرله جكى خبرى النمشدر.</p>
+         </div>
+         <div xml:id="WO1264010301-7" resp="#eAE">
+            <head>
+               <date when-custom="1264-03-02">٢ ربيع اول ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٠٣</biblScope>
+                  <biblScope unit="page">ص ١</biblScope></bibl></head>
+            <head>حوادث داخليه</head>
+            <p>مصرده <placeName xml:id="place-WO1264010301-7_01" ref=" امام-حسين-حضرتلری-جواری">امام
+                  حسين حضرتلری جوارنده</placeName> واقع جاده یولك توسیعنه لازم کلان <persName xml:id="person-WO1264010301-7_01" role="ديوان جهادیه مترجمی">ديوان جهادیه مترجمی محمد صبری افندينك</persName> بش عدد
+               دکانی <orgName xml:id="org-WO1264010301-7_01" type="وقف">وقف</orgName> بولندقلرينه مبنی دیوان طرفنه محسوبا دیکرلريله
+               استبدال اولنمشدرلر.</p>
+         </div>
+         <div xml:id="WO1264010302-8" resp="#eAE">
+            <head>
+               <date when-custom="1264-03-23">٢٣ ربيع اول ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٠٣</biblScope>
+                  <biblScope unit="page">ص ٢</biblScope></bibl></head>
+            <head>حوادث داخليه</head>
+            <p>اسكى مصرده <placeName xml:id="place-WO1264010302-8_01" type="سمت" ref="دیر-النحاس-سمتى">دیرالنحاس نام
+                  سمتده</placeName> واقع <orgName xml:id="org-WO1264010302-8_01" ref="بشير-اغا-خانى" type="خان">بشير اغا
+                  خانندن</orgName> ماه حالك اون برنجى چهارشنبه کونی قضاء بر <rs type="ينغين">ينغين</rs> ظهور ایدوب اولطرفده موجود بولنان طلومبه لر درحال يتشديرلمكله ایکی اوطه
+               دن غيريسنه ضرری طوقنمقسزین باصديرلدیغی ایشديلمشدر.</p>
+         </div>
+         <div xml:id="WO1264010701-9" resp="#eAE">
+            <head>
+               <date when-custom="1264-04-01">١ ربيع اخر ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٠٧</biblScope>
+                  <biblScope unit="page">ص ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <p><placeName xml:id="place-WO1264010701-9_01" ref="بركة-الفيل">بركة الفيل</placeName> نام جهتده كائن اوست قاتده درت اوطه
+               و بر مطبخ و اوچ كیلار والت قاتده مرمر درکلی برسلاملق اوطه و بر منظره ودرت حيوان الور
+               بر آخور و اوچ مغازه و براچیق حولیسی و بر قیوسی بولنور <persName xml:id="person-WO1264010701-9_01">مرحوم درویش
+                  اغانك</persName> اليوم مزادده اون بيك غروشه چیقمش بر باب خانه سی <orgName xml:id="org-WO1264010701-9_01" ref=" بیت-المال">بیت المال</orgName> معرفتیله صاتیلق اولوب استكلوسی وار ایسه
+                  <persName xml:id="person-WO1264010701-9_02" role="دلالباشی">دلالباشی سید مصطفا دن</persName> صورمسی اعلان
+               اولنمشدر.</p>
+         </div>
+         <div xml:id="WO1264010702-10" resp="#eAE">
+            <head>
+               <date when-custom="1264-04-01">١ ربيع اخر ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٠٧</biblScope>
+                  <biblScope unit="page">ص ٤</biblScope></bibl></head>
+            <p><placeName xml:id="place-WO1264010702-10_01" type="سمت" ref="باب-الشعریه-سمتى">باب الشعریه سمتنده</placeName>
+               <placeName xml:id="place-WO1264010702-10_02" type="محله" ref="درب-الاتماعيه-محلسى">درب الاتماعيه نام محله
+                  ده</placeName> كائن اوست قاتده اوچ اوطه و بر حمام و ایكی كیلار والت قاتده بر مطبخ
+               و ایکی منظره و اوچ حيوان الور بر آخور و طاقمی مکمل بر دکرمن و بر مغازه و بر قیو و
+               اوفق بر باغچه و براچیق حولیسی بولنور <persName xml:id="person-WO1264010702-10_01">مصطفی حسين افندينك</persName> الحالة
+               هذه مزادده اون درت بیك غروشه چیقمش بر باب خانه سی صاتيلق اولوب راغبی وار ایسه
+               دلالباشئ مرقومدن صور مسی اخبار اولنمشدر.</p>
+         </div>
+         <div xml:id="WO1264010703-11" resp="#eAE">
+            <head>
+               <date when-custom="1264-04-01">١ ربيع اخر ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٠٧</biblScope>
+                  <biblScope unit="page">ص ٤</biblScope></bibl></head>
+            <p>سمت مذکوره ده <placeName xml:id="place-WO1264010703-11_01" type="جاده" ref="ابو-بدير-العريان-جاده-سى-يولى">ابو بدير
+                  العريان نام جاده يولى</placeName> اوزرنده واقع اوست قاتنده درت اوطه و بر مطبخ و بر
+               کيلار و برحمام و الت فاتده بر منظره و مرمر درکلی بر جامکان وایكی مغازه و مستكمل بر
+               دكرمن و بر اوفق باغچه و برقيوسی واچيق حولیسی بولنور <persName xml:id="person-WO1264010703-11_01">توتونجى
+                  جعفرنك</persName> بوكونلرده مزادده اون اوچبیك غروشه چیقمش خانه سی صاتيلق اولوب
+               استکلوسی بولنور ایسه دلالباشئ مذکوردن سؤال ايتمسی بیلديرلمشدر.</p>
+         </div>
+         <div xml:id="WO1264010801-12" resp="#eAE">
+            <head>
+               <date when-custom="1264-04-08">٨ ربيع اخر ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٠٨</biblScope>
+                  <biblScope unit="page">ص ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <p><placeName xml:id="place-WO1264010801-12_01" type="سمت" ref="خرنفش-سمتى">خرنفش
+                  سمتنده</placeName>
+               <placeName xml:id="place-WO1264010801-12_02" type="محله" ref="برقوقيه-محله-سى">برقوقيه نام
+                  محله ده</placeName> كائن اوست قاتده درت اوطه وایکی کیلار و برمطبخ و بر حمام والت
+               قاتده بری اوفق و دیكری بیوك اوله رق ایکى منظره و اوچ مغازه واوچ حيوان الور براخور و
+               بر دکرمن و بر اوفق باغچه و براچیق حولیسی و بر قیوسی بولنور <persName xml:id="person-WO1264010801-12_01">سید محجوب
+                  صيرفى</persName> نام شخصك اليوم مزادده اللى بربيك غروشه چیقمش بر باب خانه سی
+               صاتيلق اولوب راغبى وار ايسه <persName xml:id="person-WO1264010801-12_02" role="دلال باشى">دلال باشى سید
+                  مصطفادن</persName> صورمسی بیلديرلمشدر.</p>
+         </div>
+         <div xml:id="WO1264010802-13" resp="#eAE">
+            <head>
+               <date when-custom="1264-04-08">٨ ربيع اخر ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٠٨</biblScope>
+                  <biblScope unit="page">ص ٤</biblScope></bibl></head>
+            <p><placeName xml:id="place-WO1264010802-13_01" type="سمت" ref="باب-الشعریه-سمتى">باب الشعريه
+                  سمتنده</placeName>
+               <placeName xml:id="place-WO1264010802-13_02" type="محله" ref=" درب-صعيده-محله-سى">درب
+                  صعيده نام محله ده</placeName> واقع اوست قاتده ایکى اوطه و بر مطبخ و بر کيلار و الت
+               قاتده بر اوفق منظره و بر مغازه و بر اوفق باغچه و بر اوفق حولیسی و بر قیوسی بولنور
+                  <persName xml:id="person-WO1264010802-13_01">محمد مرجوشی</persName> نام کمسنه نك الحالة هذه مزادده بش بيك غروشه چیقمش
+               بر باب خانه سی صاتيلق اولوب استکلوسی وارایسه دلالباشئ مذكوردن استدلال اتمسی اعلان
+               اولنمشدر.</p>
+         </div>
+         <div xml:id="WO1264010803-14" resp="#eAE">
+            <head>
+               <date when-custom="1264-04-08">٨ ربيع اخر ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٠٨</biblScope>
+                  <biblScope unit="page">ص ٤</biblScope></bibl></head>
+            <p>خانۀ مذكوره نك جوارنده کائن اوست قاتده ایکی اوطه و بر مطبخ و بر كيلار و الت قاتده
+               برقویی و بر مغازه و بر اوفق حولیسی بولور شخص مذکور اليوم ایکی بیك بشیوزغروش بها
+               كتورمش دیکر بر باب خانه سی صاتیلق اولوب طالبی وار ایسه دلالباشئ مذکوردن استخبارايتمسی
+               بیلدیرلمشدير.</p>
+         </div>
+         <div xml:id="WO1264011001-15" resp="#eAE">
+            <head>
+               <date when-custom="1264-04-22">٢٢ ربيع اخر ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١١٠</biblScope>
+                  <biblScope unit="page">ص ١</biblScope></bibl></head>
+            <head>حوادث داخليه</head>
+            <p>ماه حالك اون دردنجی بازار کونی ساعت طقوز قرارلرنده محروسۀ مصرك <placeName xml:id="place-WO1264011001-15_01" type="محله" ref="کبیه-محله-سی">کبیه نام محله
+                  سی</placeName> ساکنلرندن <persName xml:id="person-WO1264011001-15_01" role="فشنکجي">محمد احمد فشنکجينك</persName>
+               <placeName xml:id="place-WO1264011001-15_02" type="شارع" ref="باب-الفتوح-شارعى">باب الفتوح
+                  شارعنده</placeName><placeName xml:id="place-WO1264011001-15_03" type="سمت" ref="امشاطيه-دينلان-سمتى">امشاطيه دينلان سمتده</placeName> كائن دكاننده
+               بولنان بر كوچك باروت واریلی فضاء آتش الوب <rs type=" پاتلمه">پاتلیه رق</rs> حريق
+               وقوعبولمش اولمغله درحال <orgName xml:id="org-WO1264011001-15_01" type="ضبطيه">ضبطيه</orgName> طرفندن طلومبه و قازمه
+               جيلر و سائر مأمورلر یتشوب سوندرمشلر ايسه ده دكان مزبور اوزرنده بولنان خانه نك برجانبی
+               و صاغ و صولنده بولنان دكانلرندن درت دانه سی منهدم اولمش و مذكور فشنکجی ايله دکان
+               قوکشولرندن و اول انده اورادن مرور ايدن ابنای سبیلدن و دکان مذکورك قارشوسنده واقع
+                  <placeName xml:id="place-WO1264011001-15_04" type="سبیل" ref=" مرحوم-سلحدار-سلیمان-اغانك-سبیلی"><persName xml:id="person-WO1264011001-15_02">مرحوم سلحدار سلیمان اغانك</persName> سبیلی</placeName> پنجره
+               سندن برقاچ طاش كيروب سبیل مرقومك داخلنده بولنانلردن اون اوج کشی تلف اولش واون يدی کشی
+               دخی ياره لنمش و بونلرك چوغی يقنديلرك التندن جيقارلمش ایدوکی خبری <orgName xml:id="org-WO1264011001-15_02" type="ضابطخانه">ضابطخانه دن</orgName> النمشدر.</p>
+         </div>
+         <div xml:id="WO1264011301-16" resp="#eAE">
+            <head>
+               <date when-custom="1264-06-05">٥ جماد اخر ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١١٣</biblScope>
+                  <biblScope unit="page">ص ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <p><placeName xml:id="place-WO1264011301-16_01" type="سمت" ref="اوزبكيه-سمتى">اوزبكيه
+                  سمتنده</placeName>
+               <placeName xml:id="place-WO1264011301-16_02" type="محله" ref="حارة-البيدق-محله-سى">حارة
+                  البيدق نام محله ده</placeName> كائن اوست قاتده اون بش اوطه و ایكی حمام وایکی مطبج
+               وایكی كيلار والت قاتده مرمر دیركلی بر سلاملق اوطه و بر منظره و طقوزمغازه و بش حيوان
+               الور براخور و بر قيو و بر اچیق حوليسی بولنور بيت الجربان اسميله مشهور اليوم مزادده
+               اللي بيك غروشه چیقمش <persName xml:id="person-WO1264011301-16_01" role="وكيل">محمد اغا</persName> نام شخصك توكيلى ايله
+               بر باب خانه صاتيلق اولوب استکلوسی وارایسه <persName xml:id="person-WO1264011301-16_02" role="دلالباشی">دلالباشی سید
+                  مصطفا دن</persName> صورمسی اعلان اولنمشدر</p>
+         </div>
+         <div xml:id="WO1264011302-17" resp="#eAE">
+            <head>
+               <date when-custom="1264-06-05">٥ جماد اخر ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١١٣</biblScope>
+                  <biblScope unit="page">ص ٤</biblScope></bibl></head>
+            <p><placeName xml:id="place-WO1264011302-17_01" type="جاده" ref="باب-اللوق-جاده-یولى">باب
+                  اللوق نام جاده یولده</placeName> واقع اوست فاتده بش اوطه و بر مطبخ و بر کيلار و
+               الت قاتده بر مرمر دیرکلی بر سلاسلق و درت مغازه و اوچ حيوان الور برآخور و بر قیو و
+               اچيق حولیسی بولنور وکیل مذکورك معرفتیله دیكر بر باب خانه صاتيلق اولوب راغبی وار ايسه
+               ينه دلالباشئ مذكوردن استخبارايتمسی بيلدرلمشدر.</p>
+         </div>
+         <div xml:id="WO1264011901-18" resp="#eAE">
+            <head>
+               <date when-custom="1264-07-17">١٧ رجب ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١١٩</biblScope>
+                  <biblScope unit="page">ص ١</biblScope></bibl></head>
+            <head>حوادث داخليه</head>
+            <p>كذران ایدن ماه جمادی الاخراده <orgName xml:id="org-WO1264011901-18_01" ref=" دیوان-مدارس" type="ديوان">دیوان
+                  مدارسه</orgName> کلان کشف موجبنجه مؤخرا اقليم قبلیده بعض <rs type="تعميرات">تعميراته</rs> جانب ميریدن صرف اولنان مبالغك اجمالی</p>
+            <table cols="3">
+               <row>
+                  <cell>---</cell>
+                  <cell/>
+                  <cell>….</cell>
+               </row>
+               <row>
+                  <cell>١٦</cell>
+                  <cell><placeName xml:id="place-WO1264011901-18_01" ref="فیوم">فیومده</placeName> واقع <orgName xml:id="org-WO1264011901-18_02" ref="کهرجله-خانه" type="کهرجله-خانه">کهرجله خانه ده</orgName> اجرا الونان تعمیرات</cell>
+                  <cell>٠١٠٩٩</cell>
+               </row>
+               <row>
+                  <cell>٣٤</cell>
+                  <cell><placeName xml:id="place-WO1264011901-18_02" type="قریه" ref="اهناسيه-قریه-سى">اهناسيه قریه سنده</placeName>
+                     <orgName xml:id="org-WO1264011901-18_03" ref="یکی-کهرجله-خانه" type="کهرجله-خانه">یکی کهرجله خانه ده</orgName>
+                     كذا</cell>
+                  <cell>٠٠٤٨٥٠</cell>
+               </row>
+               <row>
+                  <cell>٢٨</cell>
+                  <cell>قريۀ مذکوره نك اسکی کهرجله خانه ده كذا</cell>
+                  <cell>٠١٠٩٨١</cell>
+               </row>
+               <row>
+                  <cell>٠٨</cell>
+                  <cell><placeName xml:id="place-WO1264011901-18_03" type="قریه" ref="شیخ-عباده-قریه-سى">شیخ عباده قریه سنده</placeName> واقع کهرجله خانه ده
+                     كذا</cell>
+                  <cell>٢١٧٩٢٨</cell>
+               </row>
+               <row>
+                  <cell>١٦</cell>
+                  <cell><placeName xml:id="place-WO1264011901-18_04" type="قریه" ref="بنى-سويف-قريه-سى">بنى سويف قريه سنده</placeName> فابريقه و ذخيره مخزنى و اخور و قشله مثللو
+                     بعض اماكنده كذا</cell>
+                  <cell>٠٠٥١٦٨</cell>
+               </row>
+               <row>
+                  <cell>٣٧</cell>
+                  <cell><placeName xml:id="place-WO1264011901-18_05" ref="اسيوط-مديريتى">اسيوط
+                        مديريتنده</placeName>
+                     <placeName xml:id="place-WO1264011901-18_06" type="قریه" ref="محدوب-قريه-سى">محدوب
+                        قريه سنده</placeName> كائن <orgName xml:id="org-WO1264011901-18_04" ref="مدیریت-ديوانى" type="ديوان">مدیریت
+                        ديواننده</orgName> كذا</cell>
+                  <cell>٠٢١٤٠</cell>
+               </row>
+               <row>
+                  <cell>١٩</cell>
+                  <cell>يكون</cell>
+                  <cell>٢٦٦٣٨٠</cell>
+               </row>
+            </table>
+         </div>
+         <div xml:id="WO1264012001-19" resp="#eAE">
+            <head>
+               <date when-custom="1264-07-24">٢٤ رجب ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٢٠</biblScope>
+                  <biblScope unit="page">ص ١</biblScope></bibl></head>
+            <head>حوادث داخليه</head>
+            <p>كذران ایدن ماه جمادی الاولینك ایکنجی کونی ابتداسندن ماه جمادی الاخرينك غايتنه قدر
+               ایكی ماه ظرفنده مصر محروسه نك <placeName xml:id="place-WO1264012001-19_01" type="سمت" ref="جمليه-سمتى">جمليه سمتنده</placeName>
+               <placeName xml:id="place-WO1264012001-19_02" type="جاده" ref="حلواجی-جاده-سى">حلواجی
+                  جاده سنده</placeName> کشاد اولنان <orgName xml:id="org-WO1264012001-19_01" type="كحالخانه">كحالخانه دن</orgName>
+               وارد اولان کشف موجبنجه <persName xml:id="person-WO1264012001-19_01" role="كحال">كحال ابراهيم دسوقى افندينك</persName>
+               معرفتيله نيمار و معالجه اولنان کسانك كميتى و علتلرينك كیفیتی وجه اتی اوزره در.</p>
+         </div>
+         <div xml:id="WO1264012002-20" resp="#eAE">
+            <head>
+               <date when-custom="1264-07-24">٢٤ رجب ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٢٠</biblScope>
+                  <biblScope unit="page">ص ١</biblScope></bibl></head>
+            <p><placeName xml:id="place-WO1264012002-20_01" ref="جيزه">جيزه ده</placeName> كائن
+                     <persName xml:id="person-WO1264012002-20_01"><orgName xml:id="org-WO1264012002-20_01" ref="سواری-مدرسه-سی" type="مدرسه">سواری مدرسه سی</orgName>
+                  ناظری فتوتلو وسيل بكك</persName> مدرسۀ مذكوره  قربنده انشا ایلمكده اولدیغی ساقيه
+               نك رصيف كناری قضاء يقلمغله اساسنده ایشلیانلردن ايکی نفر بنا و بر نفر فعله التنده
+               قالوب وفات ایتمشلردر.</p>
+         </div>
+         <div xml:id="WO1264012003-21" resp="#eAE" xml:base="q21">
+            <head>
+               <date when-custom="1264-07-24">٢٤ رجب ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٢٠</biblScope>
+                  <biblScope unit="page">ص ١-٢</biblScope></bibl></head>
+            <p>محروسۀ مصرده <placeName xml:id="place-WO1264012003-21_01" ref="حسينيه">حسينيه</placeName>
+               خارجنده دردست اجرا بولنان <placeName xml:id="place-WO1264012003-21_02" ref="كاغدخانه"><orgName xml:id="org-WO1264012003-21_01" ref="كاغدخانه" type="كاغدخانه">كاغدخانه</orgName></placeName> اوكمزده
+               كی ماه شعبانك نصفنه طوغرى بيتورلمك مقصدينه مبنى بو دفعه عملۀ موجوده سنك مقداری
+               ارترلمش و آلات لازمه سی دخی اوروپایه سپارش اولنمشدر.</p>
+         </div>
+         <div xml:id="WO1264012101-22" resp="#eAE">
+            <head>
+               <date when-custom="1264-08-02">٢ شعبان ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٢١</biblScope>
+                  <biblScope unit="page">ص ١</biblScope></bibl></head>
+            <head>حوادث داخليه</head>
+            <p>محروسۀ مصر و جوارنده بولنان مکتب ومدرسه لرك تلاميذی بهر سنه ماه شعبان المعظمده امتحان
+               اولنه رق هر برينك تحصيلنه قشمير ساق غيرت ايتديغی فنون و معارفك درجه سنی مبين جدوللر
+               ارباب امتحان اطلاعیله کتب و تنظیم و ديوان مدارسده بعد الرؤیه خلاصه لری طرف ولی النعمی
+               يه عرض و تقديم اولنمق مدارسك اصولندن اولوب اشبو سنۀ مبارکه ده دخی زيرده بيان قلنان
+               توارخده اجرا اولنه جغندن حضوری لازم امتحان مأمورلری تعیین و ترتیب اولنمشدر هر بر
+               مدرسه نك امتحانى تتيجسه سنۀ ماضيه ده اولديغى مثللو بيدر بی درج وقایع اولنه جغی وارستۀ
+               قيد بيان ايسه ده امر امتحان تلاميذك ازدیاد شوق و غيرتلرنی بادی وعلوم نافعه نك كثرت و
+               اربابنك رفرتن مؤدی اولوب رأى العين مشاهده يه سزا بولندیغندن نه وجهله اجرا او لندیغنی
+               و تلاميذك درجۀ أستعداد و تحصیللری نه ایدوکنی بيلمکه خواهشکر اولانلر مدارس مذکوره يی
+               تشریف بیورملريجون ایام امتحان بر وجه آتى بیان اولنمشدر.</p>
+            <table>
+               <row>
+                  <cell>فى غرة ش سنه ٢١٦٤</cell>
+                  <cell><placeName xml:id="place-WO1264012101-22_01" ref="قصر-عينى">قصرعينى
+                        ده</placeName>
+                     <orgName xml:id="org-WO1264012101-22_01" ref="طب-بشرى-مدرسه-سى" type="مدرسه">طب بشرى مدرسه سى</orgName></cell>
+               </row>
+               <row>
+                  <cell>فى ٢ ش سنه ٦٤</cell>
+                  <cell><placeName xml:id="place-WO1264012101-22_02" ref="طره">طره ده</placeName>
+                     <orgName xml:id="org-WO1264012101-22_02" ref=" طوبجى-مدرسه-سى" type="مدرسه">طوبجى مدرسه سى</orgName></cell>
+               </row>
+               <row>
+                  <cell>فى ٧ ش سنه ٦٤</cell>
+                  <cell><placeName xml:id="place-WO1264012101-22_03" ref="بولاق">بولاقده</placeName>
+                     <orgName xml:id="org-WO1264012101-22_03" ref="مهندس-خانه-مدرسه-سى" type="مدرسه">مهندس خانه مدرسه
+                     سى</orgName></cell>
+               </row>
+               <row>
+                  <cell>فى ٨ ش سنه ٦٤</cell>
+                  <cell><placeName xml:id="place-WO1264012101-22_04" ref="ازبكيه">ازبكيه ده</placeName>
+                     <orgName xml:id="org-WO1264012101-22_04" ref="ولادت-مدرسه-سى" type="مدرسه">ولادت مدرسه سى</orgName></cell>
+               </row>
+               <row>
+                  <cell>فى ١٤ ش سنه ٦٤</cell>
+                  <cell><placeName xml:id="place-WO1264012101-22_05" ref="خانكه">خانكه ده</placeName>
+                     <orgName xml:id="org-WO1264012101-22_05" ref="مكتب-عالى" type="مكتب">مكتب عالى</orgName></cell>
+               </row>
+               <row>
+                  <cell>فى ١٦ ش سنه ٦٤</cell>
+                  <cell><placeName xml:id="place-WO1264012101-22_06" ref="شبرا">شبرا ده</placeName>
+                     <orgName xml:id="org-WO1264012101-22_06" ref="طب-بيطرى-مدرسه-سى" type="مدرسه">طب بيطرى مدرسه
+                     سى</orgName></cell>
+               </row>
+               <row>
+                  <cell>فى ٢١ ش سنه ٦٤</cell>
+                  <cell><placeName xml:id="place-WO1264012101-22_07" ref="ازبكيه">ازبكيه ده</placeName>
+                     <orgName xml:id="org-WO1264012101-22_07" ref="السنه-و-تجهيزيه-مدرسه-سى" type="مدرسه">السنه و تجهيزيه مدرسه
+                        سى</orgName></cell>
+               </row>
+               <row>
+                  <cell>فى ٢٨ ش سنه ٦٤</cell>
+                  <cell><placeName xml:id="place-WO1264012101-22_08" ref="نصريه">نصريه ده</placeName>
+                     <orgName xml:id="org-WO1264012101-22_08" ref="مبتديان-مدرسه-سى" type="مدرسه">مبتديان مدرسه سى</orgName></cell>
+               </row>
+            </table>
+         </div>
+         <div xml:id="WO1264012501-23" resp="#eAE">
+            <head>
+               <date when-custom="1264-08-30">٣٠ شعبان ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٢٥</biblScope>
+                  <biblScope unit="page">ص ١</biblScope></bibl></head>
+            <head>حوادث داخليه</head>
+            <p><placeName xml:id="place-WO1264012501-23_01" ref="قلعۀ-عامره">قلعۀ عامره ده</placeName>
+               دردست انشا اولان <orgName xml:id="org-WO1264012501-23_01" ref="جامع-شریف" type="جامع">جامع شریف</orgName> لوازماتی بر
+               ساعت اول تدارکيله اشغالی سهولت بولمق ايچون <placeName xml:id="place-WO1264012501-23_02" ref="بنى-سويف">بنى سويفده</placeName> واقع <placeName xml:id="place-WO1264012501-23_03" type="مرمر-طاغى">مرمر طاغندن</placeName> جلبی مقتضی مرمرلرك سرعت جلبنه ایجاب ایدن
+               یوز رأس اوکوزك اعطاسی اقاليم وسطا مفتشى حضرتلرينه يازلمشدر.</p>
+         </div>
+         <div xml:id="WO1264013001-24" resp="#eAE">
+            <head>
+               <date when-custom="1264-10-06">٦ شوال ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٣٠</biblScope>
+                  <biblScope unit="page">ص ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <p><placeName xml:id="place-WO1264013001-24_01" type="سمت" ref="قيسون-سمتى">قيسون
+                  سمتنده</placeName>
+               <placeName xml:id="place-WO1264013001-24_02" type="محله" ref="دالی-حسین-محله-سى">دالی حسین
+                  محله سنده</placeName> كائن اوست قائده بش اوطه و بر حمام و برمطبخ واوچ کیلار و الت
+               قاتده بر سلاملك اوطه و بر منظره و درت حيوان الور بر آخور و اوچ مغازه و بر مطبخ و بر
+               اوفاق باغچه و برقیوسی و بر اچيق حولیسی و جوارنده بر عرصه سی بولنور <persName xml:id="person-WO1264013001-24_01" role="جندی باشی">مرحوم جندی باشی احمد اغانك</persName> اليوم مزادده اللی ایکی کیسه
+               اقچه يه چیقمش بر باب خانه سی <orgName xml:id="org-WO1264013001-24_01" ref=" بیت-المال">بیت المال</orgName> معرفتیله
+               صاتیلق اولوب استكلوسی وارایسه <persName xml:id="person-WO1264013001-24_02" role="دلالباشی">دلالباشی سید
+                  مصطفادن</persName> صورمسی اعلان اولنمشدر.</p>
+         </div>
+         <div xml:id="WO1264013002-25" resp="#eAE">
+            <head>
+               <date when-custom="1264-10-06">٦ شوال ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٣٠</biblScope>
+                  <biblScope unit="page">ص ٤</biblScope></bibl></head>
+            <p><placeName xml:id="place-WO1264013002-25_01" ref="موسكيه">موسكيه ده</placeName> واقع اوست
+               قاتده درت اوطه و بر كلار و بر مطبخ و الت قاتده بر مغازه سی واچیق حولیسی بولنور آیده
+               يوز غروش اجرتله اسكان اولنه بيلور <persName xml:id="person-WO1264013002-25_01">شاذلی</persName> نام شخصك وارثلری تعلقى
+               اولوب مزادده اوتوز درت كيسه اقچه چیقمش اولان بر باب خانه نك صاتيلق اولوب راغبی وار
+               ایسه دلالباشئ مذکوردن استدلال ايتمسی بیلديرلشدر.</p>
+         </div>
+         <div xml:id="WO1264013003-26" resp="#eAE">
+            <head>
+               <date when-custom="1264-10-06">٦ شوال ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٣٠</biblScope>
+                  <biblScope unit="page">ص ٤</biblScope></bibl></head>
+            <p><orgName xml:id="org-WO1264013003-26_01" ref="خان-خلیلی-بازارى" type="بازار">خان خلیلی بازارنده</orgName> كائن اوست
+               قاتده اوتوز التى اوطه و ایکی عدد مکمل مكان و الت قاتده اون سكز مغازه و بش دکانی
+               بولنور <persName xml:id="person-WO1264013003-26_01">سيد احمد</persName> نام شخصك بو كونلرده مزادده اللى بيك غروشه چیقمش
+               برخانی صاتیلق اولوب طالبی وار ایسه دلالباشئ مذکوردن استدلال اتمسی اعلان اولنشدر.</p>
+         </div>
+         <div xml:id="WO1264013201-27" resp="#eAE">
+            <head>
+               <date when-custom="1264-10-20">٢٠ شوال ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٣٢</biblScope>
+                  <biblScope unit="page">ص ١</biblScope></bibl></head>
+            <head>حوادث داخليه</head>
+            <p>برمدتدنبرو <placeName xml:id="place-WO1264013201-27_01" type="ترعه" ref="محمودیه-ترعسی">محمودیه ترعسی</placeName> تطهير اولديغنه مبنی قایقلرك مرور و عبورینه مانع اوله
+               بله جك مرتبه دروننده قوم و جامور برکمش و بو حيثيتدن تطهیری لازمه دن بولنمش اولمغله
+                  <placeName xml:id="place-WO1264013201-27_02" ref="قناطر مجيديۀ خیریه"><orgName xml:id="org-WO1264013201-27_01" ref="قناطر-مجيديۀ-خیریه">قناطر مجيديۀ خیریه ده</orgName></placeName> موجود
+               اولان كراكه لر معونه لری ایله برابر ترعۀ مذکوره نك تطهیرنه تعیین برله نيل واپورلرندن
+               اوچنجى وبشنجى نمره واپورلر ايله اول جانبه کوندرلمشدرلر.</p>
+         </div>
+         <div xml:id="WO1264013401-28" resp="#eAE">
+            <head>
+               <date when-custom="1264-11-05">٥ ذى القعده ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٣٤</biblScope>
+                  <biblScope unit="page">ص ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <p><placeName xml:id="place-WO1264013401-28_01" type="سمت" ref="درب-الاحمر-سمتى">درب الاحمر
+                  سمتنده</placeName>
+               <placeName xml:id="place-WO1264013401-28_02" type="محله" ref="عطفة-الدليل-محله-سى">عطفة
+                  الدليل نام محله ده</placeName> واقع اوست قاتده بش اوطه و درت کلار و بر حمام و الت
+               قاتده بر سلاملق اوطه و طقوز مغازه والتى حيوان الور برمنظره و بر قيو و براچیق حولیسی
+               بولنور اليوم مزادده بش بيك غروشه چقمش <persName xml:id="person-WO1264013401-28_01">عيشه</persName> نام خاتون و شركاسنك
+               بر باب خانه سى صاتيلق اولوب طالبی وار ایسه <persName xml:id="person-WO1264013401-28_02" role="دلالباشی">دلالباشی سید
+                  مصطفادن</persName> استخبار ايتمسی.</p>
+         </div>
+         <div xml:id="WO1264013402-29" resp="#eAE">
+            <head>
+               <date when-custom="1264-11-05">٥ ذى القعده ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٣٤</biblScope>
+                  <biblScope unit="page">ص ٤</biblScope></bibl></head>
+            <p><placeName xml:id="place-WO1264013402-29_01" type="سمت" ref="خوش-قدم-سمتى">خوش قدم
+                  سمتنده</placeName> اوست قاتده بش اوطه و ایکی حمام و بر مطبخ و بر کیلار و الت قاتده
+               مرمردرکلی برتخته بوش و اوچ حیوان الور بر آخور و اجيق حولیسی و بر عدد قيوسی بولنور
+               الحالة هذه مزادده یکرمی بیك غروشه چیقمش <persName xml:id="person-WO1264013402-29_01">محمد افندی</persName> نام کمسنه نك
+               بر باب خانه سی <persName xml:id="person-WO1264013402-29_02" role="وكيل">خرده جی عبداه</persName> نام شخصك وكالت و
+               معرفتیله صاتیلق اولوب راغبی وار ایسه دلالباشئ مومی الیهدن استدلال اتمسی.</p>
+         </div>
+         <div xml:id="WO1264013403-30" resp="#eAE">
+            <head>
+               <date when-custom="1264-11-05">٥ ذى القعده ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٣٤</biblScope>
+                  <biblScope unit="page">ص ٤</biblScope></bibl></head>
+            <p><placeName xml:id="place-WO1264013403-30_01" ref="باب-الشعریه-سمتى">باب الشعريه
+                  ده</placeName>
+               <placeName xml:id="place-WO1264013403-30_02" type="سمت" ref="درب-اقماعيه-سمتى">درب اقماعيه
+                  سمتنده</placeName> اوست قاتده درت اوطه وبرحمام و الت قاتده ایكى منظره و بر مطبخ و
+               بر كيلار و درت حيوان الور بر آخور و بر دكرمن و ایكی مغازه و بر قیو و براچیق حولیسى و
+               بر اوفق باغچه سی بولنور الان مزادده اون سکز بیك غروشه چيقمش <persName xml:id="person-WO1264013403-30_01">سجاده جی مصطفى
+                  اغانك</persName> بر باب خانه سی صاتيلق اولوب طالبی وار ایسه دلالباشئ مومى اليهدن
+               صورمسی.</p>
+         </div>
+         <div xml:id="WO1264013501-31" resp="#eAE">
+            <head>
+               <date when-custom="1264-11-12">١٢ ذى القعده ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٣٥</biblScope>
+                  <biblScope unit="page">ص ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <p><placeName xml:id="place-WO1264013501-31_01" type="جاده" ref="باب-الخلق-جاده-يولى">باب
+                  الخلق جاده يولنده</placeName> واقع اوست قاتده درت اوطه و برحمام و برمطبخ و الت
+               قاتده ايكی مغازه و اوچ حيوان الور بر آخور و بر منظره واللى ارشون کلور غير مزروع  بر
+               اوفق باغچه سی و براچيق حولیسی بولنور <persName xml:id="person-WO1264013501-31_01">مرحوم رضوان اغانك</persName> وارثلری
+               ذمتنده اليوم اون ايكی بیك بش يوزغروشه جیقمش بر باب خانه سیله <placeName xml:id="place-WO1264013501-31_02" ref="باب-الزويله">باب الزويله ده</placeName> واقع بر
+               دکاندن طقوز قيراطی صاتیلق اولوب راغبی وار ایسه <persName xml:id="person-WO1264013501-31_02" role="دلالباشی">دلالباشی سید
+                  مصطفادن</persName> صورمسی.</p>
+         </div>
+         <div xml:id="WO1264013502-32" resp="#eAE">
+            <head>
+               <date when-custom="1264-11-12">١٢ ذى القعده ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٣٥</biblScope>
+                  <biblScope unit="page">ص ٤</biblScope></bibl></head>
+            <p>خانۀ مذکور جوارنده واقع اوست قاتده اوچ اوطه و بر مطبخ و بر کيلار و الت قاتده بر منظره
+               و اورتولی حولیسی بولنور اليوم مزادده درت بیك يوز یکرمی بش غروشه چیقمش
+                  <persName xml:id="person-WO1264013502-32_01">سليمان فوزی افندينك</persName> بر باب خانه سیله بر قطعه عرصۀ خاليه سی
+               فروخت اولنمقده اولوب طالبی بولنور ایسه دلالباشئ مذكوردن استدلال اتمسی.</p>
+         </div>
+         <div xml:id="WO1264014001-33" resp="#eAE">
+            <head>
+               <date when-custom="1264-12-24">٢٤ ذى الحجه ١٢٦٤</date>
+               <bibl><biblScope unit="issue">نمره ١٤٠</biblScope>
+                  <biblScope unit="page">ص ١</biblScope></bibl></head>
+            <head>حوادث داخليه</head>
+            <p>بو كونلرده <placeName xml:id="place-WO1264014001-33_01" type="سمت" ref="درب-المزين-سمتى">درب المزين سمتنده</placeName> ايكى باب خانه بغتة برى بر اوزرينه <rs type="يقلمق">يقلمغله</rs> بر خاتون تلف اولمش و كذلك <placeName xml:id="place-WO1264014001-33_02" ref="بولاق">بولاقده</placeName>
+               <placeName xml:id="place-WO1264014001-33_03" type="خط" ref="جوابر-خطى">جوابر
+                  خطنده</placeName>
+               <persName xml:id="person-WO1264014001-33_01">على الصغير</persName> نام شخصك خانه سى منهدم اولوب دروننده ساكن بيچاره زوجه
+               سى و قزى ايله يقنتيلرك التنده قاله رق وفات ايتمش اولديغندن فيما بعد عباداللهك بو كونا
+               مهلكه دن حفظ و وقاياسى ايچون انهدامه يوز طوتمش اولان بيوتك وقتيله كشف و ايجاب ايدرسه
+               بلا تأخير ازاله اولنملرى خصوصنه دقت تام ايتمسى كشف مأمورينه تأكيدا تنبيه
+               اولنمشدر.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

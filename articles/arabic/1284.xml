@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>"Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ al-Miṣrīyah), 1828-1914 - An Ottoman Arabic
+          Digital Humanities Project"</title>
+        <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</editor>
+        <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour Kanaan</editor>
+        <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah Fathallah
+          Gaara</editor>
+        <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif Erbil</editor>
+        <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed Kamal</editor>
+        <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+          El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
+        <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal al-Shamy</editor>
+        <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal Jammulapati</editor>
+        <respStmt>
+          <resp>Project co-director</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Primary Investigator</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0001-5239-7909">Project co-director</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fathallah Gaara</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0003-1216-3686">Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nori</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hiba Laabadli</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Othmane Echchabi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Nehal al-Shamy</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Vishal Jammulapati</name>
+        </respStmt>
+        <sponsor>
+          <orgName>National Endowment for the Humanities</orgName>, <orgName>Institut français
+            d’archéologie orientale</orgName> (Ifao, Cairo); <orgName>Franklin Humanities Institute
+            and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
+            University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
+            national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
+            Cultural Counsellor in Cairo</orgName>.</sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+        <p> Created by the "Digital Cairo" project (Duke University - Ifao), sponsored by the National Endowment for the Humanities.</p>
+        <p>
+          <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+        </p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName>, <persName>Hugh Cayless</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣrīyah (Egyptian Affairs) newspaper, 1828–1914.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>The "Digital Cairo" project is sponsored by the National Endowment for the Humanities.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+          and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added
+          in an attribute to a persName.</p>
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+            Editions</ref>.</p>
+      </editorialDecl>
+      <charDecl>
+        <char xml:id="qhalf">
+          <localProp value="QIRMA FRACTION 1/2" name="name"/>
+          <unicodeProp value="1/2" name="Numeric_Value"/>
+          <mapping type="similar">𐋢</mapping>
+          <figure>
+            <graphic url="../../docs/images/qhalf.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qthird">
+          <localProp value="QIRMA FRACTION 1/3" name="name"/>
+          <unicodeProp value="1/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qthird.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qfourth">
+          <localProp value="QIRMA FRACTION 1/4" name="name"/>
+          <unicodeProp value="1/4" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qfourth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qsixth">
+          <localProp value="QIRMA FRACTION 1/6" name="name"/>
+          <unicodeProp value="1/6" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qsixth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qeighth">
+          <localProp value="QIRMA FRACTION 1/8" name="name"/>
+          <unicodeProp value="1/8" name="Numeric_Value"/>
+          <mapping type="similar">𐋤</mapping>
+          <figure>
+            <graphic url="../../docs/images/qeighth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qtwothirds">
+          <localProp value="QIRMA FRACTION 2/3" name="name"/>
+          <unicodeProp value="2/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qtwothirds.svg"/>
+          </figure>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="cleared">
+                  <listChange>
+                        <change when="2023-09-26" resp="#eAM" status="cleared"/>
+                  </listChange>
+            </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="ar">
+      <body>
+         <div xml:id="WA1284011001-1" resp="#eSG">
+                        <head><date when-custom="1284-01-29">٢٩ محرم ١٢٨٤</date>
+                              <date when="1867-06-02">٢ يونيه ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١١٠</biblScope> صفحة
+                              ١</bibl></head>
+                        <p>صار حضرة سعادتلو <persName xml:id="person-WA1284011001-1_01">ثابت باشا
+                                    أمين <orgName xml:id="org-WA1284011001-1_01" ref="كمرك-سكندريه">كمرك سكندريه</orgName></persName> وكيل <orgName xml:id="org-WA1284011001-1_02" type="نظارة" ref="نظارة-الداخليه">نظارة الداخليه</orgName> واستعوض بسعادتلو <persName xml:id="person-WA1284011001-1_02" role="ناظر">أحمد باشا ناظر
+                                          <orgName xml:id="org-WA1284011001-1_03">الواردات</orgName></persName> واستعوض هذا أيضا بسعادتلو
+                                    <persName xml:id="person-WA1284011001-1_03" role="وكيل">صفر باشا
+                                    وكيل <orgName xml:id="org-WA1284011001-1_04" type="مجلس" ref="مجلس-استئناف-سكندرية">مجلس استئناف
+                                    سكندريه</orgName></persName>.</p>
+                        <p>جعل سعدتلو <persName xml:id="person-WA1284011001-1_04" role="رئيس مجلس">حسين باشا رئيس مجلس استئناف مصر</persName> أمينا على <orgName xml:id="org-WA1284011001-1_05" ref="بيت-مال">بيت المال</orgName>
+                              واستعوض بعزتلو <persName xml:id="person-WA1284011001-1_05" role="وكيل">مختار بيك الذي كان وكيل نظارة الداخليه</persName>.</p>
+                  </div>
+         <div xml:id="WA1284011201-2" resp="#eSG">
+                        <head><date when-custom="1284-02-06">٦ صفر ١٢٨٤</date>
+                              <date when="1867-06-09">٩ يونيه ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١١٢</biblScope>
+                                    <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+                        <head><title>حوادث داخلية</title></head>
+                        <head><title>مضمون <rs type="تلغراف">تلغراف</rs> صادر من <orgName xml:id="org-WA1284011201-2_01" type="المعية-السنية" ref="المعية-السنية">المعية
+                                          السنية</orgName> في ٥ صفر سنه ٨٤ إلى كل محافظة
+                                    ومديرية</title></head>
+                        <p>أحسنت <orgName xml:id="org-WA1284011201-2_02" ref="الدولة-العلية-السلطانية">الدولة العلية
+                                    السلطانية</orgName> بالأمتيازات الجديدة العائدة على الأقطار
+                              المصرية للمنافع العمومية مع عنونة حضرة واليها أيضا حليف النصر بعنوان
+                              (خديو مصر) وعنونها هي (بالخديوية الجليلة المصرية) عوضا عن الولاية
+                              المصرية فلهذا من صباح الغد الذي هو يوم الأحد يطلق في كل وقت من أوقات
+                              المكتوبات واحد وعشرون مدفعا ايذانا بالمسرات ولأجل اعلام الخاص
+                              والعام.</p>
+                  </div>
+                  <div xml:id="WA1284011202-3" resp="#eSG">
+                        <head><date when-custom="1284-02-06">٦ صفر ١٢٨٤</date>
+                              <date when="1867-06-09">٩ يونيه ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١١٢</biblScope>
+                                    <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+                        <p>في الساعة الخامسة من ليلة الخميس الماضي ظهر <rs type="حريق">حريق</rs>
+                                    ب<placeName xml:id="place-WA1284011202-3_01" type="منزل" ref="منزل-سويلم-دياب-الحجراتى">منزل <persName xml:id="person-WA1284011202-3_01" role="حجار">سويلم دياب
+                                          الحجراتي</persName></placeName> ب<placeName xml:id="place-WA1284011202-3_02" type="درب" ref="درب-العجوز">درب
+                                    العجوز</placeName> ب<placeName xml:id="place-WA1284011202-3_03" type="ثمن" ref="ثمن-باب-الشعرية"><orgName xml:id="org-WA1284011202-3_01" type="ثمن" ref="ثمن-باب-الشعرية">ثمن باب
+                                    الشعرية</orgName></placeName> قبودر من <orgName xml:id="org-WA1284011202-3_02" ref="ضبطية">الضبطية</orgName>
+                              بارسال الطلومبات وغيرها اليه وكان سقفه الأسفل قد اشتعل فنزع ما كان
+                              بالأوطة التي عليه الساكن بها <persName xml:id="person-WA1284011202-3_02" role="حجار">محمد غطاس
+                                    الحجار</persName> ثم أنزل السقف وتيسر الأطفاء في ساعتين بدون
+                              سراية إلى جهة أخرى.</p>
+                  </div>
+                  <div xml:id="WA1284011203-4" resp="#eSG">
+                        <head><date when-custom="1284-02-06">٦ صفر ١٢٨٤</date>
+                              <date when="1867-06-09">٩ يونيه ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١١٢</biblScope>
+                                    <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+                        <p>اعلان <orgName xml:id="org-WA1284011203-4_01" ref="قنصلاتوا دولة اليونان" type="قنصلاتوا">قنصلاتوا دولة
+                                    اليونان</orgName> وارد من <orgName xml:id="org-WA1284011203-4_02" ref="ضبطية">الضبطية</orgName>
+                              بلفظه أيضا انه تنفيذ الأمر الصادر في ١٨ و٣٠ <choice>
+                                    <sic>أبريله</sic>
+                                    <corr>أبريل</corr>
+                              </choice> سنة ١٨٦٧ على العرض المتقدم من <persName xml:id="person-WA1284011203-4_01">الست ايرينه أبوسطو
+                                    لو</persName> ضد <persName xml:id="person-WA1284011203-4_02">الخواجه ميكيله لالا</persName> سيصير
+                              طرح <placeName xml:id="place-WA1284011203-4_01" type="بيت" ref="بيت-ملك-الخواجه-ميكيله-لالا">البيت ملك
+                                    الخواجه المذكور</placeName> الكائن ب<placeName xml:id="place-WA1284011203-4_02" type="سكة" ref="سكة-باب-الحديد">سكة باب الحديد</placeName> بالقرب إلى
+                                    <placeName xml:id="place-WA1284011203-4_03" type="لوكاندة" ref="لوكاندت-جريفتس"><sic>لوكاندت</sic> جريفتس</placeName> المعروفة
+                                    ب<placeName xml:id="place-WA1284011203-4_04" type="لوكاندة" ref="لوكاندت-أوروبا"><sic>لوكاندت</sic> أوروبا</placeName> لبيعه بالمزاد
+                              وليعلم لدى العموم انه قد دفع بالبيت المذكور <choice>
+                                    <sic>مبلع</sic>
+                                    <corr>مبلغ</corr>
+                              </choice> ثلاثة آلاف وستمائة جنيه انكليزي من المداينة أول عطي وتعين
+                              يوم الأحد الواقع في ١٦ وفي ٢٨ يوليو سنة ١٨٦٧ للبدأ فى المزاد المذكور
+                              من الساعة ١٠ للساعة ١٢ افرنجي ب<placeName xml:id="place-WA1284011203-4_05" type="قهوة" ref="قهوة-البورصة">قهوة البورصة</placeName> ب<placeName xml:id="place-WA1284011203-4_06" ref="الموسكى">الموسكي</placeName> والشروط التي سيكون البيع علي
+                              موجبها وعلم التتمين وحجة التمليك موجودين بالقونصلاتو للاطلاع عليهم
+                              تحريرا فى ٣٠ ماجيو سنة ١٨٦٧.</p>
+                        <p><persName xml:id="person-WA1284011203-4_03" role="كنشلير">الكنشلير دينزو</persName></p>
+                  </div>
+         <div xml:id="WA1284011601-5" resp="#eSG">
+                        <head><date when-custom="1284-02-21">٢١ صفر ١٢٨٤</date>
+                              <date when="1867-06-24">٢٤ يونيه ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١١٦</biblScope>
+                                    <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+                        <head><title>اعلان</title></head>
+                        <head>بيان قطع أرض لل<orgName xml:id="org-WA1284011601-5_01" type="الميري">ميرى</orgName> بقيت من محلات
+                              اقتضى الحال مبيعها واشهارها للمزايدة فيها</head>
+                        <table rows="3" cols="2">
+                              <row>
+                                    <cell>ذراع معماري مسطح</cell>
+                                    <cell/>
+                              </row>
+                              <row>
+                                    <cell>٤٤ و٨٩٢</cell>
+                                    <cell> قطعة أرض باقية من <placeName xml:id="place-WA1284011601-5_01" type="محل" ref="محل-المواشى-ببركة-الازبكية">محل المواشي
+                                                  ب<placeName xml:id="place-WA1284011601-5_02" type="بركة" ref="بركة-الازبكية">بركة
+                                                  الأزبكية</placeName></placeName> تعرف بنمرة ١
+                                          حدّها القبلى ينتهى إلى <placeName xml:id="place-WA1284011601-5_03" type="مدرسة" ref="المدرسة-الأمريكانية">المدرسة
+                                                الأمريكانية</placeName> يبلغ طوله ١٩ مترًا و٨٠ سانتي
+                                          وحدّها البحري ينتهي إلى <orgName xml:id="org-WA1284011601-5_02" ref="البوزخانه">البوزخانه</orgName> ويبلغ طوله ٢٢ مترا وحدها الشرقي
+                                          بعضه لحوش هذه المدرسة وباقية للطريق الفاصل بين
+                                                ال<placeName xml:id="place-WA1284011601-5_04" type="ضبطية">ضبطية</placeName>
+                                          والبوزخانة ويبلغ طوله ٣٠ مترا و٦٠ سانتي مكسرًا وحده الغربي
+                                          للشارع الفاصل بينها وبين <placeName xml:id="place-WA1284011601-5_05" type="جنينة" ref="جنينة-الأزبكية">جنينة الأزبكية</placeName>
+                                          ويبلغ طوله ٢٢ مترًا ومساحتها بالمتر ٥٠٢ وبالذراع المعماري
+                                          ٨٩٢ و٤٤ من مائه من الذراع</cell>
+                              </row>
+                              <row>
+                                    <cell>٩٢ و ٢٩٣</cell>
+                                    <cell>قطعة أرض باقية من المحل المتقدم تعرف بنمرة ٢ حدها القبلي
+                                                لل<placeName xml:id="place-WA1284011601-5_06" type="شارع" ref="الشارع-المستجد">شارع
+                                                المستجد</placeName> الفاصل بينها وبين <placeName xml:id="place-WA1284011601-5_07" type="ديوان" ref="ديوان الخارجية"><orgName xml:id="org-WA1284011601-5_03" type="ديوان" ref="ديوان-الخارجية">ديوان
+                                                  الخارجية</orgName></placeName> يبلغ طوله ٢٠ مترا
+                                          و٨٠ سانتي والبحري للمدرسة السابقة ويبلغ طوله ٢٠ مترًا و٢٠
+                                          سانتي والشرقي لحوش هذه المدرسة ويبلغ طوله ثمانية أمتار
+                                          والغربي للشارع الفاصل بينها وبين الجنينة المذكورة وطوله
+                                          كالذي قبله ومساحتها بالمتر ٤٣ و١٦٥ وبالذراع المعماري ٢٩٣
+                                          و٩٢ من مائه من الذراع</cell>
+                              </row>
+                              <row>
+                                    <cell>٩٦ و١٥٠</cell>
+                                    <cell>قطعة أرض باقية من <placeName xml:id="place-WA1284011601-5_08" ref="محل المحافظة القديم"><orgName xml:id="org-WA1284011601-5_04" ref="محل-المحافظة-القديم">محل المحافظة
+                                                  القديم</orgName></placeName> بجوار <orgName xml:id="org-WA1284011601-5_05" ref="ديوان-الخارجية" type="ديوان">ديوان
+                                                الخارجية</orgName> تعرف بنمرة ٤ حدّها القبلي
+                                                ل<placeName xml:id="place-WA1284011601-5_09" type="شارع" ref="شارع-الاسماعيلية">شارع
+                                                الاسماعيلية</placeName> الفاصل بينها بين هذا الديوان
+                                          ويبلغ طوله ١٦ مترا و٧٥ سانتي والبحري ل<placeName xml:id="place-WA1284011601-5_10" ref="ديوان الصحة"><orgName xml:id="org-WA1284011601-5_06" type="ديوان" ref="ديوان-الصحة">ديوان
+                                                الصحة</orgName></placeName> طوله كالذي قبله والشرقي
+                                                ل<placeName xml:id="place-WA1284011601-5_11" type="شارع" ref="شارع-الضبطية">شارع
+                                                الضبطية</placeName> وطوله ٥ أمتار و٧٠ سانتي والغربي
+                                          لبعض المدرسة السابقة وطوله أربعة أمتار ونصف ومساحتها
+                                          بالمتر ٨٤ و٩١ سانتي وبالذراع المعماري ١٥٠ و٩٦ من مائة من
+                                          الذراع</cell>
+                              </row>
+                        </table>
+                        <p>هذه القطع الثلاث من جملة املاك الميري المستغني عنها ولاجل الأنتفاع بها
+                              وانتظام الشارع حررّت قوائم مزايدة فيها الشروط اللازمة لمن يرغب في
+                              شرائها وسلمت إلي <persName xml:id="person-WA1284011601-5_01" role="دلال">السيد محمد مصطفى الجنيدي
+                                    الدلال</persName> واقتضى الحال إدراجها بالوقائع لاجل الأعلان
+                              ليتوجه إليها كل من يريدها ويشاهدها بالعيان بمقتضي الأفادة الواردة من
+                                    <orgName xml:id="org-WA1284011601-5_07" type="ديوان" ref="ديوان-المحافظة">ديوان
+                                    المحافظة</orgName>.</p>
+                  </div>
+         <div xml:id="WA1284012301-6" resp="#eSG">
+                        <head><date when-custom="1284-03-16">١٦ ربيع الأول ١٢٨٤</date>
+                              <date when="1867-07-18">١٨ يوليه ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٢٣</biblScope>
+                                    <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+                        <head><title>الحوادث الداخلية</title></head>
+                        <p>أحسن بالرتبة الرابعة إلى <persName xml:id="person-WA1284012301-6_01">خليل افندي وهبي المتشرف بالخدمة
+                                          ب<orgName xml:id="org-WA1284012301-6_01" type="دائرة" ref="دائرة-سعادة-ذات-العصمة-والدة-ولى-النعم-الخديو-الاعظم">دائرة سعادة ذات العصمة والدة ولى النعم الخديو
+                                          الأعظم</orgName></persName> بعد ان كان من أرباب الرتبة
+                              الثالثة.</p>
+                  </div>
+         <div xml:id="WA1284012302-7" resp="#eSG">
+                        <head><date when-custom="1284-03-16">١٦ ربيع الأول ١٢٨٤</date>
+                              <date when="1867-07-18">١٨ يوليه ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٢٣</biblScope>
+                                    <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+                        <head><title>اعلان</title></head>
+                        <p>مضمون <rs type="افادة">افادة</rs> واردة من <orgName xml:id="org-WA1284012302-7_01" ref="ضبطية">الضبطية</orgName> في
+                              ثالث عشر الشهر الحال ان الأماكن والمزروعات التي بضواحي <placeName xml:id="place-WA1284012302-7_01" ref="شبرا-الخيمة">شبرا
+                                    الخيمة</placeName> الجارية في ملك <persName xml:id="person-WA1284012302-7_01">محمد بيك أمين نجل <persName xml:id="person-WA1284012302-7_02" role="مدير">المرحوم
+                                          خورشيد باشا مدير <placeName xml:id="place-WA1284012302-7_02" ref="الدقهلية">الدقهلية</placeName> سابقًا</persName></persName>
+                              معرضة للمبيع والمزايدة في مساومتها بمقتضى قائمة مزاد بختم البيك المومي
+                              اليه بطرف <orgName xml:id="org-WA1284012302-7_02" ref="الخواجه انطوان شراباتي السمسار وشركاه"><persName xml:id="person-WA1284012302-7_03" role="سمسار">الخواجه
+                                          انطوان شراباتي السمسار</persName> وشركاه</orgName> وهي
+                              بهذا البيان.<table rows="7" cols="2">
+                                    <row>
+                                          <cell>عدد</cell>
+                                          <cell/>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell><placeName xml:id="place-WA1284012302-7_03" type="منزل" ref="منزل-محمد-بيك-أمين">منزل</placeName>
+                                                <persName xml:id="person-WA1284012302-7_04">كامل <choice>
+                                                  <sic>لبنا</sic>
+                                                  <corr>البنا</corr>
+                                                  </choice></persName> مستوفي المنافع بانمله من
+                                                الجهة الغربية ثمانية دكاكين مسكونة ب<placeName xml:id="place-WA1284012302-7_04" type="جهة" ref="جهة-شبرا">جهة شبرا</placeName></cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell>جملة أشجار من اللبخ مزروعة على صف واحد تجاه الدكاكين
+                                                المذكورة</cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell>ساقية كاملة الآلآت صالحة للاستعمال جميع أدواتها من
+                                                الحديد</cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell>كوثك مما يلي الساقية المذكورة</cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell>وابور للطحن في قوة عشر من الخيل كامل البنيان والآلات
+                                                يدير حجرين يطحن عليهما في الساعة الواحدة أردبان
+                                                وبرحبته منظرتان</cell>
+                                    </row>
+                                    <row>
+                                          <cell>٥</cell>
+                                          <cell/>
+                                    </row>
+                              </table>وحيث بلغت المزايدة في تلك الأماكن والمزروعات إلى ألف ومائتين
+                              من الجنيه الأنكليزي وربما يوجد من يرغب في الأخذ بالزيادة فقد حدّد لذلك
+                              ثلاثة شهور ابتداؤها ١٣ ربيع الأول سنة ١٢٨٤ ولزم اعلان ذلك بالوقائع
+                              ليتوجه كل من له رغبة في الزيادة إلي دكان السمسار لمذكور ب<placeName xml:id="place-WA1284012302-7_05" type="سكة" ref="السكة الجديدة">السكة الجديدة</placeName> تجاه <placeName xml:id="place-WA1284012302-7_06" type="وكالة" ref="وكالة قاسم كتخدا">وكالة قاسم كتخدا</placeName> ويضع اسمه مع
+                              مقدار ما يعطيه من الزيادة بالقائمة المذكورة.</p>
+                  </div>
+         <div xml:id="WA1284012401-8" resp="#eSG">
+                        <head><date when-custom="1284-03-20">٢٠ ربيع الأول ١٢٨٤</date>
+                              <date when="1867-07-22">٢٢ يوليه ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٢٤</biblScope>
+                                    <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+                        <p>من السهو ما وقع في الصحيفة المارة من أن <persName xml:id="person-WA1284012401-8_01">خليل افندي وهبي المتشرف
+                                    بالخدمة ب<orgName xml:id="org-WA1284012401-8_01" ref="دائرة سعادة ذات العصمة والدة ولي النعم الخديو الأعظم" type="دائرة">دائرة سعادة ذات العصمة والدة ولي النعم الخديو
+                                          الأعظم</orgName></persName> أحسن إليه بالرتبة الرابعة بعد
+                              أن كان من أرباب الرتبة الرابعة.</p>
+                  </div>
+                  <div xml:id="WA1284012402-9" resp="#eSG">
+                        <head><date when-custom="1284-03-20">٢٠ ربيع الأول ١٢٨٤</date>
+                              <date when="1867-07-22">٢٢ يوليه ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٢٤</biblScope>
+                                    <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+                        <p>بعد مضي خمس ساعات وربع من يوم الجمعة الماضي ظهر <rs type="حريق">حريق</rs>
+                                    ب<placeName xml:id="place-WA1284012402-9_01" type="منزل" ref="منزل-الحرمه-زهرة">منزل
+                                          <persName xml:id="person-WA1284012402-9_01">الحرمة زهرة</persName></placeName> ب<placeName xml:id="place-WA1284012402-9_02" type="شارع" ref="شارع-الحمزاوى">شارع الحمزاوي</placeName> فوجهت
+                              اليه الطلومبات من ال<orgName xml:id="org-WA1284012402-9_01" type="ضبطية">ضبطية</orgName> فلم تمس
+                              الحاجة اليها وأطفئ بدون سراية ولم يتلف سوى أشياء تافهة كانت فوق
+                              السطح.</p>
+                  </div>
+         <div xml:id="WA1284012501-10" resp="#eSG" xml:base="w10">
+                        <head><date when-custom="1284-03-23">٢٣ ربيع الأول ١٢٨٤</date>
+                              <date when="1867-07-25">٢٥ يوليه ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٢٥</biblScope>
+                                    <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+                        <head><title>اعلان</title></head>
+                        <p>عن <rs type="بيان">بيان</rs> الأماكن الوقف الخربة التي اقتضت المصلحة بيع
+                              انقاضها وتأجير أرضها للراغبين والأذن بأحداث الخلو فيها على سبيل البقاء
+                              بوجه القرار حسب الإفادة الواردة من <orgName xml:id="org-WA1284012501-10_01" type="ديوان" ref="ديوان-عموم-الأوقاف">ديوان عموم الأوقاف</orgName> في ٢٠ ربيع
+                                    الأول<table rows="8" cols="3">
+                                    <row>
+                                          <cell>عدد </cell>
+                                          <cell/>
+                                          <cell> ذراع مسطح </cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell><placeName xml:id="place-WA1284012501-10_01" type="خربة" ref="خربة-فى-وقف-الامامين-وسيدنا-الحسين">خربة</placeName> ب<placeName xml:id="place-WA1284012501-10_02" type="منطقة" ref="منطقة-عبد-الله-بيك">منطقة <persName xml:id="person-WA1284012501-10_01">عبد الله
+                                                  بيك</persName></placeName> ب<placeName xml:id="place-WA1284012501-10_03" ref="السروجية">السروجية</placeName> في <orgName xml:id="org-WA1284012501-10_02" type="وقف" ref="وقف-الامامين-وسيدنا-الحسين">وقف
+                                                  الامامين و<persName xml:id="person-WA1284012501-10_02">سيدنا
+                                                  الحسين</persName></orgName></cell>
+                                          <cell>٦٦</cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell><placeName xml:id="place-WA1284012501-10_04" type="خربة" ref="خربة-وقف-سيدنا-الحسين">خربة</placeName> ب<placeName xml:id="place-WA1284012501-10_05" type="حوش" ref="حوش-قدم">حوش قدم</placeName> في <orgName xml:id="org-WA1284012501-10_03" ref="وقف-سيدنا-الحسين" type="وقف">وقف سيدنا
+                                                  الحسين</orgName></cell>
+                                          <cell>٤٤١</cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell><placeName xml:id="place-WA1284012501-10_06" type="خربة" ref="خربة-فى-وقف-الامامين">خربة</placeName> في <placeName xml:id="place-WA1284012501-10_07" type="حارة" ref="حارة-الحمزية">حارة الحمزية</placeName>
+                                                  ب<placeName xml:id="place-WA1284012501-10_08" ref="الداودية">الداودية</placeName> في
+                                                  <orgName xml:id="org-WA1284012501-10_04" ref="وقف-الامامين" type="وقف">وقف
+                                                  الأمامين</orgName></cell>
+                                          <cell>١٥٦</cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell><placeName xml:id="place-WA1284012501-10_09" type="خربة" ref="خربة-وقف-سيدى-عقبة">خربة</placeName> في <placeName xml:id="place-WA1284012501-10_10" type="زقاق" ref="زقاق-الشعرانى">زقاق الشعراني</placeName> في
+                                                  <orgName xml:id="org-WA1284012501-10_05" type="وقف" ref="وقف-سيدي-عقبة">وقف
+                                                  <persName xml:id="person-WA1284012501-10_03">سيدي عقبة</persName></orgName></cell>
+                                          <cell>٥٨٠</cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell><placeName xml:id="place-WA1284012501-10_11" type="خربة" ref="خربة-وقف-سيدنا-الحسين">خربة</placeName> في <placeName xml:id="place-WA1284012501-10_12" type="درب" ref="درب-الشيخ-مسعود">درب الشيخ مسعود</placeName>
+                                                  ب<placeName xml:id="place-WA1284012501-10_13" ref="بولاق">بولاق</placeName> من
+                                                  <orgName xml:id="org-WA1284012501-10_06" type="وقف" ref="وقف-سيدنا-الحسين">وقف
+                                                  سيدنا الحسين</orgName></cell>
+                                          <cell>١٣٦</cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell><placeName xml:id="place-WA1284012501-10_14" type="خربة" ref="خربة-وقف-الامامين">خربة</placeName> في <placeName xml:id="place-WA1284012501-10_15" type="عطفة" ref="عطفة-القرافة">عطفة القرافة</placeName>
+                                                  ب<placeName xml:id="place-WA1284012501-10_16" type="جهة" ref="جهة-قصر-الشوك">جهة قصر
+                                                  الشوك</placeName> من <orgName xml:id="org-WA1284012501-10_07" type="وقف" ref="وقف-الامامين">وقف الأمامين</orgName></cell>
+                                          <cell>٣٣٠</cell>
+                                    </row>
+                                    <row>
+                                          <cell>__</cell>
+                                          <cell/>
+                                          <cell/>
+                                    </row>
+                                    <row>
+                                          <cell>٦</cell>
+                                          <cell/>
+                                          <cell/>
+                                    </row>
+                              </table> وحيث انه موجود بعض اشخاص يرغبون في أخذ هذه الأماكن
+                                    <sic>بالزيادة</sic> عما جرت به مساومتها فقد عين لذلك عشرون يوما
+                              ابتدؤها يوم الثلثا ٢٠ الشهر الحال وحرر بذلك خمسة وثلاثون اعلانا ونشرت
+                              على <orgName xml:id="org-WA1284012501-10_08" type="قره-قولات">القره قولات</orgName> وادراج هنا أيضا
+                              ليعم الأعلان به حيث انه بعد مضي الميعاد سيحرّر إلى المحكمة بكتابة
+                              الحجة اللازمة لمن يرسي مزاد أى محل منها عليه بما تنتهي الرغبة
+                              اليه.</p>
+                  </div>
+                  <div xml:id="WA1284012502-11" resp="#eSG">
+                        <head><date when-custom="1284-03-23">٢٣ ربيع الأول ١٢٨٤</date>
+                              <date when="1867-07-25">٢٥ يوليه ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٢٥</biblScope>
+                                    <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+                        <head>(علم <rs type="بيان">بيان</rs> زيادة النيل المبارك)</head>
+                        <table rend="rules">
+                              <row>
+                                    <cell cols="3">سنة ١٢٨٣</cell>
+                              </row>
+                              <row>
+                                    <cell>ذراع</cell>
+                                    <cell>قيراط </cell>
+                                    <cell>زيادة</cell>
+                              </row>
+                              <row>
+                                    <cell>١١</cell>
+                                    <cell>٠٠</cell>
+                                    <cell>٠</cell>
+                              </row>
+                              <row>
+                                    <cell>١١</cell>
+                                    <cell>١</cell>
+                                    <cell>١</cell>
+                              </row>
+                              <row>
+                                    <cell>١١</cell>
+                                    <cell>١</cell>
+                                    <cell>١</cell>
+                              </row>
+                        </table>
+                        <table rend="rules">
+                              <row>
+                                    <cell cols="4"> سنة ١٢٨٤</cell>
+                              </row>
+                              <row>
+                                    <cell>ذراع</cell>
+                                    <cell>قيراط</cell>
+                                    <cell>زيادة</cell>
+                                    <cell/>
+                              </row>
+                              <row>
+                                    <cell>١٠</cell>
+                                    <cell>١١</cell>
+                                    <cell>٤</cell>
+                                    <cell>يوم الثلاث ٢١ ربيع الأول</cell>
+                              </row>
+                              <row>
+                                    <cell>١٠</cell>
+                                    <cell>١٤</cell>
+                                    <cell>٣</cell>
+                                    <cell>يوم الأربع ٢٢ منه</cell>
+                              </row>
+                              <row>
+                                    <cell>١٠</cell>
+                                    <cell>١٨</cell>
+                                    <cell>٤</cell>
+                                    <cell>يوم الخميس ٢٣ منه</cell>
+                              </row>
+                        </table>
+                  </div>
+         <div xml:id="WA1284013101-12" resp="#eSG">
+                        <head><date when-custom="1284-04-18">١٨ ربيع الثاني ١٢٨٤</date>
+                              <date when="1867-08-19">١٩ أغسطس ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٣١</biblScope>
+                                    <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+                        <p>في يوم الخميس الماضي رابع عشر هذا الشهر في الساعة السابعة منه ظهر <rs type="حريق">حريق</rs> بقاعة أرضية ب<placeName xml:id="place-WA1284013101-12_01" type="منزل" ref="منزل-سكن-محمد-القيس-البرادعى">منزل</placeName> سكن
+                                    <persName xml:id="person-WA1284013101-12_01">محمد القيس البرادُعي</persName> ب<placeName xml:id="place-WA1284013101-12_02" type="جهة" ref="جهه-الحطابه">جهة الحطابه</placeName> ب<placeName xml:id="place-WA1284013101-12_03" type="ثمن" ref="ثمن-الدرب-الاحمر"><orgName xml:id="org-WA1284013101-12_01" type="ثمن" ref="ثمن-الدرب-الأحمر">ثمن الدرب
+                                    الأحمر</orgName></placeName> فوجهت اليه الطلومبات والرجال من
+                                    ال<orgName xml:id="org-WA1284013101-12_02" type="ضبطية">ضبطية</orgName> فأطفئ ولم يسير إلى جهة
+                              أخرى ولم يصب به الا سقف القاعة وشئ من القش المعدّ لحشو البرادّع.</p>
+                  </div>
+         <div xml:id="WA1284013201-13" resp="#eSG">
+                        <head><date when="1284-04-21" when-custom="1284-04-21">٢١ ربيع الثاني
+                                    ١٢٨٤</date>
+                              <date when="1867-08-22">٢٢ أغسطس ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٣٢</biblScope><biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+                        <p>وعلم من أخبار <orgName xml:id="org-WA1284013201-13_01" ref="الضبطية">الضبطية</orgName> أيضّا أنه في
+                              الساعة السابعة من ليلة الأثنين الماضي ظهر <rs type="حريق">حريق</rs> في
+                              حاصل من <placeName xml:id="place-WA1284013201-13_01" type="منزل" ref="منزل-جرجس-قدسى">منزل</placeName>
+                              لشخص اسمه <persName xml:id="person-WA1284013201-13_01">جرجس قدسي</persName> ب<placeName xml:id="place-WA1284013201-13_02" type="درب" ref="درب-حيدر">درب حيدر</placeName> من <placeName xml:id="place-WA1284013201-13_03" ref="ثمن عابدين"><orgName xml:id="org-WA1284013201-13_02" type="ثمن" ref="ثمن-عابدين">ثمن
+                                          عابدين</orgName></placeName> وبما أبدته ال<orgName xml:id="org-WA1284013201-13_03" type="ضبطية">ضبطية</orgName> من الهمة في ارسال الطلومبات وما
+                              يلزم لها من المهمات والأدوات تيسر اطفاؤه في ربع الساعة ولم يحترق به
+                              سوى ما كان في الحاصل المذكور من بعض أخشاب وقش.</p>
+                  </div>
+         <div xml:id="WA1284013301-14" resp="#eSG">
+                        <head><date when-custom="1284-04-25">٢٥ ربيع الثاني ١٢٨٤</date>
+                              <date when="1867-08-26">٢٦ أغسطس ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٣٣</biblScope>
+                                    <biblScope unit="page">صفحة ٤</biblScope></bibl>
+                        </head>
+                        <head>(اعلان)</head>
+                        <p>ان قطع الأرض الثلاثة الكائنة ب<placeName xml:id="place-WA1284013301-14_01" ref="الازبكية">الازبكية</placeName> ملك الميري الجاري مزادها بموجب الشروط
+                              المبينة بقوائم المزاد قد عين يوم السبت الأتي الموافق غرة جمادى <choice>
+                                    <sic>الالى</sic>
+                                    <corr>الاولى</corr>
+                              </choice> سنة ١٢٨٤ الساعة الرابعة منه ميعادا لحضور الراغبين فيها فكل
+                              من رغب يحضر في المعاد المذكور ب<orgName xml:id="org-WA1284013301-14_01" type="ديوان" ref="ديوان-محافظة-مصر">ديوان محافظة مصر</orgName>.</p>
+                  </div>
+         <div xml:id="WA1284013501-15" resp="#eSG">
+                        <head><date when-custom="1284-05-03">٣ جمادي الأولى ١٢٨٤</date>
+                              <date when="1867-09-02">٢ سبتمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٣٥</biblScope>
+                                    <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+                        <head><title>اعلانات</title></head>
+                        <p>لحضرة سعادتلو <persName xml:id="person-WA1284013501-15_01" role="مأمور الضبطية المصرية">أحمد باشا الدورملي
+                                    مأمور <orgName xml:id="org-WA1284013501-15_01" type="ضبيطة" ref="الضبطية-المصرية">الضبطية
+                                          المصرية</orgName></persName>
+                              <placeName xml:id="place-WA1284013501-15_01" type="ابعادية-عشورية" ref="ابعادية-عشورية-لأحمد-باشا-الدورملي">ابعادية
+                                    عشورية</placeName> حوض واحد ب<placeName xml:id="place-WA1284013501-15_02" type="ناحية" ref="ناحية-الحلافى">ناحية الحلافى</placeName> ب<orgName xml:id="org-WA1284013501-15_02" ref="مديرية-الروضة" type="مديرية"><placeName xml:id="place-WA1284013501-15_03" type="مديرية" ref="مديرية-الروضة">مديرية الروضة</placeName></orgName>
+                              قدرها ثلاثمائة وستة وعشرين فدانا وكسور وهي مستأجرة في هذه السنة
+                              بسبعماية جنيه مصري وقد اشهرت فى المزاد على يد <persName xml:id="person-WA1284013501-15_02" role="دلال">شاكر الدلال</persName> فمن أراد شراءها فعليه به.</p>
+                  </div>
+         <div xml:id="WA1284013901-16" resp="#eSG">
+                        <head><date when-custom="1284-05-17">١٧ جمادي الأولى ١٢٨٤</date>
+                              <date when="1867-09-16">١٦ سبتمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٣٩</biblScope>
+                                    <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+                        <p>من <rs type="افادة">افادة</rs> ال<orgName xml:id="org-WA1284013901-16_01" type="ضبطية">ضبطية</orgName>
+                              يعلم انه في ليلة الأربعاء ثاني عشر الشهر رؤى <rs type="حريق">حريق</rs>
+                                    ب<placeName xml:id="place-WA1284013901-16_01" type="دكان" ref="دكان-الفسخانية-حرب">دكان</placeName> امرأة فسخانية يقال لها
+                                    <persName xml:id="person-WA1284013901-16_01">حرب</persName> ب<placeName xml:id="place-WA1284013901-16_02" ref="باب-الشعرية">باب
+                                    الشعرية</placeName> فأسعفت باللازم من طلومبة وغيرها وأطفئ بلا
+                              سراية ولا احتراق شئ سوى ثلاثة زنابيل أو أربعة وطبلية خشب وبعض الملابس
+                              الكهنة.</p>
+                  </div>
+         <div xml:id="WA1284013902-17" resp="#eSG">
+                        <head><date when-custom="1284-05-17">١٧ جمادي الأولى ١٢٨٤</date>
+                              <date when="1867-09-16">١٦ سبتمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٣٩</biblScope>
+                                    <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+                        <head><title>اعلان</title></head>
+                        <table rows="2" cols="2">
+                              <row>
+                                    <cell>عدد</cell>
+                                    <cell/>
+                              </row>
+                              <row>
+                                    <cell>١</cell>
+                                    <cell>نصف <placeName xml:id="place-WA1284013902-17_01" type="منزل" ref="منزل-وقف-السيد-محمد-ابو-النجا">منزل</placeName> ب<placeName xml:id="place-WA1284013902-17_02" type="حارة" ref="حارة-اليهود">حارة اليهود</placeName>
+                                          <orgName xml:id="org-WA1284013902-17_01" type="وقف" ref="وقف-السيد-محمد-ابو-النجا">وقف <persName xml:id="person-WA1284013902-17_01">السيد محمد ابو
+                                                  النجا</persName></orgName> نظارة المصونة <persName xml:id="person-WA1284013902-17_02" role="ناظر">حسيبة</persName> يراد استبداله </cell>
+                              </row>
+                              <row>
+                                    <cell>١</cell>
+                                    <cell>حصة قدرها ثمانية عشر قيراطا فى <placeName xml:id="place-WA1284013902-17_03" type="خرابة" ref="خرابة-وقف-المرحومة-هنا">خرابة</placeName>
+                                                ب<placeName xml:id="place-WA1284013902-17_04" type="درب" ref="درب-سناتات">درب
+                                                سناتات</placeName>
+                                          <orgName xml:id="org-WA1284013902-17_02" ref="وقف-المرحومة-هنا" type="وقف">وقف المرحومة
+                                                  <persName xml:id="person-WA1284013902-17_03">هنا</persName></orgName> نظارة <persName xml:id="person-WA1284013902-17_04" role="ناظر">محمد شهاب</persName> يراد احداث الخلو
+                                          فيها </cell>
+                              </row>
+                        </table>
+                        <p>قد <choice>
+                                    <sic>أسبغ</sic>
+                                    <corr>أسيغ</corr>
+                              </choice> شرعا استبدال ذلك المنزل وأحداث الخلو في تلك الحصة وحرر بذلك
+                              خمسة وثلاثون اعلانا أرسلت إلى ال<orgName xml:id="org-WA1284013902-17_03" type="ضبطية">ضبطية</orgName>
+                              لتوضع على ال<orgName xml:id="org-WA1284013902-17_04" type="قره-قولات">قره قولات</orgName> وكتب إلى
+                              معاون <orgName xml:id="org-WA1284013902-17_05" ref="الأوقاف">الأوقاف</orgName> باشهار ذلك في المزايدة
+                              حتى يكون معلوما للخاص والعام.</p>
+                  </div>
+         <div xml:id="WA1284014001-18" resp="#eSG">
+                        <head><date when-custom="1284-05-20">٢٠ جمادي الأولى ١٢٨٤</date>
+                              <date when="1867-09-19">١٩سبتمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٤٠</biblScope>
+                                    <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+                        <p>وجهت <orgName xml:id="org-WA1284014001-18_01" type="نظارة" ref="نظارة-الداخلية">نظارتا الداخلية</orgName>
+                                    و<orgName xml:id="org-WA1284014001-18_02" type="نظارة" ref="نظارة-المالية">المالية</orgName>
+                                    و<orgName xml:id="org-WA1284014001-18_03" type="ادارة" ref="ادارة-الأشغال-العمومية">ادارة
+                                    الأشغال العمومية</orgName> إلى حضرة سعادتلو <persName xml:id="person-WA1284014001-18_01">راغب
+                                    باشا</persName>
+                        </p>
+                        <p>وجهت رئاسة <orgName xml:id="org-WA1284014001-18_04" type="مجلس" ref="مجلس-الأحكام">مجلس الأحكام</orgName>
+                              إلى حضرة سعادتلو <persName xml:id="person-WA1284014001-18_02">شريف باشا</persName> زيادة عما كان في عهدته
+                              من <orgName xml:id="org-WA1284014001-18_05" type="نظارة" ref="نظارة-المدارس">نظارة المدارس</orgName>
+                              واعضائية <orgName xml:id="org-WA1284014001-18_06" type="مجلس" ref="المجلس-الخصوصي">المجلس
+                                    الخصوصي</orgName>.</p>
+                        <p>وجهت اعضائية المجلس الخصوصي إلى كل من حضرتي سعادتلو <persName xml:id="person-WA1284014001-18_03" role="محافظ">أحمد رشيد باشا
+                                    محافظ مصر</persName> وسعادتلو <persName xml:id="person-WA1284014001-18_04" role="أمين بيت المال">حسين
+                                    باشا أمين <orgName xml:id="org-WA1284014001-18_07" ref="بيت-المال">بيت المال</orgName></persName> زيادة عن
+                              مأموريتها</p>
+                        <p>وكذا وجهت هذه الأعضائية الى كل من حضرتي سعادتلو <persName xml:id="person-WA1284014001-18_05">عبد الله
+                                    باشا</persName> بدلا عن رئاسة مجلس الأحكام والى سعادتلو
+                                    <persName xml:id="person-WA1284014001-18_06">حسن راسم باشا</persName> بدلا عن نظارة <orgName xml:id="org-WA1284014001-18_08" ref="الدائرة-السنية">الدائرة السنية</orgName></p>
+                        <p>وجهت نظارة الدائرة السنية الى حضرة سعادتلو <persName xml:id="person-WA1284014001-18_07">حافظ باشا</persName>
+                              بدلا عن نظارة المالية</p>
+                        <p>تعين مفتشا لعموم <orgName xml:id="org-WA1284014001-18_09" type="الجفالك-السنية">الجفالك السنية</orgName>
+                              سعادتلو <persName xml:id="person-WA1284014001-18_08">أحمد باشا الدرامه لي</persName> الذي كان مأمور
+                                    <orgName xml:id="org-WA1284014001-18_10" ref="الضبطية-المصرية" type="ضبطية">الضبطية
+                                    المصرية</orgName> وتقلد بمأموريته هذه وكيلها عزتلو
+                                    <persName xml:id="person-WA1284014001-18_09">ادهم بيك افندي</persName> بعد أن أحسن اليه برتبة
+                              المتمايز من الدرجة الثانية السمية.</p>
+                  </div>
+         <div xml:id="WA1284014101-19" resp="#eSG">
+                        <head><date when-custom="1284-05-24">٢٤ جمادي الأولى ١٢٨٤</date>
+                              <date when="1867-09-23">٢٣ سبتمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٤١</biblScope>
+                                    <biblScope unit="page">صفحة ٢-٣</biblScope></bibl></head>
+                        <p>وفيها بتاريخ ٥ منه انه حرر من <placeName xml:id="place-WA1284014101-19_01" ref="لوم">(لوم)</placeName> ان
+                              الريح العاصف الذي كان ثار بها هدم منارة <orgName xml:id="org-WA1284014101-19_01" type="جامع" ref="جامع-القلعة"><placeName xml:id="place-WA1284014101-19_02" type="جامع" ref="جامع-القلعة">جامع
+                                          القلعة</placeName></orgName> وسقفه ومنازل بجواره وبعض
+                              مداخن جملة دور وجدرانها وقلع أشجار كبيرة كانت مثمرة في حدائقها وحطم
+                              بالساحل سفينته لرجل يقال له (آدم) كانت راسية هناك فانكسر مقعدها
+                              والصواري التي بموخرها ووسطها وفصل أخرى من مرساها وصار يتلاعب بها مدة
+                              لكنها لم يتلف منها سوى دفتها.</p>
+                  </div>
+                  <div xml:id="WA1284014102-20" resp="#eSG">
+                        <head><date when-custom="1284-05-24">٢٤ جمادي الأولى ١٢٨٤</date>
+                              <date when="1867-09-23">٢٣ سبتمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٤١</biblScope>
+                                    <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+                        <p>يستفاد من أشعار ال<orgName xml:id="org-WA1284014102-20_01" type="ضبطية">ضبطية</orgName> انه في الساعة
+                              الثانية من ليلة الأربعاء ثالث عشر هذا الشهر ظهر <rs type="حريق">حريق</rs> ب<placeName xml:id="place-WA1284014102-20_01" ref="عشة بالرميلة">عشة</placeName> من
+                              الخشب والبوص ب<placeName xml:id="place-WA1284014102-20_02" ref="الرميلة">الرميلة</placeName> تجاه عدة
+                              دكاكين وقهاوي فاسعفت من الضبطية بالطلومبة و<choice>
+                                    <sic>من لزم</sic>
+                                    <corr>ما يلزم</corr>
+                              </choice> واطفئت بدون سراية ولا تلف شئ سواها.</p>
+                  </div>
+         <div xml:id="WA1284014301-21" resp="#eSG">
+                        <head><date when-custom="1284-06-01">غرة جمادي الثانى ١٢٨٤</date>
+                              <date when="1867-09-30">٣٠ سبتمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٤٣</biblScope>
+                                    <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+                        <p>وانه في الساعة السابعة من ليلة الجمعة الماضية ظهر <rs type="حريق">حريق</rs> هائل من منزل شخص يسمى ب<persName xml:id="person-WA1284014301-21_01">محمد منير</persName>
+                              كائن ب<placeName xml:id="place-WA1284014301-21_01" type="شارع" ref="شارع-الحمزاوى">شارع
+                                    الحمزاوى</placeName> التابع <orgName xml:id="org-WA1284014301-21_01" type="ثمن" ref="ثمن-باب-الشعرية"><placeName xml:id="place-WA1284014301-21_02" type="ثمن" ref="ثمن-باب-الشعرية">ثمن باب
+                                    الشعرية</placeName></orgName> سكن <persName xml:id="person-WA1284014301-21_02">الخواجة (كيورك
+                                    اسبتان)</persName> وشريكه فبودر من ال<orgName xml:id="org-WA1284014301-21_02" type="ضبطية">ضبطية</orgName> بارسال سبع طلومبات برجالها ولوازمها واطفئ
+                              بالاقدامات المتوالية بدون أن يسرى الى أسفل المنزل ولا الى ما جاوره من
+                              الاماكن اللاتي فيها الأشياء السريعة الوقود كالاسبيرتو ولم يحترق منه
+                              سوى أوطتين بالدور الأوسط بما فيها من الأشياء.</p>
+                  </div>
+         <div xml:id="WA1284014701-22" resp="#eSG">
+                        <head><date when-custom="1284-06-15">١٥ جمادي الثانى ١٢٨٤</date>
+                              <date when="1867-10-14">١٤ اوقتوبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٤٧</biblScope>
+                                    <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+                        <p>علم من <rs type="إفادة">إفادة</rs> واردة من <orgName xml:id="org-WA1284014701-22_01" ref="الأوقاف">الأوقاف</orgName>
+                              في ١٠ جمادى الآخرة ان <placeName xml:id="place-WA1284014701-22_01" type="حوش" ref="حوش-وقف-حسن-أغا-اوده-باشى">حوش</placeName>ا
+                                    ب<placeName xml:id="place-WA1284014701-22_02" ref="كماجين">الكماجين</placeName> ب<placeName xml:id="place-WA1284014701-22_03" ref="علوة-جميزة">علوة
+                                    جميزة</placeName>
+                              <orgName xml:id="org-WA1284014701-22_02" type="وقف" ref="وقف-حسن-أغا-اوده-باشى">وقف <persName xml:id="person-WA1284014701-22_01" role="اوده باشى">حسن
+                                          أغا اوده باشى</persName></orgName> نظارة <persName xml:id="person-WA1284014701-22_02" role="ناظر">الست
+                                    نفيسة</persName> مسطحه ٩٠٤ أذرع وحصة قدرها ١٧ قيراطا ونصف في
+                              منزل ب<placeName xml:id="place-WA1284014701-22_04" type="درب" ref="درب-القزازين">درب القزازين</placeName> ب<placeName xml:id="place-WA1284014701-22_05" ref="الدرب-الاحمر">الدرب
+                                    الأحمر</placeName>
+                              <orgName xml:id="org-WA1284014701-22_03" ref="وقف-محمد-السايس" type="وقف">وقف <persName xml:id="person-WA1284014701-22_03">محمد
+                                          السايس</persName></orgName> نظارة <persName xml:id="person-WA1284014701-22_04" role="ناظر">فاطمة بنت
+                                    سليمان</persName> مسطحها ٣٩ قد أسيغ مبيع أنقاضهما شرعا وتأجير
+                              أرضهما وأذن باحداث الخلو فيهما وحرّر بذلك خمسة وثلاثون اعلانا أرسلت
+                              الى ال<orgName xml:id="org-WA1284014701-22_04" type="ضبطية">ضبطية</orgName> في ذلك التاريخ لتوضع على القره قولات وكتب الي
+                              معاون باشهارهما بين الراغبين بقوائم مزاد ليعلم الخاص والعام من جميع
+                              الأنام.</p>
+                  </div>
+         <div xml:id="WA1284014801-23" resp="#eSG">
+                        <head><date when-custom="1284-06-18">١٨ جمادي الثانيه ١٢٨٤</date>
+                              <date when="1867-10-17">١٧ اوقتوبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٤٨</biblScope>
+                                    <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+                        <p>علم من <rs type="اشعار">اشعار</rs> وارد من ال<orgName xml:id="org-WA1284014801-23_01" type="ضبطية">ضبطية</orgName> انه سقط سقف <placeName xml:id="place-WA1284014801-23_01" ref="عشة بجزيرة بدران">عشة ب<placeName xml:id="place-WA1284014801-23_02" type="جزيرة" ref="جزيرة-بدران">جزيرة
+                                          بدران</placeName></placeName> ليلا فأرسل رجال من الضبطية
+                              فأخرجوا من تحته امرأتين ميتتين ورجلين وصبيا على قيد الحياة الا ان
+                              الصبي أصيبت احدى رجليه بجراحة فأرسل الى ال<orgName xml:id="org-WA1284014801-23_02" type="اسبيتالية">اسبتالية</orgName> للمعالجة ودفنت المرأتان بعد كشف الحكيم وها
+                              هو جار تحقيق القضية ب<orgName xml:id="org-WA1284014801-23_03" type="ديوان" ref="ديوان-الضبطية">ديوان
+                                    الضبطية</orgName>.</p>
+                  </div>
+         <div xml:id="WA1284015401-24" resp="#eSG">
+                        <head><date when-custom="1284-07-10">١٠ رجب ١٢٨٤</date>
+                              <date when="1867-11-07">٧ نونمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٥٤</biblScope>
+                                    <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+                        <p>وجهت الرتبة الثانية المعتبرة إلى حضرة عزتلو <persName xml:id="person-WA1284015401-24_01" role="مفتش">عبد
+                                    الفتاح بك أحد مفتشي الجفالك السنية</persName>.</p>
+                  </div>
+         <div xml:id="WA1284015701-25" resp="#eSG">
+                        <head><date when-custom="1284-07-21">٢١ رجب ١٢٨٤</date>
+                              <date when="1867-11-18">١٨ نونمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٥٧</biblScope>
+                                    <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+                        <p>علم من <rs type="اشعار">اشعار</rs> ال<orgName xml:id="org-WA1284015701-25_01" type="ضبطية">ضبطية</orgName> انه في الساعة السابعة من يوم الخميس الماضي سابع
+                              عشر هذا الشهر ظهر <rs type="حريق">حريق</rs> بفرن سكن <persName xml:id="person-WA1284015701-25_01" role="فران">مصطفى بدوى الفران</persName> ب<placeName xml:id="place-WA1284015701-25_01" type="درب" ref="درب-الحبالة">درب الحبالة</placeName> ب<orgName xml:id="org-WA1284015701-25_02" type="ثمن" ref="ثمن-الخليفة"><placeName xml:id="place-WA1284015701-25_02" type="ثمن" ref="ثمن-الخليفة">ثمن
+                                          الخليفة</placeName></orgName> فوجهت اليه الطلومبات ومن
+                              يلزم وأطفئ بدون سراية ولا احتراق شئ سوى كثير قش ذره كان بداخل
+                              الفرن.</p>
+                  </div>
+         <div xml:id="WA1284015901-26" resp="#eSG">
+                        <head><date when-custom="1284-07-28">٢٨ رجب ١٢٨٤</date>
+                              <date when="1867-11-25">٢٥ نونمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٥٩</biblScope>
+                                    <biblScope unit="page">صفحة ٣</biblScope></bibl></head>
+                        <p>بلغنا أن أحسن من الحضرة الخديوية بنيشان مجيدي من الرتبة الثالثة إلى
+                                    <persName xml:id="person-WA1284015901-26_01" role="ناظر">موسيو
+                                    (قوردية) ناظر <orgName xml:id="org-WA1284015901-26_01" type="شركة" ref="شركة-تقسيم-المياه">شركة تقسيم
+                                          المياه</orgName></persName> في مصر المحروسة مكافأة له على
+                              خدمته السابقة.</p>
+                  </div>
+         <div xml:id="WA1284016001-27" resp="#eSG">
+                        <head><date when-custom="1284-08-01">غرة شعبان ١٢٨٤</date>
+                              <date when="1867-11-28">٢٨ نونمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٦٠</biblScope>
+                                    <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+                        <p>استحصل لسعادة <persName xml:id="person-WA1284016001-27_01" role="ناظر">نوبار باشا ناظر <orgName xml:id="org-WA1284016001-27_01" ref="الخارجية">الخارجية</orgName></persName> على نيشان
+                              مجيدي من الرتبة الأولى </p>
+                  </div>
+         <div xml:id="WA1284016201-28" resp="#eSG">
+                        <head><date when-custom="1284-08-08">٨ شعبان ١٢٨٤</date>
+                                    <date when="1867-12-05">٥ دسمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٦٢</biblScope>
+                                    <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+                        <p>فى الساعة السادسة من يوم سادس هذا الشهر ظهر <rs type="حريق">حريق</rs>
+                                    ب<placeName xml:id="place-WA1284016201-28_01" type="منزل" ref="منزل-المرأة-نفيسة">منزل المرأة
+                                          <persName xml:id="person-WA1284016201-28_01">نفيسة</persName></placeName> الكائن ب<placeName xml:id="place-WA1284016201-28_02" type="حارة" ref="حارة-جامع-أصلان">حارة <orgName xml:id="org-WA1284016201-28_01" ref="جامع-أصلان" type="جامع"><placeName xml:id="place-WA1284016201-28_03" type="جامع" ref="جامع-أصلان">جامع
+                                                أصلان</placeName></orgName></placeName> ب<orgName xml:id="org-WA1284016201-28_02" ref="ثمن-الدرب-الأحمر" type="ثمن"><placeName xml:id="place-WA1284016201-28_04" type="ثمن" ref="ثمن-الدرب-الأحمر">ثمن الدرب
+                                          الأحمر</placeName></orgName> ففي الوقت أرسلت الطلومبات ومن
+                              لزم من ال<orgName xml:id="org-WA1284016201-28_03" type="ضبطية">ضبطية</orgName> واطفئ في زمن يسير بدون
+                              سراية إلى جهة أخرى ولم يحترق سوى أوطة صغيرة بالمنزل.</p>
+                  </div>
+         <div xml:id="WA1284016202-29" resp="#eSG">
+                        <head><date when-custom="1284-08-08">٨ شعبان ١٢٨٤</date>
+                                    <date when="1867-12-05">٥ دسمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٦٢</biblScope>
+                                    <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+                        <head><title>اعلانات</title></head>
+                        <head><title>اعلان وارد من <orgName xml:id="org-WA1284016202-29_01" ref="محافظة مصر">محافظة
+                                    مصر</orgName></title></head>
+                        <p>صورة كشف مقدم من <persName xml:id="person-WA1284016202-29_01">السيد محمد مصطفى الجندي</persName> ب<rs type="بيان-املاك">بيان أملاك</rs> حضرات ورثة <persName xml:id="person-WA1284016202-29_02">المرحوم
+                                    محمود بك</persName> المعرضة للبيع</p>
+                        <p>
+                              <table rows="6" cols="2">
+                                    <row>
+                                          <cell>عدد</cell>
+                                          <cell/>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell>قائمة وكالة ب<placeName xml:id="place-WA1284016202-29_01" ref="الجماليه">الجماليه</placeName> شهيرة ب<orgName xml:id="org-WA1284016202-29_02" type="وكالة" ref="وكالة-ابي-شنب">وكالة ابي شنب</orgName> بالربع
+                                                الذي فوقها وثمانية دكاكين بواجهتها واجرتها السنوية
+                                                مأتا جنيه مصري وعليها حكر سنوي خمسة وأربعون غرشا فتح
+                                                بابها بمبلغ الفى جنيه مصرى</cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell>قائمة بمنزل كائن ب<placeName xml:id="place-WA1284016202-29_02" type="درب" ref="درب-قرمز">درب قرمز</placeName> ب<placeName xml:id="place-WA1284016202-29_03" ref="الجمالية">الجمالية</placeName> لم يؤاجره
+                                                المالكون ولا حكر عليه.</cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell>قائمة بمنزل ب<placeName xml:id="place-WA1284016202-29_04" type="جهة" ref="جهة-الشيخ-نور-الظلام">جهة الشيخ نور
+                                                  الظلام</placeName> ب<placeName xml:id="place-WA1284016202-29_05" ref="الحلمية">الحلمية</placeName> ب<placeName xml:id="place-WA1284016202-29_06" type="عطفة-الرزاز">عطفة الرزاز</placeName> أجرته
+                                                الشهرية مأتان وسبعون قرشا ميريه ولا حكر عليه</cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell>قائمة خمسة أماكن علوية وخمسة اوط بأسفلها وخمسة حواصل
+                                                أرضية ب<placeName xml:id="place-WA1284016202-29_07" type="وكالة" ref="وكالة الركن"><orgName xml:id="org-WA1284016202-29_03" ref="وكالة-الركن" type="وكالة">وكالة
+                                                  الركن</orgName></placeName> بالجمالية الشهيرة
+                                                  ب<placeName xml:id="place-WA1284016202-29_08" type="وكالة" ref="وكالة الحمير"><orgName xml:id="org-WA1284016202-29_04" type="وكالة" ref="وكالة-الحمير">وكالة
+                                                  الحمير</orgName></placeName> أجرتها الشهرية مأتان
+                                                وستون قرشا ميريه وعليها حكر سنوى عشرون غرشا
+                                                ديوانيا</cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell>قائمة بمنزل بالعلوه ب<placeName xml:id="place-WA1284016202-29_09" type="درب" ref="درب-اللبانه">درب اللبانه</placeName> وخربة
+                                                بجواره ب<orgName xml:id="org-WA1284016202-29_05" ref="ثمن-الدرب-الأحمر" type="ثمن"><placeName xml:id="place-WA1284016202-29_10" type="ثمن" ref="ثمن-الدرب-الأحمر">ثمن
+                                                  الدرب الأحمر</placeName></orgName> أجرتهما في كل
+                                                شهر مأته قرش وعشرة قروش ميرية وليس عليهما حكر</cell>
+                                    </row>
+                              </table>
+                        </p>
+                        <p>أماكن ببولاق<table rows="2" cols="2">
+                                    <row>
+                                          <cell>عدد</cell>
+                                          <cell/>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell>قائمة بوكالة ودكاكين بأسفلها ب<placeName xml:id="place-WA1284016202-29_11" type="شارع" ref="شارع السبتية">شارع
+                                                  السبتية</placeName> أجرتهما في كل شهر مأتان وخمسة
+                                                وأربعون قرشًا ميرية والوكالة لم يؤاجرها المالكون
+                                                وعلى الجميع حكر سنوي خمسة عشر غرشًا وعشرة فضة
+                                                ميريه</cell>
+                                    </row>
+                                    <row>
+                                          <cell>١</cell>
+                                          <cell>قائمة أربعة عشر دكانًا ب<placeName xml:id="place-WA1284016202-29_12" ref="السبتية">السبتية</placeName> منها ثلاثة دكاكين أجرتها
+                                                ثلاثون غرشًا ميريا والباقي غير مؤاجر وليس على الجميع
+                                                حكر</cell>
+                                    </row>
+                              </table></p>
+                  </div>
+         <div xml:id="WA1284016501-30" resp="#eSG">
+                        <head><date when-custom="1284-08-19">١٩ شعبان ١٢٨٤</date>
+                              <date when="1867-12-16">١٦ دسمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٦٥</biblScope>
+                                    <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+                        <p>في ليلة الجمعة الماضية ظهر <rs type="حريق">حريق</rs> ب<placeName xml:id="place-WA1284016501-30_01" type="فرن" ref="فرن-محمد-أبى-سلامة">فرن</placeName>
+                              <persName xml:id="person-WA1284016501-30_01" role="فران">محمد أبي سلامة الفران</persName> ب<placeName xml:id="place-WA1284016501-30_02" ref="التبليطة">التبليطة</placeName> ب<placeName xml:id="place-WA1284016501-30_03" ref="الدرب-الأحمر">الدرب الأحمر</placeName> فأسعف من ال<orgName xml:id="org-WA1284016501-30_01" type="ضبطية">ضبطية</orgName> بالطلومبات ورجالها وأطفئ في أقرب
+                              زمان بدون سراية إلي الجيران ولا احتراق شئ سوى ما فوق الفرن من السقف
+                              ويعلم من بوصلة واردة من عموم الطلومبات انه في الساعة التاسعة من ليلة
+                              الأثنين ٢٨ رجب سنة ٨٤ حصل آخر هائل في <orgName xml:id="org-WA1284016501-30_02" ref="مدينة-الفيوم" type="مدينة"><placeName xml:id="place-WA1284016501-30_04" type="مدينة" ref="مدينة-الفيوم">مدينة
+                                          الفيوم</placeName></orgName> ب<placeName xml:id="place-WA1284016501-30_05" type="مخزن" ref="مخزن-على-افندى-رمزى">مخزن <persName xml:id="person-WA1284016501-30_02">على أفندى
+                                          رمزى</persName></placeName> ملاحظها سابقا وبالاستشعار وجهت
+                              الطلومبة ورجالها فأطفئت في أقرب زمن النيران اللاتى كانت مشتعلة في
+                              الأوط بما تحتها من الحاصل المشتملة علي القطن الذي لم يخلص بذره بدون ان
+                              تسري ولا تتجاوز ما كانت فيه وذلك بحضور ضبطية تلك الجهة وجمع من المشايخ
+                              والخفراء وغيرهم.</p>
+                  </div>
+         <div xml:id="WA1284016502-31" resp="#eSG">
+                        <head><date when-custom="1284-08-19">١٩ شعبان ١٢٨٤</date>
+                              <date when="1867-12-16">١٦ دسمبر ١٨٦٧</date>
+                              <bibl><biblScope unit="issue">نمرة ١٦٥</biblScope>
+                                    <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+                        <head><title>اعلان</title></head>
+                        <table rows="3" cols="2">
+                              <row>
+                                    <cell>عدد</cell>
+                                    <cell/>
+                              </row>
+                              <row>
+                                    <cell>١</cell>
+                                    <cell>قطعة أرض <orgName xml:id="org-WA1284016502-31_01" type="وقف" ref="وقف-الحرمين">وقف
+                                                الحرمين</orgName> ب<placeName xml:id="place-WA1284016502-31_01" type="عطفة" ref="عطفة-عبدالله-بك">عطفة عبد الله بك</placeName>
+                                          مسطح ٧٣</cell>
+                              </row>
+                              <row>
+                                    <cell>١</cell>
+                                    <cell><placeName xml:id="place-WA1284016502-31_02" type="خربة" ref="خربة-وقف-السلطان-أبو-العلا">خربة</placeName> ب<placeName xml:id="place-WA1284016502-31_03" type="حارة" ref="حارة-المبيضة">حارة المبيضة</placeName>
+                                                ب<placeName xml:id="place-WA1284016502-31_04" ref="بولاق">بولاق</placeName>
+                                          <orgName xml:id="org-WA1284016502-31_02" type="وقف" ref="وقف-السلطان-أبو-العلا">وقف
+                                                السلطان أبو العلا</orgName> ٥٦</cell>
+                              </row>
+                              <row>
+                                    <cell>٢</cell>
+                                    <cell/>
+                              </row>
+                        </table>
+                        <p>هذان المحلان اقتضي الحال ببيع ما فيهما من الأنقاض وتأجير أرضهما للراغبين
+                              وصدور الأمر بأحداث الخلو فيها وقد زويد في كل من الأنقاض والأجرة
+                              السنوية وحيث ان هناك من يرغب فيهما وضرب ميعاد للمزايدين عشرين يوما
+                              ابتداؤها يوم الأثنين ١٢ من هذا الشهر حرر لل<orgName xml:id="org-WA1284016502-31_03" type="ضبطية">ضبطية</orgName> خمسة وثلاثون اعلانا لتوضع على القره قولات فمن
+                              يرغب فليتوجه إلى <orgName xml:id="org-WA1284016502-31_04" type="ديوان" ref="ديوان-الأوقاف">ديوان
+                                    الأوقاف</orgName> لاجراء اللازم في الميعاد لانه سيحرر بعد مضيه
+                                    لل<orgName xml:id="org-WA1284016502-31_05" type="محكمة">محكمة</orgName> باخراج الحجة لمن له
+                              المزاد.</p>
+                  </div>
+         <div xml:id="WA1284017701-32" resp="#eSG">
+                        <head><date when-custom="1284-10-17">١٧ شوال ١٢٨٤</date>
+                              <date when="1868-02-10">١٠ فبراير ١٨٦٨</date>
+                              <bibl><biblScope unit="issue">نمرة ١٧٧</biblScope>
+                                    <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+                        <head><title>اعلان من <orgName xml:id="org-WA1284017701-32_01" ref="محافظة مصر">محافظة
+                              مصر</orgName></title></head>
+                        <p>حيث انه موجود قطع أراضى تعلق الميرى متخلفة من الطريق الذي صار تنفيذه من
+                              أمام محل <placeName xml:id="place-WA1284017701-32_01" ref="ديوان الخارجية القديم"><orgName xml:id="org-WA1284017701-32_02" type="ديوان" ref="ديوان-الخارجية-القديم">ديوان الخارجية
+                                          القديم</orgName></placeName> لل<placeName xml:id="place-WA1284017701-32_02" ref="موسكى">موسكي</placeName>
+                              وغيره ومن محل <orgName xml:id="org-WA1284017701-32_03" type="ديوان" ref="ديوان-الجناين">ديوان الجناين</orgName> ب<placeName xml:id="place-WA1284017701-32_03" ref="الازبكية">الأزبكية</placeName> ولعدم لزومها قد تحرر بها خمسة قوائم مزاد
+                              وأعطيت إلى <persName xml:id="person-WA1284017701-32_01" role="وكيل">السيد محمد مصطفي الجنيدى وكيل دلالين العقارات</persName>
+                              لاشهارها لمن يرغب الشراء وتوضح المقاس أعلاه واقتضي الاعلان بها فكل من
+                              يكون له رغبة يطلع على قوائم المزاد ويعاين الجهات المذكورة ويعطى المزاد
+                              اللازم.</p>
+                        <table rows="22" cols="3">
+                              <row>
+                                    <cell/>
+                                    <cell/>
+                                    <cell>بيان المحلات المحرر بها قوائم مزايدة للمبيع وذلك ضمن أملاك
+                                          الميرى</cell>
+                              </row>
+                              <row>
+                                    <cell>عدد</cell>
+                                    <cell/>
+                                    <cell/>
+                              </row>
+                              <row>
+                                    <cell/>
+                                    <cell/>
+                                    <cell>بيان الباقي من الأماكن مشتري الميري من بعد المأخوذ منها
+                                          للطريق المستجد من <placeName xml:id="place-WA1284017701-32_04" type="جهة" ref="جهة-سيدنا-الحسين">جهة سيدنا الحسين</placeName>
+                                          رضي الله عنه بما في ذلك من البنا القديم</cell>
+                              </row>
+                              <row>
+                                    <cell/>
+                                    <cell>ذراع</cell>
+                                    <cell/>
+                              </row>
+                              <row>
+                                    <cell/>
+                                    <cell>٩٨١</cell>
+                                    <cell>الباقي من المنزل المأخوذ من <placeName xml:id="place-WA1284017701-32_05" type="ورشة" ref="ورشة-شيخ-الخياطين">ورشة شيخ
+                                                الخياطين</placeName></cell>
+                              </row>
+                              <row>
+                                    <cell/>
+                                    <cell>٣٥٧</cell>
+                                    <cell>الباقي من المنزل المأخوذ من وكيل <orgName xml:id="org-WA1284017701-32_04" type="وقف" ref="وقف-سيدي-ابراهيم-الدسوقي">وقف <persName xml:id="person-WA1284017701-32_02">سيدي
+                                                  ابراهيم الدسوقي</persName></orgName></cell>
+                              </row>
+                              <row>
+                                    <cell/>
+                                    <cell>٣٩٢</cell>
+                                    <cell>الباقي من ال<placeName xml:id="place-WA1284017701-32_06" type="منزل-محمد-سعد-الماوردى">منزل</placeName> المأخوذ من <persName xml:id="person-WA1284017701-32_03">محمد سعد
+                                                الماوردى</persName> وشركاه </cell>
+                              </row>
+                              <row>
+                                    <cell/>
+                                    <cell>١٣٤</cell>
+                                    <cell>الباقي من ال<placeName xml:id="place-WA1284017701-32_07" type="منزل" ref="منزل-باشكاتب-المحكمة">منزل</placeName> المأخوذ
+                                          من باشكاتب المحكمة</cell>
+                              </row>
+                              <row>
+                                    <cell/>
+                                    <cell>٠٣٠</cell>
+                                    <cell>الباقي من ال<placeName xml:id="place-WA1284017701-32_08" type="منزل" ref="منزل-ملك-ورثة-رضوان-شمس">منزل</placeName> المأخوذ من المذكور
+                                          واصله ملك ورثة <persName xml:id="person-WA1284017701-32_04">رضوان شمس</persName></cell>
+                              </row>
+                              <row>
+                                    <cell/>
+                                    <cell>٠٢٠</cell>
+                                    <cell>الباقي من ال<placeName xml:id="place-WA1284017701-32_09" type="منزل" ref="منزل-ملك-الحرمه-جازيه">منزل</placeName> المأخوذ
+                                          من المذكور وأصله ملك <persName xml:id="person-WA1284017701-32_05">الحرمه
+                                          جازيه</persName></cell>
+                              </row>
+                              <row>
+                                    <cell/>
+                                    <cell>٠٦٠</cell>
+                                    <cell>الباقي من المنزل المأخوذ من <persName xml:id="person-WA1284017701-32_06">أحمد سويلم
+                                                الزيات</persName></cell>
+                              </row>
+                              <row>
+                                    <cell/>
+                                    <cell>٠٤٨</cell>
+                                    <cell>الباقي من المنزل المأخوذ من <persName xml:id="person-WA1284017701-32_07">الست
+                                          حسنه</persName></cell>
+                              </row>
+                              <row>
+                                    <cell/>
+                                    <cell>٠٥٢</cell>
+                                    <cell>الباقي من المنزل المأخوذ من <persName xml:id="person-WA1284017701-32_08">السيد أحمد
+                                                الفخفاخ</persName></cell>
+                              </row>
+                              <row>
+                                    <cell/>
+                                    <cell>٢١٧</cell>
+                                    <cell>الباقي من المنزل المأخوذ من ناظره <orgName xml:id="org-WA1284017701-32_05" type="وقف" ref="وقف-أحمد-مراد">وقف <persName xml:id="person-WA1284017701-32_09">أحمد
+                                                  مراد</persName></orgName></cell>
+                              </row>
+                              <row>
+                                    <cell/>
+                                    <cell>٠٨٠</cell>
+                                    <cell>الباقي من المنزل المأخوذ من ورثة <persName xml:id="person-WA1284017701-32_10">أحمد
+                                                التهامي</persName></cell>
+                              </row>
+                              <row>
+                                    <cell/>
+                                    <cell>١٥٤</cell>
+                                    <cell>الباقي من المنزل المأخوذ من <persName xml:id="person-WA1284017701-32_11">الشيخ أحمد
+                                                القباني</persName> وشريكه</cell>
+                              </row>
+                              <row>
+                                    <cell/>
+                                    <cell>١٢٦</cell>
+                                    <cell>الباقي من المنزل المأخوذ من <persName xml:id="person-WA1284017701-32_12">زوجة عنانى
+                                                أفندى</persName></cell>
+                              </row>
+                              <row>
+                                    <cell/>
+                                    <cell>١٤٩</cell>
+                                    <cell>الباقي من المنزل المأخوذ من ورثة <persName xml:id="person-WA1284017701-32_13">على
+                                                الصعيدى</persName></cell>
+                              </row>
+                              <row>
+                                    <cell/>
+                                    <cell>١١٥</cell>
+                                    <cell>الباقي من المنزل المأخوذ من <persName xml:id="person-WA1284017701-32_14">محمد افندى
+                                                على</persName></cell>
+                              </row>
+                              <row>
+                                    <cell/>
+                                    <cell>٠٩٨</cell>
+                                    <cell>الباقي من المنزل المأخوذ من <persName xml:id="person-WA1284017701-32_15">الحرمة فاطمة أم
+                                                أحمد</persName></cell>
+                              </row>
+                              <row>
+                                    <cell/>
+                                    <cell>٠٣٠</cell>
+                                    <cell>الباقي من المنزل المأخوذ من ورثة <persName xml:id="person-WA1284017701-32_16">حبيب
+                                                الزيات</persName></cell>
+                              </row>
+                              <row>
+                                    <cell>١</cell>
+                                    <cell/>
+                                    <cell> الباقي من المنزل المأخوذ من سعادة <persName xml:id="person-WA1284017701-32_17">اسماعيل باشا
+                                                أبو جبل</persName> بالجهة البحرية ب<placeName xml:id="place-WA1284017701-32_10" type="شارع" ref="شارع-الاشرافية">شارع
+                                                الأشرفية</placeName> أول <placeName xml:id="place-WA1284017701-32_11" type="سكة" ref="مستجدة">السكة المستجدة</placeName> جميعه علو
+                                          وقصبه</cell>
+                              </row>
+                              <row>
+                                    <cell>١</cell>
+                                    <cell/>
+                                    <cell> الباقي من المنزل والجنينة المأخوذين من <persName xml:id="person-WA1284017701-32_18">حضرة
+                                                رفاعي بك</persName> من بعد المأخوذ منها ل<placeName xml:id="place-WA1284017701-32_12" type="جسر" ref="جسر-الترعة-الاسماعيلية">جسر
+                                                  <placeName xml:id="place-WA1284017701-32_13" type="ترعة" ref="الترعة-الاسماعيلية">الترعة الأسماعيلية</placeName></placeName> خارج
+                                                <placeName xml:id="place-WA1284017701-32_14" type="باب" ref="باب-الحديد">باب
+                                                الحديد</placeName> وبلغ مقاسه ٨٨ و١٠٧٠ ذراع مسطح بما
+                                          فى ذلك من البنا والانقاض والاشجار وغيره</cell>
+                              </row>
+                        </table>
+                  </div>
+         <div xml:id="WA1284017702-33" resp="#eSG">
+                        <head><date when-custom="1284-10-17">١٧ شوال ١٢٨٤</date>
+                              <date when="1868-02-10">١٠ فبراير ١٨٦٨</date>
+                              <bibl><biblScope unit="issue">نمرة ١٧٧</biblScope>
+                                    <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+                        <head><title>اعلان من <orgName xml:id="org-WA1284017702-33_01" ref="محافظة مصر">محافظة
+                              مصر</orgName></title></head>
+                        <p>ان الباقي من الأماكن مشتري ال<orgName xml:id="org-WA1284017702-33_02" type="ميرى">ميرى</orgName> لزوم تنفيذ الطريق منها من <placeName xml:id="place-WA1284017702-33_01" type="جهة" ref="جهة-سيدنا-الامام-الحسين">جهة سيدنا <persName xml:id="person-WA1284017702-33_01">الامام
+                                          الحسين</persName></placeName> رضي الله تعالي عنه والباقي
+                              من المنزل والجنينة المأخوذان من <persName xml:id="person-WA1284017702-33_02">حضرة رفاعي بك</persName> خارج
+                                    <placeName xml:id="place-WA1284017702-33_02" ref="باب-الحديد">باب الحديد</placeName> من بعد المأخوذ منهما للزوم <placeName xml:id="place-WA1284017702-33_03" ref="جسر-الترعه-الاسماعيليه">جسر الترعه الاسماعيليه</placeName> الموضح بالبيان أعلاه هو
+                              لداعي عدم لزومها لجهة الميري ولاجل انتفاع العامة بها قد صار تحرير
+                              قوائم مزايدة لمبيعها للراغبين وأعطوا إلى <persName xml:id="person-WA1284017702-33_03" role="وكيل">السيد محمد مصطفي
+                                    الجنيدى وكيل دلالى العقارات</persName> لاشهارها بالمزاد ومن يرغب
+                              المشتري من بعد المعاينة يعطي المزاد اللازم.</p>
+                  </div>
+         <div xml:id="WA1284018401-34" resp="#eSG">
+                        <head><date when-custom="1284-11-11">١١ذي القعده ١٢٨٤</date>
+                              <date when="1868-03-05">٥ مارث ١٨٦٨</date>
+                              <bibl><biblScope unit="issue">نمرة ١٨٤</biblScope>
+                                    <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+                        <p>فى <placeName xml:id="place-WA1284018401-34_01" type="شارع" ref="شارع-الحوض">شارع الحوض</placeName>
+                                    ب<placeName xml:id="place-WA1284018401-34_02" ref="عابدين">عابدين</placeName>
+                              <placeName xml:id="place-WA1284018401-34_03" type="منزل" ref="منزل-وقف-المرحوم-ابراهيم-جوربجى-عزبان">منزل <orgName xml:id="org-WA1284018401-34_01" ref="وقف-المرحوم-ابراهيم-جوربجى-عزبان" type="وقف">وقف <persName xml:id="person-WA1284018401-34_01">المرحوم ابراهيم جوربجى
+                                          عزبان</persName></orgName></placeName> نظارة <persName xml:id="person-WA1284018401-34_02" role="ناظر">حسنين ابراهيم</persName> مسطحه ٥٩ ذراعا وقد أسيغ
+                              شرعا ببيع أنقاضه وتأجير أرضه بالخلو فيها لمن يرغب وحرر في ذلك خمسة
+                              وثلاثون اعلانا أرسلت إلى ال<orgName xml:id="org-WA1284018401-34_02" type="ضبطية">ضبطية</orgName> في
+                              يوم الأثنين ٧ ذى القعدة سنة ١٢٨٤ لتوضع على القره قولات وكتب إلى معاون
+                                    <orgName xml:id="org-WA1284018401-34_03" ref="الأوقاف">الأوقاف</orgName> لاشهاره بقائمة مزايدة
+                              ليكون معلوم الجميع.</p>
+                  </div>
+         <div xml:id="WA1284019401-35" resp="#eSG">
+                        <head><date when-custom="1284-12-28">٢٨ ذى الحجة ١٢٨٤</date>
+                              <date when="1868-04-20">٢٠ أبريل ١٨٦٨</date>
+                              <bibl><biblScope unit="issue">نمرة ١٩٤</biblScope>
+                                    <biblScope unit="page">صفحة ٢-٣</biblScope></bibl></head>
+                        <p>بعد مضى خمس ساعات ونصف من يوم الجمعة الماضى أصيب بال<rs type="حريق">حريق</rs>
+                              <placeName xml:id="place-WA1284019401-35_01" type="مغلق" ref="مغلق-على-قطايف">مغلق</placeName> شخص يسمى
+                                    ب<persName xml:id="person-WA1284019401-35_01">على قطايف</persName> كائن ب<placeName xml:id="place-WA1284019401-35_02" type="سوق" ref="سوق-العصر">سوق العصر</placeName> ب<placeName xml:id="place-WA1284019401-35_03" ref="بولاق">بولاق</placeName> فلما وصل الخبر إلى ال<orgName xml:id="org-WA1284019401-35_01" type="ضبطية">ضبطية</orgName> بودر بأرسال الطلومبات واللوازم وحضر حضرة وكيل
+                                    ال<orgName xml:id="org-WA1284019401-35_02" type="ترسانة">ترسانة</orgName> وبذلت الهمة فى الأطفاء
+                              ولاشتداد الهواء <choice>
+                                    <sic>اذ ذلك</sic>
+                                    <corr>آنذاك</corr>
+                              </choice> احترق سقف ذلك المغلق وشئ كان فيه من الكتان وتبنه ومشاقه
+                              وانزلت التخاشيب اللاتى بالسوق خوفا من السراية فحصل الأطفاء بحمد الله
+                              في ساعة ونصف بدون سراية إلى الجهة الأخرى.</p>
+                  </div>
+      </body>
+   </text>
+</TEI>

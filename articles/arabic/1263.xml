@@ -1,0 +1,1896 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/CairoUrbanNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="../../css/oxygen.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>"Urbanism News In The Official Egyptian Gazette (al-Waqāʾiʿ al-Miṣrīyah), 1828-1914 - An Ottoman Arabic
+          Digital Humanities Project"</title>
+        <editor xml:id="eHC" ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</editor>
+        <editor xml:id="eNK" ref="https://orcid.org/0009-0008-0409-7328">Nour Kanaan</editor>
+        <editor xml:id="eAM" ref="https://orcid.org/0000-0002-5945-6147">Adam Mestyan</editor>
+        <editor xml:id="eDY">Danah Younis</editor>
+        <editor xml:id="eSG" ref="https://orcid.org/0000-0002-1977-5530">Sarah Fathallah
+          Gaara</editor>
+        <editor xml:id="eAE" ref="https://orcid.org/0000-0001-9369-3034">Arif Erbil</editor>
+        <editor xml:id="eAK" ref="https://orcid.org/0000-0003-1721-1050">Ahmed Kamal</editor>
+        <editor xml:id="eAS" ref="https://orcid.org/0009-0004-9778-6632">Abram Smith</editor>
+        <editor xml:id="eCH">Clara Harms</editor>
+        <editor xml:id="eHS" ref="https://orcid.org/0000-0003-3003-1986">Hüseyin Sağlam</editor>
+        <editor xml:id="eAT" ref="https://orcid.org/0009-0002-2083-9199">Abdulrahman
+          El-Taliawi</editor>
+        <editor xml:id="eHL">Hiba Laabadli</editor>
+        <editor xml:id="eOE" ref="https://orcid.org/0009-0002-9543-2617">Othmane Echchabi</editor>
+        <editor xml:id="eFA">Fatemah Almahana</editor>
+        <editor xml:id="eMZ">Mahmoud Zaki</editor>
+        <editor xml:id="eNS" ref="https://orcid.org/0009-0006-8785-0228">Nehal al-Shamy</editor>
+        <editor xml:id="eVJ" ref="https://orcid.org/0009-0004-4472-4120">Vishal Jammulapati</editor>
+        <respStmt>
+          <resp>Project co-director</resp>
+          <name>Hugh Cayless</name>
+        </respStmt>
+        <respStmt>
+          <resp>Primary Investigator</resp>
+          <name>Adam Mestyan</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0001-5239-7909">Project co-director</resp>
+          <name>Mercedes Volait</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Sarah Fathallah Gaara</name>
+        </respStmt>
+        <respStmt>
+          <resp ref="https://orcid.org/0000-0003-1216-3686">Research Assistant</resp>
+          <name>Karima Nasr</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Rezk Nori</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Arif Erbil</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Ahmed Kamal</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abram Smith</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Clara Harms</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hüseyin Sağlam</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Abdulrahman El-Taliawi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Hiba Laabadli</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Othmane Echchabi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Fatemah Almahana</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Mahmoud Zaki</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Nehal al-Shamy</name>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <name>Vishal Jammulapati</name>
+        </respStmt>
+        <sponsor>
+          <orgName>National Endowment for the Humanities</orgName>, <orgName>Institut français
+            d’archéologie orientale</orgName> (Ifao, Cairo); <orgName>Franklin Humanities Institute
+            and the Office of Global Affairs / Andrew W. Mellon Endowment for Global Studies, Duke
+            University</orgName>; <orgName>Duke University Libraries</orgName>; <orgName>Centre
+            national de la recherche scientifique</orgName>; <orgName>the Office of the Hungarian
+            Cultural Counsellor in Cairo</orgName>.</sponsor>
+      </titleStmt>
+      <publicationStmt>
+        <p>"A TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah, 1828-1914"</p>
+        <p> Created by the "Digital Cairo" project (Duke University - Ifao), sponsored by the National Endowment for the Humanities.</p>
+        <p>
+          <ref target="https://sites.duke.edu/cairemoderne/">Website</ref>
+        </p>
+        <p>Project directors: <persName>Adam Mestyan</persName>, <persName>Mercedes
+            Volait</persName>, <persName>Hugh Cayless</persName></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Al-Waqāʾiʿ al-Miṣrīyah (Egyptian Affairs) newspaper, 1828–1914.</p>
+        <p>born digital document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This is a file in the "XMl TEI Edition of Urbanism News in al-Waqāʾiʿ al-Miṣrīyah" in the
+          project "La fabrique du Caire moderne, 2018-2021" (Ifao-InVisu-Duke University).</p>
+        <p>The "Digital Cairo" project is sponsored by the National Endowment for the Humanities.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Rules of TEI XML MarkUp in This Project</p>
+        <p>We use the Arabic script but transliteration into Latin characters follows the Library of
+          Congress (LOC) <ref target="https://www.loc.gov/catdir/cpso/romanization/arabic.pdf">Arabic transliteration chart</ref>.</p>
+        <p>Each individual article has an individual xml:id number starting with "w1"</p>
+        <p>We only use persName, orgName, placeName elements, apart from bibliographical elements
+          and notes.</p>
+        <p>If the location or organization of responsibility is known from the text, it can be added
+          in an attribute to a persName.</p>
+        <p>"Mashaykhah" and "thumn" are orgNames and placeNames.</p>
+        <p>This project's schema considers Till Grallert's work in his <ref target="https://github.com/OpenArabicPE/OpenArabicPE_ODD">Open Arabic Periodical
+            Editions</ref>.</p>
+      </editorialDecl>
+      <charDecl>
+        <char xml:id="qhalf">
+          <localProp value="QIRMA FRACTION 1/2" name="name"/>
+          <unicodeProp value="1/2" name="Numeric_Value"/>
+          <mapping type="similar">𐋢</mapping>
+          <figure>
+            <graphic url="../../docs/images/qhalf.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qthird">
+          <localProp value="QIRMA FRACTION 1/3" name="name"/>
+          <unicodeProp value="1/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qthird.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qfourth">
+          <localProp value="QIRMA FRACTION 1/4" name="name"/>
+          <unicodeProp value="1/4" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qfourth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qsixth">
+          <localProp value="QIRMA FRACTION 1/6" name="name"/>
+          <unicodeProp value="1/6" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qsixth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qeighth">
+          <localProp value="QIRMA FRACTION 1/8" name="name"/>
+          <unicodeProp value="1/8" name="Numeric_Value"/>
+          <mapping type="similar">𐋤</mapping>
+          <figure>
+            <graphic url="../../docs/images/qeighth.svg"/>
+          </figure>
+        </char>
+        <char xml:id="qtwothirds">
+          <localProp value="QIRMA FRACTION 2/3" name="name"/>
+          <unicodeProp value="2/3" name="Numeric_Value"/>
+          <figure>
+            <graphic url="../../docs/images/qtwothirds.svg"/>
+          </figure>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ar">Arabic</language>
+        <language ident="en">English</language>
+        <language ident="ar-Latn-x-ala-LC">Arabic transcribed according to ALA-LC</language>
+        <language ident="ota">Ottoman</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="cleared">
+         <listChange>
+            <change resp="#eAM" when="2023-07-27" status="cleared"/>
+         </listChange>
+      </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="ar">
+      <body>
+         <div xml:id="WA1263004901-1" resp="#eSG">
+            <head><date when-custom="1263-02-08">٨ صفر ١٢٦٣</date>
+               <date when="1847-01-26">٢٦ يناير ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٤٩</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope>
+               </bibl></head>
+            <p> لما كان <persName xml:id="person-WA1263004901-1_01" role="باش قلفة">الخواجه اسبرو
+                  باش قلفة العمارة الحاصلة فى <placeName xml:id="place-WA1263004901-1_01" type="سراية" ref="سراية-شبرى">سراية شبرى</placeName></persName> قد اظهر الشطارة
+               والبراعة فى تلك العمارة واقتضى الحال تلطيفه وتشويقه صدرت الارادة الكتخداوية بضم
+               اربعمائة قرش الى اصل ماهيته التى مقدارها خمسمائة قرش كما اخبر به من <orgName xml:id="org-WA1263004901-1_01" type="ديوان" ref="الديوان_الخديوى">الديوان
+                  الخديوى</orgName>.</p>
+         </div>
+         <div xml:id="WA1263004902-2" resp="#eSG" n="RUZNAMJI">
+            <head><date when-custom="1263-02-08">٨ صفر ١٢٦٣</date>
+               <date when="1847-01-26">٢٦ يناير ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٤٩</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><title>اعلانات</title></head>
+            <p>ان <placeName xml:id="place-WA1263004902-2_01" type="بيت" ref="بيت-المرحوم-غيطاس-افندى-الروزنامجى-سابقا">بيت المرحوم
+                     <persName xml:id="person-WA1263004902-2_01" role="روزنامجى">غيطاس افندى الروزنامجى سابقا</persName></placeName>
+               الكائن ب<placeName xml:id="place-WA1263004902-2_02" type="خط" ref="خط-عابدين">خط عابدين</placeName> والمجاور
+                  ل<placeName xml:id="place-WA1263004902-2_03" type="جامع" ref="جامع-محمد-بك">جامع محمد بك</placeName> تشتمل طبقته
+               العليا على خمس عشرة اودة وحمامين والسفلى على خمسة عشر حاصلا واصطبلات كل واحد منها يسع
+               احد عشر حيوانا وفيه حديقتان احداهما ثلث فدان والاخرى ربع فدان وله مجرى يصل الى النيل
+               المبارك وهو معرض للبيع بمعرفة <orgName xml:id="org-WA1263004902-2_01" ref="بيت-المال">بيت المال</orgName> فمن كان له
+               رغبة فيه فليسأل عنه من دلال باشى المذكور.</p>
+         </div>
+         <div xml:id="WA1263004903-3">
+            <head><date when-custom="1263-02-08">٨ صفر ١٢٦٣</date>
+               <date when="1847-01-26">٢٦ يناير ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٤٩</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان <placeName xml:id="place-WA1263004903-3_01" type="بيت" ref="بيت-بزقاق-سويقة-العزى">بيتا ب<placeName xml:id="place-WA1263004903-3_02" type="زقاق" ref="زقاق-سويقة-العزى">زقاق <placeName xml:id="place-WA1263004903-3_03" type="سويقة" ref="سويقة-العزى">سويقة
+                        العزى</placeName></placeName></placeName> الكائنة ب<placeName xml:id="place-WA1263004903-3_04" type="سوق" ref="سوق-السلاح">سوق السلاح</placeName> يراد بيعه بمعرفة <orgName xml:id="org-WA1263004903-3_01" type="ديوان" ref="الديوان_الخديوى">الديوان الخديوى</orgName> على ذمة <choice>
+                  <sic>ليرى</sic>
+                  <corr>الميرى</corr>
+               </choice> فيه مقعد بعمودين واودة وفى طبقته العليا عشرون اودة وفى السفلى ثمانية حواصل
+               وله اصطبل يسع ثمانية من المواشى وفيه ساقية وحوض كبير فمن اراده فليسأل عنه من دلال
+               باشى المذكور.</p>
+         </div>
+         <div xml:id="WA1263004904-4">
+            <head><date when-custom="1263-02-08">٨ صفر ١٢٦٣</date>
+               <date when="1847-01-26">٢٦ يناير ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٤٩</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان <placeName xml:id="place-WA1263004904-4_01" type="منزل" ref="منزل-حسن-اغا-بلوك-باشى">منزل <persName xml:id="person-WA1263004904-4_01">حسن اغا بلوك
+                     باشى</persName></placeName> الذى ب<placeName xml:id="place-WA1263004904-4_02" type="حارة" ref="حارة-الصالحية">حارة الصالحية</placeName> فى <placeName xml:id="place-WA1263004904-4_03" type="سوق" ref="سوق-خان-الخليلى"><orgName xml:id="org-WA1263004904-4_01" type="سوق" ref="سوق-خان-الخليلى">سوق خان الخليلى</orgName></placeName> فيه محل
+               سلاملك وعشر اود فى الطبقة العليا و ثلاثة حواصل ومنظرة ذات فسقية وطاحونة واصطبل يسع
+               ستة من المواشى فى الطبقة السفلى وهو معرض للبيع فمن اراد شراءه فليستدل عليه من الدلال
+               المذكور. </p>
+         </div>
+         <div xml:id="WA1263004905-5">
+            <head><date when-custom="1263-02-08">٨ صفر ١٢٦٣</date>
+               <date when="1847-01-26">٢٦ يناير ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٤٩</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان الوكالة الكائنة فى <placeName xml:id="place-WA1263004905-5_01" type="جادة" ref="جادة-سوق-خان-الخليلى">جادة سوق خان
+                  الخليلى</placeName> الجارية فى ملك <persName xml:id="person-WA1263004905-5_01" role="تاجر">محمد سالم المغربى احد
+                  تجار الفحامين</persName> المشهورة ب<placeName xml:id="place-WA1263004905-5_02" type="وكالة" ref="وكالة-الخيش">وكالة
+                  الخيش</placeName> تشتمل طبقتها العليا على عشرين اودة والسفلى على ثمانية عشر حاصلا
+               كبيرا وثمان خزائن وبها خمسة دكاكين وهى معرضة للبيع من طرف صاحبها فمن اراد ان يراها
+               فليسأل عنها من الدلال المذكور ويرضى صاحبها فى ثمنها.</p>
+         </div>
+         <div xml:id="WA1263005101-6" resp="#eSG">
+            <head><date when-custom="1263-02-22">٢٢ صفر ١٢٦٣</date>
+               <date when="1847-02-09">٩ فبراير ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥١</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><title>اعلانات</title></head>
+            <p>ان <placeName xml:id="place-WA1263005101-6_01" type="بيت" ref="بيت-قوجه-احمد-اغا">بيت <persName xml:id="person-WA1263005101-6_01">قوجه احمد
+                     اغا</persName></placeName> الكائن ب<placeName xml:id="place-WA1263005101-6_02" type="حارة" ref="حارة-الحمام">حارة الحمام</placeName> ب<placeName xml:id="place-WA1263005101-6_03" type="خط" ref="خط خان الخليلى">خط خان
+                  الخليلى</placeName> تشتمل طبقته العليا على تسع اود ومطبخ والسفلى على ثلاثة حواصل
+               واصطبل يسع بعض حيوانات وطاحونه وله حوش كبير وهو معرض للبيع من طرف صاحبه فمن اراد
+               شرآءه فليسأل عنه من السيد <persName xml:id="person-WA1263005101-6_02" role="دلال باشى">مصطفى دلال باشى</persName> وليرض
+               صاحبه فى ثمنه.</p>
+         </div>
+         <div xml:id="WA1263005102-7">
+            <head><date when-custom="1263-02-22">٢٢ صفر ١٢٦٣</date>
+               <date when="1847-02-09">٩ فبراير ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥١</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان <placeName xml:id="place-WA1263005102-7_01" type="بيت" ref="بيت-حسن-اغا-عمر">بيت حسن اغا عمر</placeName> الكائن
+                  فى<placeName xml:id="place-WA1263005102-7_02" type="جادة" ref="جادة-خط-الصليبه">جادة خط الصليبه</placeName> تشتمل
+               طبقته العليا على ثمانى اود ومقعد بعمودين من المرمر فيه اودة وطبقته السفلى فيها سبعة
+               من الحواصل وله منظرة وحديقة خربة صغيرة وفيه اصطبل ومحل طاحونة وله حوش كبير وهو معرض
+               للبيع فمن كان له رغبة فيه فليسأل عنه من دلال باشى المذكور.</p>
+         </div>
+         <div xml:id="WA1263005103-8">
+            <head><date when-custom="1263-02-22">٢٢ صفر ١٢٦٣</date>
+               <date when="1847-02-09">٩ فبراير ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥١</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان <placeName xml:id="place-WA1263005103-8_01" type="بيت" ref="بيت-يوسف-افندى-ضياء-ناظر-ورش-الوجه-القبلى-سابقا">بيت <persName xml:id="person-WA1263005103-8_01" role="ناظر">يوسف افندى ضياء ناظر ورش الوجه
+                     القبلى سابقا</persName></placeName> الكائن ب<placeName xml:id="place-WA1263005103-8_02" ref="زرع-النوى">زرع النوى</placeName> فى
+                  <placeName xml:id="place-WA1263005103-8_03" type="درب" ref="الدرب-الاحمر">الدرب
+                  الاحمر</placeName> طبقته العليا فيها عشر اود ومطبخ ومقعد والسفلى فيها ثلاثة حواصل
+               واصطبل وطاحونة وحوش كشف وهو يراد بيعه فمن كان له رغبة فيه فليسأل عنه من الدلال
+               المذكور.</p>
+         </div>
+         <div xml:id="WA1263005104-9">
+            <head><date when-custom="1263-02-22">٢٢ صفر ١٢٦٣</date>
+               <date when="1847-02-09">٩ فبراير ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥١</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان <placeName xml:id="place-WA1263005104-9_01" type="وكالة" ref="وكالة-السيد-عثمان-السكرى">وكالة السيد عثمان
+                  السكرى</placeName> الكائنة ب<placeName xml:id="place-WA1263005104-9_02" ref="الجمالية">الجمالية</placeName>
+               المشتملة طبقتها العليا على عشرين اودة والسفلى على اثنين وعشرين حاصلا وبجوارها دكانان
+               ولها ربع ذو ست اود يراد بيعها فمن كان له رغبة فيها فليسأل عنها من الدلال المذكور.</p>
+         </div>
+         <div xml:id="WA1263005105-10">
+            <head><date when-custom="1263-02-22">٢٢ صفر ١٢٦٣</date>
+               <date when="1847-02-09">٩ فبراير ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥١</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان <placeName xml:id="place-WA1263005105-10_01" type="حمام" ref="حمام-محمد-باشا-الشرقاوى">حمام محمد باشا
+                  الشرقاوى</placeName> الكائن ب<placeName xml:id="place-WA1263005105-10_02" type="خط" ref="خط-خان-الخليلى">خط خان
+                  الخليلى</placeName> الكامل جميع لوازمه معرض للبيع فمن <choice>
+                  <sic>كا</sic>
+                  <corr>كان</corr>
+               </choice> يطلبه فليسأل عنه من الدلال المذكور.</p>
+         </div>
+         <div xml:id="WA1263005201-11" resp="#eSG">
+            <head><date when-custom="1263-02-29">٢٩ صفر ١٢٦٣</date>
+               <date when="1847-02-16">١٦ فبراير ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٢</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head><title>الحوادث الداخليه</title></head>
+            <p>ان ناظر <placeName xml:id="place-WA1263005201-11_01" ref="شبرى">شبرى</placeName> قد قدم <rs type="عرضا">عرضا</rs>
+                  لل<orgName xml:id="org-WA1263005201-11_01" type="ديوان" ref="ديوان-الخديوى">ديوان الخديوى</orgName> يستدعى فيه
+               بتعمير ما اوشك سقوطه من كروم العنب التى بتلك الجهة وقد كشف عنها من طرف <orgName xml:id="org-WA1263005201-11_02" type="ديوان" ref="ديوان-الابنية">ديوانى الابنية</orgName> و<orgName xml:id="org-WA1263005201-11_03" type="ديوان" ref="ديوان-المدارس">المدارس</orgName> فتبين انها محتاجة الى عمارة بمبلغ ستة عشر
+               الف قرش واربعمائة ونيف من القروش وقد عرض ذلك للاعتاب الداورية فتعلقت الارادة باجراء
+               هذا التعمير بالمبلغ المذكور كما اخبر به من الديوان الخديوى.</p>
+         </div>
+         <div xml:id="WA1263005202-12" resp="#eSG">
+            <head><date when-custom="1263-02-29">٢٩ صفر ١٢٦٣</date>
+               <date when="1847-02-16">١٦ فبراير ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٢</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><title>اعلانات</title></head>
+            <p>ان <placeName xml:id="place-WA1263005202-12_01" ref="بيت-محمد-سعيد-اغا-كتخدا-حريم-جناب-كتخدا-باشا">بيت <persName xml:id="person-WA1263005202-12_01" role="كتخدا">محمد سعيد اغا كتخدا حريم جناب
+                     كتخدا باشا</persName></placeName> الكائن ب<placeName xml:id="place-WA1263005202-12_02" type="حارة" ref="حارة-حوش-قدم">الحارة المسماة
+                  بحوش قدم</placeName> فى <placeName xml:id="place-WA1263005202-12_03" type="خط" ref="خط-الغورية">خط الغورية</placeName> تشتمل طبقته العليا على مقعد وثمانى اود
+               وحمام ومطبخ وطبقته السفلى فيها تختبوش بعمود وفيها حاصلان واصطبل يسع اثنتين من المواشى
+               وله بئر وحوش مربع وهو معرض للبيع على ذمة صاحبه وقد بلغ ثمنه الآن خمسة واربعين كيسا
+               فمن كان له رغبة فيه فليسأل عنه من <persName xml:id="person-WA1263005202-12_02" role="دلال">السيد مصطفى الدلال باشى</persName> وليرض صاحبه فى ثمنه.</p>
+         </div>
+         <div xml:id="WA1263005203-13">
+            <head><date when-custom="1263-02-29">٢٩ صفر ١٢٦٣</date>
+               <date when="1847-02-16">١٦ فبراير ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٢</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان <placeName xml:id="place-WA1263005203-13_01" type="مطبخ" ref="مطبخ-العسل">مطبخ العسل</placeName> الكائن ب<placeName xml:id="place-WA1263005203-13_02" type="خط" ref="خط-الجمالية">خط الجمالية</placeName> الجارى فى ملك
+                  <persName xml:id="person-WA1263005203-13_01">المرحوم فتوح السخاوى</persName> المشتمل على ثمانى اود وستة حواصل ومحل
+               يطبخ فيه العسل وعلى ربع ذى اودتين يراد بيعه على ذمه الميرى وقد وصل ثمنه الآن الى خمسة
+               عشر كيسا ومائة وخمسين قرشا فمن كان له رغبة فيه فليسأل عنه من الدلال المذكور.</p>
+         </div>
+         <div xml:id="WA1263005204-14">
+            <head><date when-custom="1263-02-29">٢٩ صفر ١٢٦٣</date>
+               <date when="1847-02-16">١٦ فبراير ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٢</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان <placeName xml:id="place-WA1263005204-14_01" type="مطبخ" ref="مطبخ-العسل">مطبخ العسل</placeName> الكائن ب<placeName xml:id="place-WA1263005204-14_02" type="حارة" ref="حارة-شمس-الدوله">حارة شمس الدوله</placeName> فى <placeName xml:id="place-WA1263005204-14_03" type="خط" ref="خط-الحمزاوى">خط الحمزاوى</placeName> له ثمان اود وخمسة حواصل وفيه
+               محل لطبخ العسل وفيه بئر وهو جارى فى ملك <persName xml:id="person-WA1263005204-14_01">حسن الحامولى</persName> وقد بلغ
+               ثمنه اليوم اثنى عشر كيسا وهو معرض للبيع على ذمة الميرى فمن اراده فليستدل عليه من
+               الدلال المذكور.</p>
+         </div>
+         <div xml:id="WA1263005205-15">
+            <head><date when-custom="1263-02-29">٢٩ صفر ١٢٦٣</date>
+               <date when="1847-02-16">١٦ فبراير ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٢</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p> ان <placeName xml:id="place-WA1263005205-15_01" type="بيت">البيت الكائن ب<placeName xml:id="place-WA1263005205-15_02" type="جادة" ref="جادة-طريق-خط-قيسون">جادة طريق <placeName xml:id="place-WA1263005205-15_03" type="خط" ref="خط-قيسون">خط
+                     قيسون</placeName></placeName></placeName> المشتملة طبقته العليا على اودتين
+               والسفلى على ثلاث اود وحوش كبير مشحون بالتراب قد بلغ ثمنه ثلاثة وعشرين كيسا وان
+                  <placeName xml:id="place-WA1263005205-15_04" ref="البيوت الاربعة الكائنة بشاطئ البحر فى مصر القديمة">البيوت الاربعة
+                  الكائنة بشاطئ البحر فى <placeName xml:id="place-WA1263005205-15_05" ref="مصر-القديمة">مصر
+                  القديمة</placeName></placeName> يوجد فى الطبقة العليا بكل واحد من ثلاثة منها اربع
+               اود ومطبخ وفى الطبقة السفلى من كل واحد منظرة واصطبل يسع اثنين من المواشى وحاصل
+               والرابع فيه ست اود ومطبخ فى الطبقة العليا ومنظرة وحاصلان واصطبل يسع ثلاثا من المواشى
+               فى السفلى وفى كل من الاربعة حوش مكشوف وقد بلغ <sic>ثمن</sic> الاربعة ستة وتسعين كيسا
+               ومائة قرش وان <placeName xml:id="place-WA1263005205-15_06" ref="البيت الكائن بقلعة الكبش فى خط الصليبة">البيت الكائن
+                     ب<placeName xml:id="place-WA1263005205-15_07" ref="قلعة الكبش">قلعة الكبش</placeName> فى <placeName xml:id="place-WA1263005205-15_08" type="خط" ref="خط-الصليبة">خط الصليبة</placeName></placeName> يوجد فى طبقته العليا اربع
+               من الاود وواحد من المطابخ وفى السفلى منظرة وحاصل واصطبل يسع حيوانين وقد بلغ ثمنه الآن
+               سبعة من الاكياس ومائة من القروش والجميع جارى فى ملك <persName xml:id="person-WA1263005205-15_01">يوسف جوانى</persName>
+               المتوفى ويراد بيعهم على ذمة الميرى فمن كان له رغبة فليسأل من الدلال المذكور.</p>
+         </div>
+         <div xml:id="WA1263005301-16" resp="#eSG">
+            <head><date when-custom="1263-03-07">٧ ربيع الاول ١٢٦٣</date>
+               <date when="1847-02-23">٢٣ فبراير ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٣</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>لما كانت جملة مقاصد ولى النعم متسمة بما هو الانفس والاهم لاح بخاطره العالى ذى المكارم
+               والمعالى انشاء <placeName xml:id="place-WA1263005301-16_01" type="حديقة">حديقة ذات
+                  محاسن انيقة فى الارض الخالية من البناء الكائنة فيما بين <placeName xml:id="place-WA1263005301-16_02" type="كشك" ref="كشك سراية القلعة العامرة">كشك
+                        <placeName xml:id="place-WA1263005301-16_03" type="سراية" ref="سراية-القلعة-العامرة">سراية <placeName xml:id="place-WA1263005301-16_04" type="قلعة" ref="القلعة-العامرة">القلعة
+                           العامرة</placeName></placeName></placeName> بمصر المحروسة و<placeName xml:id="place-WA1263005301-16_05" type="جامع">الجامع الشريف</placeName> الجارى
+                  انشاؤه بالقلعة</placeName> المذكورة بحيث تكون مأسسة على عقود متينة تشتمل على اثنين
+               وسبعين مخزنا تختص بحفظ لوازم الجامع الشريف من قناديل وحصر وغيرهما ويفرش فى سطحها
+               اشجار الحديقة بحيث تملاء بالمحاسن ويكون وضعها بالقسمه التى تكون بالتحف متسمه وقد بودر
+               الى بناء المخازن المذكورة واخذ فى الجد الزآئد المؤدى الى انشاء تلك الحديقة حسب
+               المرغوب كما اخبر به حضرة <persName xml:id="person-WA1263005301-16_01" role="مفتش">راشد بيك مفتش الابنية الميرية</persName>.</p>
+         </div>
+         <div xml:id="WA1263005302-17" resp="#eSG">
+            <head><date when-custom="1263-03-07">٧ ربيع الاول ١٢٦٣</date>
+               <date when="1847-02-23">٢٣ فبراير ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٣</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><title>اعلانات</title></head>
+            <p>ان بيتا كائنا ب<placeName xml:id="place-WA1263005302-17_01" type="درب" ref="درب-الحصر">درب الحصر</placeName> فى
+                  <placeName xml:id="place-WA1263005302-17_02" type="خط" ref="خط-الخليفة">خط الخليفة</placeName> بالمحروسة تشتمل طبقته
+               العليا على تسع اود وحمام واودة سلاملك كبير ذات عمود من المرمر ومطبخ والسفلى على منظرة
+               واصطبل يسع ثلاثا من المواشى وفيها ثلاثة حواصل وطاحونة وله بئر وحوش <sic>كشف</sic>
+               مربع يراد بيعه بمعرفة الافندى المومى اليه اذ كان صاحبه معلوما عنده فمن اراده فليستدل
+               عليه من الافندى المومى اليه.</p>
+         </div>
+         <div xml:id="WA1263005303-18">
+            <head><date when-custom="1263-03-07">٧ ربيع الاول ١٢٦٣</date>
+               <date when="1847-02-23">٢٣ فبراير ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٣</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان <placeName xml:id="place-WA1263005303-18_01" type="بيت" ref="بيت-الشيخ-ابراهيم">بيت الشيخ ابراهيم</placeName> الذى
+               فى <placeName xml:id="place-WA1263005303-18_02" type="حارة" ref="حارة-برجوان">حارة برجوان</placeName> ب<placeName xml:id="place-WA1263005303-18_03" type="خط" ref="خط-الشعراوى">خط الشعراوى</placeName> تشتمل على خمس اود وحمام ومطبخ
+               واودة سلاملك كبيرة وطبقته السفلى فيها حاصل واصطبل يسع حيوانين وطاحونة وله بئر وحوش
+               صغير بلغ ثمنه الآن عشرة آلاف قرش وهو معرض للبيع فمن كان يطلبه فليسأل عنه من السيد
+                  <persName xml:id="person-WA1263005303-18_01" role="دلال باشى">مصطفى دلال باشى</persName>.</p>
+         </div>
+         <div xml:id="WA1263005304-19" resp="#eSG">
+            <head><date when-custom="1263-03-07">٧ ربيع الاول ١٢٦٣</date>
+               <date when="1847-02-23">٢٣ فبراير ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٣</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p><choice>
+                  <sic>ن</sic>
+                  <corr>ان</corr>
+               </choice>
+               <placeName xml:id="place-WA1263005304-19_01" type="حوش" ref="حوش-الشبراويه">حوش الشبراويه</placeName> الذى بجوار
+                  <placeName xml:id="place-WA1263005304-19_02" type="مسجد" ref="مسجد-سيدنا-الحسين">مسجد سيدنا الحسين</placeName>
+               المشتمل على خمسة عشر مسكنا كل مسكن منها يشتمل على اودة وحاصل <sic>الجارى</sic> تأجيره
+               كل شهر بثمانين قرشا معرض للبيع فمن كان له رغبة فيه فليسأل عنه من دلال باشى
+               المذكور.</p>
+         </div>
+         <div xml:id="WA1263005305-20">
+            <head><date when-custom="1263-03-07">٧ ربيع الاول ١٢٦٣</date>
+               <date when="1847-02-23">٢٣ فبراير ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٣</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان <placeName xml:id="place-WA1263005305-20_01" type="وكالة" ref="وكالة-الهمشرية">وكالة الهمشرية</placeName> التى
+                  ب<placeName xml:id="place-WA1263005305-20_02" type="خط" ref="خط-المقاصيص">خط المقاصيص</placeName> المشتملة طبقتها
+               العليا على ثلاث عشرة اودة والسفلى على عشرة حواصل وبجوارها سبعة دكاكين يراد بيعها فمن
+               كان له رغبة فيها فليسأل عنها من الدلال باشى المذكور.</p>
+         </div>
+         <div xml:id="WA1263005306-21">
+            <head><date when-custom="1263-03-07">٧ ربيع الاول ١٢٦٣</date>
+               <date when="1847-02-23">٢٣ فبراير ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٣</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان بيتا ب<placeName xml:id="place-WA1263005306-21_01" type="درب" ref="درب-المحكمة">درب المحكمة</placeName> الكائن
+                  ب<placeName xml:id="place-WA1263005306-21_02" type="خط" ref="خط-باب-الشعرية">خط باب الشعرية</placeName> يشتمل على
+               خمس اود وكلار وحمام ومطبخ بالطبقة العليا وحاصل يسع حيوانين وبئر وحوش مربع بالطبقة
+               السفلى يراد بيعه بمعرفة <orgName xml:id="org-WA1263005306-21_01" ref="بيت-المال">بيت المال</orgName> وقد بلغ ثمنه
+               الآن خمسة عشر كيسا فمن اراده فليستخبر عنه من دلال باشى المذكور.</p>
+         </div>
+         <div xml:id="WA1263005401-22" resp="#eSG">
+            <head><date when-custom="1263-03-14">١٤ ربيع الاول ١٢٦٣</date>
+               <date when="1847-03-02">٢ مارس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٤</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head><title>الحوادث الداخليه</title></head>
+            <p>انه قد ظهرت <rs type="حريق">حريقة</rs> ببيت كائن ب<placeName xml:id="place-WA1263005401-22_01" type="حارة" ref="حارة-السائقين">حارة
+                  السقائين</placeName> متعلق ب<persName xml:id="person-WA1263005401-22_01">رجل قبطى
+                  اسمه المعلم ابراهيم</persName> وذلك فى الساعة الثالثة من يوم الاحد الموافق للثامن
+               والعشرين من صفر الخير الماضى واسعفت بطلومبة من <orgName xml:id="org-WA1263005401-22_01" ref="الضابطخانة">الضابطخانة</orgName> وطلومبة من
+                  <orgName xml:id="org-WA1263005401-22_02" ref="الطلومبخانه">الطلومبخانه</orgName>
+               مع من لزم من الطلومبجية وقد لحقتها اولا طلومبة الثمن الموجودة بناحية تلك الحارة
+               واطفئت النار بدون سراية ولم يحترق منها شئ سوى مرتبة ولحافين وثلاث وسادات من الطبقة
+               الثالثة فى البيت التى نشأت الحريقة منها وظهرت حريقة ايضا فى حاصل بيت كائن ب<placeName xml:id="place-WA1263005401-22_02" type="حارة" ref="حارة-المراحلية">حارة
+                  المراحلية</placeName> فى <placeName xml:id="place-WA1263005401-22_03" type="خط" ref="خط-قيسون">خط قيسون</placeName> متعلق بامرأة اسمها فاطمة فى الساعة الثانية من
+               اليوم المذكور وقد اسعفت بطلومبة الثمن فى الحال مع طلومبجيتها وحصل اطفاؤها بدون سراية
+               .</p>
+         </div>
+         <div xml:id="WA1263005402-23" resp="#eSG">
+            <head><date when-custom="1263-03-14">١٤ ربيع الاول ١٢٦٣</date>
+               <date when="1847-03-02">٢ مارس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٤</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><title>اعلانات</title></head>
+            <p>ان <placeName xml:id="place-WA1263005402-23_01" type="بيت" ref="بيت-عثمان-اغا">بيت <persName xml:id="person-WA1263005402-23_01">عثمان
+                  اغا</persName></placeName> الكائن ب<orgName xml:id="org-WA1263005402-23_01" type="ثمن" ref="ثمن-الجمالية"><placeName xml:id="place-WA1263005402-23_02">ثمن الجمالية</placeName></orgName> بمصر المحروسة المستجد الانشاء فى
+                  <placeName xml:id="place-WA1263005402-23_03" type="حارة" ref="حارة-برجوان">حارة برجون</placeName> تشتمل طبقته العليا
+               على ست اود واودة سلاملك كبيرة فيها خزنة وله حمام ومطبخ وطبقته السفلى تشتمل على
+               منظرتين احداهما بفسقية والاخرى بدونها فيه طاحونة واصطبل يسع ثلاثا من المواشى وله بئر
+               وحوش مربع مكشوف وفيه حاصلان وله صهريج وهو يراد بيعه فمن كان له رغبة فيه فليستدل عليه
+               من <persName xml:id="person-WA1263005402-23_02" role="دلال باشى">السيد مصطفى دلال باشى</persName>.</p>
+            <p>ان بيتا كائنا ب<placeName xml:id="place-WA1263005402-23_04" type="حارة" ref="حارة-ابى-الليف">حارة ابى الليف</placeName>
+               فى <placeName xml:id="place-WA1263005402-23_05" type="خط" ref="خط-الاستاذ-الحنفى">خط الاستاذ الحنفى</placeName> له ست
+               اود وحمام ومقعد بخزنه وكلار ومطبخ بطبقته العليا ومنظرة وحاصلان واصطبل يسع حيوانين
+               وبئر وحوش مربع بطبقته السفلى وهو جارى فى ملك احدى اشراقات <persName xml:id="person-WA1263005402-23_03">المرحوم محمود
+                  بك</persName> وقد بلغ ثمنه الآن خمسة وعشرين كيسا وهو معرض للبيع فمن اراده فليسأل
+               عنه من الدلال باشى المذكور.</p>
+         </div>
+         <div xml:id="WA1263005403-24" resp="#eSG">
+            <head><date when-custom="1263-03-14">١٤ ربيع الاول ١٢٦٣</date>
+               <date when="1847-03-02">٢ مارس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٤</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p> ان البيت الكائن ب<placeName xml:id="place-WA1263005403-24_01" type="حارة" ref="حارة-السقائين">حارة السقائين</placeName> ب<placeName xml:id="place-WA1263005403-24_02" type="خط" ref="خط-عابدين">خط عابدين</placeName>
+               الجارى فى ملك ورثة المرحوم <persName xml:id="person-WA1263005403-24_01" role="شيخ طائفة">محمود شيخ المنجدين سابقا</persName> تشتمل طبقته العليا على خمس
+               اود ومقعد وكلار وحمام ومطبخ والسفلى على منظرة وحاصل واصطبل يسع ثنتين من المواشى وفيه
+               بئر وحوش مربع مكشوف وهو يراد بيعه من طرف الورثة فمن كان يطلبه فليستدل عليه من دلال
+               باشى المذكور.</p>
+         </div>
+         <div xml:id="WA1263005404-25">
+            <head><date when-custom="1263-03-14">١٤ ربيع الاول ١٢٦٣</date>
+               <date when="1847-03-02">٢ مارس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٤</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان <placeName xml:id="place-WA1263005404-25_01" type="بيت" ref="بيت-احمد-نصار">بيت <persName xml:id="person-WA1263005404-25_01">احمد
+                  نصار</persName></placeName> الكائن ب<placeName xml:id="place-WA1263005404-25_02" type="عطفه" ref="عطفه-المدلل">عطفه
+                  المدلل</placeName> ب<placeName xml:id="place-WA1263005404-25_03" type="خط" ref="خط-امير-الجيوش">خط امير
+                  الجيوش</placeName> تشتمل طبقته العليا على خمس اود وكلا ومطبخ والسفلى على منظرة
+               وتختبوش وبئر وحوش صغير وهو معرض للبيع وقد بلغ ثمنه خمسة وعشرين كيسا فمن كان له رغبة
+               فيه فليرض صاحبه فى ثمنه. </p>
+         </div>
+         <div xml:id="WA1263005405-26">
+            <head><date when-custom="1263-03-14">١٤ ربيع الاول ١٢٦٣</date>
+               <date when="1847-03-02">٢ مارس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٤</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان بيتا كائنا ب<placeName xml:id="place-WA1263005405-26_01" type="حارة" ref="حارة-الست-نفيسه">حارة الست
+                  نفيسه</placeName> ب<placeName xml:id="place-WA1263005405-26_02" type="خط" ref="خط-السكريه">خط السكريه</placeName>
+               تشتمل طبقته العليا على عشر اود وله مقعد سلاملك فيه عمود من الرخام وله كلار وحمام
+               ومطبخ وطبقته السفلى على منظرة وسبعة حواصل وطاحونه واصطبل يسع اربعا من المواشى وله حوش
+               كبير مكشوف وحديقة صغيرة وهو جارى فى ملك <persName xml:id="person-WA1263005405-26_01">صالح الحلبى</persName> وقد بلغ ثمنه
+               خمسين كيسا فمن كان له رغبة فيه فليسأل عنه من دلال باشى المذكور.</p>
+         </div>
+         <div xml:id="WA1263005406-27">
+            <head><date when-custom="1263-03-14">١٤ ربيع الاول ١٢٦٣</date>
+               <date when="1847-03-02">٢ مارس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٤</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان بيتا كائنا ب<placeName xml:id="place-WA1263005406-27_01" type="حارة" ref="حارة-محمود-حسن">حارة محمود حسن</placeName>
+                  ب<placeName xml:id="place-WA1263005406-27_02" type="خط" ref="خط-الجماليه">خط الجماليه</placeName> له اربع اود وكلار
+               ومقعد فيه خزنتين ومطبخ بالطبقة العليا وطاحونة وبئر وحاصل واصطبل يسع اثنتين من المواشى
+               وحوش صغير بطبقته السفلى وهو جارى فى ملك <persName xml:id="person-WA1263005406-27_01">عثمان الصرماتى</persName> وقد بلغ
+               ثمنه الآن ستة عشر كيسا فمن اراده فليسأل عنه من دلال باشى المذكور.</p>
+         </div>
+         <div xml:id="WA1263005501-28" resp="#eSG">
+            <head><date when-custom="1263-03-21">٢١ ربيع الاول ١٢٦٣</date>
+               <date when="1847-03-09">٩ مارس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٥</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><title>اعلانات</title></head>
+            <p>ان <placeName xml:id="place-WA1263005501-28_01" type="بيت" ref="بيت-الست-ورده">بيت <persName xml:id="person-WA1263005501-28_01">الست
+                  ورده</persName></placeName> الكائن ب<placeName xml:id="place-WA1263005501-28_02" type="خط" ref="خط-الموسكى">خط
+                  الموسكى</placeName> داخل <placeName xml:id="place-WA1263005501-28_03" type="درب" ref="درب-البرابره">درب
+                  البرابره</placeName> تشتمل طبقته العليا على ست واربعين اوده وحمام ومطبخ وطبقته
+               السفلى على ثلاث مناظر وسبعة عشر حاصلا واصطبلين كل واحد منهما يسع ستا من المواشى
+               وحوشين كبيرين مكشوفين وله باب آخر من حوش الحين بجوار <placeName xml:id="place-WA1263005501-28_04" type="منزل" ref="منزل-قنصل-الروم">منزل قنصل الروم</placeName> وهو معرض للبيع على ذمة اصاحبه وقد بلغ ثمنه
+               الآن مائة وخمسين كيسا فمن كان له رغبة فيه فليسأل عنه من السيد <persName xml:id="person-WA1263005501-28_02" role="دلال باشى">مصطفى دلال باشى</persName> وليرض اصاحبه.</p>
+         </div>
+         <div xml:id="WA1263005502-29">
+            <head><date when-custom="1263-03-21">٢١ ربيع الاول ١٢٦٣</date>
+               <date when="1847-03-09">٩ مارس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٥</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p> ان <placeName xml:id="place-WA1263005502-29_01" type="بيت" ref="بيت-محمود-افندى-الحنفى-وشركائه">بيت <persName xml:id="person-WA1263005502-29_01">محمود
+               افندى الحنفى</persName> وشركائه</placeName> الكائن ب<placeName xml:id="place-WA1263005502-29_02" type="خط" ref="خط-قنطرة-الامير-حسين">خط قنطرة الامير حسين</placeName> فى <placeName xml:id="place-WA1263005502-29_03" type="حارة" ref="حارة-المناصره">حارة المناصره</placeName> تشتمل طبقته العليا على
+               ست اود وحمام ومطبخ وكلار وطبقته السفلى على مقعد ومنظرة وتختبوش بعمود من المرمر وله
+               حاصلان وطاحونة واصطبل يسع ثنتين من المواشى وحوش سماوى وهو معرض للبيع على ذمة اصحابه
+               فمن كان يريد ان يشتريه فليسأل عنه من دلال باشى المذكور.</p>
+         </div>
+         <div xml:id="WA1263005503-30">
+            <head><date when-custom="1263-03-21">٢١ ربيع الاول ١٢٦٣</date>
+               <date when="1847-03-09">٩ مارس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٥</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان <placeName xml:id="place-WA1263005503-30_01" type="بيت" ref="بيت-ورثه-الست-زهره">بيت ورثه <persName xml:id="person-WA1263005503-30_01">الست
+                     زهره</persName></placeName> الكائن ب<placeName xml:id="place-WA1263005503-30_02" type="ميدان" ref="ميدان-القطن">ميدان القطن</placeName> المجاور ل<placeName xml:id="place-WA1263005503-30_03" type="ضريح" ref="ضريح-الاستاذ-الرملى">ضريح <persName xml:id="person-WA1263005503-30_02">الاستاذ الرملى</persName></placeName> فى <placeName xml:id="place-WA1263005503-30_04" type="شارع" ref="شارع-ميدان-القطن">شارع الميدان المذكور</placeName> وتشتمل طبقته العليا على
+               اربع اود ومطبخ وكلار وطبقته السفلى على منظرة واصطبل يسع اثنتين من المواشى وله حاصلان
+               وبئر وحوش مكشوف وقد بلغ ثمنه خمسة عشر كيسا وهو معرض للبيع فمن كان له رغبة فليسأل عنه
+               من الدلال المذكور</p>
+         </div>
+         <div xml:id="WA1263005504-31">
+            <head><date when-custom="1263-03-21">٢١ ربيع الاول ١٢٦٣</date>
+               <date when="1847-03-09">٩ مارس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٥</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان <placeName xml:id="place-WA1263005504-31_01" type="بيت" ref="بيت-حسن-افندى-اليوزباشى">بيت <persName xml:id="person-WA1263005504-31_01" role="يوزباشى">حسن افندى اليوزباشى</persName></placeName> الكائن ب<placeName xml:id="place-WA1263005504-31_02" type="خط" ref="خط-المغربلين">خط المغربلين</placeName> فى <placeName xml:id="place-WA1263005504-31_03" type="حارة" ref="حارة-الحمقية">حارة الحمقية</placeName> تشتمل طبقته العليا على اربع اود وحمام ومطبخ
+               وكلار وطبقته السفلى على منظرة واصطبل يسع ثنتين من المواشى وطاحونة وله حاصلان وبئر
+               وحوش مكشوف وهو معرض للبيع فمن كان له رغبة فيه فليستدل عليه من الدلال باشى
+               المذكور.</p>
+         </div>
+         <div xml:id="WA1263005601-32" resp="#eSG">
+            <head><date when-custom="1263-03-28">٢٨ ربيع الاول ١٢٦٣</date>
+               <date when="1847-03-16">١٦ مارس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٦</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><title>اعلانات</title></head>
+            <p>ان <placeName xml:id="place-WA1263005601-32_01" type="بيت" ref="بيت-محمد-الخلال">بيت <persName xml:id="person-WA1263005601-32_01">محمد
+                  الخلال</persName></placeName> الكائن ب<placeName xml:id="place-WA1263005601-32_02" type="درب" ref="درب-سعاده">درب
+                  سعاده</placeName> تشتمل طبقته العليا على خمس اود ومطبخ وكلار والسفلى على منظرتين
+               وتختبوش وطاحونة وخربة متسعة وبئر وحديقة صغيرة وحوش مكشوف سماوى وله بابان احدهما من
+               تحت الربع والآخر من درب سعاده وقد بلغ ثمنه خمسة واربعين كيسا فمن كان له رغبة فيه
+               فليسأل عنه من السيد <persName xml:id="person-WA1263005601-32_02" role="دلال باشى">مصطفى دلال باشى</persName>.</p>
+         </div>
+         <div xml:id="WA1263005602-33">
+            <head><date when-custom="1263-03-28">٢٨ ربيع الاول ١٢٦٣</date>
+               <date when="1847-03-16">١٦ مارس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٦</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان <placeName xml:id="place-WA1263005602-33_01" type="بيت" ref="بيت-ورثة-الشيخ-منصور-اليافى">بيت ورثة <persName xml:id="person-WA1263005602-33_01">الشيخ
+                     منصور اليافى</persName></placeName> الكائن ب<placeName xml:id="place-WA1263005602-33_02" type="سوق" ref="سوق-المؤيد">سوق المؤيد</placeName> فى <placeName xml:id="place-WA1263005602-33_03" type="خط" ref="خط-العقادين-الرومى">خط العقادين الرومى</placeName> تشتمل طبقته العليا على اربع اود ومطبخ
+               وكلار وحمام والسفلى على الطاحونة وحوش واصطبل يسع ثنتين من المواشى وحاصل وبئر وقد بلغ
+               ثمنه عشرة آلاف قرش فمن كان له رغبة فيه فليسأل عنه من الدلال باشى المذكور.</p>
+         </div>
+         <div xml:id="WA1263005603-34">
+            <head><date when-custom="1263-03-28">٢٨ ربيع الاول ١٢٦٣</date>
+               <date when="1847-03-16">١٦ مارس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٦</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان <placeName xml:id="place-WA1263005603-34_01" type="بيت" ref="بيت-احمد-بيك">بيت <persName xml:id="person-WA1263005603-34_01">احمد
+                  بيك</persName></placeName> المقيم بالاسكندرية المشمول بوكالة <persName xml:id="person-WA1263005603-34_02">حسن
+                  الهجين</persName> الكائن ذلك ب<placeName xml:id="place-WA1263005603-34_02" ref="الباطلية">الباطلية</placeName> فى
+                  <placeName xml:id="place-WA1263005603-34_03" type="خط" ref="خط-الازهر">خط الازهر</placeName> تشتمل طبقته العليا على
+               اربع اود ومطبخ وكلار والسفلى على منظرة وبئر واصطبل يسع حيوانين وحاصل وحوش مكشوف سماوى
+               وهو معرض للبيع فمن كان يريد شرآءه فليسأل عنه الدلال المذكور.</p>
+         </div>
+         <div xml:id="WA1263005604-35">
+            <head><date when-custom="1263-03-28">٢٨ ربيع الاول ١٢٦٣</date>
+               <date when="1847-03-16">١٦ مارس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٦</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان <placeName xml:id="place-WA1263005604-35_01" type="بيت" ref="بيت-تعلق-حسن-الهجين">بيت</placeName>ا آخر متعلقا بالبيك
+               الموكل المذكور اعلاه كائنا ب<placeName xml:id="place-WA1263005604-35_02" ref="الباطلية">الباطلية</placeName>
+                  ب<placeName xml:id="place-WA1263005604-35_03" type="خط" ref="خط-الازهر">خط الازهر</placeName> ايضا تشتمل طبقته
+               العليا على ثلاث اود ومطبخ وكلار والسفلى على منظرة واصطبل يسع حيوانين وحاصل وحوش سماوى
+               وهو يراد بيعه ايضا فمن كان له رغبة فيه فليسأل عنه من الدلال المذكور.</p>
+         </div>
+         <div xml:id="WA1263005701-36" resp="#eSG">
+            <head><date when-custom="1263-04-05">٥ ربيع الثانى ١٢٦٣</date>
+               <date when="1847-03-23">٢٣ مارس ١٨٤٧</date><bibl><biblScope unit="issue">نمرة ٥٧</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><title>اعلانات</title></head>
+            <p>ان <placeName xml:id="place-WA1263005701-36_01" type="بيت" ref="بيت-حسن-كاشف-كرد">بيت <persName xml:id="person-WA1263005701-36_01">حسن كاشف
+                  كرد</persName></placeName> الكائن ب<placeName xml:id="place-WA1263005701-36_02" type="شارع" ref="شارع-خط-الاستاذ-الشعراوى">شارع خط الاستاذ الشعراوى</placeName> تشتمل طبقته
+               العليا على ثمانى اود وحمام ومطبخ وكلار والسفلى على ثلاث مناظر احداها ذات فسقية
+               والاخريان بدونها وحديقتين وحاصلين واصطبل يسع من المواشى خمسا وصهريج وبئر وحوش سماوى
+               والبيت المذكور يطل على <placeName xml:id="place-WA1263005701-36_03" type="خليج">الخليج</placeName> وهو معرض للبيع على
+               ذمة صاحبه وقد بلغ ثمنه الآن ثمانين كيسا فمن كان له رغبة فيه فليسأل عنه من السيد
+                  <persName xml:id="person-WA1263005701-36_02" role="دلال باشى">مصطفى دلال باشى</persName> وليرض صاحبه.</p>
+            <p>ان <placeName xml:id="place-WA1263005701-36_04" type="بيت" ref="بيت-محمد-حنفى-الحناوى">بيت <persName xml:id="person-WA1263005701-36_03">محمد حنفى
+                     الحناوى</persName></placeName> الكائن ب<placeName xml:id="place-WA1263005701-36_05" ref="بولاق">بولاق</placeName>
+                  ب<placeName xml:id="place-WA1263005701-36_06" type="خط" ref="خط-السبتيه">خط السبتيه</placeName> تشتمل طبقته العليا
+               على عشر اود وحمام ومطبخ وكلارين والسفلى على منظرتين واربعة حواصل واصطبل يسع اربعا من
+               المواشى وحديقة وبئر وحوشين مكشوفين وهو معرض للبيع على ذمة صاحبه وقد بلغ ثمنه الآن
+               اثنين وعشرين الف قرش وخمسمائة قرش فمن كان يريد شرآءه فليسأل عنه من دلال باشى
+               المذكور.</p>
+         </div>
+         <div xml:id="WA1263005801-37" resp="#eSG">
+            <head><date when-custom="1263-04-12">١٢ ربيع الثاني ١٢٦٣</date>
+               <date when="1847-03-30">٣٠ مارس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٨</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl>
+            </head>
+            <head><title>الحوادث الداخليه</title></head>
+            <p>لما كان صنف الطوب اللازم اخذه للابنية الميرية يؤخذ كل الف منه بخمسة قروش جريا على
+               سعره القديم وكان هذا السعر قليلا بالنسبة الى الوقت والحال ادى ذلك الى عدم رغبة
+               المقاولين واستوجب التأخير فى جلبه وتداركه حتى كان سببا فى تعطيل البنايات اللازمة واذ
+               كان عمل الطوب على ذمة الميرى يحتاج الى اجر خدم وعملة ومصاريف زآئدة كثيرة عرض حضرة
+                  <persName xml:id="person-WA1263005801-37_01" role="مدير">ادهم بيك مدير
+                  المدارس</persName> هذا المحذور على <orgName xml:id="org-WA1263005801-37_01" type="مجلس" ref="المجلس-العمومى">المجلس العمومى</orgName> وافاد أن يكون اخذ هذا
+               الصنف على حسب المعدل الذى جرى وذلك بان يأخذ من <orgName xml:id="org-WA1263005801-37_02" ref="مديرية-البحيره" type="مديرية">مديرية
+                  البحيره</orgName> كل ألف منه بثلاثة عشر قرشا ونصف قرش ومن <orgName xml:id="org-WA1263005801-37_03" type="مديرية" ref="مديرية-الجيزة">مديرتى
+                  الجيزة</orgName> و<orgName xml:id="org-WA1263005801-37_04" type="مديرية" ref="مديرية-قليوب">قليوب</orgName> بستة عشر قرشا ونصف قرش حسب غلاء سعر الحطب
+               بهاتين المديريتين اذ كان لا يخلص بأقل من ذلك واذا كان الامر كما ذكر فلا بد من ان ترغب
+               كل الناس فى عمله ارساله بالطبع ويكون هذا سببا فى منع تعطيل البنايات الميريه وانه يلزم
+               لذلك ان تصنع قوالب مدموغه لتكون انموذجا لعمل هذا الصنف على نمط واحد ولدى المذاكرة
+               بالمجلس المذكور استنسب رأى الامير المومى اليه كل من اعضاء المجلس وصدقوا عليه جميعا
+               واستقر رأيهم على اجرائه وتعلقت الارادة السنية بمقتضاه.</p>
+         </div>
+         <div xml:id="WA1263005802-38" resp="#eSG">
+            <head><date when-custom="1263-04-12">١٢ ربيع الثاني ١٢٦٣</date>
+               <date when="1847-03-30">٣٠ مارس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٨</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <p>ان بيتا ب<placeName xml:id="place-WA1263005802-38_01" type="درب" ref="درب-البهلوان">درب البهلوان</placeName> الكائن
+                  ب<placeName xml:id="place-WA1263005802-38_02" type="خط" ref="خط-السيدة-زينب">خط السيدة زينب</placeName> تشتمل طبقته
+               العليا على عشر اود وحمام ومطبخ وكلار والسفلى على مقعد ومنظرة ذات فسقية وتختبوش ذى
+               عمود من المرمر واسطبل يسع ثلاثا من المواشى وفيه طاحونة وحاصلان وبئر وحوش مكشوف وقد
+               بلغ ثمنه خمسة وعشرين كيسا وهو معرض للبيع على ذمة الدائره السر عسكريه فمن كان له رغبة
+               فيه فليسأل عنه من السيد <persName xml:id="person-WA1263005802-38_01" role="دلال باشى">مصطفى دلال باشى</persName>.</p>
+            <p>ان حوشا وتسعة دكاكين كائنين ب<placeName xml:id="place-WA1263005802-38_03" type="خط" ref="خط-الاستاذ-ابى-العلى">خط
+                  الاستاذ ابى العلى</placeName> فى <placeName xml:id="place-WA1263005802-38_04" ref="بولاق">بولاق</placeName> المحروسه
+               جارين فى ملك <persName xml:id="person-WA1263005802-38_02">السيد محمد النواوى</persName> واخيه اجرتهم فى كل شهر خمسة
+               وثمانون قرشا يراد بيعهم وقد بلغ ثمنهم ثلاثين كيسا فمن اراد شرآءهم فليسأل عنهم من
+               الدلال المذكور.</p>
+            <p>ان <placeName xml:id="place-WA1263005802-38_05" type="بيت" ref="بيت-يوسف-الحكيم">بيت يوسف الحكيم</placeName> المطل على
+                  <placeName xml:id="place-WA1263005802-38_06" type="خليج" ref="الخليج-الكائن-بدرب-الجنينه">الخليج الكائن ب<placeName xml:id="place-WA1263005802-38_07" type="درب" ref="درب الجنينه">درب الجنينه</placeName></placeName> فى <placeName xml:id="place-WA1263005802-38_08" type="خط" ref="خط-الموسكى">خط الموسكى</placeName> تشتمل طبقته العليا على خمس اود
+               ومطبخ وكلار والسفلى على منظرة وحاصل وحوش مكشوف يراد بيعه وقد بلغ ثمنه عشرين كيسا
+               وبجواره بيت يتعلق بالمذكور ايضا تشتمل طبقته العليا على ثلاث اود ومطبخ والسفلى على
+               منظرة وحاصل وحوش سماوى وهو ايضا مطل على الخليج وقد بلغ ثمنه عشرة اكياس واجرتهما فى كل
+               شهر ستون قرشا فمن كان له رغبة فيهما فليستدل عليهما من دلال باشى المذكور.</p>
+         </div>
+         <div xml:id="WA1263005901-39" resp="#eSG">
+            <head><date when-custom="1263-04-19">١٩ ربيع الثاني ١٢٦٣</date>
+               <date when="1847-04-06">٦ ابريل ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٩</biblScope>
+                  <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+            <head>حوادث داخليه</head>
+            <p>لما كان الحذر من شر الحريقات المحتمل وقوعها لا يتأتى الا بوجود الطلومبات على قدر
+               لزومها وكانت <placeName xml:id="place-WA1263005901-39_01" type="ناحية" ref="ناحية-القصر-العالى">ناحية <placeName xml:id="place-WA1263005901-39_02" type="قصر" ref="القصر-العالى">القصر العالى</placeName></placeName> و<placeName xml:id="place-WA1263005901-39_03" type="قصر" ref="قصر-النيل">قصر النيل</placeName> و<placeName xml:id="place-WA1263005901-39_04" type="قصر" ref="قصر-العينى">قصر العينى</placeName> لم توجد فيها طلومبة كسائر الموجودات فى كل جانب
+               من مصر المحروسة حصل ترتيب طلومبة مخصوصة لتلك الناحية مع طلومبجيتها لتكون حاضرة هنالك
+               وصدر التنبيه على ناظر <placeName xml:id="place-WA1263005901-39_05"><orgName xml:id="org-WA1263005901-39_01" type="اسبيتالية" ref="اسبتالية-القصر-العينى">الاسبيتالية</orgName></placeName> التى فى قصر
+               العينى بتخلية محل لحفظها واقامة الطلومبجية.</p>
+         </div>
+         <div xml:id="WA1263005902-40" resp="#eSG">
+            <head><date when-custom="1263-04-19">١٩ ربيع الثاني ١٢٦٣</date>
+               <date when="1847-04-06">٦ ابريل ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٥٩</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان <placeName xml:id="place-WA1263005902-40_01" type="بيت" ref="بيت-محمد-افندى-البيكباشى">بيت <persName xml:id="person-WA1263005902-40_01" role="بيكباشى">محمد افندى البيكباشى من الاى المشاة السابع</persName></placeName> الكائن
+                  ب<placeName xml:id="place-WA1263005902-40_02" type="درب" ref="درب-الميضأة">درب الميضأة</placeName> فى <placeName xml:id="place-WA1263005902-40_03" type="خط" ref="خط-الصليبه">خط الصليبه</placeName> تشتمل طبقته العليا على ثلاث اود
+               وحمام ومطبخ وكلار والسفلى على منظرة واصطبل يسع ثنتين من المواشى وطاحونة وحاصل واحد
+               وبئر وحوش سماوى وهو جديد الانشاء ومعرض للبيع على ذمة مالكه ولم يسمه احد فمن كان له
+               رغبة فيه فليسأل عنه من <persName xml:id="person-WA1263005902-40_02" role="دلال باشى">السيد مصطفى دلال
+               باشى</persName>.</p>
+            <p>ان <placeName xml:id="place-WA1263005902-40_04" type="بيت" ref="بيت-ابراهيم-اغا-البخرجى">بيت <persName xml:id="person-WA1263005902-40_03" role="بخرجى">ابراهيم اغا البخرجى</persName></placeName> الكائن ب<placeName xml:id="place-WA1263005902-40_05" type="حارة" ref="حارة-عبد-الله-بيك">حارة عبد الله بيك</placeName> فى <placeName xml:id="place-WA1263005902-40_06" type="خط" ref="خط-قيسون">خط قيسون</placeName> تشتمل طبقته العليا على خمس اود ومطبخ وكلار
+               والسفلى على مقعد ذى عمود من المرمر وفيه طاحونة واصطبل يسع ثلاثا من المواشى وحاصلان
+               وبئر وحوش سماوى وهو معرض للبيع فمن كان له رغبة فيه فليسأل عنه من الدلال المذكور.</p>
+            <p>ان <placeName xml:id="place-WA1263005902-40_07" type="بيت" ref="بيت-الحاجة-خديجة">بيت الحاجة خديجة</placeName> الكائن
+                  ب<placeName xml:id="place-WA1263005902-40_08" ref="قصبة-رضوان">قصبة رضوان</placeName> تشتمل طبقته العليا على اربع
+               اود وحمام ومطبخ وكلار والسفلى على منظرة واصطبل يسع ثنتين من المواشى وفيه محل طاحونة
+               وحاصلان وبئر وحديقة صغيرة وحوش سماوى وهو معرض للبيع فمن كان يريد شرآءه فليسأل عنه من
+               الدلال المذكور.</p>
+         </div>
+         <div xml:id="WA1263006001-41" resp="#eSG">
+            <head><date when-custom="1263-04-26">٢٦ ربيع الثاني ١٢٦٣</date>
+               <date when="1847-04-13">١٣ ابريل ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٦٠</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head><title>الحوادث الداخليه</title></head>
+            <p>لما كان من عادة الجناب الداورى عمارة المعابد الشريفة والجوامع اللطيفة تعلقت ارادته
+               السنية بتعمير المساجد التى انصدعت من تقلب الازمنة وكان من جملة ذلك <placeName xml:id="place-WA1263006001-41_01" type="مسجد" ref="مسجد-حضرة-الشيخ-اسماعيل-الانبابى">مسجد حضرة الشيخ اسماعيل
+                  الانبابى</placeName> فانه قد تخرب فيه بعض محلات واحتاجت الى تعميرها بمبلغ ينيف على
+               تسعة الآف خمسمائة قرش كما تبين من مقايسته وكذا <placeName xml:id="place-WA1263006001-41_02" type="جامع" ref="جامع-حضرة-الشيخ-الحلوجى">جامع حضرة الشيخ الحلوجى</placeName> فانه لزم تعميره
+               بنحو اربعة آلاف قرش فاجريت عمارتهما طبق الارادة الآصفية.</p>
+         </div>
+         <div xml:id="WA1263006002-42" resp="#eSG">
+            <head><date when-custom="1263-04-26">٢٦ ربيع الثاني ١٢٦٣</date>
+               <date when="1847-04-13">١٣ ابريل ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٦٠</biblScope>
+                  <biblScope unit="page">صفحة ١-٢</biblScope></bibl></head>
+            <head><title>الحوادث الداخليه</title></head>
+            <p> لما كانت بعض طرق محلات المحروسة ذات ضيق وكان ذلك داعيا الى مشقة المارين فيها اقتضى
+               الحال اخذ بعض الدكاكين وهدمها لاجل التوسعة واذ كان ما يهدم من الدكاكين لا يكون هدمه
+               الا برضى اصحابه بحيث يصرف اليهم من جانب الميرى قدر قيمة دكاكينهم حصل اخذ دكانين من
+                  <persName xml:id="person-WA1263006002-42_01">امرأة اسمها خديجة</persName> وهما من جملة الدكاكين الكائنة ب<placeName xml:id="place-WA1263006002-42_01" type="خط" ref="خط-باب-الفتوح">خط باب الفتوح</placeName> لاجل توسيع الطريق وصرف
+               اليها الثمن من <orgName xml:id="org-WA1263006002-42_01" type="خزينة" ref="الخزينة-الخديوية">الخزينة
+                  الخديوية</orgName> وقد اقتضى الحال ايضا تعمير <placeName xml:id="place-WA1263006002-42_02" type="منزل" ref="منزل-ابراهيم-شعيب">منزل</placeName> شخص اسمه <persName xml:id="person-WA1263006002-42_02">ابراهيم
+                  شعيب</persName> كان قد <corr type="تصدع"><sic>الصدع</sic></corr> من حركة اللغم فى
+               وقت تنظيم <placeName xml:id="place-WA1263006002-42_03" type="طريق" ref="طريق-القلعة-العامرة">طريق <placeName xml:id="place-WA1263006002-42_04" type="قلعة" ref="القلعة-العامرة">القلعة العامرة</placeName></placeName> فاعطى
+               ما لزم له من المصاريف من <choice>
+                  <sic>الجزينة</sic>
+                  <corr>الخزينة</corr>
+               </choice> المذكورة.</p>
+         </div>
+         <div xml:id="WA1263006101-43" resp="#eSG" n="TREES">
+            <head><date when-custom="1263-05-04">٤ جمادى الاول ١٢٦٣</date>
+               <date when="1848-04-20">٢٠ ابريل ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٦١</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head>الحوادث الداخليه</head>
+            <p>لما كانت الطرق التى خارج المحروسة قد اكتسبت فى ايام ولى النعم كل المحاسن واللطافة
+               وكان من الجملة ان الاكوام المتراكمة الشبيهة بالجبال الحاصلة من هدم الابنية القديمة قد
+               ازيلت من الطريق الجديدة التى ما بين <placeName xml:id="place-WA1263006101-43_01" ref="الازبكية">الازبكية</placeName> و<placeName xml:id="place-WA1263006101-43_02" ref="بولاق">بولاق</placeName> وحصلت تسوية تلك الطريق حتى اعتدلت وغرست الاشجار
+               المتنوعة على حافتيها يمينا وشمالا وانشئت فيها السواقى اللازمة اقتضى الحال عمل باب
+               جديد بصنعة اوروبا عوضا عن <placeName xml:id="place-WA1263006101-43_03" type="باب" ref="باب-الحديد">باب الحديد</placeName> و<placeName xml:id="place-WA1263006101-43_04" type="باب" ref="باب-قنطرة-الدكة">باب قنطرة
+                  الدكة</placeName> اللذين فى تلك الجادة وازالة هذين البابين القديمين حيث لا لزوم
+               لهما وقد تعلقت الارادة الخديوية بأنشاء هذا الباب على مقتضى صنعة اوروبا لتكون تلك
+               الطريق مزخرفة بكل رونق شريق وقد رسم بمعرفة <persName xml:id="person-WA1263006101-43_01" role="ناظر">لينان بيك اميرالالاى ناظر <orgName xml:id="org-WA1263006101-43_01" type="قلم" ref="قلم-الهندسة">قلم
+                     الهندسة</orgName> ب<orgName xml:id="org-WA1263006101-43_02" type="ديوان" ref="ديوان-المدارس">ديوان المدارس</orgName></persName> صورة بناء هذا الباب وبعث
+               بها الى <orgName xml:id="org-WA1263006101-43_03" ref="ديوان-الابنية-الميرية" type="ديوان">ديوان الابنية الميرية</orgName> ليجرى العمل على مقتضاها.</p>
+         </div>
+         <div xml:id="WA1263006102-44" resp="#eSG">
+            <head><date when-custom="1263-05-04">٤ جمادى الاول ١٢٦٣</date>
+               <date when="1847-04-20">٢٠ ابريل ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٦١</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>لما كان <placeName xml:id="place-WA1263006102-44_01" type="طريق" ref="طريق-القلعة">طريق <placeName xml:id="place-WA1263006102-44_02" type="قلعة">القلعة</placeName></placeName> المسمى ب<placeName xml:id="place-WA1263006102-44_03" type="طريق" ref="طريق-المحجر">المحجر</placeName> ممرا للعربات والالايات بذل السعى اللازم
+               لتوسعته حتى صار فى درجة الاسلوب المرغوب وتعلقت الارادة الآصفية بأن يزين بغرس الاشجار
+               فيه عن يمين وشمال حتى ينتهى الى <placeName xml:id="place-WA1263006102-44_04" type="باب" ref="باب-القلعة-الاوسط">باب
+                  القلعة الاوسط</placeName> وقد بادر حضرة <persName xml:id="person-WA1263006102-44_01">راشد بيك اميرالالاى مفتش الابنية
+                  الميرية</persName> الى اجرآء ما جبل عليه من الشطارة والبراعة لانه لما وجد الطريق
+               المذكور حاجرا اسرع بجلب اللغمجية الحاذقين وعين لغرس كل شجرة محلا مكعبا يبلغ خمسة اذرع
+               وبعد ان قطع هذه المحال بما لزم لها من البارود وادوات اللغم ملأها بالطين الحلو وغرس
+               فيها اشجارا من اللبخ فكان سعيه سعيا مشكورا وصنعه صنعا مبرورا وصارت تلك الطريق مزينة
+               بصفوف الاشجار عن يمين ويسار.</p>
+         </div>
+         <div xml:id="WA1263006201-45" resp="#eSG">
+            <head><date when-custom="1263-05-11">١١ جمادى الاول ١٢٦٣</date>
+               <date when="1847-04-27">٢٧ ابريل ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٦٢</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head><title>الحوادث الداخليه</title></head>
+            <p>ان <placeName xml:id="place-WA1263006201-45_01" type="جامع" ref="جامع-كاتم-السر">جامع كاتم السر</placeName> الكائن تجاه
+                  <placeName xml:id="place-WA1263006201-45_02" type="مدرسة" ref="مدرسة-الحبانية">مدرسة الحبانية</placeName> قد تطرق
+               اليه الخلل ولما تبين انه يحتاج الى التعمير بمبلغ ينيف على اربعة آلاف وخمسمائة قرش حصل
+               صرف المبلغ من <orgName xml:id="org-WA1263006201-45_01" type="خزينة" ref="الخزينة-العامرة">الخزينة العامرة</orgName>
+               حسب الارادة السنية وشرع فى ترميمه.</p>
+         </div>
+         <div xml:id="WA1263006202-46" resp="#eSG">
+            <head><date when-custom="1263-05-11">١١ جمادى الاول ١٢٦٣</date>
+               <date when="1847-04-27">٢٧ ابريل ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٦٢</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>لما كان الحكيم البيطرى الموجود فى <orgName xml:id="org-WA1263006202-46_01" type="مصلحة" ref="مصلحة-لابنية">مصلحة
+                  الابنية</orgName> قد امعن نظره فى المواشى الميرية وابرز شطارته الكلية استحق ترفيع
+               رتبته التى هى رتبه الاسبران الاول بارتقائه الى رتبة الملازم الثانى على موجب الترتيب
+               الجارى فى حق التلاميذ وتعلقت الارادة السنية باصعاده الى تلك الرتبة واعطائه نشانها وقد
+               قرت عيناه بهذا السرور والحظ الموفور.</p>
+         </div>
+         <div xml:id="WA1263006203-47" resp="#eSG">
+            <head><date when-custom="1263-05-11">١١ جمادى الاول ١٢٦٣</date>
+               <date when="1847-04-27">٢٧ ابريل ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٦٢</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <p>ان <placeName xml:id="place-WA1263006203-47_01" type="بيت" ref="بيت-سليم-افندى">بيت سليم افندى</placeName> الكائن
+                  ب<placeName xml:id="place-WA1263006203-47_02" type="درب" ref="درب-الدليل">درب الدليل</placeName> فى <placeName xml:id="place-WA1263006203-47_03" type="خط" ref="خط-الدرب-الاحمر">خط الدرب الاحمر</placeName> تشتمل طبقته العليا على
+               عشر اود ومقعد ذى عمود من الرخام وعلى حمام كامل الطقم والسفلى على خمسة حواصل وطاحونة
+               ومنظرة ذات فسقية وحوش سماوى وهو معرض للبيع من قبل صاحبه فمن اراد شرآءه فليسأل عنه من
+                  <persName xml:id="person-WA1263006203-47_01" role="دلال باشى">السيد مصطفى دلال باشى</persName> وليرض صاحبه فى
+               ثمنه.</p>
+            <p>ان <placeName xml:id="place-WA1263006203-47_04" type="بيت" ref="بيت-الامير-عبد-الله-البركاوى">بيت <persName xml:id="person-WA1263006203-47_02" role="امير">الامير عبد الله البركاوى</persName></placeName> ب<placeName xml:id="place-WA1263006203-47_05" type="شارع" ref="شارع-حياض-مصلى">شارع حياض مصلى</placeName> فى الخط المذكور تشتمل طبقته العليا
+               على عشر اود ومقعد ذى عمود من المرمر وعلى حمام بدسته والسفلى على طاحونة وبئر معين
+               ومنظرة وحوش مكشوف سماوى واصطبل يسع خمسا من المواشى وهو يراد بيعه فمن كان له رغبة فيه
+               فليسأل عنه من دلال باشى المذكور.</p>
+            <p>ان <placeName xml:id="place-WA1263006203-47_06" type="بيت" ref="بيت-سلامبك-حسن-بيك">بيت سلاملك <persName xml:id="person-WA1263006203-47_03">حسن
+                     بيك</persName></placeName> الكائن ب<placeName xml:id="place-WA1263006203-47_07" type="حارة" ref="حارة-زرع-النوى">حارة زرع النوى</placeName> فى الخط المذكور تشتمل طبقته العليا على ثلاث اود وفسحة
+               كبيرة وسلاملك كبير والسفلى على خمسة <sic>صواصل</sic> ومنظرة كبيرة واصطبل يسع عشرا من
+               المواشى وهو معرض للبيع وقد بلغ ثمنه مائة وخمسة واربعين كيسا فمن كان له رغبة فيه
+               فليستدل عليه من دلال باشى المذكور.</p>
+            <p>ان <placeName xml:id="place-WA1263006203-47_08" type="بيت" ref="بيت-عثمان-بيك">بيت <persName xml:id="person-WA1263006203-47_04">عثمان
+                  بيك</persName></placeName> الكائن ب<placeName xml:id="place-WA1263006203-47_09" type="زقاق" ref="زقاق-المسك">زقاق
+                  المسك</placeName> فى <placeName xml:id="place-WA1263006203-47_10" type="خط" ref="خط-قيسون">خط قيسون</placeName>
+               تشتمل طبقته العليا على ست اود ومقعدين احدهما ذو عمود من المرمر والآخر بدون عمود
+               والسفلى على اربعة حواصل وطاحونة وبئر ومنظرة وحوش مكشوف سماوى واصطبل يسع ثلاثا من
+               المواشى وهو معرض للبيع وقد بلغ ثمنه اربعين كيسا فمن كان له رغبة فيه فليسأل عنه من
+               دلال باشى المذكور.</p>
+         </div>
+         <div xml:id="WA1263006401-48" resp="#eSG" n="NUMBERS FOR HOUSES">
+            <head><date when-custom="1263-05-25">٢٥ جمادى الاول ١٢٦٣</date>
+               <date when="1847-05-11">١١ مايو ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٦٤</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <p>ان <rs>كتابة اسماء ازقة مصر المحروسة</rs> على محل يناسبها فوق زواياها وتنمير البيوت
+               كبيرة كانت او صغيرة برقم نمرها على اعالى ابوابها كاسلوب اوروبا مما يستوجب المنافع
+               العظيمة للمملكة ويورث السهولة لمن يقصد زقاقا او بيتا سوآء كان من الاهالى او من
+               الاجانب ولما كان من اللازم رعاية هذه الاصول فى جميع البلاد الواقعة فى مركز الانتظام
+               وافق ذلك طبع ولى النعم وينبوع الفضل والكرم واراد استحسان صورة لهذا الامر حتى يبرز من
+               القوة الى الفعل فحصلت المذاكرة فى شأن ذلك ب<orgName xml:id="org-WA1263006401-48_01" type="مجلس" ref="مجلس-تنظيم-المحروسة">مجلس تنظيم المحروسة</orgName> واستقر الرأى على ان يبدأ
+               اولا بكتابة اسم كل حارة فى زاوية البيت المتكون منه احدى زوايا الحارة الممتدة لباقى
+               الحارات وذلك بان نكتب اسماء الحارات الممتدة من الجنوب الى الشمال بمداد اسود واسماء
+               الحارات وذلك بان تكتب اسماء الحارات الممتدة من الجنوب الى الشمال بمداد اسود واسماء
+               الحارات الممتدة من الشرق الى الغرب بمداد احمر على ارضية بيضاء يحيط بها برواز لونه
+               كلون مداد الاحرف ليستدل من كان ذاهبا او <sic>ائبا</sic> على جهة مقصوده بمجرد نظره ثم
+               تنمر البيوت التى فى الحارات المذكورة واحدا فواحدا وتكون النمر مزدوجة من الجهة اليسرى
+               وغير مزدوجة من الجهة اليمنى وترسم نمر الازقة الممتدة من الجنوب الى الشمال بالمداد
+               الاسود والممتدة من الغرب الى الشرق بالمداد الاحمر ويرسم الجميع على ارضية بيضاء لون
+               بروازها كلونها ويكون رسمها على الابواب الاصلية ان امكن والا فعلى جدار مرتفع فوق الارض
+               بمترين ونصف متر وبعد ذلك تنمر الازقة التى على ال جادة ثم يعتنى اعتناء زآئد فى وضع نمر
+               بيوت <choice>
+                  <sic>لازقة</sic>
+                  <corr>الازقة</corr>
+               </choice> الصغيرة التى تكون ابوابها داخل الحارات الكبيرة بحيث تسلك فى سلسلة تنمير
+               البيوت التى فى الازقة الكبيرة وعرض ذلك لل <orgName xml:id="org-WA1263006401-48_02" type="ديوان" ref="الديوان-الخديوى">ديوان الخديوى</orgName> وبعث برسم النمر المذكورة اليه لكى يعين لذلك من هو لازم من
+               طرف <orgName xml:id="org-WA1263006401-48_03" type="ديوان" ref="ديوان-الابنية">ديوان الابنية</orgName> و<orgName xml:id="org-WA1263006401-48_04" ref="الضابطخانة">الضابطخانة</orgName> من مأمورين ونقاشين ليجروا المقتضى على موجب
+               ما ذكر كما اخبر به من <orgName xml:id="org-WA1263006401-48_05" type="ديوان" ref="ديوان-المدارس">ديوان
+                  المدارس</orgName>.</p>
+         </div>
+         <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+         <div xml:id="WA1263006402-49" resp="#eSG">
+            <head><date when-custom="1263-05-25">٢٥ جمادى الاول ١٢٦٣</date>
+               <date when="1847-05-11">١١ مايو ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٦٤</biblScope>
+                  <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+            <p>اجمالى المبالغ المنصرفة من طرف الميرى على بعض الابنية والعمارات التى حصلت اخيرا فى كل
+               من مصر المحروسة و<placeName xml:id="place-WA1263006402-49_01" ref="بولاق">بولاق</placeName> والاقاليم القبلية والشرقية
+               والغربية حسب الكشف الوارد على <orgName xml:id="org-WA1263006402-49_01" type="ديوان" ref="ديوان-المدارس">ديوان
+                  المدارس</orgName> فى شهر ربيع الاخر الماضى</p>
+            <p>اجمال </p>
+            <p>باره ؎ </p>
+            <p><sic>٠٧ ٠٣٠٨٠٥</sic></p>
+            <p>مصر المحروسة</p>
+            <p><placeName xml:id="place-WA1263006402-49_02"><orgName xml:id="org-WA1263006402-49_02" ref="المهندسخانه">المهندسخانه</orgName></placeName>
+                     و<placeName xml:id="place-WA1263006402-49_03"><orgName xml:id="org-WA1263006402-49_03" ref="المطبعه">المطبعه</orgName></placeName>
+                     و<placeName xml:id="place-WA1263006402-49_04"><orgName xml:id="org-WA1263006402-49_04" ref="الباقرخانه">الباقرخانه</orgName></placeName> وامثالها
+               من محلات اخرى</p>
+         </div><?oxy_custom_end?>
+         <div xml:id="WA1263006501-50" resp="#eSG">
+            <head><date when-custom="1263-06-02">٢ جمادى الاخر ١٢٦٣</date>
+               <date when="1847-05-18">١٨ مايو ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٦٥</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <p>ان البيت الكائن ب<placeName xml:id="place-WA1263006501-50_01" type="حارة" ref="حارة-النصارى">حارة النصارى</placeName>
+               فى <placeName xml:id="place-WA1263006501-50_02" type="خط" ref="خط-الازبكيه">خط الازبكيه</placeName> الجارى فى ملك
+                  <persName xml:id="person-WA1263006501-50_01" role="معلم">المعلم فرج البرماوى</persName> تشتمل طبقته العليا على ست اود
+               وحمام ومطبخ وكلارين والسفلى على منظرة كبيرة ذات فسقية وعلى حديقة وبئر واصطبل يسع
+               اربعا من المواشى وحاصلين وبجواره خربة صغيرة وهو يراد بيعه من قبل صاحبه فمن كان له
+               رغبة فيه فليستدل عليه من <persName xml:id="person-WA1263006501-50_02" role="دلال باشى">الحاج مصطفى دلال
+               باشى</persName>.</p>
+            <p>ان البيت الكائن ب<placeName xml:id="place-WA1263006501-50_03" type="درب" ref="درب-الجنينه">درب الجنينه</placeName> فى
+                  <placeName xml:id="place-WA1263006501-50_04" type="خط" ref="خط-البنادقه">خط البنادقه</placeName> المشمول بوكالة
+                  <persName xml:id="person-WA1263006501-50_03">الخواجه يعقوب</persName> تشتمل طبقته العليا على اربع اود ومطبخ وكلارين
+               والسفلى على منظرة واصطبل يسع ثنتين من المواشى وحاصلين وبئر وحوش مكشوف وبجواره خربة
+               صغيرة وهو معرض للبيع فمن كان يريد ان يشتريه فليسأل عنه من الدلال المذكور.</p>
+            <p>ان البيت الكائن ب<placeName xml:id="place-WA1263006501-50_05" type="حارة" ref="حارة-التمار">حارة التمار</placeName> فى
+                  <placeName xml:id="place-WA1263006501-50_06" type="خط" ref="خط-ميدان-القطن">خط ميدان القطن</placeName> الجارى فى ملك
+                  <persName xml:id="person-WA1263006501-50_04">الحرمة آفتاب</persName> تشتمل طبقته العليا على ثلاث اود وحمام ومطبخ
+               وكلارين والسفلى على منظرة وتختبوش وطاحونة واصطبل يسع حيوانا واحدا وحاصل وبئر وحوش
+               مكشوف وهو معرض للبيع فمن كان له رغبة فيه فليسال عنه من الدلال المذكور.</p>
+         </div>
+         <div xml:id="WA1263006601-51" resp="#eSG">
+            <head><date when-custom="1263-06-09">٩ جمادى الاخر ١٢٦٣</date>
+               <date when="1847-05-25">٢٥ مايو ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٦٦</biblScope>
+                  <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+            <head><title>الحوادث الدخليه</title></head>
+            <p>انه قد حصل بذل الجهد من كل الوجوه بايام ولى النعم ذات المأآثر التامة والكرم الاعم فى
+               عمارة كل ما تخرب من الاوقاف الكائنة داخل المحروسة سوآء كانت تابعة للحرمين الشريفين او
+               لآل بيت الرسول الاعظم صلى الله عليه وعلى آله وصحبه وسلم ك <placeName xml:id="place-WA1263006601-51_01" ref="السيدة-زينب">السيدة زينب</placeName> و<placeName xml:id="place-WA1263006601-51_02" ref="الحسين">الحسين</placeName> و<placeName xml:id="place-WA1263006601-51_03" ref="السيدة-نفيسة">السيدة نفيسة</placeName> رضى
+               الله عنهم بحيث انه اذا علم ان بعض محلات الاوقاف المذكورة من مساجد ومكاتب ودكاكين
+               وامثالها مما يحتاج الى العمارة بودر الى اجراء مقتضياتها.</p>
+         </div>
+         <div xml:id="WA1263006602-52" resp="#eSG">
+            <head><date when-custom="1263-06-09">٩ جمادى الاخر ١٢٦٣</date>
+               <date when="1847-05-25">٢٥ مايو ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٦٦</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <p>ان <orgName xml:id="org-WA1263006602-52_01" type="ورشة" ref="ورشة-الميرى">ورشة الميرى</orgName> الكائنة ب<placeName xml:id="place-WA1263006602-52_01" ref="خشقدم-الغورية">خشقدم الغورية</placeName> تشتمل طبقتها العليا على ثمانى اود
+               والسفلى على خمس عشرة اودة لتشغيل الحرير وخمسة حواصل وبئر وحوش متسع سماوى وهى يراد
+               بيعها فمن اراد شرآءها فليستدل عليها من السيد <persName xml:id="person-WA1263006602-52_01" role="دلال باشى">مصطفى دلال
+                  باشى</persName>.</p>
+            <p>ان ورشة اخرى بالحارة المذكورة تشتمل على خمسة عشرة اودة ارضية متسعة لتشغيل الحرير وحوش
+               سماوى وهى معرضة للبيع فمن ارادها فليسأل عنها من دلال باشى المذكور.</p>
+            <p>ان بيتا فى <placeName xml:id="place-WA1263006602-52_02" type="عطفة" ref="عطفة-المبيضه">عطفة المبيضه</placeName> الكائنة
+                  ب<placeName xml:id="place-WA1263006602-52_03" type="خط" ref="خط-الجماليه">خط الجماليه</placeName> متعلقا ب<persName xml:id="person-WA1263006602-52_02" role="ضابط">يوسف اغا احد ضباط الجهاديه</persName> تشتمل طبقته العليا على ثلاث اود
+               ومطبخ كلار والسفلى على منظرة وحاصل وحوش وهو معرض للبيع فمن كان له رغبة فيه فليسال عنه
+               من الدلال المذكور.</p>
+         </div>
+         <div xml:id="WA1263006701-53" resp="#eSG">
+            <head><date when-custom="1263-06-16">١٦ جمادى الاخر ١٢٦٣</date>
+               <date when="1847-06-01">١ يونيو ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٦٧</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <p>ان فى <placeName xml:id="place-WA1263006701-53_01" type="ناحية" ref="ناحية-شبرى">ناحية شبرى</placeName> ابعادية بلا مال
+               متعلقة ب<persName xml:id="person-WA1263006701-53_01">حرمة اسمها هيلانه</persName> تشتمل تلك الابعادية على عشرين فدانا من
+               الطين وسبعمائة شجرة وشجرة واحدة من الاشجار المتنوعة وساقية ذات وجهين وفيها محراثان
+               ونورج وثور وبقرة وعجلان وجاموستان وثلاثة حمير وبها بيت تشتمل طبقته العليا على ست اود
+               والسفلى على اربع اود وفيها زريبة ومخزن تبن وطاحونة كاملة وهى معرضة للبيع فمن كان له
+               رغبة فيها فليسأل عنها من السيد <persName xml:id="person-WA1263006701-53_02" role="دلال باشى">مصطفى دلال
+               باشى</persName>.</p>
+            <p>ان بيتا فى <placeName xml:id="place-WA1263006701-53_02" type="حارة" ref="حارة-ياقوت">حارة ياقوت</placeName> الكائنة
+                  ب<placeName xml:id="place-WA1263006701-53_03" type="خط" ref="خط-عابدين">خط عابدين</placeName> تشتمل طبقته العليا على
+               ثلاث اود ومطبخ وكلار والسفلى على حاصل واصطبل يسع حيوانين وبئر وحوش وقد بلغ ثمنه عشرة
+               اكياس وهو يراد بيعه فمن كان له رغبة فيه فليستخبر من الدلال المذكور.</p>
+         </div>
+         <div xml:id="WA1263006901-54" resp="#eSG">
+            <head><date when-custom="1263-07-01">١ رجب ١٢٦٣</date>
+               <date when="1848-06-15">١٥ يونيو ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٦٩</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head><title>الحوادث الداخليه</title></head>
+            <p>انه قد اقتضى الحال بعض التعمير فى كل من <placeName xml:id="place-WA1263006901-54_01" type="جامع" ref="جامع-طولون">جامع
+                  طولون</placeName> و<placeName xml:id="place-WA1263006901-54_02" type="قصر" ref="قصر-النيل">قصر النيل</placeName>
+                  و<placeName xml:id="place-WA1263006901-54_03" type="ديوان" ref="ديوان-المدارس">ديوان المدارس</placeName> وسياج
+                  <placeName xml:id="place-WA1263006901-54_04" type="حديقة" ref="حديقة النباتات المختصة بالاسبتالية الكبرى">حديقة
+                  النباتات المختصة ب<placeName xml:id="place-WA1263006901-54_05"><orgName xml:id="org-WA1263006901-54_01" type="اسبتالية" ref="الاسبتالية-الكبرى">الاسبتالية الكبرى</orgName></placeName></placeName> و<placeName xml:id="place-WA1263006901-54_06" type="مدرسة" ref="مدرسة-الطب-البشرى">مدرسة الطب البشرى</placeName> بمصر المحروسة
+               وكذا <placeName xml:id="place-WA1263006901-54_07" type="اسبتالية" ref="اسبتالية-ناحية-طحطا">اسبتالية <placeName xml:id="place-WA1263006901-54_08" type="ناحية" ref="ناحية-طحطا">ناحية طحطا</placeName></placeName> بالاقليم
+               القبلى فصرف فى تلك العمارات من طرف الميرى مبلغ مائة وستة وتسعين كيسا وثلاثمائة قرش
+               وستة قروش وثمانية وعشرين نصفا فضه.</p>
+         </div>
+         <div xml:id="WA1263007001-55" resp="#eSG">
+            <head><date when-custom="1263-07-08">٨ رجب ١٢٦٣</date>
+               <date when="1847-06-22">٢٢ يونيو ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٧٠</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head>الحوادث الداخليه</head>
+            <p> انه قد ظهر <rs type="حريق">حريق</rs> فى الساعة الثالثة من ليلة السبت الموافق لثامن
+               وعشرى الشهر الماضى بطاحونة واصطبل من المنزل القاطن فيه <persName xml:id="person-WA1263007001-55_01">الحاج محمد بنيس المغربى</persName> الكائن
+                  ب<placeName xml:id="place-WA1263007001-55_01" type="حديقة" ref="حديقة-حسن-بيك-القوللى">حديقة <persName xml:id="person-WA1263007001-55_02">حسن
+                     بيك القوللى</persName></placeName> المجاورة ل<orgName xml:id="org-WA1263007001-55_01" type="قراقول" ref="قراقول-الناصرية">قراقول
+                  الناصرية</orgName> بمصر المحروسة واذ كانت تلك الحديقة مجاورة ل<placeName xml:id="place-WA1263007001-55_02" type="حديقة" ref="حديقة-على-افندى-علوى-القائمقام-خازن-ديوان-المدارس">حديقة <persName xml:id="person-WA1263007001-55_03" role="قائمقام">على افندى علوى القائمقام خازن
+                        <orgName xml:id="org-WA1263007001-55_02" type="ديوان" ref="ديوان-المدارس">ديوان المدارس</orgName></persName></placeName> الجارية فى ملكه التى هى محل
+               اقامته حصل ان الافندى المومى اليه بادر الى فتح <placeName xml:id="place-WA1263007001-55_03" type="باب" ref="باب-الناصرية">باب
+                  الناصرية</placeName> واستطحب اتباعه وضابط القراقول مع بعض اشخاص من عسكره
+                  و<persName xml:id="person-WA1263007001-55_04" role="ناظر">عبد القادر افندى
+                  الصاغقول ناظر <orgName xml:id="org-WA1263007001-55_03" ref="مدرسة المبتدئين" type="مدرسة">مدرسة المبتدئين</orgName></persName> مع السقائين وسائر خدمه وأسرع
+               الى محل الحريق وارسل فى الحال الى طلومبة <placeName xml:id="place-WA1263007001-55_04" type="قصر" ref="قصر-العينى">قصر العينى</placeName> فجلبها وكانت النار قد اشتعلت
+               بوجه شديد ولكنها بسبب ما حصل من الغيرة لم تستمر لانتهاء الساعة الرابعة بل تيسر
+               اطفاؤها بسرعة ولم تضر بما عدا المحل الذى ظهرت منه ولم يضع شئ للمغربى المذكور.</p>
+         </div>
+         <div xml:id="WA1263007101-56" resp="#eSG">
+            <head><date when-custom="1263-07-15">١٥ رجب ١٢٦٣</date>
+               <date when="1847-06-29">٢٩ يونيو ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٧١</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head>الحوادث الداخليه</head>
+            <p>ان مجرى المياه المختصة ب<placeName xml:id="place-WA1263007101-56_01" type="جامع" ref="الجامع-الازهر">الجامع
+                  الازهر</placeName> الذى هو منبع العلم والكمال الابهر قد احتاجت الى التعمير فتعلقت
+               الارادة الخديوية العليه ذات المكارم السنية الجليله بتعميرها وترميمها <choice>
+                  <corr>من</corr>
+               </choice> طرف الميرى كما يجب.</p>
+         </div>
+         <div xml:id="WA1263007102-57" resp="#eSG">
+            <head><date when-custom="1263-07-15">١٥ رجب ١٢٦٣</date>
+               <date when="1847-06-29">٢٩ يونيو ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٧١</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <p>ان <placeName xml:id="place-WA1263007102-57_01" type="منزل" ref="منزل-السيد-محمود-شيخ-طائفة-العقادين">منزل السيد <persName xml:id="person-WA1263007102-57_01" role="شيخ طائفة">محمود شيخ طائفة
+                     العقادين</persName></placeName> الكائن ب<placeName xml:id="place-WA1263007102-57_02" type="حارة" ref="حارة-الجؤذريه">حارة
+                  الجؤذريه</placeName> فى مصر المحروسة بجوار <orgName xml:id="org-WA1263007102-57_01" type="سوق" ref="سوق-المؤيد"><placeName xml:id="place-WA1263007102-57_03" type="سوق" ref="سوق المؤيد">سوق
+                     المؤيد</placeName></orgName> تشتمل طبقته العليا على احدى عشرة اوده وحمامين
+               وثلاث فسحات بملاقف ومطبخ وكلار والسفلى على ثلاث مناظر ثنتان كبيرتان والثالثة صغيرة
+               وفسحة واصطبل يسع اربعا من المواشى وطاحونة وحوش سماوى وبئر وفيه داخل باب الحريم حوش
+               آخر وجامكاه وحديقة صغيرة ومنظرة ذات فسقية وثلاث اود كلار ومطبخ وبئر وهو معرض للبيع
+               فمن طلبه فليسال عنه من دلال باشى المذكور.</p>
+         </div>
+         <div xml:id="WA1263007301-58" resp="#eSG">
+            <head><date when-custom="1263-07-29">٢٩ رجب ١٢٦٣</date>
+               <date when="1847-06-29">٢٩ يونيو ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٧٣</biblScope>
+                  <biblScope unit="page ">صفحة ١-٢</biblScope></bibl></head>
+            <head>الحوادث الداخليه</head>
+            <p>لما كانت كتابة اسماء الازقة بمصر المحروسة على محل يناسبها فوق زواياها وتنمير البيوت
+               كبيرة كانت او صغيرة برقم نمرها على اعلى ابوابها او بجانبها كأسلوب أوروبا مما يستوجب
+               المنافع العظيمة للمملكة ويورث السهولة لمن يقصد زقاقا اوبيتا سوآء أكان من الاهالى ام
+               من الاجنب استقر الرأى ب<orgName xml:id="org-WA1263007301-58_01" type="مجلس" ref="مجلس-تنظيم-المحروسة">مجلس تنظيم
+                  المحروسة</orgName> على التدابير اللازمة لذلك طبق الارادة السنية واندرج بيانها
+               تفصيلا فى نسخ الوقائع المنمرة بنمرة ٦٤ وحصل فى هذه الايام الشروع فى اجرآء ذلك بدأ من
+                  <placeName xml:id="place-WA1263007301-58_01" type="جادة" ref="جادة-باب-الخلق">جادة باب الخلق</placeName> بمقتضى
+               الترتيب الآتى ذكره ادناه وهو خمسة عشر بندا.</p>
+            <div>
+               <p>(البند الاول) انه حيث كان <placeName xml:id="place-WA1263007301-58_02" type="خليج" ref="خليج-مصر-المحروسة">خليج مصر
+                     المحروسة</placeName> مارا من وسطها تقريبا وكان <placeName xml:id="place-WA1263007301-58_03" ref="باب-الخلق">باب
+                     الخلق</placeName> متصلا بالخليج المذكور ومركزا لمصر المحروسة استنسب الجادة
+                  الممتدة من باب الخلق الى <placeName xml:id="place-WA1263007301-58_04" type="قلعة" ref="القلعة">القلعة</placeName>
+                  التى تسمى ب<placeName xml:id="place-WA1263007301-58_05" type="شارع" ref="شارع-القلعة">شارع القلعة</placeName> ويكتب
+                  على رأس زوايا تلك الطريق اسم شارع القلعة وتكتب نمر البيوت الكائنة هنالك على ارض
+                  بيضاء بمداد اسود يحيط بها برواز لونه كلون مداد الاحرف وتنمر البيوت التى عن يمين
+                  المار بباب الخلق بنمرة الوتر والتى عن يساره بنمرة الشفع اى تكون التى فى الجهة
+                  اليمنى غير مزدوجة والتى فى الجهة اليسرى مزدوجة الى انتهائها ب<placeName xml:id="place-WA1263007301-58_06" type="ناحية" ref="ناحية-القلعة">ناحية القلعة</placeName>.</p>
+            </div>
+            <div>
+               <p>(البند الثانى ) ان تسمى الطريق الممتدة من باب الخلق الى <placeName xml:id="place-WA1263007301-58_07" ref="مبرك-النوق">مبرك النوق</placeName> المعبر عنه الآن ب<placeName xml:id="place-WA1263007301-58_08" ref="باب-اللوق">باب اللوق</placeName> ب<placeName xml:id="place-WA1263007301-58_09" type="شارع" ref="شارع-باب-اللوق">شارع باب اللوق</placeName> ويبتدأ بالنمر من باب الخلق على
+                  الوجه المشروح بالنسق المذكور فى الاحرف والبروز والارض.</p>
+            </div>
+            <div>
+               <p>(البند الثالث ) ان الجادة الممتدة من <placeName xml:id="place-WA1263007301-58_10" type="باب" ref="باب-السيدة-زينب-البرانى">باب السيدة زينب البرانى</placeName> الى غاية <placeName xml:id="place-WA1263007301-58_11" type="قرقول" ref="قرقول باب الخلق"><orgName xml:id="org-WA1263007301-58_02" type="قرقول" ref="قرقول-باب-الخلق">قرقول باب الخلق</orgName></placeName> تسمى ب<placeName xml:id="place-WA1263007301-58_12" type="شارع" ref="شارع-السيدة-زينب">شارع السيدة زينب</placeName> ويكون لون ارض لوحتها اصفر
+                  ولون احرفها وبروازها احمر.</p>
+            </div>
+            <div>
+               <p>(البند الرابع) ان الطريق الممتدة من باب الخلق الى <placeName xml:id="place-WA1263007301-58_13" type="زاوية" ref="زاوية-الموسكى">زاوية الموسكى</placeName> تسمى ب<placeName xml:id="place-WA1263007301-58_14" type="شارع" ref="شارع-باب-الخلق">شارع باب الخلق</placeName> ويكون لون احرفها احمر كذلك وارض
+                  لوحتها صفرآء.</p>
+            </div>
+            <div>
+               <p>(البند الخامس) ان الجادة التى من <placeName xml:id="place-WA1263007301-58_15" type="زاوية" ref="زاوية الموسكى">زاوية
+                     الموسكى</placeName> الى غاية <placeName xml:id="place-WA1263007301-58_16" type="باب" ref="باب-العدوى">باب
+                     العدوى</placeName> تسمى ب<placeName xml:id="place-WA1263007301-58_17" type="شارع" ref="شارع-الشعرانى">شارع
+                     الشعرانى</placeName> وتكون احرفها حمرآء ايضا وارض لوحتها صفرآء.</p>
+            </div>
+            <div>
+               <p>(البند السادس ) ان الطريق الممتدة من <placeName xml:id="place-WA1263007301-58_18" type="قرقول" ref="قرقول السيدة زينب"><orgName xml:id="org-WA1263007301-58_03" type="قرقول" ref="قرقول-السيدة-زينب">قرقول السيدة
+                        زينب</orgName></placeName> الى <placeName xml:id="place-WA1263007301-58_19" ref="القلعة">القلعة</placeName>
+                  تسمى ب<placeName xml:id="place-WA1263007301-58_20" type="شارع-الرميلة" ref="شارع-الرميلة">شارع الرميلة</placeName>
+                  وتكون احرفها وبروازها بالمداد الاسود وارضها بيضاء.</p>
+            </div>
+            <div>
+               <p>(البند السابع) ان الجادة الذاهبة من <placeName xml:id="place-WA1263007301-58_21" type="قرقول" ref="قرقول الصليبة"><orgName xml:id="org-WA1263007301-58_04" type="قرقول" ref="قرقول-الصليبة">قرقول
+                     الصليبة</orgName></placeName> الى <placeName xml:id="place-WA1263007301-58_22" type="باب" ref="باب-زويلة">باب
+                     زويلة</placeName> تسمى ب<placeName xml:id="place-WA1263007301-58_23" type="شارع" ref="شارع-الصليبة">شارع
+                     الصليبة</placeName> ويكون لون خطها وبروازها احمر وارضها صفرآء.</p>
+            </div>
+            <div>
+               <p>(البند الثامن) ان الطريق الممتدة من <placeName xml:id="place-WA1263007301-58_24" ref="السيدة-نفيسه">السيدة
+                     نفيسه</placeName> الى <placeName xml:id="place-WA1263007301-58_25" type="قرقول" ref="قرقول الصليبة">قرقول
+                     الصليبة</placeName> تسمى ب<placeName xml:id="place-WA1263007301-58_26" type="شارع" ref="شارع-السيدة-نفيسه">شارع
+                     السيدة نفيسه</placeName> ويكون لون خطها وبروازها احمر وارضها صفرآء.</p>
+            </div>
+            <div>
+               <p>(البند التاسع) ان الجادة الممتدة من <placeName xml:id="place-WA1263007301-58_27" ref="باب زويله">باب
+                     زويله</placeName> الى <placeName xml:id="place-WA1263007301-58_28" type="سبيل" ref="سبيل-الجماليه">سبيل
+                     الجماليه</placeName> تسمى ب <placeName xml:id="place-WA1263007301-58_29" type="شارع" ref="شارع-الغورى">شارع
+                     الغورى</placeName> ويكون لون خطها وبروازها احمر وارضها صفرآء.</p>
+            </div>
+            <div>
+               <p>(البند العاشر) ان الطريق الممتدة من سبيل الجمالية الى <placeName xml:id="place-WA1263007301-58_30" type="باب" ref="باب-الفتوح">باب الفتوح</placeName> يعبر عنها ب<placeName xml:id="place-WA1263007301-58_31" type="شارع" ref="شارع-باب-الفتوح">شارع باب الفتوح</placeName> ويكون لون خطها وبروازها احمر
+                  وارضها صفرآء ايضا.</p>
+            </div>
+            <div>
+               <p>(البند الحادى عشر) ان الجادة التى من السبيل المذكور الى <placeName xml:id="place-WA1263007301-58_32" type="باب" ref="باب-النصر">باب النصر</placeName> تسمى ب<placeName xml:id="place-WA1263007301-58_33" type="شارع" ref="شارع-باب-النصر">شارع باب النصر</placeName> ويكون لون خطها وبروازها احمر وارضها
+                  صفرآء.</p>
+            </div>
+            <div>
+               <p>(البند الثانى عشر ) ان الجادة الكائنة من <placeName xml:id="place-WA1263007301-58_34" type="قرقول" ref="قرقول باب الشعرية"><orgName xml:id="org-WA1263007301-58_05" type="قرقول" ref="قرقول-باب-الشعرية">قرقول باب
+                        الشعرية</orgName></placeName> الى <placeName xml:id="place-WA1263007301-58_35" type="باب" ref="الباب-الجديد">الباب الجديد</placeName> يعبر عنها ب<placeName xml:id="place-WA1263007301-58_36" type="شارع" ref="شارع-الباب-الجديد">شارع الباب الجديد</placeName> ويكون لون خطها وبروازها
+                  اسود.</p>
+            </div>
+            <div>
+               <p>(البند الثالث عشر) ان الطريق التى من القرقول المذكور الى باب الفتوح يسمى
+                     ب<placeName xml:id="place-WA1263007301-58_37" type="شارع" ref="شارع-مرجوش">شارع مرجوش</placeName> ويكون لون خطها
+                  وبروازها اسود.</p>
+            </div>
+            <div>
+               <p>(البند الرابع عشر) ان الطريق الممتدة من <placeName xml:id="place-WA1263007301-58_38" type="زاوية" ref="زاوية الموسكى">زاوية الموسكى</placeName> الى <placeName xml:id="place-WA1263007301-58_39" ref="الاسبتالية الملكية"><orgName xml:id="org-WA1263007301-58_06" type="اسبتالية" ref="الاسبتالية_الملكية">الاسبتالية
+                        الملكية</orgName></placeName> الكائنة ب<placeName xml:id="place-WA1263007301-58_40" ref="الازبكية">الازبكية</placeName> تسمى ب<placeName xml:id="place-WA1263007301-58_41" type="شارع" ref="شارع-الموسكى">شارع
+                     الموسكى</placeName> ويكون لون خطها وبروازها اسود.</p>
+            </div>
+            <div>
+               <p>(البند الخامس عشر) ان الطريق الممتدة من <placeName xml:id="place-WA1263007301-58_42" type="شارع" ref="شارع باب الخلق">شارع باب الخلق</placeName> الى <placeName xml:id="place-WA1263007301-58_43" type="شارع" ref="شارع الغورى">شارع الغورى</placeName> تسمى ب<placeName xml:id="place-WA1263007301-58_44" type="شارع" ref="شارع-الحمزاوى">شارع الحمزاوى</placeName> ويكون لون خطها وبروازها اسود.</p>
+            </div>
+            <div>
+               <p>ولما كانت الشوارع المحررة اعلاه اذا كتبت اسماؤها على الحيطان يحصل فيها مشقة على من
+                  يكتبها ولا تتحصل بسرعة كما ينبغى بل تطول مدتها ولا يمكن كتبتها مع الراحة بسبب ذهاب
+                  الناس وايابهم فى الازقة ومرور الحيوانات ذوات الاحمال والعربات ايضا استتب ان تحرر
+                  اسماؤها على ألواح ثم تعلق عليها وتسمر بالمسامير ومن حيث ان نمر البيوت ليست
+                  بالمثابة المذكورة لزم ان تكون كتابتها فوق الابواب او بجانبها حسب الاقتضاء واذ كانت
+                  النمر المذكورة ترتب على قدر طول الشوارع كما ذكر من المعلوم ان كل شارع منها يشتمل
+                  على محلات كثيرة مسميات باسماء مشهورة استنسب ان تكون كتابة اسم الشارع المشتمل على
+                  النمر فى ألواح الزوايا بخط جلى وان يكتب اسم المحل تحته بخط رفيع بالنسبة اليه حتى
+                  ان كل من نظر الى اللوحة يعلم اسم المحل الذى هو فيه.</p>
+            </div>
+         </div>
+         <div xml:id="WA1263007302-59" resp="#eSG" n="RUZNAME">
+            <head><date when-custom="1263-07-29">٢٩ رجب ١٢٦٣</date>
+               <date when="1847-06-29">٢٩ يونيو ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٧٣</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <p>ان <placeName xml:id="place-WA1263007302-59_01" type="بيت" ref="بيت-احمد-على-افندى">بيت احمد على افندى</placeName>
+               الكائن ب<placeName xml:id="place-WA1263007302-59_02" type="درب" ref="درب-الجماميز">درب الجماميز</placeName> قريبا من
+                  <placeName xml:id="place-WA1263007302-59_03" ref="الروزنامة"><orgName xml:id="org-WA1263007302-59_01" ref="الروزنامة">الروزنامة</orgName></placeName> تشتمل طبقته العليا على ثنتين وعشرين اودة ومطبخ
+               وكلار والسفلى على ثمانية حواصل واصطبلين يسع كل واحد منهما ستا من المواشى وفيه حديقة
+               صغيرة ومنظرة ذات فسقية واودة سلاملك بعمود من المرمر وفيه بئران احدهما فمها متصل
+               بالطبقة العليا والاخرى ارضية على العادة وله طاحونة وحوش سماوى وقد بلغ ثمنه سبعين كيسا
+               يراد بيعه على ذمته فمن كان له رغبة فيه فليستدل عليه من الدلال المذكور.</p>
+         </div>
+         <div xml:id="WA1263007401-60" resp="#eSG">
+            <head><date when-custom="1263-08-06">٦ شعبان ١٢٦٣</date>
+               <date when="1847-07-20">٢٠ يوليو ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٧٤</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <p>ان مخبزا قريبا من <placeName xml:id="place-WA1263007401-60_01" type="جامع" ref="الجامع-الاحمر">الجامع
+                  الاحمر</placeName> ب<placeName xml:id="place-WA1263007401-60_02" type="خط" ref="خط-الازبكيه">خط الازبكيه</placeName>
+               يحتوى على ست طواحين وفرنين واصطبل يسع عشر مواشى واربعة مخازن وانبار لتنشيف البقسماط
+               وثلاث اود للغلال وبئر وهو متعلق بمالكته المشمولة بوكالة <persName xml:id="person-WA1263007401-60_01">السيد مصطفى الكتبى
+                  الدواياتى</persName> وهى تريد بيعه فمن رغب فيه فليسأل عنه من الدلال المذكور.</p>
+         </div>
+         <div xml:id="WA1263007501-61" resp="#eSG">
+            <head><date when-custom="1263-08-13">١٣ شعبان ١٢٦٣</date>
+               <date when="1848-07-27">٢٧ يوليو ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٧٥</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head><title>الحوادث الداخليه</title></head>
+            <p>لما كانت مصر المحروسة لا تزال تزداد فى الازدهاء *والجمالة والحسن والبهاء * فى ايام
+               ولى النعم * ذات الخير الاعم بما انشئ فيها من الفبريقات العديده * والاماكن المزخرفة
+               المشيده * وكانت آخذه فى اللطافه * والمحاسن والطرافه بما هو متزايد فيها من الكمالات
+               المرعيه * والمحسنات البديعيه حصل ان <orgName xml:id="org-WA1263007501-61_01" type="فبريقه" ref="فبريقة-الورق">فبريقة
+                  الورق</orgName> الكائنه خارج <placeName xml:id="place-WA1263007501-61_01" type="باب" ref="باب-الحسينيه">باب
+                  الحسينيه</placeName> * فى مصر المحروسة السنيه * التى تركت اشغالها منذ مده * بسبب
+               ادارتها بالدواب والمواشى المعده * وعدم اجتناء ثمرات شغلها المأمول * جلب لها من بلاد
+               اوروبا ما لزم من الآلات التى توافق ما استجد من الاصول * بحيث يمكن ان يصنع فيها الورق
+               المرغوب * على حسب القياس المطلوب * واحضر سائر الادوات اللازمة لذلك * مع الاستاذ
+               الماهر فيما هنالك * وقد صنعت آلات الوابور * اللازم لادارة العمل المذكور * فى الورشة
+               الكائنة ب<placeName xml:id="place-WA1263007501-61_02" ref="بولاق">بولاق</placeName> المخصصة للعمليات * وحصل تركيب تلك
+               الآلات والادوات.</p>
+         </div>
+         <div xml:id="WA1263007502-62" resp="#eSG">
+            <head><date when-custom="1263-08-13">١٣ شعبان ١٢٦٣</date>
+               <date when="1847-07-27">٢٧ يوليو ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٧٥</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><title>اعلانات</title></head>
+            <p>ان بيتا كائنا ب<placeName xml:id="place-WA1263007502-62_01" type="خط" ref="خط-عابدين">خط عابدين</placeName> يتعلق بمالكته المسماة <persName xml:id="person-WA1263007502-62_01" role="مالك">حنيفه</persName> تشتمل طبقته العليا
+               على خمس اود ومطبخ وكلارين وحمام والسفلى تشتمل على مقعد السلاملك ذى عمود وعلى منظرة
+               صغيرة وحاصلين واصطبل يسع ثلاثا من المواشى وبئر وحوش مكشوف يراد بيعه بمعرفة وكيلها
+                  <persName xml:id="person-WA1263007502-62_02" role="وكيل">محمد الجنيدى</persName>
+               فمن اراده فليستدل عليه من السيد <persName xml:id="person-WA1263007502-62_03" role="دلال باشى">مصطفى دلال باشى</persName>.</p>
+            <p> ان بيتا كائنا ب<placeName xml:id="place-WA1263007502-62_02" type="حارة" ref="حارة-السبع-قاعات">حارة السبع
+                  قاعات</placeName> فى <placeName xml:id="place-WA1263007502-62_03" type="خط" ref="خط-الحمزاوى">خط
+                  الحمزاوى</placeName> يتعلق ب<persName xml:id="person-WA1263007502-62_04">السيد على الزيات</persName> طبقته العليا
+               فيها ست اود وحمام ومطبخ وكلار والسفلى فيها منظرة وتختبوش وحاصل واصطبل يسع حيوانا
+               واحدا وطاحونة وبئر وحوش صغير مكشوف وقد بلغ ثمنه خمسا وعشرين كيسا فمن كان له رغبة فيه
+               فليستدل عليه من دلال باشى المذكور.</p>
+         </div>
+         <div xml:id="WA1263007601-63" resp="#eSG">
+            <head><date when-custom="1263-08-20">٢٠ شعبان ١٢٦٣</date>
+               <date when="1847-08-03">٣ اغسطس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٧٦</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <p>ان بيتا كائنا ب<placeName xml:id="place-WA1263007601-63_01" type="حارة" ref="حارة-الاستاذ-الرفاعى">حارة الاستاذ
+                  الرفاعى</placeName> فى <placeName xml:id="place-WA1263007601-63_02" type="خط" ref="خط-سوق-السلاح">خط سوق
+                  السلاح</placeName> يتعلق ب<persName xml:id="person-WA1263007601-63_01" role="اوستى">الاوستى وهبه السروجى</persName>
+               طبقته العليا تشتمل على ست اود ومطبخ والسفلى على حاصل وحوش صغير واصطبل يسع حصانا وهو
+               معرض للبيع وقد بلغ ثمنه سبعة اكياس فمن كان له رغبة فيه فليستدل عليه من السيد
+                  <persName xml:id="person-WA1263007601-63_02" role="دلال باشى">مصطفى دلال باشى</persName>.</p>
+            <p>ان بيتا كائنا ب<placeName xml:id="place-WA1263007601-63_03" type="حارة" ref="حارة-الاستاذ-التمار">حارة الاستاذ
+                  التمار</placeName> فى <placeName xml:id="place-WA1263007601-63_04" type="خط" ref="خط-باب-الشعريه">خط باب
+                  الشعريه</placeName> بطبقته العليا ثلاث اود ومطبخ وحمام وبالسفلى منظرة صغيرة وبئر
+               وحوش يراد بيعه وقد بلغ ثمنه ستة اكياس فمن كان يريده فليسأل عنه من دلال باشى
+               المذكور.</p>
+         </div>
+         <div xml:id="WA1263007701-64" resp="#eSG">
+            <head><date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣</date>
+               <date when="1847-08-10">١٠ اغسطس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٧٧</biblScope>
+                  <biblScope unit="page">صفحة ١-٢</biblScope></bibl></head>
+            <head>الحوادث الداخليه</head>
+            <p>لما كان من مقتضيات الارادة السنية اتمام قضية تنمير البيوت التى فى مصر المحروسة ثم
+               تنمير البيوت التى فى الازقة الآتى ذكرها بسبب ما حصل من شطارة المأمورين والعملة الذين
+               عينوا لذلك وشرع فى وضع نمر ما بقى من البيوت وعند انتهائها يدرج ذكرها فى الوقائع ليكون
+               معلوما للعامة </p>
+            <div>
+               <p>البند السادس عشر ان الجادة الممتدة من <placeName xml:id="place-WA1263007701-64_01" type="قنطرة" ref="قنطرة-السيدة-زينب">قنطرة السيدة زينب</placeName> الى <placeName xml:id="place-WA1263007701-64_02" type="باب" ref="باب-حارة-الزير-المعلق">باب <placeName xml:id="place-WA1263007701-64_03" type="حارة" ref="حارة-الزير-المعلق">حارة الزير المعلق</placeName></placeName> الكائن بآخر <placeName xml:id="place-WA1263007701-64_04" type="شارع" ref="شارع-درب-الحجر">شارع درب الحجر</placeName> تسمى ب<placeName xml:id="place-WA1263007701-64_05" type="شارع" ref="شارع-الناصرية">شارع الناصرية</placeName> وتكتب نمرتها بالمداد
+                  الاحمر.</p>
+            </div>
+            <div>
+               <p>البند السابع عشر ان الطريق الممتدة من <placeName xml:id="place-WA1263007701-64_06" type="قنطرة" ref="قنطرة-سنقر">قنطرة سنقر</placeName> الى باب الزير المعلق تسمى بشارع درب الحجر وتكون نمرتها
+                  سودآء</p>
+            </div>
+            <div>
+               <p>البند الثامن عشر ان الطريق التى من <placeName xml:id="place-WA1263007701-64_07" type="باش-قرقول" ref="باش قرقول سويقة السباعين"><orgName xml:id="org-WA1263007701-64_01" type="باش-قرقول" ref="باش-قرقول-سويقة-السباعين">باش
+                        قرقول سويقة السباعين</orgName></placeName> ب<placeName xml:id="place-WA1263007701-64_08" type="شارع" ref="شارع-الناصرية">شارع الناصرية</placeName> الى <placeName xml:id="place-WA1263007701-64_09" type="حارة" ref="حارة-السقائين">حارة السقائين</placeName> تسمى ب<placeName xml:id="place-WA1263007701-64_10" type="شارع" ref="شارع-درب-الحمام">شارع درب الحمام</placeName> وتكتب نمرتها بالمداد الاسود.</p>
+            </div>
+            <div>
+               <p>البند التاسع عشر ان الطريق التى من <placeName xml:id="place-WA1263007701-64_11" ref="باب الزير المعلق">باب الزير
+                     المعلق</placeName> الكائن ب<placeName xml:id="place-WA1263007701-64_12" type="درب" ref="درب الحجر">درب
+                     الحجر</placeName> الى <placeName xml:id="place-WA1263007701-64_13" type="بيت" ref="بيت-شربتجى-باشا">بيت
+                        <persName xml:id="person-WA1263007701-64_01">شربتجى باشا</persName></placeName> تسمى ب<placeName xml:id="place-WA1263007701-64_14" type="سكة" ref="سكة-الزير-المعلق">سكة الزير المعلق</placeName> وتكون نمرتها بالمداد
+                  الاحمر.</p>
+            </div>
+            <div>
+               <p>البند المتمم للعشرين ان الطريق التى ابتدآؤها <placeName xml:id="place-WA1263007701-64_15" type="شارع" ref="عابدين">شارع درب الحجر</placeName> المارة من <placeName xml:id="place-WA1263007701-64_16" ref="باب-اللوق">عابدين</placeName> المنتهية الى <placeName xml:id="place-WA1263007701-64_17" type="شارع" ref="شارع-عابدين">باب
+                     اللوق</placeName> تسمى ب<placeName xml:id="place-WA1263007701-64_18" type="شارع" ref="شارع-باب-اللوق">شارع
+                     عابدين</placeName> ونمرتها تكون حمرآء.</p>
+            </div>
+            <div>
+               <p>البند الحادى والعشرون ان الجادة الممتدة من <placeName xml:id="place-WA1263007701-64_19" type="بيت" ref="بيت-حضرة-الباشا-مدير-المالية">شارع باب اللوق</placeName> المارة تجاه <placeName xml:id="place-WA1263007701-64_20" type="بيت" ref="الجبانة">بيت حضرة الباشا مدير
+                     المالية</placeName> المنتهية الى <placeName xml:id="place-WA1263007701-64_21" type="شارع" ref="شارع-البيدق">الجبانة</placeName>
+                  تسمى ب<placeName xml:id="place-WA1263007701-64_22" type="باب" ref="باب-الخوخة">شارع البيدق</placeName> ونمرتها
+                  تكون حمرآء.</p>
+            </div>
+            <div>
+               <p>البند الثانى والعشرون ان الطريق التى تمتد من <placeName xml:id="place-WA1263007701-64_23" type="شارع" ref="شارع-البلاسقة">باب الخوخة</placeName> الى <placeName xml:id="place-WA1263007701-64_24" type="باب" ref="باب-درب-ابى-الليف">شارع باب اللوق</placeName> تسمى ب<placeName xml:id="place-WA1263007701-64_25" type="درب" ref="درب-ابى-الليف">شارع البلاسقة</placeName> ونمرتها تكون حمرآء.</p>
+            </div>
+            <div>
+               <p>البند الثالث والعشرون ان الطريق الممتدة من <placeName xml:id="place-WA1263007701-64_26" type="شارع" ref="شارع-الشيخ-ريحان">باب <placeName xml:id="place-WA1263007701-64_27" type="شارع" ref="شارع-حارة-السقائين">درب ابى
+                        الليف</placeName></placeName> الى <placeName xml:id="place-WA1263007701-64_28" type="شارع" ref="شارع-الناصرية">شارع الشيخ ريحان</placeName> تسمى ب<placeName xml:id="place-WA1263007701-64_29" type="باب" ref="باب-حارة-السقائين">شارع حارة السقائين</placeName> ونمرتها
+                  تكون حمرآء.</p>
+            </div>
+            <div>
+               <p>البند الرابع و العشرون ان الطريق الممتدة من درب باب ابى الليف ب<placeName xml:id="place-WA1263007701-64_30" type="شارع" ref="شارع-ابى-الليف">شارع الناصرية</placeName> الى <placeName xml:id="place-WA1263007701-64_31" type="شارع" ref="شارع-الاستاذ-الحنفى">باب حارة السقائين</placeName> تسمى
+                     ب<placeName xml:id="place-WA1263007701-64_32" type="جادة" ref="جادة-الناصرية">شارع ابى الليف</placeName> وتكون
+                  نمرتها حمرآء.</p>
+            </div>
+            <div>
+               <p>البند الخامس والعشرون ان الجادة الممتدة من <placeName xml:id="place-WA1263007701-64_33" type="درب" ref="درب-القرودى">شارع الاستاذ الحنفى</placeName> الى <placeName xml:id="place-WA1263007701-64_34" type="عطفه" ref="عطفه-عمر-شاه">جادة الناصرية</placeName> تسمى ب<placeName xml:id="place-WA1263007701-64_35" type="شارع" ref="شارع-الهياتم">درب القرودى</placeName> ونمرتها تكون حمرآء.</p>
+            </div>
+            <div>
+               <p> البند السادس والعشرون ان الطريق الممتدة من قنطرة السيدة زينب الى <placeName xml:id="place-WA1263007701-64_36" type="شارع" ref="شارع-سويقة-اللالا">عطفه عمر شاه</placeName> الموصلة الى <placeName xml:id="place-WA1263007701-64_37" type="شارع" ref="شارع-الحنفى">شارع الهياتم</placeName> ودرب القرودى تسمى
+                     ب<placeName xml:id="place-WA1263007701-64_38" type="سبيل" ref="سبيل-الخليج">شارع سويقة اللالا</placeName>
+                  والطريق الممتدة من المحل المذكور الى جادة الناصرية تسمى ب<placeName xml:id="place-WA1263007701-64_39" type="قنطرة" ref="قنطرة-عمر-شاه">شارع الحنفى</placeName> وتكون نمر هذه الطرق
+                  بالمداد الاحمر والطريق التى من جادة الحنفى الى <placeName xml:id="place-WA1263007701-64_40" type="شارع" ref="شارع-الدرب-الجديد">سبيل الخليج</placeName> تسمى ب<placeName xml:id="place-WA1263007701-64_41" type="شارع" ref="شارع-عمر-شاه">شارع الهياتم</placeName> وتكون نمرتها سودآء.</p>
+            </div>
+            <div>
+               <p>البند السابع والعشرون ان الطريق الممتدة من <placeName xml:id="place-WA1263007701-64_42" type="جادة" ref="جادة-درب-الجماميز">قنطرة عمر شاه</placeName> الى <placeName xml:id="place-WA1263007701-64_43" type="عطفة" ref="عطفة-كوراوغلى">شارع الدرب الجديد</placeName> تسمى ب<placeName xml:id="place-WA1263007701-64_44" type="شارع" ref="شق-العرسة">شارع عمر شاه</placeName> وتكون نمرتها سودآء.</p>
+            </div>
+            <div>
+               <p>البند الثامن والعشرون ان الطريق الممتدة من <placeName xml:id="place-WA1263007701-64_45" type="عطفة" ref="عطفة-الشيخ-السادات">جادة درب الجماميز</placeName> الى <placeName xml:id="place-WA1263007701-64_46" type="قنطرة" ref="قنطرة-درب-الجماميز">عطفة كوراوغلى</placeName> تسمى ب<placeName xml:id="place-WA1263007701-64_47" type="شارع" ref="شارع-خليل-طينة">شق
+                     العرسة</placeName> ونمرتها تكون سودآء.</p>
+            </div>
+            <div>
+               <p>البند التاسع والعشرون ان الطريق التى تمتد من جادة حضرة السيدة زينب الى <placeName xml:id="place-WA1263007701-64_48" type="شارع" ref="شارع-السيدة-زينب">عطفة الشيخ السادات</placeName> تسمى بعطفة
+                  كوراوغلى ونمرتها تكون سودآء.</p>
+            </div>
+            <div>
+               <p>البند المتمم للثلاثين أن الجادة التى تمتد من <placeName xml:id="place-WA1263007701-64_49" type="بيت" ref="بيت-الشيخ-السادات">قنطرة درب الجماميز</placeName> الى شارع الحنفى تسمى ب<placeName xml:id="place-WA1263007701-64_50" type="بركة" ref="بركة-الفيل">شارع خليل طينة</placeName> وتكون نمرتها
+                  سودآء.</p>
+            </div>
+            <div>
+               <p>البند الحادى والثلاثون أن الطريق الممتدة من <placeName xml:id="place-WA1263007701-64_51" type="شارع" ref="شارع-السادات">شارع السيدة زينب</placeName> المارة نحو <placeName xml:id="place-WA1263007701-64_52" type="مسجد" ref="مسجد-السيدة-زينب">بيت الشيخ السادات</placeName> المنتهية الى
+                     <placeName xml:id="place-WA1263007701-64_53" type="بركة" ref="الخليج">بركة الفيل</placeName> تسمى ب<placeName xml:id="place-WA1263007701-64_54" type="شارع" ref="حارة-السيدة-زينب">شارع السادات</placeName> وتكون نمرتها سودآء</p>
+            </div>
+            <div>
+               <p>البند الثانى والثلاثون ان الجادة المبتدأة من امام <placeName xml:id="place-WA1263007701-64_55" type="عطفة" ref="عطفة-قرى-على">مسجد السيدة زينب</placeName> الممتدة الى الجهة الغربية
+                  من <placeName xml:id="place-WA1263007701-64_56" type="شارع" ref="شارع-الخليج">الخليج</placeName> تسمى ب<placeName xml:id="place-WA1263007701-64_57" type="قنطرة" ref="قنطرة-الذى-كفر">حارة السيدة زينب</placeName> ونمرتها تكون سودآء.</p>
+            </div>
+            <div>
+               <p>البند الثالث والثلاثون أن الطريق الممتدة من جانب <placeName xml:id="place-WA1263007701-64_58" type="شارع" ref="شارع-عابدين">قنطرة سنقر</placeName> الى <placeName xml:id="place-WA1263007701-64_59" type="عطفة" ref="شارع-رحبة-عابدين">عطفة قرى على</placeName> بجوار الخليج تسمى ب<placeName xml:id="place-WA1263007701-64_60" type="باب" ref="باب-حارة-النصارى">شارع الخليج</placeName> ونمرتها تكون حمرآء.</p>
+            </div>
+            <div>
+               <p>البند الرابع والثلاثون أن الطريق المبتدأة من الباب المحاذى ل<placeName xml:id="place-WA1263007701-64_61" type="حارة" ref="حارة-النصارى">قنطرة الذى كفر</placeName> منتهية الى
+                     <placeName xml:id="place-WA1263007701-64_62" type="سوق" ref="سوق-الجمعة">شارع عابدين</placeName> تسمى
+                     ب<placeName xml:id="place-WA1263007701-64_63" type="سويقة" ref="سويقة-السباعين">شارع رحبة عابدين</placeName> ونمرتها تكون
+                  سودآء.</p>
+            </div>
+            <div>
+               <p>البند الخامس والثلاثون أن الطريق المبتدأة من <placeName xml:id="place-WA1263007701-64_64" type="سوق" ref="شارع-سوق-الجمعة">باب <placeName xml:id="place-WA1263007701-64_65" type="عطفة" ref="عطفة-الفقوشة">حارة
+                        النصارى</placeName></placeName> المارة من <placeName xml:id="place-WA1263007701-64_66" type="شارع" ref="شارع-السيدة-نفسيه">سوق الجمعة</placeName> الممتدة الى <placeName xml:id="place-WA1263007701-64_67" type="سوق" ref="سوق-العصر">سويقة السباعين</placeName> ب<placeName xml:id="place-WA1263007701-64_68" type="جادة" ref="جادة-طيلون">جادة الناصرية</placeName> تسمى ب<placeName xml:id="place-WA1263007701-64_69" type="شارع" ref="شارع-درب-الحصر">شارع سوق الجمعة</placeName> وتكتب نمرتها بالمداد الاسود.</p>
+            </div>
+            <div>
+               <p>البند السادس والثلاثون أن الطريق الممتدة من باب حارة النصارى الكائن بشارع سوق
+                  الجمعة المتصل بقنطرة سنقر تسمى بحارة النصارى ونمرتها تكون حمرآء.</p>
+            </div>
+            <div>
+               <p>البند السابع والثلاثون ان الطريق الممتدة من <placeName xml:id="place-WA1263007701-64_70" type="شارع" ref="شارع-طيلون">الباب
+                     القريب</placeName> من درب الجماميز الى شارع سوق الجمعة تسمى ب<placeName xml:id="place-WA1263007701-64_71" type="شارع" ref="شارع-الرمايلة">سوق مسكة</placeName> ونمرتها تكون حمرآء.</p>
+            </div>
+            <div>
+               <p>البند الثامن والثلاثون ان الزقاق الممتد من شارع الحنفى الى سوق الجمعة يسمى
+                     ب<placeName xml:id="place-WA1263007701-64_72" type="سكة" ref="سكة-بئر-الوطاويط">عطفة الفقوشة</placeName> وتكون نمرته
+                  سودآء.</p>
+            </div>
+            <div>
+               <p>البند التاسع والثلاثون ان الطريق الممتده من <placeName xml:id="place-WA1263007701-64_73" type="شارع" ref="بئر-الوطاويط">شارع السيدة نفيسه</placeName> الى <placeName xml:id="place-WA1263007701-64_74" type="باب" ref="باب-البركة">سوق العصر</placeName> المعادلة ل<placeName xml:id="place-WA1263007701-64_75" type="سكة" ref="سكة-يزبك">جادة طيلون</placeName> تسمى ب<placeName xml:id="place-WA1263007701-64_76" type="عمارة" ref="عمارة-حسن-باشا">شارع درب الحصر</placeName> ونمرتها تكون سودآء.</p>
+            </div>
+            <div>
+               <p>البند المتمم للاربعين ان الطريق الممتدة من <placeName xml:id="place-WA1263007701-64_77" type="جادة" ref="جادة-الصليبة">شارع طيلون</placeName> المنتهية الى <placeName xml:id="place-WA1263007701-64_78" type="بيت" ref="بيت-محمود-بيك">شارع الرمايلة</placeName> تسمى ب<placeName xml:id="place-WA1263007701-64_79" type="سكة" ref="سكة-الشيخ-الظلام">سكة بئر الوطاويط</placeName> ونمرتها تكون حمرآء.</p>
+            </div>
+            <div>
+               <p>البند الحادى والاربعون ان الطريق الممتدة من امام <placeName xml:id="place-WA1263007701-64_80" ref="بئر-الوطاويط">بئر
+                     الوطاويط</placeName> الواصلة الى <placeName xml:id="place-WA1263007701-64_81" type="باب" ref="باب-البركة">باب
+                     البركة</placeName> تسمى ب<placeName xml:id="place-WA1263007701-64_82" type="سكة" ref="سكة-يزبك">سكة
+                     يزبك</placeName> ونمرتها تكون حمرآء.</p>
+            </div>
+            <div>
+               <p>البند الثانى والاربعون ان الطريق الممتدة من <placeName xml:id="place-WA1263007701-64_83" type="عمارة" ref="عمارة-حسن-باشا">عمارة حسن باشا</placeName> المارة على الشيخ الظلام الواصلة
+                  الى <placeName xml:id="place-WA1263007701-64_84" type="جادة" ref="جادة-الصليبة">جادة الصليبة</placeName> قريبا من
+                     <placeName xml:id="place-WA1263007701-64_85" type="بيت" ref="بيت-محمود-بيك">بيت محمود بيك</placeName> تسمى
+                     ب<placeName xml:id="place-WA1263007701-64_86" type="سكة" ref="سكة-الشيخ-الظلام">سكة الشيخ الظلام</placeName>
+                  ونمرتها تكون حمرآء.</p>
+            </div>
+         </div>
+         <div xml:id="WA1263007702-65" resp="#eSG">
+            <head><date when-custom="1263-08-27">٢٧ شعبان ١٢٦٣</date>
+               <date when="1847-08-10">١٠ اغسطس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٧٧</biblScope>
+                  <biblScope unit="page">صفحة ٢</biblScope></bibl></head>
+            <div>
+               <p>البند الثالث والاربعون ان الطريق الممتدة من الحجر المارة امام <placeName xml:id="place-WA1263007702-65_01" type="بيت" ref="بيت-المرحوم-ابراهيم-باشا-يكن">بيت المرحوم <persName xml:id="person-WA1263007702-65_01">ابراهيم
+                        باشا يكن</persName></placeName> الواصلة الى <placeName xml:id="place-WA1263007702-65_02" type="شارع" ref="شارع-سوق-السلاح">شارع سوق السلاح</placeName> تسمى ب<placeName xml:id="place-WA1263007702-65_03" type="سكة" ref="سكة-الكومى">سكة الكومى</placeName> ونمرتها تبتدأ من <placeName xml:id="place-WA1263007702-65_04" type="جادة" ref="جادة-سوق-السلاح">جادة سوق السلاح</placeName> وتكتب بالمداد
+                  الاسود.</p>
+            </div>
+            <div>
+               <p>البند الرابع والاربعون ان الطريق الممتدة من امام <orgName xml:id="org-WA1263007702-65_01" type="قرقول" ref="قرقول-باب-الوزير">قرقول باب الوزير</orgName> الى <placeName xml:id="place-WA1263007702-65_05" type="سكة" ref="سكة الكومى">سكة الكومى</placeName> تسمى ب<placeName xml:id="place-WA1263007702-65_06" type="عطفة" ref="عطفة-الوسنمة">عطفة الوسنمة</placeName> وتكون نمرتها سودآء.</p>
+            </div>
+            <div>
+               <p>البند الخامس والاربعون ان الطريق المبتدأة من <placeName xml:id="place-WA1263007702-65_07" type="شارع" ref="شارع-القلعة">شارع <placeName xml:id="place-WA1263007702-65_08" ref="القلعة">القلعة</placeName></placeName> الممتدة
+                  الى سكة الكومى تسمى ب<placeName xml:id="place-WA1263007702-65_09" type="درب" ref="درب-القزازين">درب
+                     القزازين</placeName> وتكون نمرتها حمرآء.</p>
+            </div>
+            <div>
+               <p>البند السادس والاربعون ان الطريق الممتدة من <placeName xml:id="place-WA1263007702-65_10" type="جامع" ref="جامع-ارسلان">جامع ابراهيم اغا</placeName> الكائن ب<placeName xml:id="place-WA1263007702-65_11" type="درب-شغلان" ref="درب">شارع القلعة</placeName> الى <placeName xml:id="place-WA1263007702-65_12" type="جامع" ref="الدرب-المحروق">جامع ارسلان</placeName> تسمى ب<placeName xml:id="place-WA1263007702-65_13" type="شارع" ref="شارع-النبوية">درب شغلان</placeName> وتنمر بالمداد الاحمر.</p>
+            </div>
+            <div>
+               <p>البند السابع والاربعون ان الطريق الممتدة من قرقول الى <placeName xml:id="place-WA1263007702-65_14" type="باب" ref="باب-الدرب-المحروق">الدرب المحروق</placeName> تسمى ب<placeName xml:id="place-WA1263007702-65_15" type="باب" ref="باب-المحجر">شارع النبوية</placeName> وتنمر بالاحمر.</p>
+            </div>
+            <div>
+               <p>البند الثامن والاربعون ان الطريق الممتدة من <placeName xml:id="place-WA1263007702-65_16" type="جامع" ref="جامع-قسماس">باب الدرب المحروق</placeName> الى <placeName xml:id="place-WA1263007702-65_17" type="باب" ref="الدرب-الاحمر">باب المحجر</placeName> تسمى بالدرب المحروق وتنمر بالمداد الاحمر.</p>
+            </div>
+            <div>
+               <p>البند التاسع والاربعون ان الجادة الممتدة من <placeName xml:id="place-WA1263007702-65_18" type="جادة" ref="جادة-بئر-المش">جامع قسماس</placeName> الكائن ب<placeName xml:id="place-WA1263007702-65_19" type="باب" ref="باب-الخلق">الدرب
+                     الاحمر</placeName> فى شارع القلعة الى الدرب المحروق تسمى ب<placeName xml:id="place-WA1263007702-65_20" type="جادة" ref="جادة-الحمزاوى">بئر المش</placeName> وتنمر بالمداد الاسود.</p>
+            </div>
+            <div>
+               <p>البند المتمم للخمسين ان الطريق المبتدأة من <placeName xml:id="place-WA1263007702-65_21" type="سكة" ref="سكة-درب-سعادة">باب الخلق</placeName> الممتدة الى <placeName xml:id="place-WA1263007702-65_22" type="جادة" ref="جادة-الحمزاوى">جادة الحمزاوى</placeName> تسمى ب<placeName xml:id="place-WA1263007702-65_23" type="سكة" ref="سكة-درب-سعادة">سكة
+                     درب سعادة</placeName> وتنمر بالمداد الأحمر.</p>
+            </div>
+         </div>
+         <div xml:id="WA1263007801-66" resp="#eSG">
+            <head><date when-custom="1263-09-4">٤ رمضان ١٢٦٣</date>
+               <date when="1847-08-16">١٦ اغسطس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٧٨</biblScope>
+                  <biblScope unit="page">صفحة ١-٢</biblScope></bibl></head>
+            <head><title>الحوادث الداخليه</title></head>
+            <p>ترجمة الكشف العربى الوارد الآن من <orgName xml:id="org-WA1263007801-66_01" ref="الضابطخانه">الضابطخانه</orgName>
+               ببيان التخريبات والتلفيات التى نشأت بسبب ال<rs type="زلزلة">زلزلة</rs> المهولة التى
+               وقعت بمصر المحروسة فى نصف الساعة الثانية من يوم السبت الموافق لخامس عشرى شعبان
+               الماضى</p>
+            <table rend="rules">
+               <row>
+                  <cell rend="both" cols="3">
+                     <hi><placeName xml:id="place-WA1263007801-66_01" type="ثمن" ref="ثمن الدرب الاحمر"><orgName xml:id="org-WA1263007801-66_02" type="ثمن" ref="ثمن-الدرب-الاحمر">ثمن الدرب الاحمر</orgName></placeName></hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both">
+                     <hi xml:space="preserve">اجمال</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi xml:space="preserve">عدد</hi>
+                  </cell>
+                  <cell rend="both"/>
+               </row>
+               <row>
+                  <cell rend="both">
+                     <hi>٠١</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi>٠١</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi><placeName xml:id="place-WA1263007801-66_02" type="جامع" ref="جامع-المؤيد">جامع المؤيد</placeName> هدم به
+                        ثمانية عقود</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both" cols="3">
+                     <hi xml:space="preserve"><placeName xml:id="place-WA1263007801-66_03" type="ثمن" ref="ثمن الجماليه"><orgName xml:id="org-WA1263007801-66_03" ref="ثمن-الجماليه" type="ثمن">ثمن الجماليه</orgName></placeName></hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both"/>
+                  <cell rend="both">
+                     <hi>٠٣</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi>حيطان هدمت</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both"/>
+                  <cell rend="both">
+                     <hi>٠١</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi>راس مناره كذا</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both" cols="3">
+                     <hi xml:space="preserve"><placeName xml:id="place-WA1263007801-66_04" type="ثمن" ref="ثمن الازبكيه"><orgName xml:id="org-WA1263007801-66_04" type="ثمن" ref="ثمن-الازبكيه">ثمن الازبكيه</orgName></placeName></hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both"/>
+                  <cell rend="both">
+                     <hi>١٤</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi>بيوت هدمت بعض محلاتها</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both"/>
+                  <cell rend="both">
+                     <hi>٠١</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi>بيت هدم كله</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both"/>
+                  <cell rend="both">
+                     <hi>٠١</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi>حائط كذا بقى تحتها طفل فهلك</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both"/>
+                  <cell rend="both">
+                     <hi>٠٢</hi>
+                  </cell>
+                  <cell rend="both"> راس مناره كذا </cell>
+               </row>
+               <row>
+                  <cell rend="both"/>
+                  <cell rend="both">
+                     <hi>٠١</hi>
+                  </cell>
+                  <cell rend="both"> كذا      كذا  اصابت امرأة فماتت منها </cell>
+               </row>
+               <row>
+                  <cell rend="both">
+                     <hi>٢٠</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi>٠١</hi>
+                  </cell>
+                  <cell rend="both"> صهريج   كذا </cell>
+               </row>
+               <row>
+                  <cell rend="both" cols="3">
+                     <hi><placeName xml:id="place-WA1263007801-66_05" type="ثمن" ref="ثمن درب الجماميز"><orgName xml:id="org-WA1263007801-66_05" type="ثمن" ref="ثمن-درب-الجماميز">ثمن درب الجماميز</orgName></placeName></hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both"/>
+                  <cell rend="both">
+                     <hi>١٦</hi>
+                  </cell>
+                  <cell rend="both"> بيوت انهدم بعضها وتخرب </cell>
+               </row>
+               <row>
+                  <cell rend="both"/>
+                  <cell rend="both">
+                     <hi>٠١</hi>
+                  </cell>
+                  <cell rend="both"> اودة كذا </cell>
+               </row>
+               <row>
+                  <cell rend="both"/>
+                  <cell rend="both">
+                     <hi>٠٢</hi>
+                  </cell>
+                  <cell rend="both"> صهريج  كذا </cell>
+               </row>
+               <row>
+                  <cell rend="both">
+                     <hi>٢١</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi>٠٢</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi><placeName xml:id="place-WA1263007801-66_06" type="مساجد">مساجد</placeName> كذا</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both" cols="3">
+                     <hi><placeName xml:id="place-WA1263007801-66_07" type="ثمن" ref="ثمن الخليفة"><orgName xml:id="org-WA1263007801-66_06" type="ثمن" ref="ثمن-الخليفة">ثمن الخليفة</orgName></placeName></hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both"/>
+                  <cell rend="both">
+                     <hi>٢٧</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi>بيوت هدم بعضها</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both"/>
+                  <cell rend="both">
+                     <hi>٠١</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi>طاحونه كذا</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both">
+                     <hi>٣٠</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi>٠٢</hi>
+                  </cell>
+                  <cell rend="both">ربع  كذا </cell>
+               </row>
+               <row>
+                  <cell rend="both" cols="3">
+                     <hi xml:space="preserve"><placeName xml:id="place-WA1263007801-66_08" type="ثمن" ref="ثمن عابدين"><orgName xml:id="org-WA1263007801-66_07" type="ثمن" ref="ثمن-عابدين">ثمن عابدين</orgName></placeName></hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both"/>
+                  <cell rend="both">
+                     <hi>٠٤</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi>بيوت تخرب بعضها</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both">
+                     <hi>٠٥</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi>٠١</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi xml:space="preserve"><placeName xml:id="place-WA1263007801-66_09" type="جامع">جامع</placeName> كذا</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both" cols="3">
+                     <hi><placeName xml:id="place-WA1263007801-66_10" type="جامع">باب الشعريه</placeName></hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both"/>
+                  <cell rend="both">
+                     <hi>٠٧</hi>
+                  </cell>
+                  <cell rend="both"> بيوت تخرب بعض من محلاتها </cell>
+               </row>
+               <row>
+                  <cell rend="both">
+                     <hi>٠٨</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi>٠١</hi>
+                  </cell>
+                  <cell rend="both"> مسجد  كذا </cell>
+               </row>
+               <row>
+                  <cell rend="both" cols="3">
+                     <hi><placeName xml:id="place-WA1263007801-66_11" ref="باب-الشعريه">قيسون</placeName></hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both"/>
+                  <cell rend="both">
+                     <hi>٠٢</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi xml:space="preserve">بيوت انهدم محل منها ومات حصان من حائط اصابته</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both"/>
+                  <cell rend="both">
+                     <hi>٠١</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi>مصبغه انصدعت وهدم بعضها</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both"/>
+                  <cell rend="both">
+                     <hi>٠١</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi>زاوية كذا</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both">
+                     <hi>٠٥</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi>٠١</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi>ربع كذا</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both" cols="3">
+                     <hi xml:space="preserve"><placeName xml:id="place-WA1263007801-66_12" type="بيوت">مصر القديمه</placeName></hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both">
+                     <hi>٠٣</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi>٠٣</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi xml:space="preserve">بيوت هدم بعض محلاتها</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both" cols="3">
+                     <hi xml:space="preserve"><placeName xml:id="place-WA1263007801-66_13" type="مسجد">بولاق</placeName></hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="both"/>
+                  <cell rend="both">
+                     <hi>٠١</hi>
+                  </cell>
+                  <cell rend="both"> بيوت تخرب بعض من محلاتها </cell>
+               </row>
+               <row>
+                  <cell rend="both"/>
+                  <cell rend="both">
+                     <hi>٠٣</hi>
+                  </cell>
+                  <cell rend="both"> اود  كذا </cell>
+               </row>
+               <row>
+                  <cell rend="both">
+                     <hi>١٤</hi>
+                  </cell>
+                  <cell rend="both">
+                     <hi>٠١</hi>
+                  </cell>
+                  <cell rend="both"> مناره  كذا </cell>
+               </row>
+               <row>
+                  <cell rend="both">
+                     <hi>١١١</hi>
+                  </cell>
+                  <cell rend="both" cols="2">
+                     <hi>يكون</hi>
+                  </cell>
+               </row>
+            </table>
+            <p>انه على موجب ما امكن من التحقيق تبين ان الزلزلة المذكورة امتدت دقيقتين تقريبا وحصلت
+               منها المضرات المبينة اعلاه وبحفظه تعالى لم يمت بسببها سوى أمرأة وطفل وحصان واذ كانت
+               هذه الزلزلة لم يعاين احد من الناس وقوع مثلها فى مصر المحروسة اوجبت دهشة العالم
+               واستوجبت حيرتها الا ان البارى سبحانه وتعالى حفظهم من المضار والاضمحلال فله الحمد
+               والثناء على كل حال.</p>
+         </div>
+         <div xml:id="WA1263007802-67" resp="#eSG">
+            <head><date when-custom="1263-09-4">٤ رمضان ١٢٦٣</date>
+               <date when="1847-08-16">١٦ اغسطس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٧٨</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <p>ان <placeName xml:id="place-WA1263007802-67_01" type="منزل" ref="منزل-السيد-محمود-عابدين">منزل <persName xml:id="person-WA1263007802-67_01">السيد محمود
+                     عابدين</persName></placeName> الكائن ب<placeName xml:id="place-WA1263007802-67_02" type="خط" ref="خط-العقادين-الرومى">خط العقادين الرومى</placeName> طبقته العليا فيها احدى
+               عشرة اودة وثلاث فسحات وحمام ومطبخ والسفلى <choice>
+                  <sic>فيا</sic>
+                  <corr>فيها</corr>
+               </choice> طاحونة وله حوش وحديقة وفسحة ومطبخ ارضى يراد بيعه فمن كان له رغبة فيه فليسأل <choice>
+                  <sic>عن</sic>
+                  <corr>عنه</corr>
+               </choice> من دلال باشى المذكور.</p>
+         </div>
+         <div xml:id="WA1263007901-68" resp="#eSG">
+            <head><date when-custom="1263-09-11">١١ رمضان ١٢٦٣</date>
+               <date when="1847-08-23">٢٣ اغسطس ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٧٩</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <p>ان بيتا ب<placeName xml:id="place-WA1263007901-68_01" ref="سوق-السلاح">سوق
+                  السلاح</placeName> يتعلق ب<persName xml:id="person-WA1263007901-68_01" role="شيخ حارة">خورشد اغا شيخ <placeName xml:id="place-WA1263007901-68_02" type="خان" ref="خان-الخليلى">خان الخليلى</placeName></persName> تشتمل طبقته
+               العليا على ست اود وحمام كامل الآلات ومطبخ وكلار والسفلى على منظرة واصطبل يسع ثنتين من
+               المواشى وله طاحونة وحاصل وبئر معين وحوش سماوى وهو معرض للبيع فمن كان له رغبة فيه
+               فليسأل عنه من <persName xml:id="person-WA1263007901-68_02" role="دلال باشى">السيد
+                  مصطفى دلال باشى</persName>.</p>
+            <p>ان <placeName xml:id="place-WA1263007901-68_03" type="بيت" ref="بيت-سليمان-طاهر-افندى-مهندس-الغربية-سابقا">بيت <persName xml:id="person-WA1263007901-68_03" role="مهندس">سليمان طاهر افندى مهندس
+                        <placeName xml:id="place-WA1263007901-68_04" ref="الغربية">الغربية</placeName> سابقا</persName></placeName> الكائن ب<placeName xml:id="place-WA1263007901-68_05" type="خط" ref="خط-قيسون">خط قيسون</placeName> فى
+                  <placeName xml:id="place-WA1263007901-68_06" type="حارة" ref="حارة-جن-على">حارة جن
+                  على</placeName> تشتمل طبقته العليا على خمس اود ومطبخ وكلار والسفلى على مقعد
+               وحاصلين واصطبل يسع ثلاثا من المواشى وله منظرة صغيرة وبئر معين وحوش سماوى وهو معرض
+               للبيع وقد بلغ ثمنه الآن عشرين كيسا فمن كان يريد شرآءه فليسأل عنه من الدلال
+               المذكور.</p>
+            <p>ان <placeName xml:id="place-WA1263007901-68_07" type="بيت" ref="بيت-المعلم-بشارة-البلوطى">بيت <persName xml:id="person-WA1263007901-68_04">المعلم بشارة
+                     البلوطى</persName></placeName> الكائن ب<placeName xml:id="place-WA1263007901-68_08" type="حارة" ref="حارة-السقائين">حارة السقائين</placeName> ب<placeName xml:id="place-WA1263007901-68_09" type="درب" ref="درب-السمان">درب
+                  السمان</placeName> تشتمل طبقته العليا على اربع اود ومطبخ وكلار والسفلى على منظرة
+               وتختبوش وحاصل وبئر معين وحوش سماوى وهو معرض للبيع وقد بلغ ثمنه سبعة آلاف قرش
+               وثمانمائة فمن كان له رغبة فيه فليسأل عنه من الدلال المذكور.</p>
+         </div>
+         <div xml:id="WA1263008101-69" resp="#eSG">
+            <head><date when-custom="1263-09-25">٢٥ رمضان ١٢٦٣</date>
+               <date when="1847-09-06">٦ سبتمبر ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٨١</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head><title>اعلانات</title></head>
+            <p>ان <placeName xml:id="place-WA1263008101-69_01" type="وكالة" ref="وكالة-تعلق-حسن-باشا-الاستانلى">وكالة</placeName>
+               جديدة كائنة ب<placeName xml:id="place-WA1263008101-69_02" ref="بولاق">بولاق</placeName> مصر المحروسة تتعلق
+                  ب<persName xml:id="person-WA1263008101-69_01">حسن باشا الاستانلى</persName> طبقتها العليا تشتمل على خمس اود والسفلى
+               على حاصلين وفيها حوش مكشوف ولها خمسة دكاكين ومطبخ وقهوة خارجها تبلغ اجرتها كل سنة
+               عشرين كيسا يراد بيعها وقد بلغت فى الزيادة مائة وخمسين كيسا فمن اراد شرآءها فليستدل
+               عليها من <persName xml:id="person-WA1263008101-69_02" role="دلال باشى">السيد مصطفى دلال باشى</persName>.</p>
+            <p>ان <placeName xml:id="place-WA1263008101-69_03" type="بيت" ref="بيت-السيد-على-العنتابى">بيت <persName xml:id="person-WA1263008101-69_03">السيد على
+                     العنتابى</persName></placeName> الكائن ب<placeName xml:id="place-WA1263008101-69_04" type="خط" ref="خط-الامير-حسين">خط الامير حسين</placeName> فى <placeName xml:id="place-WA1263008101-69_05" type="حارة" ref="حارة-الدقاق">حارة الدقاق</placeName> طبقته العليا تشتمل على خمس اود وحمام ومطبخ
+               وكلار والسفلى تشتمل على منظرة وحاصل وطاحونة واصطبل يسع ثنتين من المواشى وفيه بئر معين
+               وله حوش مكشوف فمن اراده فليسأل عنه من <persName xml:id="person-WA1263008101-69_04" role="دلال باشى">السيد مصطفى دلال
+                  باشى</persName>.</p>
+         </div>
+         <div xml:id="WA1263008301-70" resp="#eSG">
+            <head><date when-custom="1263-10-10">١٠ شوال ١٢٦٣</date>
+               <date when="1847-09-21">٢١ سبتمبر ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٨٣</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head>الحوادث الداخليه</head>
+            <p>انه لما وصل الخبر الى <orgName xml:id="org-WA1263008301-70_01" ref="الضبطية">الضبطية</orgName> بظهور <rs type="حريق">حريق</rs> فى الساعة الرابعة من ليلة سابع وعشرى شهر رمضان الماضى فى <placeName xml:id="place-WA1263008301-70_01" type="بيت" ref="بيت-على-الزيات">بيت</placeName> شخص اسمه <persName xml:id="person-WA1263008301-70_01">على
+                  الزيات</persName> ب<placeName xml:id="place-WA1263008301-70_02" type="خط" ref="خط-باب-الشعرية">خط باب
+                  الشعريه</placeName> بعث اليها من طرف الضبطية ما لزم من الطلومبات والطلومبجية وحصل
+               التدارك بطلومبة الخط المذكور ايضا فحصل اخمادها سريعا ولكنه قد مات فيها بقرتان وثوران
+               وحمار كانوا مربوطين فى مكان من الامكنة التى سرت اليها تلك الحريقة.</p>
+         </div>
+         <div xml:id="WA1263008401-71" resp="#eSG">
+            <head><date when-custom="1263-10-17">١٧ شوال ١٢٦٣</date>
+               <date when="1847-09-28">٢٨ سبتمبر ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٨٤</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head>الحوادث الداخليه</head>
+            <p>ان <placeName xml:id="place-WA1263008401-71_01" type="مخزن" ref="مخزن-الليف-المتعلق-بالشيخ-محمد-صفر">مخزن
+                  الليف</placeName> الكائن ب<placeName xml:id="place-WA1263008401-71_02" ref="بولاق">بولاق</placeName> المتعلق
+                  ب<persName xml:id="person-WA1263008401-71_01">الشيخ محمد صفر</persName> قد ظهر به <rs type="حريقة">حريقة</rs> فى
+               الساعة الثانية من يوم الجمعة الموافق لسلخ الشهر الماضى ولما وصل خبره الى <orgName xml:id="org-WA1263008401-71_01" ref="الضبطخانه">الضبطخانه</orgName> ارسل من طرفها ومن طرف ال<orgName xml:id="org-WA1263008401-71_02" ref="طلونبخانه">طلونبخانه</orgName> بعض من الطلنبات مع مأموريها وبذلوا جهدهم
+               الزآئد مع الطلونبجية المختصة ب<placeName xml:id="place-WA1263008401-71_03" ref="بولاق">بولاق</placeName> فأخمدوها ولم
+               يحترق سوى جانب ليف كان موجودا فى المخزن المذكور.</p>
+         </div>
+         <div xml:id="WA1263008402-72" resp="#eSG">
+            <head><date when-custom="1263-10-17">١٧ شوال ١٢٦٣</date>
+               <date when="1847-09-28">٢٨ سبتمبر ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٨٤</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <p>ان <placeName xml:id="place-WA1263008402-72_01" type="بيت" ref="بيت-حريم-حافظ-افندى-ناظر-الاصناف-سابقا">بيت <persName xml:id="person-WA1263008402-72_01">حريم <persName xml:id="person-WA1263008402-72_02" role="ناظر">حافظ افندى ناظر الاصناف
+                        سابقا</persName></persName></placeName> الكائن ب<placeName xml:id="place-WA1263008402-72_02" ref="بولاق">بولاق</placeName> طبقته العليا تشتمل
+               على ست اود وحمام ومطبخ وكلار والسفلى على منظرتين وحديقة صغيرة واصطبل يسع ثنتين من
+               المواشى وحاصل وحوش سماوى وبئر وهو جديد ويراد بيعه وقد بلغ ثمنه اثنين وخمسين كيسا فمن
+               اراده فليسأل عنه من <persName xml:id="person-WA1263008402-72_03" role="دلال باشى">السيد مصطفى دلال باشى</persName>.</p>
+         </div>
+         <div xml:id="WA1263008601-73" resp="#eSG">
+            <head><date when-custom="1263-11-02">٢ ذي القعدة ١٢٦٣</date>
+               <date when="1847-10-12">١٢ اكتوبر ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٨٦</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <p>ان <placeName xml:id="place-WA1263008601-73_01" type="منزل" ref="منزل-محمد-العوارى">منزل محمد العوارى</placeName>
+               الكائن ب<placeName xml:id="place-WA1263008601-73_02" type="حارة" ref="حارة-حوش-قدم">حارة حوش قدم</placeName> فى
+                  <placeName xml:id="place-WA1263008601-73_03" type="خط" ref="خط-الغورية">خط الغورية</placeName> طبقته العليا تشتمل
+               على ثلاث اود ومطبخ وكلارين والسفلى على مقعد ذى عمود واحد من الرخام وعلى طاحونة واصطبل
+               يسع ثلاث مواشى وبئر وحاصلين وحوش مكشوف يراد بيعه وقد بلغ فى الزيادة ثلاثين كيسا فمن
+               اراد فليسأل عنه من السيد <persName xml:id="person-WA1263008601-73_01" role="دلال باشى">مصطفى دلال باشى</persName>.</p>
+            <p>ان <placeName xml:id="place-WA1263008601-73_04" type="منزل" ref="منزل-تجارة-الجودرية">منزل تجارة الجودرية</placeName>
+               فى <placeName xml:id="place-WA1263008601-73_05" type="خط" ref="خط-سوق-المؤيد">خط سوق المؤيد</placeName> طبقته العليا
+               تشتمل على عشر اود ومطبخ فيه بئر وكلار وعلى مقعد ذى عمود من الرخام ومنظرة ذات فسقية
+               وخزنة وعلى اربعة حواصل ومحل طاحونة واصطبل يسع خمسة عشر حصانا وعلى خربة كبيرة وبئرين
+               وحوش كبير وهو يراد بيعه بتوكيل <persName xml:id="person-WA1263008601-73_02">محمد المحروقى العقاد</persName> وقد بلغ فى
+               الزيادة اربعين كيسا فمن كان له رغبة فيه فليستدل عليه من دلال باشى المذكور.</p>
+         </div>
+         <div xml:id="WA1263008701-74" resp="#eSG">
+            <head><date when-custom="1263-11-09">٩ ذي القعدة ١٢٦٣</date>
+               <date when="1847-10-19">١٩ اكتوبر ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٨٧</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head>الحوادث الداخليه</head>
+            <p> انه قد ظهرت <rs type="حريقة">حريقة</rs> فى ليلة الجمعة الموافقة لحادى وعشرى الشهر
+               الماضى فى <placeName xml:id="place-WA1263008701-74_01" type="بيت" ref="بيت-محمود-افندى-قبطان-البصرة-سابقا">بيت <persName xml:id="person-WA1263008701-74_01" role="قبطان">محمود افندى قبطان <placeName xml:id="place-WA1263008701-74_02" ref="البصرة">البصرة</placeName>
+                     سابقا</persName></placeName> الكائن ب<placeName xml:id="place-WA1263008701-74_03" type="عطفة" ref="عطفة-المدق">عطفة
+                  المدق</placeName> فى <placeName xml:id="place-WA1263008701-74_04" type="خط" ref="خط-الاستاذ-الحنفى">خط الاستاذ الحنفى</placeName> فلحقتها طلومبة الخط المذكور
+               واتبعت بمن لزم من الطلومبجية الذين فى <orgName xml:id="org-WA1263008701-74_01" ref="الضابخانة">الضابخانة</orgName> وحصل اخمادها من غير توان قبل سرايتها ولم يحترق
+               من البيت المذكور سوى خزنة بما فيها كما اخبر به من <orgName xml:id="org-WA1263008701-74_02" ref="الضبطية">الضبطية</orgName>.</p>
+         </div>
+         <div xml:id="WA1263008901-75" resp="#eSG">
+            <head><date when-custom="1263-11-22">٢٢ ذي القعدة ١٢٦٣</date>
+               <date when="1847-11-01">١ نوفمبر ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٨٩</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head>الحوادث الداخليه</head>
+            <p> لما كان <persName xml:id="person-WA1263008901-75_01" role="وكيل">احمد افندى الازهرى
+                  البيكباشى وكيل <orgName xml:id="org-WA1263008901-75_01" type="قلم" ref="قلم-الهندسة">قلم الهندسة</orgName> فى <placeName xml:id="place-WA1263008901-75_01"><orgName xml:id="org-WA1263008901-75_02" type="ديوان" ref="ديوان-المدارس">ديوان
+                  المدارس</orgName></placeName></persName> له سبعة دكاكين ب<placeName xml:id="place-WA1263008901-75_02" type="درب" ref="درب-الجماميز">درب
+                  الجماميز</placeName> وكان <persName xml:id="person-WA1263008901-75_02">الشيخ حسن
+                  محسن</persName> له دكانين ايضا فى <placeName xml:id="place-WA1263008901-75_03" ref="باب-الخلق">باب الخلق</placeName> وقد لزم الجميع لتوسيع الجادة حصل الشرآء من
+               كل منهما لجانب <orgName xml:id="org-WA1263008901-75_03" ref="الميرى">الميرى</orgName>
+               بالثمن اللائق.</p>
+         </div>
+         <div xml:id="WA1263008902-76" resp="#eSG">
+            <head><date when-custom="1263-11-22">٢٢ ذي القعدة ١٢٦٣</date>
+               <date when="1847-11-01">١ نوفمبر ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٨٩</biblScope>
+                  <biblScope unit="page">صفحة ٤</biblScope></bibl></head>
+            <head>اعلانات</head>
+            <p>ان منزلا كائن ب<placeName xml:id="place-WA1263008902-76_01" ref="حوش-قدم">حوش قدم</placeName> فى <placeName xml:id="place-WA1263008902-76_02" type="خط" ref="خط-الغوريه">خط الغوريه</placeName> يتعلق بالعوادى تشتمل طبقته
+               العليا على خمس اود ومطبخ وكلار والسفلى على مقعد ذى عمود من الرخام وحاصلين واصطبل يسع
+               ثلاثا من المواشى وطاحونة وبئر وحوش مكشوف وهو يراد بيعه وقد بلغ ثمنه ثلاثين كيسا فمن
+               اراده فليسأل عنه من السيد <persName xml:id="person-WA1263008902-76_01" role="دلال باشى">مصطفى دلال باشى</persName>.</p>
+            <p>ان <placeName xml:id="place-WA1263008902-76_03" type="منزل" ref="منزل-محمود-العطار-بحوش_قدم-بخط-الازهر">منزل</placeName>ا كائنا بالناحية المذكورة يتعلق ب<persName xml:id="person-WA1263008902-76_02">السيد محمود
+                  العطار</persName> طبقته العليا تشتمل على اربع اود ومطبخ وكلار والسفلى على منظرة
+               صغيرة وحاصلين وبئر وحوش صغير وهو معرض للبيع وقد بلغ ستة اكياس فمن كان له رغبة فيه
+               فليستدل عليه من الدلال المذكور.</p>
+            <p>ان بيتا كائنا ب<placeName xml:id="place-WA1263008902-76_04" type="حارة" ref="حارة-درب-الاغوات">حارة درب الاغوات</placeName> فى <placeName xml:id="place-WA1263008902-76_05" type="خط" ref="خط-المغربلين">خط
+                  المغربلين</placeName> طبقته العليا فيها ست اود ومطبخ وكلار والسفلى فيها حاصلين
+               واصطبل يسع ثلاثا من الموشى وطاحونة وبئر وحوش سماوى وهو يراد بيعه بتوكيل <persName xml:id="person-WA1263008902-76_03" role="كاتب">الشيخ محمد حسين احد كتبة <orgName xml:id="org-WA1263008902-76_01" type="ديوان" ref="ديوان-الابنية-الميريه">ديوان
+                     الابنية الميريه</orgName></persName> فمن كان له رغبة فيه فليسأل عنه من دلال
+               باشى المذكور.</p>
+         </div>
+         <div xml:id="WA1263009401-77" resp="#eSG">
+            <head><date when-custom="1263-12-30">غاية شهر ذى الحجه ١٢٦٣</date>
+               <date when="1847-12-10">١٠ ديسمبر ١٨٤٧</date>
+               <bibl><biblScope unit="issue">نمرة ٩٤</biblScope>
+                  <biblScope unit="page">صفحة ١</biblScope></bibl></head>
+            <head>الحوادث الداخليه</head>
+            <p>قد ظهرت <rs type="حريقة">حريقة</rs> فى <placeName xml:id="place-WA1263009401-77_01" type="حارة" ref="حارة-الحلوانى">حارة الحلوانى</placeName> الكائنة ب<placeName xml:id="place-WA1263009401-77_02" type="خط" ref="خط-عابدين">خط
+                  عابدين</placeName> ب<placeName xml:id="place-WA1263009401-77_03" type="منزل" ref="منزل-رجل-على-الطحان">منزل رجل اسمه
+                  على الطحان</placeName> فى الساعة الثالثة من ليلة الاحد الموافق لثالث عشر الشهر
+               الحال وتيسر اطفاؤها فى ظرف ساعتين بدون ضرر فى جهة من الجهات بواسطة طلومبة الخط
+               المذكور مع طلومبتى <orgName xml:id="org-WA1263009401-77_01" ref="الضابطخانة">الضابطخانة</orgName> و<orgName xml:id="org-WA1263009401-77_02" ref="الطلومبخانة">الطلومبخانة</orgName>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
